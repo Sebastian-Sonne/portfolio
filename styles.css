@@ -8,6 +8,9 @@ body {
 header {
     background-color: #0000008c;
     padding: 10px;
+}
+
+nav {
     display: flex;
     justify-content: space-between;
 }
@@ -33,12 +36,21 @@ h1 {
     padding-left: 10px;
 }
 
+h4 {
+    margin: 5px 0 10px 0;
+}
+
 section {
     background-color: #ffffff64;
     margin: 10px;
     padding: 10px;
     display: flex;
     flex-direction: row;
+}
+
+.tiles div {
+    padding: 10px;
+    min-width: 200px;
 }
 
 div {
