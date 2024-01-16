@@ -1,6 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:500');
-
-:root {
+:root[data-theme="light"] {
     --text: #0f0607;
     --background: #fdfafa;
     --primary: #ba5761;
@@ -8,13 +6,25 @@
     --accent: #79a3c8;
 
     --primary-light: #ba5761ab;
-    --text-invert: #ffffff;
-}
+    --text-invert: #f9f0f1;
+  }
+  :root[data-theme="dark"] {
+    --text: #f9f0f1;
+    --background: #040101;
+    --primary: #a7444e;
+    --secondary: #245b45;
+    --accent: #376186;
+
+    --primary-light: #a7444e;
+    --text-invert: #0f0607;
+  }
+  
 
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body {
@@ -77,11 +87,20 @@ header {
     display: block;
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
-    transition: background-color 0.3s;
 }
 
 .nav ul li a:hover {
     background-color: var(--secondary);
+}
+
+.theme-switcher {
+    padding: 3px 15px 0 0;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.theme-switcher:hover {
+    transform: scale(1.1);
 }
 
 .cta {
@@ -89,7 +108,6 @@ header {
     border-radius: 20px;
     background-color: var(--primary-light);
     cursor: pointer;
-    transition: background-color 0.3s ease 0s;
 }
 
 .cta:hover {
@@ -130,7 +148,6 @@ header {
     padding: 15px;
     font-size: 36px;
     display: block;
-    transition: color 0.3s ease 0s;
 }
 
 .overlay a:hover,
@@ -161,7 +178,8 @@ header {
 @media only screen and (max-width: 800px) {
 
     .nav,
-    .cta {
+    .cta,
+    .theme-switcher {
         display: none;
     }
 
