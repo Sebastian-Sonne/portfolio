@@ -38,6 +38,7 @@ header {
     padding: 1%;
     margin: 5px 20px;
     border-radius: 30px;
+    background-color: transparent;
 }
 
 /*
@@ -53,13 +54,21 @@ header {
     width: 200px;
 }
 
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
 .nav ul {
     list-style: none;
-    display: flex;
     display: flex;
     align-items: center;
     background-color: var(--primary-light);
     border-radius: 20px;
+    margin-right: 20px;
+    margin-left: auto;
 }
 
 .nav ul li a {
@@ -185,13 +194,6 @@ footer {
     404 page
 */
 
-.body-404 {
-    background-image: url(/img/bg-material.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-
-}
-
 .page-404 {
     display: flex;
     flex-direction: column;
@@ -208,4 +210,9 @@ footer {
     padding: 10px 20px;
     border: 2px solid var(--secondary);
     border-radius: 20px;
+    transition: transform 0.3s;
+}
+
+.button-link:hover {
+    transform: scale(1.1);
 }
