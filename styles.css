@@ -201,6 +201,8 @@ footer {
     align-items: center;
     justify-content: center;
     height: 50vh;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .page-404 h1 {
