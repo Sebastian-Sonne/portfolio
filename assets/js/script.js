@@ -18,6 +18,10 @@ function toggleTheme() {
 document.addEventListener('DOMContentLoaded', (event) => {
     const savedTheme = localStorage.getItem('theme') || 'light';
     document.documentElement.setAttribute('data-theme', savedTheme);
+
     const themeIcon = document.getElementById('theme-icon');
     themeIcon.textContent = savedTheme === 'light' ? 'light_mode' : 'dark_mode';
+
+    const logoImg = document.querySelector('.logo img');
+    logoImg.src = savedTheme === 'light' ? '/img/logo_light.png' : '/img/logo_dark.png';
 });
