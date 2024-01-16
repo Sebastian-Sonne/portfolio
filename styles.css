@@ -1,11 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:500');
 
 :root {
-    --text: #ebf7f8;
-    --background: #030b0b;
-    --primary: #87dee4;
-    --secondary: #17868e;
-    --accent: #23dae7;
+    --text: #121213;
+    --background: #f9fafb;
+    --primary: #5979b1;
+    --secondary: #94afde;
+    --accent: #608fe1;
+
+    --primary-light: #5979b1ab;
+    --text-invert: #ffffff;
 }
 
 * {
@@ -17,7 +20,7 @@
 body {
     background: var(--background);
     color: var(--text);
-    font-family: 'Ubuntu', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: 500;
     font-size: 16px;
     margin: 0;
@@ -55,7 +58,7 @@ header {
     display: flex;
     display: flex;
     align-items: center;
-    background-color: var(--secondary);
+    background-color: var(--primary-light);
     border-radius: 20px;
 }
 
@@ -65,20 +68,21 @@ header {
     border-radius: 20px;
     transition: background-color 0.3s;
 }
+
 .nav ul li a:hover {
-    background-color: var(--accent);
+    background-color: var(--secondary);
 }
 
 .cta {
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
-    background-color: var(--secondary);
+    background-color: var(--primary-light);
     cursor: pointer;
     transition: background-color 0.3s ease 0s;
 }
 
 .cta:hover {
-    background-color: var(--accent);
+    background-color: var(--secondary);
 }
 
 /* Mobile Nav */
@@ -93,7 +97,7 @@ header {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: #24252a;
+    background-color: var(--primary);
     overflow-x: hidden;
     transition: width 0.5s ease 0s;
 }
@@ -111,6 +115,7 @@ header {
 }
 
 .overlay a {
+    color: var(--text-invert);
     padding: 15px;
     font-size: 36px;
     display: block;
@@ -119,7 +124,7 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-    color: #0088a9;
+    color: var(--secondary);
 }
 
 .overlay .close {
@@ -127,7 +132,7 @@ header {
     top: 20px;
     right: 45px;
     font-size: 60px;
-    color: #edf0f1;
+    color: var(--text-invert);
 }
 
 @media screen and (max-height: 450px) {
@@ -161,7 +166,7 @@ header {
 section {
     padding: 40px;
     margin: 40px;
-    background-color: var(--secondary);
+    background-color: var(--primary);
 }
 
 /* 
@@ -173,12 +178,19 @@ footer {
     flex-direction: column;
     text-align: center;
     padding: 10px 20px;
-    background-color: var(--background);
+    background-color: transparent;
 }
 
 /*
     404 page
 */
+
+.body-404 {
+    background-image: url(/img/bg-material.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
 
 .page-404 {
     display: flex;
