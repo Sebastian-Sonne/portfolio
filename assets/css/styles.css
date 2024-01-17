@@ -79,6 +79,7 @@ header {
     display: flex;
     align-items: center;
     background-color: var(--primary-light);
+    box-shadow: 0 3px 10px 0 rgba(45, 54, 65, 0.75);
     border-radius: 20px;
     margin-right: 20px;
     margin-left: auto;
@@ -95,7 +96,7 @@ header {
 }
 
 .theme-switcher {
-    padding: 3px 15px 0 0;
+    padding: 10px 18px 0 0;
     cursor: pointer;
     transition: transform 0.3s;
 }
@@ -108,6 +109,7 @@ header {
     padding: 10px 30px 10px 30px;
     border-radius: 20px;
     background-color: var(--primary-light);
+    box-shadow: 0 3px 10px 0 rgba(45, 54, 65, 0.75);
     cursor: pointer;
 }
 
@@ -142,6 +144,20 @@ header {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+}
+
+.theme-switcher-small {
+    position: absolute;
+    top: 20px;
+    right: 105px;
+    font-size: 55px;
+    color: var(--text-invert);
+    padding: 10px 18px 0 0;
+    cursor: pointer;
+}
+
+.theme-switcher:hover {
+    color: var(--secondary);
 }
 
 .overlay a {
@@ -183,6 +199,9 @@ header {
     .theme-switcher {
         display: none;
     }
+    .theme-switcher-small {
+        display: block;
+    }
 
     .menu {
         display: initial;
@@ -208,14 +227,6 @@ main {
 
 }
 
-/*
-.landing-page-wrapper {
-    background-image: url("/img/bg-material.jpg");
-    background-repeat: no-repeat;
-    height: 100%;
-}
-*/
-
 .introduction {
     height: 100vh;
 
@@ -226,9 +237,22 @@ main {
     font-size: 64px;
 }
 
-.introduction h2 {
-    margin: -10px auto 0 40px;
+.full-h2, .short-h2 {
+    margin: 0 auto 0 40px;
 }
+
+.short-h2 { display: none; }
+
+/*
+@media only screen and (max-width: 800px) {
+    .short-h2 { 
+        display: block;
+    }
+    .full-h2 {
+        display: none; 
+    }
+}
+*/
 
 .introduction div {
     border: 2px solid var(--primary);
@@ -237,45 +261,53 @@ main {
 }
 
 /*cta buttons*/
-.bn632-hover {
+.primary-cta, .secondary-cta{
     width: 160px;
     font-size: 16px;
     font-weight: 600;
-    color: #fff;
+    color: var(--text);
     cursor: pointer;
-    margin: 20px;
+    margin: 40px 0 20px 40px;
     height: 55px;
     text-align:center;
     border: none;
     background-size: 300% 100%;
-    border-radius: 50px;
-    moz-transition: all .4s ease-in-out;
+    border-radius: 30px;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
   }
+
+  .secondary-cta {
+    margin-left: 10px;
+    margin-top: 0;
+  }
   
-  .bn632-hover:hover {
+  .primary-cta:hover, .secondary-cta:hover {
     background-position: 100% 0;
-    moz-transition: all .4s ease-in-out;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
   }
   
-  .bn632-hover:focus {
+  .primary-cta:focus, .secondary-cta:focus {
     outline: none;
   }
   
-  .bn632-hover.bn25 {
+  .primary-cta.cta-gradient {
     background-image: linear-gradient(
       to right,
-      #29323c,
-      #485563,
-      #2b5876,
-      #4e4376
+      var(--primary),
+      var(--accent),
+      var(--primary-light),
+      var(--secondary)
     );
-    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+    box-shadow: 0 3px 10px 0 rgba(45, 54, 65, 0.75);
+  }
+
+  .secondary-cta {
+    background-color: var(--background);
+    border: 2px solid var(--primary);
   }
 
 section {
