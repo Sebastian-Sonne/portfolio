@@ -4,47 +4,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
+    <meta name="description" content="Sebastian Sonne - Software Development | Photography | Videography | Tennis">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script src="/assets/js/script.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Sebastian Sonne</title>
 </head>
 
-<body>
-    <header>
-        <a class="logo" href="/"><img src="/img/logo_light.png" alt="Sebastian Sonne"></a>
-        <nav class="nav">
-            <ul>
-                <li><a href="/bio"><span>Bio</span></a></li>
-                <li><a href="/projects"><span>Projects</span></a></li>
-                <li><a href="/media"><span>Media</span></a></li>
-            </ul>
-        </nav>
-        <div class="theme-switcher" onclick="toggleTheme()">
-            <span class="material-icons" id="theme-icon">
-                light_mode <!-- Default icon, can be changed in JS -->
-            </span>
-        </div>
-        <a class="cta" href="/contact">Contact</a>
-        <p class="menu cta">Menu</p>
-    </header>
+<body class="index">
+    <div class="landing-page-wrapper">
+        <header>
+            <a class="logo" href="/"><img src="/img/logo_light.png" alt="Sebastian Sonne"></a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/bio"><span>Bio</span></a></li>
+                    <li><a href="/projects"><span>Projects</span></a></li>
+                    <li><a href="/media"><span>Media</span></a></li>
+                </ul>
+            </nav>
+            <div class="theme-switcher" onclick="toggleTheme()">
+                <span class="material-icons" id="theme-icon">
+                    light_mode <!-- Default icon, can be changed in JS -->
+                </span>
+            </div>
+            <a class="cta" href="/contact">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
 
-    <div class="overlay">
-        <a class="close">&times;</a>
-        <div class="theme-switcher" onclick="toggleTheme()">
-            <span class="material-icons" id="theme-icon">
-                light_mode <!-- Default icon, can be changed in JS -->
-            </span>
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="theme-switcher" onclick="toggleTheme()">
+                <span class="material-icons" id="theme-icon">
+                    light_mode <!-- Default icon, can be changed in JS -->
+                </span>
+            </div>
+            <div class="overlay__content">
+                <a href="/bio">Bios</a>
+                <a href="/projects">Projects</a>
+                <a href="/media">Media</a>
+                <a href="/contact">Contact</a>
+            </div>
         </div>
-        <div class="overlay__content">
-            <a href="/bio">Bios</a>
-            <a href="/projects">Projects</a>
-            <a href="/media">Media</a>
-            <a href="/contact">Contact</a>
+        <script src="/assets/js/mobile.js"></script>
+
+        <div class="introduction">
+            <h1>Sebastian Sonne</h1>
+            <h2>Capturing moments, coding brilliance, and mastering the court</h2>
+            <a href="/contact"><button class="bn632-hover bn25">Connect</button></a>
+            <a href="/bio"><button class="bn632-hover bn25">Bio</button></a>
         </div>
+
     </div>
-    <script src="/assets/js/mobile.js"></script>
+    <main>
+
+    </main>
 
     <section>s1</section>
     <section>s2</section>

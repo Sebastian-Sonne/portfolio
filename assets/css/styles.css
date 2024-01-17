@@ -1,24 +1,25 @@
 :root[data-theme="light"] {
-    --text: #0f0607;
-    --background: #fdfafa;
-    --primary: #ba5761;
-    --secondary: #a3dac4;
-    --accent: #79a3c8;
+    --text: #070b0c;
+    --background: #f8fbfb;
+    --primary: #4da2bb;
+    --secondary: #8bcbde;
+    --accent: #65c4e0;
 
-    --primary-light: #ba5761ab;
+    --primary-light: #4da1bb85;
     --text-invert: #f9f0f1;
-  }
-  :root[data-theme="dark"] {
-    --text: #f9f0f1;
-    --background: #040101;
-    --primary: #a7444e;
-    --secondary: #245b45;
-    --accent: #376186;
+}
 
-    --primary-light: #a7444e;
+:root[data-theme="dark"] {
+    --text: #f2f6f7;
+    --background: #040606;
+    --primary: #4398b1;
+    --secondary: #216073;
+    --accent: #1f7c98;
+
+    --primary-light: #4397b180;
     --text-invert: #0f0607;
-  }
-  
+}
+
 
 * {
     box-sizing: border-box;
@@ -192,9 +193,94 @@ header {
     body
 */
 
+main {
+    padding: 0 20px;
+}
+
+.main-photo-frame {
+    display: grid;
+    place-items: center;
+}
+
+.main-photo-frame img {
+    border-radius: 20px;
+    width: calc(100% - 40px);
+
+}
+
+/*
+.landing-page-wrapper {
+    background-image: url("/img/bg-material.jpg");
+    background-repeat: no-repeat;
+    height: 100%;
+}
+*/
+
+.introduction {
+    height: 100vh;
+
+}
+
+.introduction h1 {
+    margin: 30vh auto 0 40px;
+    font-size: 64px;
+}
+
+.introduction h2 {
+    margin: -10px auto 0 40px;
+}
+
+.introduction div {
+    border: 2px solid var(--primary);
+    margin: 20px auto 0 40px;
+    padding: 20px;
+}
+
+/*cta buttons*/
+.bn632-hover {
+    width: 160px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+  }
+  
+  .bn632-hover:focus {
+    outline: none;
+  }
+  
+  .bn632-hover.bn25 {
+    background-image: linear-gradient(
+      to right,
+      #29323c,
+      #485563,
+      #2b5876,
+      #4e4376
+    );
+    box-shadow: 0 4px 15px 0 rgba(45, 54, 65, 0.75);
+  }
+
 section {
     padding: 40px;
-    margin: 40px;
+    margin: 0 40px 40px 40px;
     background-color: var(--primary);
 }
 
