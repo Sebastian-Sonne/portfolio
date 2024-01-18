@@ -5,14 +5,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/styles.css">
-    <script src="/assets/js/script.js">
-    </script>
+    <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/contact.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Contact - Sebastian Sonne</title>
 </head>
 
 <body>
-    <div class="contact-background-container"></div>
+    <div class="contact-background-container" id="form-submit"></div>
 
     <div class="contact-content-container">
         <div class="nav-container">
@@ -68,8 +68,10 @@
                   <label for="message">Message:</label>
                   <textarea id="message" name="message" required></textarea>
                 </div>
-                <button type="submit">Send</button>
+                <button type="submit" onclick="submitForm()">Send</button>
               </form>
+
+              <button onclick="submitForm()">Send</button>
         </div>
     </div>
 </body>

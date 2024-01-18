@@ -341,7 +341,7 @@ footer {
     transform: skew(-20deg);
     transform-origin: top left;
     background-color: var(--secondary);
-    transition: width 0.5s ease;
+    transition: width 0.5s ease, transform 0.5s ease;
     z-index: -1;
 }
 
