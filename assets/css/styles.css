@@ -199,11 +199,13 @@ main {
 .introduction h1 {
     margin: 30vh auto 0 40px;
     font-size: 64px;
+    transition: font-size 0.3s ease;
 }
 
 .full-h2,
 .short-h2 {
-    margin: 0 auto 0 40px;
+    margin: 0 20px 0 40px;
+    transition: font-size 0.3s ease;
 }
 
 .short-h2 {
@@ -340,7 +342,7 @@ footer {
     height: 100%;
     transform: skew(-20deg);
     transform-origin: top left;
-    background-color: var(--secondary);
+    background-image: url(/img/bg-material.jpg);
     transition: width 0.5s ease, transform 0.5s ease;
     z-index: -1;
 }
@@ -359,15 +361,15 @@ footer {
 .contact-form input,
 .contact-form select,
 .contact-form textarea {
-  color:#fff;
-  background-color:#2a2a2ab1;
-  border:1px solid #dddddd82;
-  box-sizing:border-box;
-  border-radius:10px;
-  padding:10px;
-  margin-top:5px;
-  width:20%;
-  transition:transform .3s,border-color .3s
+    color: #fff;
+    background-color: #2a2a2ab1;
+    border: 1px solid #dddddd82;
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 5px;
+    width: 20%;
+    transition: transform .3s, border-color .3s
 }
 
 .contact-form {
@@ -376,8 +378,8 @@ footer {
 }
 
 .contact-form form {
-    display:flex;
-    flex-direction:column
+    display: flex;
+    flex-direction: column
 }
 
 .contact-form button {
@@ -428,6 +430,24 @@ footer {
 
     .contact-background-container {
         width: 40%;
+    }
+}
+
+@media only screen and (max-width: 560px) {
+    .introduction h1 {
+        margin: 20vh auto 0 20px;
+        font-size: 48px;
+
+    }
+
+    .full-h2,
+    .short-h2 {
+        margin: 0 20px 0 25px;
+        font-size: 16px;
+    }
+
+    .primary-cta {
+        margin: 20px 0 20px 20px;
     }
 }
 
