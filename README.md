@@ -1,2 +1,4 @@
-# service WIP
-service subside for sebastian-sonne.com
+# dev WIP
+development subside for sebastian-sonne.com
+
+README is coming
