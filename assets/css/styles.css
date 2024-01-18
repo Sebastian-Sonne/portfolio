@@ -25,7 +25,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    transition: background-color 0.3s ease, color 0.3s ease;
+    transition: background-color 0.3s ease, color 0.3s ease, display 0.3s ease,;
 }
 
 body {
@@ -199,7 +199,7 @@ main {
 .introduction h1 {
     margin: 30vh auto 0 40px;
     font-size: 64px;
-    transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease, margin 0.3s ease;
 }
 
 .full-h2,
@@ -409,6 +409,10 @@ footer {
         font-size: 40px;
         top: 15px;
         right: 35px;
+    }
+
+    .introduction h1 {
+        margin-top: 15vh;
     }
 }
 
