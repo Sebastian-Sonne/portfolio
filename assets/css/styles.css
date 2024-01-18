@@ -287,7 +287,8 @@ main {
     background-position: 100% 0;
     -o-transition: all .4s ease-in-out;
     -webkit-transition: all .4s ease-in-out;
-    transition: all .4s ease-in-out;
+    transform: scale(1.1);
+    transition: all .3s ease-in-out,;
   }
   
   .primary-cta:focus, .secondary-cta:focus {
@@ -306,8 +307,12 @@ main {
   }
 
   .secondary-cta {
-    background-color: var(--background);
-    border: 2px solid var(--primary);
+    background-color: transparent;
+    border: 2px solid var(--primary-light);
+  }
+
+  .secondary-cta:hover {
+    border-color: var(--text);
   }
 
 section {
