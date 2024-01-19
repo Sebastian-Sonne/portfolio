@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,44 +9,50 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Error 404 - Sebastian Sonne</title>
 </head>
-<body class="body-404">
-    <header>
-        <a class="logo" href="/"><img src="/img/logo_light.png" alt="Sebastian Sonne"></a>
-        <nav class="nav">
-            <ul>
-                <li><a href="/bio"><span>Bio</span></a></li>
-                <li><a href="/projects"><span>Projects</span></a></li>
-                <li><a href="/media"><span>Media</span></a></li>
-            </ul>
-        </nav>
-        <div class="theme-switcher" onclick="toggleTheme()">
-            <span class="material-icons" id="theme-icon">
-                light_mode <!-- Default icon, can be changed in JS -->
-            </span>
-        </div>
-        <a class="cta" href="/contact">Contact</a>
-        <p class="menu cta">Menu</p>
-    </header>
 
-    <div class="overlay">
-        <a class="close">&times;</a>
-        <div class="theme-switcher" onclick="toggleTheme()">
-            <span class="material-icons" id="theme-icon">
-                light_mode <!-- Default icon, can be changed in JS -->
-            </span>
+<body class="body-404">
+    <div class="nav-container">
+        <header>
+            <a class="logo" href="/"><img src="/img/logo_light.png" alt="Sebastian Sonne"></a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/bio"><span>Bio</span></a></li>
+                    <li><a href="/projects"><span>Projects</span></a></li>
+                    <li><a href="/media"><span>Media</span></a></li>
+                </ul>
+            </nav>
+            <div class="theme-switcher" onclick="toggleTheme()">
+                <span class="material-icons" id="theme-icon">
+                    light_mode <!-- Default icon, can be changed in JS -->
+                </span>
+            </div>
+            <a class="cta" href="/contact">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="theme-switcher-small" onclick="toggleTheme()">
+                <span class="material-icons" id="theme-icon">
+                    light_mode <!-- Default icon, can be changed in JS -->
+                </span>
+            </div>
+            <div class="overlay__content">
+                <a href="/bio">Bios</a>
+                <a href="/projects">Projects</a>
+                <a href="/media">Media</a>
+                <a href="/contact">Contact</a>
+            </div>
         </div>
-        <div class="overlay__content">
-            <a href="/bio">Bios</a>
-            <a href="/projects">Projects</a>
-            <a href="/media">Media</a>
-            <a href="/contact">Contact</a>
-        </div>
+        <script src="/assets/js/mobile.js"></script>
     </div>
-    <script src="/assets/js/mobile.js"></script>
 
     <div class="page-404">
         <h1>404 - Page not found</h1>
-        <a class="button-link" href="/">Home</a>
+        <div>
+            <a class="primary-button-link" href="/">Home</a>
+            <a class="secondary-button-link" href="/">Report an Issue</a>
+        </div>
     </div>
 
     <footer>
@@ -55,6 +62,7 @@
             Powered by <a href="https://github.com/sebastian-sonne">Sebastian Sonne</a>
         </p>
     </footer>
-    
+
 </body>
+
 </html>
