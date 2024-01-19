@@ -416,6 +416,24 @@ footer {
     }
 }
 
+@media only screen and (max-height: 320px) {
+    .introduction h1 {
+        margin: 20vh auto 0 20px;
+        font-size: 48px;
+
+    }
+
+    .full-h2,
+    .short-h2 {
+        margin: 0 20px 0 25px;
+        font-size: 16px;
+    }
+
+    .primary-cta {
+        margin: 20px 0 20px 20px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
     .nav,
