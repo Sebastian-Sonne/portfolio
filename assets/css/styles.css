@@ -359,7 +359,7 @@ footer {
 .contact-background-container {
     position: absolute;
     width: 60%;
-    height: 100vh;
+    min-height: 100vh;
     transform: skew(-20deg);
     transform-origin: top left;
     /*background-image: url(/img/bg-material.jpg);*/
@@ -443,6 +443,10 @@ footer {
 .form-group button:hover {
     background-color: var(--secondary);
     transform: scale(1.025);
+}
+
+.form-container footer  {
+    padding-top: auto;
 }
 
 /*
