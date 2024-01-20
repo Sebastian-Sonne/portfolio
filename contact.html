@@ -52,52 +52,35 @@
             <!--end Nav Container-->
         </div>
 
-
-        <div class="contact-form-container">
-            <h1>WIP</h1>
+        <section class="form-container">
             <form action="https://formspree.io/f/moqgarqj" method="post">
                 <h2>Contact Me</h2>
-                <div class="form-group">
-                    <label>Name:</label> <br>
-                    <input class="form-name-one"type="text" id="name" name="name" placeholder="Name" required>
-                    <input class="form-name-two"type="text" id="name" name="name" placeholder="Name2" required>
-                </div>
-                <div class="form-group">
-                    <label>Email:</label> <br>
-                    <input class="form-email" type="email" id="email" name="emil" placeholder="example@mail.com" required>
-                </div>
-                <div class="form-group">
-                    <label>Message:</label> <br>
-                    <textarea id="message" name="message" placeholder="..." required></textarea>
-                </div>
-            </form>
-
-            <button class="primary-cta cta-gradient" onclick="submitForm()">Send</button>
-        </div>
-
         
-
-        <div class="contact-main-content" id="contact-main-content">
-            <form id="contact-form" class="contact-form" action="https://formspree.io/f/moqgarqj" method="post">
-                <h1>Contact Me</h1>
+                <fieldset class="form-group">
+                    <legend>Full Name</legend>
+                    <div class="form-group-input">
+                        <input type="text" id="first-name" name="first-name" placeholder="John Doe" required>
+                    </div>
+                </fieldset>
+        
+                <fieldset class="form-group">
+                    <legend>Email</legend>
+                    <div class="form-group-input">
+                        <input type="email" id="email" name="email" placeholder="example@mail.com" required>
+                    </div>
+                </fieldset>
+        
+                <fieldset class="form-group">
+                    <legend>Message</legend>
+                    <textarea id="message" name="message" placeholder="Your message here" required></textarea>
+                </fieldset>
+        
                 <div class="form-group">
-                    <label for="name">Name:</label>
-                    <input type="text" id="name" name="name" required placeholder="first-name last-name">
+                    <button type="submit">Send</button>
                 </div>
-                <div class="form-group">
-                    <label for="email">Email:</label>
-                    <input type="email" id="email" name="email" required placeholder="example@email.com">
-                </div>
-                <div class="form-group">
-                    <label for="message">Message:</label>
-                    <textarea id="message" name="message" required></textarea>
-                </div>
-                <button type="submit" onclick="submitForm()">Send</button>
             </form>
+        </section>
 
-            <button onclick="submitForm()">Send</button>
-        </div>
     </div>
 </body>
-
 </html>

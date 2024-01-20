@@ -7,6 +7,10 @@
 
     --primary-light: #4da1bb85;
     --text-invert: #f9f0f1;
+
+    --font-small: 12;
+    --font-medium: 16;
+    --font-big: 24;
 }
 
 :root[data-theme="dark"] {
@@ -18,6 +22,10 @@
 
     --primary-light: #4397b180;
     --text-invert: #0f0607;
+
+    --font-small: 12;
+    --font-medium: 16;
+    --font-big: 24;
 }
 
 
@@ -326,7 +334,8 @@ footer {
     margin: 20px auto 20px auto;
 }
 
-.primary-button-link, .secondary-button-link {
+.primary-button-link,
+.secondary-button-link {
     padding: 10px 20px;
     margin: 0 5px;
     border: 2px solid var(--primary);
@@ -338,7 +347,8 @@ footer {
     border-color: transparent;
 }
 
-.primary-button-link:hover, .secondary-button-link:hover {
+.primary-button-link:hover,
+.secondary-button-link:hover {
     border-color: var(--text);
 }
 
@@ -352,8 +362,9 @@ footer {
     height: 100%;
     transform: skew(-20deg);
     transform-origin: top left;
-    background-image: url(/img/bg-material.jpg);
-    transition: width 0.5s ease, transform 0.5s ease;
+    /*background-image: url(/img/bg-material.jpg);*/
+    background-color: var(--primary-light);
+    transition: width 0.5s ease, transform 0.5s ease, display 0.3s ease;
     z-index: -1;
 }
 
@@ -362,75 +373,76 @@ footer {
     z-index: 1;
 }
 
-
-.contact-form-container {
-    border: 2px solid var(--accent);
-    border-radius: 10px;
-
+.form-container {
+    display: grid;
+    align-items: center;
+    margin: 20px 20px 0 auto;
     width: 40%;
-    margin: 10vh 20px 0 auto;
-    align-items: end;
-    text-align: right;
-    padding: 20px;
-    margin-top: 30px;
-
-    z-index: 1;
-}
-
-.contact-form-container h2 {
-    margin: 20px;
+    background-color: transparent;
+    transition: width 0.3s ease, margin 0.3s ease, padding 0.3s ease;
 }
 
 .form-group {
-    /*border: 2px solid var(--accent);*/
-    margin: 20px;
-}
-
-
-.form-name-one, .form-name-two, .form-email {
-    padding: 10px 5px;
-    border: 2px solid var(--primary);
+    padding: 0;
+    margin-bottom: 20px;
     border-radius: 10px;
-    color: var(--text);
-    background-color: transparent;
-    text-align: right;
 }
 
-.form-name-one {
-    width: 45%;
-    margin-right: 5px;
-    text-align: left;
+.form-container h2 {
+    text-align: center;
+    margin: 10px 0;
 }
 
-.form-name-two {
-    width: 45%;
-    margin-left: 5px;
+.form-group legend {
+    margin: 0 0 0 8px;
+    z-index: 1;
 }
 
-.form-email {
+.form-group input {
     width: 100%;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    padding-left: 10px;
+}
+
+.form-group-input {
+    padding-bottom: 7px;
 }
 
 .form-group textarea {
-    padding: 10px 5px;
     width: 100%;
-    border: 2px solid var(--primary);
+    height: 80px;
+    border: none;
     border-radius: 10px;
+    padding-left: 10px;
+}
+
+.form-group input,
+.form-group textarea {
     color: var(--text);
     background-color: transparent;
-    text-align: right;
 }
 
-.form-group label {
-    font-size: 16px;
-    margin: 20px 0 10px 0;
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
 }
 
-
-.contact-main-content {
-    display: none;
+.form-group button {
+    margin: 20px 0 0 auto;
+    padding: 10px 0;
+    width: 100%;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--primary-light);
+    color: var(--text);
+    font-size: var(--font-medium);
 }
 
+.form-group button:hover {
+    background-color: var(--secondary);
+}
 
 /*
     Media Queries
@@ -470,6 +482,18 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1200px) {
+    .form-container {
+        width: 500px;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .form-container {
+        width: 400px;
+    }
+}
+
 @media only screen and (max-width: 768px) {
 
     .nav,
@@ -487,7 +511,7 @@ footer {
     }
 
     .contact-background-container {
-        width: 40%;
+        width: 50%;
     }
 }
 
@@ -507,10 +531,14 @@ footer {
     .primary-cta {
         margin: 20px 0 20px 20px;
     }
-}
 
-@media only screen and (max-width: 480px) {
     .contact-background-container {
-        width: 20%;
+        display: none;
+    }
+
+    .form-container {
+        width: 100%;
     }
 }
+
+@media only screen and (max-width: 480px) {}
