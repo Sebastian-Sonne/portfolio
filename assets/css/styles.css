@@ -364,7 +364,7 @@ footer {
 .contact-background-container {
     position: absolute;
     width: 60%;
-    height: 100vh;
+    min-height: 100vh;
     transform: skew(-20deg);
     transform-origin: top left;
     /*background-image: url(/img/bg-material.jpg);*/
@@ -452,6 +452,7 @@ footer {
     transform: scale(1.025);
 }
 
+<<<<<<< HEAD
 .footer-container {
     background-color: transparent;
     margin: 20px 0 0 0;
@@ -460,6 +461,10 @@ footer {
 
 .footer-container footer {
     margin: 0;
+=======
+.form-container footer  {
+    padding-top: auto;
+>>>>>>> 09c53a9f46375ddab29a7595ee19646513a60514
 }
 
 /*
