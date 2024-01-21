@@ -460,7 +460,7 @@ footer {
 
 .footer-container footer {
     margin: 0;
-
+}
 
 /*
     Media Queries
@@ -557,6 +557,7 @@ footer {
     .form-container {
         width: 100%;
     }
+
 
 }
 
