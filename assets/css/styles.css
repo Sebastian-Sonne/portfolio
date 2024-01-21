@@ -330,6 +330,11 @@ footer {
     margin: 20px;
 }
 
+.page-404 h4 {
+    margin-bottom: 15px;
+    margin-top: -10px;
+}
+
 .page-404 div {
     margin: 20px auto 20px auto;
 }
@@ -369,6 +374,7 @@ footer {
 }
 
 .contact-content-container {
+    min-height: 100vh;
     position: relative;
     z-index: 1;
 }
@@ -376,8 +382,9 @@ footer {
 .form-container {
     display: grid;
     align-items: center;
-    margin: 20px 20px 0 auto;
+    margin: 20px 20px auto auto;
     width: 40%;
+    min-height: 100%;
     background-color: transparent;
     transition: width 0.3s ease, margin 0.3s ease, padding 0.3s ease;
 }
@@ -443,6 +450,16 @@ footer {
 .form-group button:hover {
     background-color: var(--secondary);
     transform: scale(1.025);
+}
+
+.footer-container {
+    background-color: transparent;
+    margin: 20px 0 0 0;
+    padding: 0;
+}
+
+.footer-container footer {
+    margin: 0;
 }
 
 /*
@@ -540,6 +557,7 @@ footer {
     .form-container {
         width: 100%;
     }
+
 }
 
 @media only screen and (max-width: 480px) {}
