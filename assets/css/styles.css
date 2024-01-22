@@ -8,6 +8,10 @@
     --primary-light: #4da1bb85;
     --text-invert: #f9f0f1;
 
+    --gray-light: #f2f2f2;
+    --gray-medium: #dcdcdc;
+    --gray-dark: #a0a0a0;
+
     --font-small: 12;
     --font-medium: 16;
     --font-big: 24;
@@ -23,11 +27,14 @@
     --primary-light: #4397b180;
     --text-invert: #0f0607;
 
+    --gray-light: #606060;
+    --gray-medium: #404040;
+    --gray-dark: #202020;
+
     --font-small: 12;
     --font-medium: 16;
     --font-big: 24;
 }
-
 
 * {
     box-sizing: border-box;
@@ -67,6 +74,7 @@ header {
 */
 
 .nav-container {
+    height: 73.95px;
     z-index: 1;
 }
 
@@ -201,7 +209,8 @@ main {
 }
 
 .introduction {
-    height: 100vh;
+    height: calc(100vh - 73.95px);
+    
 }
 
 .introduction h1 {
@@ -219,17 +228,6 @@ main {
 .short-h2 {
     display: none;
 }
-
-/*
-@media only screen and (max-width: 800px) {
-    .short-h2 { 
-        display: block;
-    }
-    .full-h2 {
-        display: none; 
-    }
-}
-*/
 
 .introduction div {
     border: 2px solid var(--primary);
@@ -296,7 +294,60 @@ main {
 section {
     padding: 40px;
     margin: 0 40px 40px 40px;
-    background-color: var(--primary);
+}
+
+main {
+    background-color: transparent;
+}
+
+.content-tiles-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    padding: 0;
+    margin: 0;
+}
+
+.projects-short {
+    display: grid;
+    justify-content: left;
+    align-items: flex-start;
+    background-color: var(--gray-medium);
+    min-height: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: left;
+}
+
+.main-project {
+    grid-column: 1/3;
+}
+
+.sub-project-1 {
+    
+}
+
+.sub-project-2 {
+    grid-row: 3;
+    grid-column: 1/4;
+}
+
+.sub-project-3 {
+    grid-column: 2/4;
+}
+
+.projects-short h4{
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 10px;
+}
+
+.projects-short a {
+    position: relative;
+    margin: auto auto 0 0;
+    border: 2px solid var(--accent);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 /* 
@@ -308,7 +359,7 @@ footer {
     margin-top: auto;
     margin-bottom: 20px;
 
-    margin: 20px 0 40px 0;
+    margin: 20px 0 20px 0;
     background-color: transparent;
 }
 
