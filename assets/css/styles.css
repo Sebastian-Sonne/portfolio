@@ -303,15 +303,14 @@ main {
 .content-tiles-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 10px;
+    grid-gap: 20px;
+    height: 100vh;
     padding: 0;
     margin: 0;
 }
 
 .projects-short {
     display: grid;
-    justify-content: left;
-    align-items: flex-start;
     background-color: var(--gray-medium);
     min-height: 200px;
     border-radius: 10px;
