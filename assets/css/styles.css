@@ -608,7 +608,12 @@ footer {
         width: 100%;
     }
 
+    .content-tiles-container {
+        display: flex;
+        flex-direction: column;
+    }
 
+    
 }
 
 @media only screen and (max-width: 480px) {}
