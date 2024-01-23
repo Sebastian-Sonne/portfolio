@@ -1,11 +1,11 @@
 :root[data-theme="light"] {
-    --text: #21030d;
-    --background: #fff0f5;
-    --primary: #ef255b;
-    --secondary: #f59b84;
-    --accent: #f08842;
+    --text: #061212;
+    --background: #f4fcfc;
+    --primary: #4dc6c7;
+    --secondary: #8da2db;
+    --accent: #716dd1;
 
-    --primary-light: #ef255b85;
+    --primary-light: #4dc6c780;
     --text-invert: #f9f0f1;
 
     --gray-light: #f2f2f2;
@@ -18,13 +18,13 @@
 }
 
 :root[data-theme="dark"] {
-    --text: #fae7ed;
-    --background: #130106;
-    --primary: #da1046;
-    --secondary: #7b200a;
-    --accent: #bd550f;
+    --text: #ecf9f9;
+    --background: #030c0c;
+    --primary: #38b2b2;
+    --secondary: #233870;
+    --accent: #322f93;
 
-    --primary-light: #da104680;
+    --primary-light: #38b2b285;
     --text-invert: #0f0607;
 
     --gray-light: #606060;
@@ -422,9 +422,14 @@ footer {
     transform: skew(-20deg);
     transform-origin: top left;
     /*background-image: url(/img/bg-material.jpg);*/
-    background-color: var(--primary-light);
+    background-color: #ffffff26;
     transition: width 0.5s ease, transform 0.5s ease, display 0.3s ease;
     z-index: -1;
+}
+
+.contact-background-container.element-2 {
+    width: 57%;
+    background-color: var(--primary-light);
 }
 
 .contact-content-container {
@@ -495,7 +500,7 @@ footer {
     width: 100%;
     border-radius: 20px;
     border: none;
-    background-color: var(--primary-light);
+    background-color: var(--primary);
     color: var(--text);
     font-size: var(--font-medium);
     transition: transform 0.3s ease, background-color 0.3s ease;
