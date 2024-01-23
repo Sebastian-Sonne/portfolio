@@ -1,11 +1,11 @@
 :root[data-theme="light"] {
-    --text: #070b0c;
-    --background: #f8fbfb;
-    --primary: #4da2bb;
-    --secondary: #8bcbde;
-    --accent: #65c4e0;
+    --text: #21030d;
+    --background: #fff0f5;
+    --primary: #ef255b;
+    --secondary: #f59b84;
+    --accent: #f08842;
 
-    --primary-light: #4da1bb85;
+    --primary-light: #ef255b85;
     --text-invert: #f9f0f1;
 
     --gray-light: #f2f2f2;
@@ -18,13 +18,13 @@
 }
 
 :root[data-theme="dark"] {
-    --text: #f2f6f7;
-    --background: #040606;
-    --primary: #4398b1;
-    --secondary: #216073;
-    --accent: #1f7c98;
+    --text: #fae7ed;
+    --background: #130106;
+    --primary: #da1046;
+    --secondary: #7b200a;
+    --accent: #bd550f;
 
-    --primary-light: #4397b180;
+    --primary-light: #da104680;
     --text-invert: #0f0607;
 
     --gray-light: #606060;
@@ -206,16 +206,20 @@ header {
 
 main {
     padding: 0 20px;
+    background-color: transparent;
 }
 
 .introduction {
     height: calc(100vh - 73.95px);
-    
+
 }
 
 .introduction h1 {
     margin: 30vh auto 0 40px;
     font-size: 64px;
+    background: linear-gradient(to right, var(--primary), var(--primary), var(--accent), var(--accent));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     transition: font-size 0.3s ease, margin 0.3s ease;
 }
 
@@ -277,7 +281,7 @@ main {
     background-image: linear-gradient(to right,
             var(--primary),
             var(--accent),
-            var(--primary-light),
+            var(--accent),
             var(--secondary));
     box-shadow: 0 3px 10px 0 rgba(45, 54, 65, 0.75);
 }
@@ -296,10 +300,6 @@ section {
     margin: 0 40px 40px 40px;
 }
 
-main {
-    background-color: transparent;
-}
-
 .content-tiles-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -311,7 +311,7 @@ main {
 
 .projects-short {
     display: grid;
-    background-color: var(--gray-medium);
+    background-color: var(--gray-dark);
     min-height: 200px;
     border-radius: 10px;
     padding: 10px;
@@ -322,9 +322,7 @@ main {
     grid-column: 1/3;
 }
 
-.sub-project-1 {
-    
-}
+.sub-project-1 {}
 
 .sub-project-2 {
     grid-row: 3;
@@ -335,7 +333,13 @@ main {
     grid-column: 2/4;
 }
 
-.projects-short h4{
+.sub-project-footer {
+    grid-column: 1/4;
+    grid-row: 4;
+    margin-top: 40px;
+}
+
+.projects-short h4 {
     text-align: center;
     font-size: 1.25rem;
     padding: 10px;
@@ -613,7 +617,7 @@ footer {
         flex-direction: column;
     }
 
-    
+
 }
 
 @media only screen and (max-width: 480px) {}
