@@ -217,7 +217,8 @@ main {
 .introduction h1 {
     margin: 30vh auto 0 40px;
     font-size: 64px;
-    background: linear-gradient(to right, var(--primary), var(--primary), var(--accent), var(--accent));
+    width: fit-content;
+    background: linear-gradient(to right, var(--primary), var(--accent));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: font-size 0.3s ease, margin 0.3s ease;
