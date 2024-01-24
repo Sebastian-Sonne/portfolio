@@ -430,7 +430,7 @@ footer {
 
 .contact-background-container.element-2 {
     width: 57%;
-    background-color: var(--primary-light);
+    background-color: #4545454b;
 }
 
 .contact-content-container {
@@ -502,13 +502,21 @@ footer {
     border-radius: 20px;
     border: none;
     background-color: var(--primary);
+
+    background-image: linear-gradient(150deg,
+    var(--primary),
+    var(--accent));
+
     color: var(--text);
     font-size: var(--font-medium);
-    transition: transform 0.3s ease, background-color 0.3s ease;
+    transition: transform 0.3s ease, background-color 0.3s ease, background-image 0.3s ease;
 }
 
 .form-group button:hover {
     background-color: var(--secondary);
+    background-image: linear-gradient(150deg,
+    var(--accent),
+    var(--primary));
     transform: scale(1.025);
 }
 
@@ -597,7 +605,6 @@ footer {
     .introduction h1 {
         margin: 20vh auto 0 20px;
         font-size: 48px;
-
     }
 
     .full-h2,
@@ -626,4 +633,30 @@ footer {
 
 }
 
-@media only screen and (max-width: 480px) {}
+@media only screen and (max-width: 400px) {
+    .introduction h1 {
+        margin: 20vh auto 0 20px;
+        font-size: 40px;
+    }
+
+    .full-h2,
+    .short-h2 {
+        margin: 0 20px 0 25px;
+        font-size: 12px;
+    }
+
+    .primary-cta,
+    .secondary-cta {
+        width: 100px;
+        height: 45px;
+        border-radius: 30px;
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 335px) {
+    .introduction h1 {
+        margin: 20vh auto 0 20px;
+        font-size: 32px;
+    }
+}
