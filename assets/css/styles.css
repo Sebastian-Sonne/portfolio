@@ -604,7 +604,7 @@ footer {
 @media only screen and (max-width: 560px) {
     .introduction h1 {
         margin: 20vh auto 0 20px;
-        font-size: 48px;
+        font-size: 40px;
     }
 
     .full-h2,
@@ -634,11 +634,6 @@ footer {
 }
 
 @media only screen and (max-width: 400px) {
-    .introduction h1 {
-        margin: 20vh auto 0 20px;
-        font-size: 40px;
-    }
-
     .full-h2,
     .short-h2 {
         margin: 0 20px 0 25px;
@@ -648,15 +643,15 @@ footer {
     .primary-cta,
     .secondary-cta {
         width: 100px;
-        height: 45px;
+        height: 40px;
         border-radius: 30px;
         font-size: 12px;
     }
 }
 
-@media only screen and (max-width: 335px) {
+@media only screen and (max-width: 330px) {
     .introduction h1 {
-        margin: 20vh auto 0 20px;
         font-size: 32px;
     }
+    
 }
