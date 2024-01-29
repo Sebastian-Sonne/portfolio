@@ -296,11 +296,6 @@ main {
     border-color: var(--text);
 }
 
-section {
-    padding: 40px;
-    margin: 0 40px 40px 40px;
-}
-
 .content-tiles-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -423,14 +418,14 @@ footer {
     transform: skew(-20deg);
     transform-origin: top left;
     /*background-image: url(/img/bg-material.jpg);*/
-    background-color: #ffffff26;
+    background-color: var(--primary-light);
     transition: width 0.5s ease, transform 0.5s ease, display 0.3s ease;
     z-index: -1;
 }
 
 .contact-background-container.element-2 {
     width: 57%;
-    background-color: #4545454b;
+    background-color: #ffffff15;
 }
 
 .contact-content-container {
@@ -504,8 +499,8 @@ footer {
     background-color: var(--primary);
 
     background-image: linear-gradient(150deg,
-    var(--primary),
-    var(--accent));
+            var(--primary),
+            var(--accent));
 
     color: var(--text);
     font-size: var(--font-medium);
@@ -515,19 +510,84 @@ footer {
 .form-group button:hover {
     background-color: var(--secondary);
     background-image: linear-gradient(150deg,
-    var(--accent),
-    var(--primary));
+            var(--accent),
+            var(--primary));
     transform: scale(1.025);
 }
 
 .footer-container {
     background-color: transparent;
-    margin: 20px 0 0 0;
+    margin: 20px 0 40px 0;
     padding: 0;
 }
 
 .footer-container footer {
     margin: 0;
+}
+
+/*
+    Bio 
+*/
+
+.bio-background-wrapper {
+    /*
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    background-image: url("/img/bg-material.jpg");
+    z-index: -1;
+    */
+}
+
+.bio-content-container {
+    z-index: 1;
+}
+
+.bio-main-content {
+    display: block;
+}
+
+.bio-main-content div {
+    padding: 40px;
+}
+
+.bio-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(100vh - 74px);
+    width: 100%;
+    padding: 20px;
+    background-color: var(--primary);
+}
+
+.bio-hero-text,
+.bio-hero-image {
+    margin: 20px;
+    padding: 20px;
+    width: 500px;
+    height: 500px;
+    background-color: var(--secondary);
+}
+
+.bio-hero-image {
+    background-image: url("/img/landscape/snow_1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 500px;
+    border-radius: 250px;
+    margin-left: 100px;
+}
+
+.bio-div-1 {
+    background-color: var(--text);
+    color: var(--text-invert);
+    height: 50vh;
+}
+
+.bio-div-2 {
+    height: 100vh;
 }
 
 /*
@@ -571,6 +631,16 @@ footer {
 @media only screen and (max-width: 1200px) {
     .form-container {
         width: 500px;
+    }
+
+    .bio-hero {
+        flex-direction: column;
+    }
+
+    .bio-hero-text,
+    .bio-hero-image {
+        width: 80%;
+        margin: 20px;
     }
 }
 
@@ -634,6 +704,7 @@ footer {
 }
 
 @media only screen and (max-width: 400px) {
+
     .full-h2,
     .short-h2 {
         margin: 0 20px 0 25px;
@@ -653,5 +724,5 @@ footer {
     .introduction h1 {
         font-size: 32px;
     }
-    
+
 }
