@@ -6,7 +6,7 @@
     --accent: #716dd1;
 
     --primary-light: #4dc6c780;
-    --text-invert: #f9f0f1;
+    --text-invert: #ecf9f9;
 
     --gray-light: #f2f2f2;
     --gray-medium: #dcdcdc;
@@ -25,7 +25,7 @@
     --accent: #322f93;
 
     --primary-light: #38b2b285;
-    --text-invert: #0f0607;
+    --text-invert: #061212;
 
     --gray-light: #606060;
     --gray-medium: #404040;
@@ -34,6 +34,12 @@
     --font-small: 12;
     --font-medium: 16;
     --font-big: 24;
+}
+
+:root {
+    --text-constant-dark: #0f060;
+    --text-constant-light: #ecf9f9;
+    --bio-bg-image: url("/img/landscape/mountain_2.jpg");
 }
 
 * {
@@ -564,56 +570,28 @@ footer {
 }
 
 .bio-hero {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: calc(100vh - 74px);
-    width: 100%;
-    padding: 20px;
-    background-color: var(--primary);
-}
-
-.bio-hero-text,
-.bio-hero-image {
-    margin: 20px;
-    padding: 20px;
-    width: 500px;
-    height: 500px;
-    background-color: var(--secondary);
-}
-
-.bio-hero-image {
-    background-image: url("/img/landscape/snow_1.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 500px;
-    height: 500px;
-    border-radius: 250px;
-    margin-left: 100px;
-}
-
-.bio-hero-mobile {
-    display: none;
     height: 100vh;
     padding: 0;
 }
 
-.bio-bg-mobile {
-    background-image: url("/img/landscape/mountain_2.jpg");
+.bio-bg {
+    background-image: var(--bio-bg-image);
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
     width: 100vw;
     height: 100vh;
     z-index: 0;
 }
 
-.bio-hero-text-mobile {
+.bio-hero-text {
     position: relative;
     top: 60vh;
     height: 40vh;
     width: 500px;
-    background-color: #373737e0;
-    margin-left: 40px;
+    color: var(--text-constant-light);
+    background-color: #373737c0;
+    margin: 0 40px;
     padding: 20px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
@@ -674,14 +652,6 @@ footer {
     .form-container {
         width: 500px;
     }
-
-    .bio-hero {
-        display: none;
-    }
-    .bio-hero-mobile {
-        display: flex;
-        padding: 0;
-    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -740,7 +710,9 @@ footer {
         flex-direction: column;
     }
 
-
+    .bio-hero-text {
+        width: calc(100vw - 80px);
+    }
 }
 
 @media only screen and (max-width: 400px) {
