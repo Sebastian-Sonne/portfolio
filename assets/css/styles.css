@@ -166,6 +166,20 @@ header {
     justify-content: center;
 }
 
+.overlay__content a {
+    margin-bottom: 5px;
+    text-align: center;
+    width: 150px;
+    border-radius: 35px;
+    transition: all 0.3s ease;
+}
+
+.overlay__content a:hover,
+.overlay__content a:focus {
+    color: var(--text);
+    background-color: var(--secondary);
+}
+
 .theme-switcher-small {
     position: absolute;
     top: 20px;
@@ -189,7 +203,7 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-    color: var(--secondary);
+    color: var(--text);
 }
 
 .overlay .close {
@@ -198,6 +212,7 @@ header {
     right: 45px;
     font-size: 60px;
     color: var(--text-invert);
+    cursor: pointer;
 }
 
 /*
@@ -438,6 +453,7 @@ footer {
     display: grid;
     align-items: center;
     margin: 20px 20px auto auto;
+    padding: 0 20px;
     width: 40%;
     min-height: 100%;
     background-color: transparent;
@@ -544,11 +560,7 @@ footer {
 }
 
 .bio-main-content {
-    display: block;
-}
 
-.bio-main-content div {
-    padding: 40px;
 }
 
 .bio-hero {
@@ -580,15 +592,45 @@ footer {
     margin-left: 100px;
 }
 
+.bio-hero-mobile {
+    display: none;
+    height: 100vh;
+    padding: 0;
+}
+
+.bio-bg-mobile {
+    background-image: url("/img/landscape/mountain_2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+}
+
+.bio-hero-text-mobile {
+    position: relative;
+    top: 60vh;
+    height: 40vh;
+    width: 500px;
+    background-color: #373737e0;
+    margin-left: 40px;
+    padding: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
 .bio-div-1 {
     background-color: var(--text);
     color: var(--text-invert);
     height: 50vh;
+    padding: 20px;
 }
 
 .bio-div-2 {
     height: 100vh;
+    padding: 20px;
 }
+
 
 /*
     Media Queries
@@ -634,13 +676,11 @@ footer {
     }
 
     .bio-hero {
-        flex-direction: column;
+        display: none;
     }
-
-    .bio-hero-text,
-    .bio-hero-image {
-        width: 80%;
-        margin: 20px;
+    .bio-hero-mobile {
+        display: flex;
+        padding: 0;
     }
 }
 
