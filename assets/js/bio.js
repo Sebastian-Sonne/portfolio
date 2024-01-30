@@ -1,3 +1,4 @@
+/*
 document.addEventListener("DOMContentLoaded", function () {
     const slider = document.querySelector(".slider");
   
@@ -15,3 +16,4 @@ document.addEventListener("DOMContentLoaded", function () {
       slider.appendChild(img);
     });
   });
+*/
