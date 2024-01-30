@@ -14,83 +14,79 @@
 
 <body>
     <!--Can be activated in styles.css if neccessary-->
-    <div class="bio-background-wrapper"></div>
+    <div class="bio-bg" aria-hidden="true"></div>
+
+    <div class="nav-container">
+        <header class="bio-nav">
+            <a class="logo" href="/"><img src="/img/logo_light.png" alt="Sebastian Sonne"></a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/bio"><span>Bio</span></a></li>
+                    <li><a href="/projects"><span>Projects</span></a></li>
+                    <li><a href="/media"><span>Media</span></a></li>
+                </ul>
+            </nav>
+            <div class="theme-switcher" onclick="toggleTheme()">
+                <span class="material-icons" id="theme-icon">
+                    light_mode <!-- Default icon, can be changed in JS -->
+                </span>
+            </div>
+            <a class="cta" href="/contact">Contact</a>
+            <p class="menu cta">Menu</p>
+        </header>
+
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="theme-switcher-small" onclick="toggleTheme()">
+                <span class="material-icons" id="theme-icon">
+                    light_mode <!-- Default icon, can be changed in JS -->
+                </span>
+            </div>
+            <div class="overlay__content">
+                <a href="/bio">Bio</a>
+                <a href="/projects">Projects</a>
+                <a href="/media">Media</a>
+                <a href="/contact">Contact</a>
+            </div>
+        </div>
+        <script src="/assets/js/mobile.js"></script>
+        <!--end Nav Container-->
+    </div>
 
     <div class="bio-content-container">
-        <div class="nav-container">
-            <header>
-                <a class="logo" href="/"><img src="/img/logo_light.png" alt="Sebastian Sonne"></a>
-                <nav class="nav">
-                    <ul>
-                        <li><a href="/bio"><span>Bio</span></a></li>
-                        <li><a href="/projects"><span>Projects</span></a></li>
-                        <li><a href="/media"><span>Media</span></a></li>
-                    </ul>
-                </nav>
-                <div class="theme-switcher" onclick="toggleTheme()">
-                    <span class="material-icons" id="theme-icon">
-                        light_mode <!-- Default icon, can be changed in JS -->
-                    </span>
-                </div>
-                <a class="cta" href="/contact">Contact</a>
-                <p class="menu cta">Menu</p>
-            </header>
 
-            <div class="overlay">
-                <a class="close">&times;</a>
-                <div class="theme-switcher-small" onclick="toggleTheme()">
-                    <span class="material-icons" id="theme-icon">
-                        light_mode <!-- Default icon, can be changed in JS -->
-                    </span>
-                </div>
-                <div class="overlay__content">
-                    <a href="/bio">Bio</a>
-                    <a href="/projects">Projects</a>
-                    <a href="/media">Media</a>
-                    <a href="/contact">Contact</a>
-                </div>
-            </div>
-            <script src="/assets/js/mobile.js"></script>
-            <!--end Nav Container-->
-        </div>
-
-
-        <div class="bio-main-content">
-            <div class="bio-hero">
-                <div class="bio-bg">
-                    <div class="bio-hero-text">
-                        <h1>Sebastian Sonne</h1>
-                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    </div>
-                </div>
-                
-            </div>
-
-            <div class="bio-div-1">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deleniti corrupti porro. Iste voluptate
-                eos qui officia, illum nemo corporis? Voluptates corrupti sint possimus fuga soluta magni commodi
-                delectus placeat neque voluptatem, nam, facilis aliquam rem, iste iure praesentium tempore totam quis
-                incidunt quisquam non id dolorem? Magnam exercitationem velit cumque excepturi tempore libero natus
-                repellendus expedita, mollitia totam esse porro voluptates eaque unde enim omnis quasi deleniti
-                reprehenderit cum vitae perspiciatis, possimus rerum. Laborum, at saepe commodi officiis impedit
-                quisquam fugit sint ipsam aspernatur ut voluptatem consequuntur et reprehenderit facere debitis
-                voluptatum ratione laboriosam veritatis corrupti vitae sed ullam. Explicabo, voluptatem labore sed
-                expedita, repudiandae assumenda modi dolorem, obcaecati iure pariatur dolores voluptatibus rem? Ut,
-                ipsam dolorem.
-            </div>
-            <div class="bio-div-2">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deleniti corrupti porro. Iste voluptate
-                eos qui officia, illum nemo corporis? Voluptates corrupti sint possimus fuga soluta magni commodi
-                delectus placeat neque voluptatem, nam, facilis aliquam rem, iste iure praesentium tempore totam quis
-                incidunt quisquam non id dolorem? Magnam exercitationem velit cumque excepturi tempore libero natus
-                repellendus expedita, mollitia totam esse porro voluptates eaque unde enim omnis quasi deleniti
-                reprehenderit cum vitae perspiciatis, possimus rerum. Laborum, at saepe commodi officiis impedit
-                quisquam fugit sint ipsam aspernatur ut voluptatem consequuntur et reprehenderit facere debitis
-                voluptatum ratione laboriosam veritatis corrupti vitae sed ullam. Explicabo, voluptatem labore sed
-                expedita, repudiandae assumenda modi dolorem, obcaecati iure pariatur dolores voluptatibus rem? Ut,
-                ipsam dolorem.
+        <div class="bio-hero">
+            <div class="bio-hero-text">
+                <h1>Sebastian Sonne</h1>
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
             </div>
         </div>
+
+        <div class="bio-div-1">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deleniti corrupti porro. Iste voluptate
+            eos qui officia, illum nemo corporis? Voluptates corrupti sint possimus fuga soluta magni commodi
+            delectus placeat neque voluptatem, nam, facilis aliquam rem, iste iure praesentium tempore totam quis
+            incidunt quisquam non id dolorem? Magnam exercitationem velit cumque excepturi tempore libero natus
+            repellendus expedita, mollitia totam esse porro voluptates eaque unde enim omnis quasi deleniti
+            reprehenderit cum vitae perspiciatis, possimus rerum. Laborum, at saepe commodi officiis impedit
+            quisquam fugit sint ipsam aspernatur ut voluptatem consequuntur et reprehenderit facere debitis
+            voluptatum ratione laboriosam veritatis corrupti vitae sed ullam. Explicabo, voluptatem labore sed
+            expedita, repudiandae assumenda modi dolorem, obcaecati iure pariatur dolores voluptatibus rem? Ut,
+            ipsam dolorem.
+        </div>
+        <div class="bio-div-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod deleniti corrupti porro. Iste voluptate
+            eos qui officia, illum nemo corporis? Voluptates corrupti sint possimus fuga soluta magni commodi
+            delectus placeat neque voluptatem, nam, facilis aliquam rem, iste iure praesentium tempore totam quis
+            incidunt quisquam non id dolorem? Magnam exercitationem velit cumque excepturi tempore libero natus
+            repellendus expedita, mollitia totam esse porro voluptates eaque unde enim omnis quasi deleniti
+            reprehenderit cum vitae perspiciatis, possimus rerum. Laborum, at saepe commodi officiis impedit
+            quisquam fugit sint ipsam aspernatur ut voluptatem consequuntur et reprehenderit facere debitis
+            voluptatum ratione laboriosam veritatis corrupti vitae sed ullam. Explicabo, voluptatem labore sed
+            expedita, repudiandae assumenda modi dolorem, obcaecati iure pariatur dolores voluptatibus rem? Ut,
+            ipsam dolorem.
+        </div>
+
 
         <section class="footer-container">
             <footer>
