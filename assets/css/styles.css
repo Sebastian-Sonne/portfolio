@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
+
 :root[data-theme="light"] {
     --text: #061212;
     --background: #f4fcfc;
@@ -55,7 +58,7 @@
 body {
     background: var(--background);
     color: var(--text);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 16px;
     min-height: 100vh;
@@ -239,19 +242,21 @@ main {
 }
 
 .introduction h1 {
-    margin: 30vh auto 0 40px;
+    margin: 30vh auto 10px 30px;
+    font-family: 'Sixtyfour', sans-serif;
     font-size: 64px;
+    word-spacing: -20px;
     width: fit-content;
     background: linear-gradient(to right, var(--primary), var(--accent));
     -webkit-background-clip: text;
-            background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     transition: font-size 0.3s ease, margin 0.3s ease;
 }
 
 .full-h2,
 .short-h2 {
-    margin: 0 20px 0 40px;
+    margin: 0 20px 0 35px;
     transition: font-size 0.3s ease;
 }
 
@@ -273,7 +278,7 @@ main {
     font-weight: 600;
     color: var(--text);
     cursor: pointer;
-    margin: 40px 0 20px 40px;
+    margin: 40px 0 20px 35px;
     height: 55px;
     text-align: center;
     border: none;
@@ -342,6 +347,7 @@ main {
 .main-project {
     grid-column: 1/3;
 }
+
 /*
 .sub-project-1 {}
 */
@@ -566,6 +572,7 @@ footer {
 
 .bio-bg {
     position: absolute;
+    background-color: var(--gray-dark);
     background-image: var(--bio-bg-image);
     background-repeat: no-repeat;
     background-position: center;
@@ -573,12 +580,13 @@ footer {
     width: 100vw;
     height: 100vh;
     z-index: 0;
+    transition: background-image 0.3s ease;
 }
 
 .bio-name-container {
     display: flex;
     justify-content: center;
-    align-items:flex-start;
+    align-items: flex-start;
     height: 100vh;
 }
 
@@ -592,7 +600,7 @@ footer {
 .bio-hero-text {
     position: absolute;
     bottom: -100px;
-    
+
     color: var(--text-constant-light);
     background-color: #242424d2;
     width: 50%;
@@ -697,12 +705,16 @@ footer {
     .form-container {
         width: 500px;
     }
+
     .bio-section {
         flex-direction: column;
     }
 }
 
 @media only screen and (max-width: 1000px) {
+    .introduction h1 {
+        font-size: 50px;
+    }
     .form-container {
         width: 400px;
     }
@@ -728,6 +740,15 @@ footer {
         display: initial;
     }
 
+    .introduction h1 {
+        font-size: 36px;
+    }
+
+    .full-h2,
+    .short-h2 {
+        font-size: 18px;
+    }
+
     .contact-background-container {
         width: 50%;
     }
@@ -735,8 +756,8 @@ footer {
 
 @media only screen and (max-width: 560px) {
     .introduction h1 {
-        margin: 20vh auto 0 20px;
-        font-size: 40px;
+        margin: 20vh auto 10px 20px;
+        font-size: 28px;
     }
 
     .full-h2,
@@ -763,6 +784,12 @@ footer {
     }
 }
 
+@media only screen and (max-width: 450px) {
+    .introduction h1 {
+        font-size: 24px;
+    }
+}
+
 @media only screen and (max-width: 400px) {
 
     .full-h2,
@@ -778,11 +805,4 @@ footer {
         border-radius: 30px;
         font-size: 12px;
     }
-}
-
-@media only screen and (max-width: 330px) {
-    .introduction h1 {
-        font-size: 32px;
-    }
-
 }
