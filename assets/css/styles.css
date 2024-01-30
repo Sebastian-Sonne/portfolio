@@ -558,8 +558,9 @@ footer {
 }
 
 .bio-hero {
-    height: calc(100vh - 73.9px);
-    margin-bottom: 120px;
+    height: calc(100vh - 73.9px + 120px);
+    padding-bottom: 120px;
+    z-index: 1;
 }
 
 .bio-bg {
@@ -573,16 +574,32 @@ footer {
     z-index: 0;
 }
 
+.bio-name-container {
+    display: flex;
+    justify-content: center;
+    align-items:flex-start;
+    height: 100vh;
+}
+
+.bio-first-name,
+.bio-last-name {
+    font-size: 128px;
+    font-weight: 800;
+    padding: 100px 20px;
+}
+
 .bio-hero-text {
     position: absolute;
     bottom: -100px;
-    height: calc(20vh + 100px);
+    
     color: var(--text-constant-light);
     background-color: #242424d2;
     width: 50%;
     margin: 0 40px;
     padding: 20px;
     border-radius: 20px;
+
+    transition: width 0.3s ease;
 }
 
 .bio-hero-text p,
@@ -598,20 +615,30 @@ footer {
 
 .bio-content {
     background-color: var(--background);
-    
-    margin: 200px 40px;
+    margin: 0 40px 0 40px;
+    z-index: 1;
 }
 
-.bio-content img {
+.bio-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
+    height: 500px;
+}
+
+.bio-section img {
     width: 500px;
     height: 500px;
     border-radius: 250px;
     object-fit: cover;
 }
 
-.bio-section {
-    position: relative;
-    margin-bottom: 200px;
+.bio-p1,
+.bio-p2,
+.bio-p3,
+.bio-p4,
+.bio-p5 {
     padding: 20px;
     background-color: var(--gray-dark);
     border-radius: 20px;
@@ -619,7 +646,7 @@ footer {
 }
 
 .bio-p1 {
-    margin-left: auto;
+    
 }
 
 .bio-p2 {
@@ -627,7 +654,7 @@ footer {
 }
 
 .bio-p3 {
-    margin-left: auto;
+    
 }
 
 .bio-p4 {
@@ -636,6 +663,11 @@ footer {
 
 .bio-p5 {
     margin: 0 auto;
+}
+
+.bio-section-5 {
+    height: auto;
+    margin: 100px 0;
 }
 
 /*
@@ -680,11 +712,18 @@ footer {
     .form-container {
         width: 500px;
     }
+    .bio-section {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
     .form-container {
         width: 400px;
+    }
+
+    .bio-hero-text {
+        width: calc(100vw - 80px);
     }
 }
 
@@ -736,10 +775,6 @@ footer {
     .content-tiles-container {
         display: flex;
         flex-direction: column;
-    }
-
-    .bio-hero-text {
-        width: calc(100vw - 80px);
     }
 }
 
