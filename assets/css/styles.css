@@ -278,7 +278,7 @@ main {
     font-weight: 600;
     color: var(--text);
     cursor: pointer;
-    margin: 40px 0 20px 35px;
+    margin: 40px 0 40px 35px;
     height: 55px;
     text-align: center;
     border: none;
