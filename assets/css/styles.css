@@ -203,6 +203,10 @@ header {
     cursor: pointer;
 }
 
+.material-icons {
+    font-size: 12px;
+}
+
 .theme-switcher:hover {
     color: var(--secondary);
 }
@@ -566,7 +570,6 @@ footer {
 }
 
 .bio-hero {
-    height: calc(100vh - 73.9px + 120px);
     padding-bottom: 120px;
     z-index: 1;
 }
@@ -613,7 +616,8 @@ footer {
 
 .bio-hero-text {
     position: absolute;
-    bottom: -100px;
+    top: 85vh;
+
 
     color: var(--text-constant-light);
     background-color: #242424d2;
@@ -750,6 +754,10 @@ footer {
     .bio-bg h1 {
         font-size: 50px;
     }
+
+    .bio-section img {
+        max-width: calc(100% - 80px);
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -784,7 +792,7 @@ footer {
     .bio-bg h1 {
         text-align: center;
         align-items: flex-start;
-        padding: 20vh;
+        padding-top: 20vh;
     }
 }
 
@@ -822,6 +830,14 @@ footer {
     .introduction h1 {
         font-size: 24px;
     }
+
+    .bio-bg h1 {
+        font-size: 40px;
+    }
+
+    .bio-content {
+        padding-top: 20vh;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -838,5 +854,9 @@ footer {
         height: 40px;
         border-radius: 30px;
         font-size: 12px;
+    }
+
+    .bio-bg h1 {
+        font-size: 32px;
     }
 }
