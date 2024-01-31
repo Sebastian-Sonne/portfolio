@@ -19,7 +19,7 @@
     --font-medium: 16;
     --font-big: 24;
 
-    --bio-bg-image: url("/img/sebastian_sonne/mountain_center.jpg");
+    --bio-bg-image: url("/img/sebastian_sonne/mountain_center.webp");
 }
 
 :root[data-theme="dark"] {
@@ -40,7 +40,7 @@
     --font-medium: 16;
     --font-big: 24;
 
-    --bio-bg-image: url("/img/sebastian_sonne/sunset_1.jpg");
+    --bio-bg-image: url("/img/sebastian_sonne/sunset_1.webp");
 }
 
 :root {
@@ -164,6 +164,7 @@ header {
     background-color: var(--primary);
     overflow-x: hidden;
     transition: width 0.5s ease 0s;
+    z-index: 10;
 }
 
 .overlay--active {
@@ -181,7 +182,7 @@ header {
 .overlay__content a {
     margin-bottom: 5px;
     text-align: center;
-    width: 150px;
+    width: 180px;
     border-radius: 35px;
     transition: all 0.3s ease;
 }
@@ -583,6 +584,19 @@ footer {
     transition: background-image 0.3s ease;
 }
 
+.bio-bg h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 96px;
+    word-spacing: -20px;
+
+    transition: font-size 0.3s ease;
+}
+
 .bio-name-container {
     display: flex;
     justify-content: center;
@@ -632,8 +646,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    margin: 20px 0;
-    height: 500px;
+    
 }
 
 .bio-section img {
@@ -701,6 +714,12 @@ footer {
     }
 }
 
+@media only screen and (max-width: 1450px) {
+    .bio-bg h1 {
+        font-size: 78px;
+    }
+}
+
 @media only screen and (max-width: 1200px) {
     .form-container {
         width: 500px;
@@ -708,6 +727,11 @@ footer {
 
     .bio-section {
         flex-direction: column;
+        padding-top: 128px;
+    }
+
+    .bio-bg h1 {
+        font-size: 64px;
     }
 }
 
@@ -720,7 +744,11 @@ footer {
     }
 
     .bio-hero-text {
-        width: calc(100vw - 80px);
+        width: calc(100% - 80px);
+    }
+
+    .bio-bg h1 {
+        font-size: 50px;
     }
 }
 
@@ -751,6 +779,12 @@ footer {
 
     .contact-background-container {
         width: 50%;
+    }
+
+    .bio-bg h1 {
+        text-align: center;
+        align-items: flex-start;
+        padding: 20vh;
     }
 }
 
