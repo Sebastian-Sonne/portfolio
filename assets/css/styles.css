@@ -566,7 +566,6 @@ footer {
 }
 
 .bio-hero {
-    height: calc(100vh - 73.9px + 120px);
     padding-bottom: 120px;
     z-index: 1;
 }
