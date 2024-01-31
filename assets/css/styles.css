@@ -203,6 +203,10 @@ header {
     cursor: pointer;
 }
 
+.material-icons {
+    font-size: 12px;
+}
+
 .theme-switcher:hover {
     color: var(--secondary);
 }
