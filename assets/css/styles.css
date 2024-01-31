@@ -19,7 +19,7 @@
     --font-medium: 16;
     --font-big: 24;
 
-    --bio-bg-image: url("/img/sebastian_sonne/mountain_center.jpg");
+    --bio-bg-image: url("/img/sebastian_sonne/mountain_center.webp");
 }
 
 :root[data-theme="dark"] {
@@ -40,7 +40,7 @@
     --font-medium: 16;
     --font-big: 24;
 
-    --bio-bg-image: url("/img/sebastian_sonne/sunset_1.jpg");
+    --bio-bg-image: url("/img/sebastian_sonne/sunset_1.webp");
 }
 
 :root {
@@ -581,6 +581,17 @@ footer {
     height: 100vh;
     z-index: 0;
     transition: background-image 0.3s ease;
+}
+
+.bio-bg h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+    font-family: 'Sixtyfour', sans-serif;
+    font-size: 96px;
+    word-spacing: -20px;
 }
 
 .bio-name-container {
