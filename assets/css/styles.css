@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Syne:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sixtyfour&display=swap');
 
 :root[data-theme="light"] {
@@ -6,7 +7,7 @@
     --background: #f4fcfc;
     --primary: #4dc6c7;
     --secondary: #8da2db;
-    --accent: #716dd1;
+    --accent: #6f6be1;
 
     --primary-light: #4dc6c780;
     --text-invert: #ecf9f9;
@@ -27,7 +28,7 @@
     --background: #030c0c;
     --primary: #38b2b2;
     --secondary: #233870;
-    --accent: #322f93;
+    --accent: #221e92;
 
     --primary-light: #38b2b285;
     --text-invert: #061212;
@@ -58,7 +59,7 @@
 body {
     background: var(--background);
     color: var(--text);
-    font-family: 'Rubik', sans-serif;
+    font-family: 'Syne', 'Rubik', sans-serif;
     font-weight: 500;
     font-size: 16px;
     min-height: 100vh;
@@ -453,15 +454,14 @@ footer {
     min-height: 100vh;
     transform: skew(-20deg);
     transform-origin: top left;
-    /*background-image: url(/img/bg-material.jpg);*/
-    background-color: var(--primary-light);
+    background-color: var(--gray-light);
     transition: width 0.5s ease, transform 0.5s ease, display 0.3s ease;
     z-index: -1;
 }
 
 .contact-background-container.element-2 {
     width: 57%;
-    background-color: #ffffff15;
+    background-color: #00000016;
 }
 
 .contact-content-container {
@@ -576,7 +576,8 @@ footer {
 
 .bio-bg {
     position: absolute;
-    background-color: var(--gray-dark);
+    /*pre bg*/
+    background: var(--background);
     background-image: var(--bio-bg-image);
     background-repeat: no-repeat;
     background-position: center;
@@ -592,7 +593,7 @@ footer {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    
+
     font-family: 'Sixtyfour', sans-serif;
     font-size: 96px;
     word-spacing: -20px;
@@ -650,7 +651,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    
+
 }
 
 .bio-section img {
@@ -743,6 +744,7 @@ footer {
     .introduction h1 {
         font-size: 50px;
     }
+
     .form-container {
         width: 400px;
     }
