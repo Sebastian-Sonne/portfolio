@@ -651,10 +651,12 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding-top: 112px;
 
 }
 
 .bio-section img {
+    background-color: var(--gray-dark);
     width: 500px;
     height: 500px;
     border-radius: 250px;
@@ -670,6 +672,10 @@ footer {
     background-color: var(--gray-light);
     border-radius: 20px;
     width: 40vw;
+}
+
+.bio-p1 {
+    max-width: 25vw;
 }
 
 .bio-p5 {
