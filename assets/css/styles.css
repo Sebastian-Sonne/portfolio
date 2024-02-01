@@ -244,7 +244,6 @@ main {
 
 .introduction {
     height: calc(100vh - 73.95px);
-
 }
 
 .introduction h1 {
@@ -651,8 +650,11 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    padding-top: 112px;
+}
 
+.bio-section-1 {
+    padding-top: 112px;
+    padding-bottom: 100px;
 }
 
 .bio-section img {
@@ -680,11 +682,7 @@ footer {
 
 .bio-p5 {
     margin: 0 auto;
-}
-
-.bio-section-5 {
-    height: auto;
-    margin: 100px 0;
+    margin-top: 64px;
 }
 
 /*
@@ -738,7 +736,31 @@ footer {
 
     .bio-section {
         flex-direction: column;
+        padding-bottom: 40px;
+    }
+
+    .bio-section-1 {
         padding-top: 128px;
+    }
+
+    .bio-section-1 {
+        padding-bottom: 0;
+    }
+
+    .bio-section img {
+        width: 100%;
+        margin-bottom: 40px;
+        border-radius: 20px;
+    }
+
+    .bio-p1,
+    .bio-p2,
+    .bio-p3,
+    .bio-p4,
+    .bio-p5 {
+        width: 100%;
+        max-width: unset;
+        margin-bottom: 40px;
     }
 
     .bio-bg h1 {
@@ -761,10 +783,6 @@ footer {
 
     .bio-bg h1 {
         font-size: 50px;
-    }
-
-    .bio-section img {
-        max-width: calc(100% - 80px);
     }
 }
 
@@ -868,3 +886,5 @@ footer {
         font-size: 32px;
     }
 }
+
+@media only screen and (max-width: 350px) {}
