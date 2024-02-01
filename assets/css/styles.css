@@ -244,7 +244,6 @@ main {
 
 .introduction {
     height: calc(100vh - 73.95px);
-
 }
 
 .introduction h1 {
@@ -887,3 +886,5 @@ footer {
         font-size: 32px;
     }
 }
+
+@media only screen and (max-width: 350px) {}
