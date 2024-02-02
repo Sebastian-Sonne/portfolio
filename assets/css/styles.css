@@ -476,7 +476,7 @@ footer {
     padding: 0 20px;
     width: 40%;
     min-height: 100%;
-    background-color: transparent;
+    border-radius: 20px;
     transition: width 0.3s ease, margin 0.3s ease, padding 0.3s ease;
 }
 
@@ -561,6 +561,10 @@ footer {
     margin: 0;
 }
 
+.contact-footer {
+    margin-bottom: 0;
+}
+
 /*
     Bio 
 */
@@ -620,7 +624,9 @@ footer {
 
 
     color: var(--text-constant-light);
-    background-color: #242424d2;
+    backdrop-filter: blur(10px) saturate(100%);
+    -webkit-backdrop-filter: blur(9px) saturate(100%);
+    background-color: #242424a1;
     width: 50%;
     margin: 0 40px;
     padding: 20px;
