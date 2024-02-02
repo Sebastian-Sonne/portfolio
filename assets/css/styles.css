@@ -643,6 +643,7 @@ footer {
 .bio-content {
     background-color: var(--background);
     margin: 0 40px 0 40px;
+    max-width: 2560px;
     z-index: 1;
 }
 
@@ -766,6 +767,10 @@ footer {
     .bio-bg h1 {
         font-size: 64px;
     }
+
+    .bio-p5 {
+        margin-top: 0;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -850,6 +855,9 @@ footer {
         display: flex;
         flex-direction: column;
     }
+    .bio-content {
+        padding-top: 15vw;
+    }
 }
 
 @media only screen and (max-width: 450px) {
@@ -862,7 +870,7 @@ footer {
     }
 
     .bio-content {
-        padding-top: 20vh;
+        padding-top: 35vw;
     }
 }
 
@@ -885,6 +893,15 @@ footer {
     .bio-bg h1 {
         font-size: 32px;
     }
+
+    .bio-content {
+        padding-top: 250px;
+    }
 }
 
-@media only screen and (max-width: 350px) {}
+@media only screen and (max-width: 350px) {
+
+    .bio-section-1 {
+        padding-top: 350px;
+    }
+}
