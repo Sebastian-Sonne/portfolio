@@ -561,6 +561,10 @@ footer {
     margin: 0;
 }
 
+.contact-footer {
+    margin-bottom: 0;
+}
+
 /*
     Bio 
 */
