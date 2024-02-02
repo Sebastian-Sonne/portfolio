@@ -643,6 +643,7 @@ footer {
 .bio-content {
     background-color: var(--background);
     margin: 0 40px 0 40px;
+    max-width: 2560px;
     z-index: 1;
 }
 
