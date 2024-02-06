@@ -692,6 +692,63 @@ footer {
     margin-top: 64px;
 }
 
+
+/*
+    Imprint
+*/
+
+.imprint-bg {
+    position: absolute;
+    background: var(--background);
+    width: 100vw;
+    height: 100vh;
+    z-index: 0;
+    transition: background-image 0.3s ease;
+
+}
+
+.imprint-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    min-height: calc(80vh - 79.4px);
+}
+
+.imprint-content {
+    background-image: linear-gradient(to right top, var(--gray-light), var(--gray-medium));
+    
+    border-radius: 30px;
+    min-width: 40vw;
+    max-width: 300px;
+
+    padding: 20px;
+    width: fit-content;
+    text-align: center;
+    z-index: 1;
+}
+
+.imprint-content h1,
+.imprint-content h2,
+.imprint-content p {
+    margin-bottom: 20px;
+}
+
+.imprint-content h1 {
+    
+}
+
+.imprint-content h2 {
+
+}
+
+.imprint p {
+
+}
+
+.bio-footer {
+    z-index: 1;
+}
 /*
     Media Queries
 */
