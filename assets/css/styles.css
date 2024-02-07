@@ -733,6 +733,7 @@ footer {
 
 .imprint-content a {
     color: var(--primary);
+    cursor: pointer;
 }
 
 .imprint-content a:hover {

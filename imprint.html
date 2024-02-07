@@ -68,24 +68,22 @@
             <h2>Technical Data & Copyright</h2>
             <p>
                 This website is hosted on <strong>Github Pages</strong>.
-                <br>
+                <br><br>
                 All content, including but not limited to text, code, and images, is protected by copyright law unless
                 otherwise indicated.
-                <br>
-                <br>
+                <br><br>
                 The code for this website is licensed under the <a
                     href="https://github.com/sebastian-sonne/sebastian-sonne/blob/main/LICENSE"><strong>MIT
                         License</strong></a>.
                 <br><br>
                 Images used on this website are protected by copyright law and may not be reproduced, distributed,
-                transmitted, displayed, or otherwise used or changed without the prior written permission of Sebastian
-                Sonne.
+                transmitted, displayed, or otherwise used or changed without the prior written permission of
+                <strong>Sebastian Sonne</strong> unless otherwise indicated.
                 <br><br>
                 For more information about the licensing terms, please refer to the LICENSE file in the GitHub
                 repository:
-                <br>
-                <br>
-                <a class="imprint-a" href="https://github.com/sebastian-sonne/sebastian-sonne/blob/main/LICENSE">View
+                <br><br>
+                <a class="imprint-a" onclick="redirectLink()">View
                     License</a>
                 <a class="imprint-a" href="/LICENSE">Download License</a>
             </p>
@@ -99,6 +97,14 @@
             Powered by <a href="https://github.com/sebastian-sonne">Sebastian Sonne</a>
         </p>
     </footer>
+
+    <script>
+        function redirectLink() {
+            if(confirm('You will be getting redirected to "github.com". Confirm to proceed.')) {
+                window.location.href = 'https://github.com/sebastian-sonne/sebastian-sonne.com/blob/main/LICENSE';
+            } 
+        }
+    </script>
 </body>
 
 </html>
