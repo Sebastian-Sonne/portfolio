@@ -15,6 +15,7 @@
     --gray-light: #f2f2f2;
     --gray-medium: #dcdcdc;
     --gray-dark: #a0a0a0;
+    --gray-black: #3d3d3d;
 
     --font-small: 12;
     --font-medium: 16;
@@ -36,6 +37,7 @@
     --gray-light: #606060;
     --gray-medium: #404040;
     --gray-dark: #202020;
+    --gray-black: #ababab;
 
     --font-small: 12;
     --font-medium: 16;
@@ -704,27 +706,22 @@ footer {
     height: 100vh;
     z-index: 0;
     transition: background-image 0.3s ease;
-
 }
 
 .imprint-main {
     display: flex;
     align-items: center;
     justify-content: center;
-
-    min-height: calc(80vh - 79.4px);
+    min-height: calc(90vh - 79.4px);
+    padding-top: 40px;
 }
 
 .imprint-content {
     background-image: linear-gradient(to right top, var(--gray-light), var(--gray-medium));
-    
     border-radius: 30px;
-    min-width: 40vw;
-    max-width: 300px;
-
+    width: 800px;
     padding: 20px;
-    width: fit-content;
-    text-align: center;
+    transition: width 0.3s ease;
     z-index: 1;
 }
 
@@ -732,23 +729,32 @@ footer {
 .imprint-content h2,
 .imprint-content p {
     margin-bottom: 20px;
+    line-height: 1.2;
 }
 
-.imprint-content h1 {
-    
+.imprint-content p {
+    font-size: 18px;
+    color: var(--gray-black);
+    margin-bottom: 30px;
 }
 
-.imprint-content h2 {
-
+.imprint-content a {
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 20px;
+    margin: 20px 0;
+    transition: border-color 0.3s ease,;
 }
 
-.imprint p {
-
+.imprint-content a:hover {
+    border-color: var(--primary);
+    color: var(--primary);
 }
 
 .bio-footer {
     z-index: 1;
 }
+
 /*
     Media Queries
 */
@@ -852,6 +858,10 @@ footer {
     .bio-bg h1 {
         font-size: 50px;
     }
+
+    .imprint-content {
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -918,6 +928,7 @@ footer {
         display: flex;
         flex-direction: column;
     }
+
     .bio-content {
         padding-top: 15vw;
     }
