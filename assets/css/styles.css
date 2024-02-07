@@ -746,7 +746,7 @@ footer {
     border: 2px solid;
     border-radius: 10px;
     margin: 20px 0;
-    transition: border-color 0.3s ease,;
+    transition: border-color 0.3s ease, ;
 }
 
 .imprint-a:hover {
@@ -980,5 +980,12 @@ footer {
 
     .bio-section-1 {
         padding-top: 350px;
+    }
+}
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 812px) and (-webkit-min-device-pixel-ratio: 3) and (orientation: landscape) {
+    body {
+        width: 100vw;
+        overflow: hidden;
     }
 }
