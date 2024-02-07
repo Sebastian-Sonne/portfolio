@@ -699,25 +699,18 @@ footer {
     Imprint
 */
 
-.imprint-bg {
-    position: absolute;
-    background: var(--background);
-    width: 100vw;
-    height: 100vh;
-    z-index: 0;
-    transition: background-image 0.3s ease;
-}
-
 .imprint-main {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: calc(90vh - 79.4px);
-    padding-top: 40px;
+    padding: 40px 40px;
+    z-index: 0;
 }
 
 .imprint-content {
-    background-color: var(--gray-light);
+    background-color: #00000016;
+    box-shadow: var(--primary) 0px 0px 10px;
     border-radius: 30px;
     width: 800px;
     padding: 20px;
@@ -760,8 +753,8 @@ footer {
     color: var(--primary) !important;
 }
 
-.bio-footer {
-    z-index: 1;
+.imprint-footer {
+    z-index: 0;
 }
 
 /*
