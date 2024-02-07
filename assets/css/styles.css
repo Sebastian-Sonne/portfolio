@@ -708,14 +708,6 @@ footer {
     transition: background-image 0.3s ease;
 }
 
-.imprint-main {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    min-height: calc(90vh - 79.4px);
-    padding-top: 40px;
-}
-
 .imprint-content {
     background-color: var(--gray-light);
     border-radius: 30px;
@@ -760,8 +752,8 @@ footer {
     color: var(--primary) !important;
 }
 
-.bio-footer {
-    z-index: 1;
+.imprint-footer {
+    z-index: 0;
 }
 
 /*
