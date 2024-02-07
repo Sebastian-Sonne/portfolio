@@ -709,7 +709,7 @@ footer {
 }
 
 .imprint-content {
-    background-color: #00000016;
+    background-color: transparent;
     box-shadow: var(--primary) 0px 0px 10px;
     border-radius: 30px;
     width: 800px;

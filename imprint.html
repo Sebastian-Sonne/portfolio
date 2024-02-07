@@ -8,6 +8,7 @@
     <meta name="description" content="">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script src="/assets/js/script.js"></script>
+    <script src="/assets/js/imprint.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <title>Imprint - Sebastian Sonne</title>
 </head>
@@ -83,9 +84,9 @@
                 For more information about the licensing terms, please refer to the LICENSE file in the GitHub
                 repository:
                 <br><br>
-                <a class="imprint-a" onclick="redirectLink()">View
+                <a class="imprint-a" onclick="redirectLicnse()">View
                     License</a>
-                <a class="imprint-a" href="/LICENSE">Download License</a>
+                <a class="imprint-a" onclick="downloadLicense()">Download License</a>
             </p>
         </div>
     </main>
@@ -97,14 +98,6 @@
             Powered by <a href="https://github.com/sebastian-sonne">Sebastian Sonne</a>
         </p>
     </footer>
-
-    <script>
-        function redirectLink() {
-            if(confirm('You will be getting redirected to "github.com". Confirm to proceed.')) {
-                window.location.href = 'https://github.com/sebastian-sonne/sebastian-sonne.com/blob/main/LICENSE';
-            } 
-        }
-    </script>
 </body>
 
 </html>
