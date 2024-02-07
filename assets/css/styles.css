@@ -37,7 +37,7 @@
     --gray-light: #606060;
     --gray-medium: #404040;
     --gray-dark: #202020;
-    --gray-black: #ababab;
+    --gray-black: #f1f1f1;
 
     --font-small: 12;
     --font-medium: 16;
@@ -717,7 +717,7 @@ footer {
 }
 
 .imprint-content {
-    background-image: linear-gradient(to right top, var(--gray-light), var(--gray-medium));
+    background-color: var(--gray-light);
     border-radius: 30px;
     width: 800px;
     padding: 20px;
@@ -739,16 +739,25 @@ footer {
 }
 
 .imprint-content a {
-    padding: 10px;
+    color: var(--primary);
+}
+
+.imprint-content a:hover {
+    color: var(--accent);
+}
+
+.imprint-a {
+    color: var(--text) !important;
+    padding: 5px 10px;
     border: 2px solid;
-    border-radius: 20px;
+    border-radius: 10px;
     margin: 20px 0;
     transition: border-color 0.3s ease,;
 }
 
-.imprint-content a:hover {
+.imprint-a:hover {
     border-color: var(--primary);
-    color: var(--primary);
+    color: var(--primary) !important;
 }
 
 .bio-footer {
