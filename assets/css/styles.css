@@ -699,13 +699,13 @@ footer {
     Imprint
 */
 
-.imprint-bg {
-    position: absolute;
-    background: var(--background);
-    width: 100vw;
-    height: 100vh;
+.imprint-main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: calc(90vh - 79.4px);
+    padding-top: 40px;
     z-index: 0;
-    transition: background-image 0.3s ease;
 }
 
 .imprint-content {
