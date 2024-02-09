@@ -236,6 +236,25 @@ header {
 }
 
 /*
+    slide in animations
+*/
+@media (prefers-reduced-motion) {
+    .hidden {
+        transition: none;
+    }
+}
+.hidden {
+    opacity: 0.8;
+    transform: scale(0.85);
+    transition: all 500ms;
+}
+
+.show {
+    transform: scale(1);
+    opacity: 1;
+}
+
+/*
     body
 */
 
