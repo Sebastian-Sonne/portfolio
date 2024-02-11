@@ -787,15 +787,20 @@ footer {
     display: block;
     padding: 10px 30px;
     margin: 0 10px;
-    background-color: var(--gray-dark);
     border: 3px solid transparent;
     border-radius: 30px;
     cursor: pointer;
-    transition: border-color 0.3s ease, background-color 0.3s ease;
+    transition: all 0.3s ease;
 }
 
 .media-nav li:hover {
-    border-color: var(--text);
+    background-color: var(--gray-light);
+    transform: scale(1.025);
+}
+
+.media-li-active {
+    transform: scale(1.075);
+    box-shadow: 0px 0px 5px var(--text-constant-dark);
 }
 
 .media-grid {
