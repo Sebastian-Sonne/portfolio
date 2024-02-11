@@ -124,7 +124,7 @@ header {
 
 .nav ul li a {
     display: block;
-    padding: 10px 30px 10px 30px;
+    padding: 10px 30px;
     border-radius: 20px;
 }
 
@@ -750,6 +750,38 @@ footer {
 /*
     MEDIA
 */
+
+.media-hero {
+    height: calc(100vh - 73.95px);
+}
+
+.media-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+
+    background-color: var(--gray-medium);
+    color: var(--text);
+    height: 73.95px;
+}
+
+.media-nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+
+.media-nav li {
+    display: block;
+    padding: 10px 30px;
+    margin: 0 10px;
+    background-color: var(--gray-dark);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 .media-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
