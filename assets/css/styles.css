@@ -746,6 +746,55 @@ footer {
 .icon-link {
     transform: scale(1.5);
 }
+
+/*
+    MEDIA
+*/
+.media-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+    grid-template-rows: 350px;
+    grid-gap: 10px;
+    padding: 10px;
+}
+
+.media-grid img {
+    height: 350px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: transform 0.3s ease-out;
+}
+
+.media-grid img:hover {
+    transform: scale(1.025);
+}
+
+.media-img-1 {
+    grid-column: span 2;
+}
+
+.media-img-2 {
+    
+}
+
+.media-img-3 {
+    
+}
+
+.media-img-4 {
+    
+}
+
+.media-img-5 {
+    
+}
+
+.media-img-6 {
+    grid-row-start: span 2;
+    height: 100% !important;
+}
+
 /*
     Imprint
 */
@@ -952,6 +1001,20 @@ footer {
         align-items: flex-start;
         padding-top: 20vh;
     }
+
+    .media-grid {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .media-grid img {
+        height: 100%;
+    }
+
+    .media-grid img:hover {
+        transform: none;
+    }
+
 }
 
 @media only screen and (max-width: 560px) {
