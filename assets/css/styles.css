@@ -779,6 +779,7 @@ footer {
     margin: 0 10px;
     background-color: var(--gray-dark);
     border-radius: 20px;
+    cursor: pointer;
 }
 
 .media-grid {
