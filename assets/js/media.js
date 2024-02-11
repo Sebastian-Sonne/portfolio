@@ -18,8 +18,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 if (previousElement) {
                     previousElement.style.backgroundColor = '';
+                    previousElement.classList.remove('media-li-active');
                 }
                 currentElement.style.backgroundColor = 'var(--primary)';
+                currentElement.classList.add('media-li-active');
 
                 previousElement = currentElement;
                 setupIntersectionObserver();
@@ -77,6 +79,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const initialNavItem = categoryNav.querySelector(`[data-category="${initialCategory}"]`);
     if (initialNavItem) {
         initialNavItem.style.backgroundColor = 'var(--primary';
+        initialNavItem.classList.add('media-li-active');
         previousElement = initialNavItem;
     }
     updateImages(initialCategory);
