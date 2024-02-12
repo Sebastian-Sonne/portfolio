@@ -890,6 +890,7 @@ footer {
     height: 100px;
     padding: 10px 15px;
     text-align: left;
+    transition: all 0.3s ease;
 }
 
 #media-nav-arrow-left,

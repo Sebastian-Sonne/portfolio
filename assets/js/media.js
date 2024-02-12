@@ -48,15 +48,38 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 
     //image navigation left right functions
+    //switches the current lighbox image with the one on the left of it
     function showPrevImg() {
-        //TODO implement function
-        console.log('left');
+        const currCategory = getCategoryFromUrl();
+        const currImgIndex = getCurrentImageIndex(currCategory);
+        const imgURLs = getImagesForCategory(getCategoryFromUrl());
+        const prevImgIndex = (currImgIndex - 1 + imgURLs.length) % imgURLs.length;
+        updateLightboxImage(prevImgIndex);
     }
 
+    //switches the current lighbox image with the one on the right of it
     function showNextImg() {
-        //TODO implement function
-        console.log('right');
+        const currCategory = getCategoryFromUrl();
+        const currImgIndex = getCurrentImageIndex(currCategory);
+        const imgURLs = getImagesForCategory(getCategoryFromUrl());
+        const nextImgIndex = (currImgIndex + 1 + imgURLs.length) % imgURLs.length;
+        updateLightboxImage(nextImgIndex);
     }
+
+    // Function to get the index of the currently displayed image
+    function getCurrentImageIndex(category) {
+        const currentImgSrc = document.getElementById("lightbox-img").src;
+        const imgURLs = getImagesForCategory(category);
+        // Find the index of the current image by checking if the currentImgSrc contains each URL
+        return imgURLs.findIndex(img => currentImgSrc.includes(img));
+    }
+
+    //update the lighbox image
+    function updateLightboxImage(index) {
+        const imgURLs = getImagesForCategory(getCategoryFromUrl());
+        document.getElementById('lightbox-img').src = imgURLs[index];
+    }
+
 
     function updateImages(category) {
         // Clear previous images
@@ -143,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function lightboxDisplay(style) {
         document.getElementById("lightbox").style.display = style;
     }
-
+    
     //closes lightbox when escape key is pressed
     document.addEventListener('keydown', function (event) {
         if (event.key === "Escape") {
@@ -176,15 +199,6 @@ function handleCategoryChange(category) {
     } else {
         return false;
     }
-}
-
-//image navigation left right functions
-function showPrevImg() {
-
-}
-
-function showNextImg() {
-
 }
 
 //website observer setup for smooth ux
