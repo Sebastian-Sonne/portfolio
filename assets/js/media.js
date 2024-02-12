@@ -31,6 +31,33 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    //nav arrows
+    const prevBtn = document.getElementById("media-nav-arrow-left");
+    const nextBtn = document.getElementById("media-nav-arrow-right");
+
+    prevBtn.addEventListener('click', function () {
+        if (lightbox.style.display === 'block') {
+            showPrevImg();
+        }
+    });
+
+    nextBtn.addEventListener('click', function () {
+        if (lightbox.style.display === 'block') {
+            showNextImg();
+        }
+    });
+
+    //image navigation left right functions
+    function showPrevImg() {
+        //TODO implement function
+        console.log('left');
+    }
+
+    function showNextImg() {
+        //TODO implement function
+        console.log('right');
+    }
+
     function updateImages(category) {
         // Clear previous images
         imageContainer.innerHTML = "";
@@ -122,6 +149,16 @@ document.addEventListener("DOMContentLoaded", function () {
         if (event.key === "Escape") {
             lightboxDisplay('none');
         }
+
+        if (lightbox.style.display === 'block') {
+            if (event.key === 'ArrowLeft') {
+                showPrevImg();
+            }
+
+            if (event.key === 'ArrowRight') {
+                showNextImg();
+            }
+        }
     })
 
     // Show image on click
@@ -139,6 +176,15 @@ function handleCategoryChange(category) {
     } else {
         return false;
     }
+}
+
+//image navigation left right functions
+function showPrevImg() {
+
+}
+
+function showNextImg() {
+
 }
 
 //website observer setup for smooth ux

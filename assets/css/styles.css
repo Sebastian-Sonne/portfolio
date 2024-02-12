@@ -892,6 +892,28 @@ footer {
     text-align: left;
 }
 
+#media-nav-arrow-left,
+#media-nav-arrow-right {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 40px;
+    cursor: pointer;
+    user-select: none;
+    transition: font-size 0.3s ease;
+}
+
+#media-nav-arrow-left {
+    left: 20px;
+    right: unset;
+}
+
+#media-nav-arrow-left:hover,
+#media-nav-arrow-right:hover {
+    font-size: 50px;
+}
+
 #close {
     position: absolute;
     top: 10px;
