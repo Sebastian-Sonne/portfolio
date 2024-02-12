@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function () {
             }
             imageContainer.appendChild(imgElement);
 
-            imgElement.addEventListener("click", function() {
+            imgElement.addEventListener("click", function () {
                 document.getElementById("lightbox-img").src = this.src;
                 lightboxDisplay('block');
             })
@@ -101,7 +101,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (handleCategoryChange(initialCategory)) {
         if (initialNavItem) {
-            initialNavItem.style.backgroundColor = 'var(--primary';
+            initialNavItem.style.backgroundColor = 'var(--primary)';
             initialNavItem.classList.add('media-li-active');
             previousElement = initialNavItem;
         }
@@ -118,7 +118,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     //closes lightbox when escape key is pressed
-    document.addEventListener('keydown', function(event) {
+    document.addEventListener('keydown', function (event) {
         if (event.key === "Escape") {
             lightboxDisplay('none');
         }
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Show image on click
     const closeBtn = document.getElementById("close");
-    closeBtn.addEventListener("click", function() {
+    closeBtn.addEventListener("click", function () {
         lightboxDisplay('none');
     });
 });
