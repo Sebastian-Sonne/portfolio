@@ -9,10 +9,12 @@ document.addEventListener("DOMContentLoaded", function () {
             const selectedCategory = event.target.dataset.category;
             const prevCategory = getCategoryFromUrl();
 
-            //prevent unnesecary reload
             if (selectedCategory != prevCategory) {
                 updateImages(selectedCategory);
                 updateURL(selectedCategory);
+
+                const invalidCategoryDiv = document.getElementById('media-invalid-category');
+                invalidCategoryDiv.style.display = "none";
 
                 const currentElement = document.querySelector(`[data-category="${selectedCategory}"]`);
 
@@ -41,7 +43,11 @@ document.addEventListener("DOMContentLoaded", function () {
             const imgElement = document.createElement("img");
             imgElement.src = image;
             imgElement.classList.add('hidden');
-            imgElement.setAttribute('alt', 'Image in Image Galery - auto generated, no description available.');
+            if (category != 'invalid') {
+                imgElement.setAttribute('alt', 'Image in Image Galery - auto generated, no exact image description available.');
+            } else {
+                imgElement.setAttribute('alt', 'Error 404 - category not found');
+            }
             imageContainer.appendChild(imgElement);
         });
     }
@@ -56,16 +62,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //returns list of image urls depending on category
     function getImagesForCategory(category) {
-        // Simulated image URLs for demonstration
-        const imageUrls = {
-            all: ["/img/b-roll/mountain_2.jpg", "/img/b-roll/singapore_1.webp", "/img/b-roll/snow_1.jpg", "/img/b-roll/sunset_1.jpg", "/img/b-roll/tennis_1.webp", "/img/b-roll/munich_1.webp", "/img/b-roll/mountain_2.jpg", "/img/b-roll/singapore_1.webp", "/img/b-roll/snow_1.jpg", "/img/b-roll/sunset_1.jpg", "/img/b-roll/tennis_1.webp", "/img/b-roll/munich_1.webp", "/img/b-roll/mountain_2.jpg", "/img/b-roll/singapore_1.webp", "/img/b-roll/snow_1.jpg", "/img/b-roll/sunset_1.jpg", "/img/b-roll/tennis_1.webp", "/img/b-roll/munich_1.webp", "/img/b-roll/mountain_2.jpg", "/img/b-roll/singapore_1.webp", "/img/b-roll/snow_1.jpg", "/img/b-roll/sunset_1.jpg", "/img/b-roll/tennis_1.webp", "/img/b-roll/munich_1.webp"],
-            nature: ["/img/b-roll/mountain_2.jpg", "/img/b-roll/snow_1.jpg", "/img/b-roll/sunset_1.jpg"],
-            city: ["/img/b-roll/munich_1.webp", "/img/b-roll/singapore_1.webp", "/img/b-roll/singapore_2.webp"],
-            birdseye: ["", ""]
-            // Add more categories as needed
-        };
+        //list of folder lengths, for link generation purpose
+        const imgFolderLenght = {
+            all: 55,    //* Not accurate yet
+            nature: 26,
+            city: 35,
+            cars: 5,    //* Not accurate yet
+            birdseye: 2,    //* Not accurate yet
+            invalid: 4,    //* Not accurate yet
+        }
 
-        return imageUrls[category] || [];
+        const numImages = imgFolderLenght[category];
+        const imageUrls = [];
+
+        for (let i = 1; i <= numImages; i++) {
+            const imageUrl = `/img/media/${category}/img_${i}.jpg`;
+            console.log(imageUrl);
+            imageUrls.push(imageUrl);
+        }
+        return imageUrls;
     }
 
     // Function to get category from URL parameter
@@ -77,13 +92,31 @@ document.addEventListener("DOMContentLoaded", function () {
     // Initial load of images based on category from URL parameter
     const initialCategory = getCategoryFromUrl();
     const initialNavItem = categoryNav.querySelector(`[data-category="${initialCategory}"]`);
-    if (initialNavItem) {
-        initialNavItem.style.backgroundColor = 'var(--primary';
-        initialNavItem.classList.add('media-li-active');
-        previousElement = initialNavItem;
+    const invalidCategoryDiv = document.getElementById('media-invalid-category');
+
+    if (handleCategoryChange(initialCategory)) {
+        if (initialNavItem) {
+            initialNavItem.style.backgroundColor = 'var(--primary';
+            initialNavItem.classList.add('media-li-active');
+            previousElement = initialNavItem;
+        }
+        invalidCategoryDiv.style.display = "none";
+        updateImages(initialCategory);
+    } else {
+        invalidCategoryDiv.style.display = "block";
+        updateImages('invalid');
     }
-    updateImages(initialCategory);
 });
+
+// checks for valid category
+function handleCategoryChange(category) {
+    const validCategories = ['all', 'nature', 'city', 'cars', 'birdseye']; //* Define valid categories
+    if (validCategories.includes(category)) {
+        return true;
+    } else {
+        return false;
+    }
+}
 
 function setupIntersectionObserver() {
     const observer = new IntersectionObserver((entries) => {
