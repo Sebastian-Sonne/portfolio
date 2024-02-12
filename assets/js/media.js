@@ -47,7 +47,8 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    //image navigation left right functions
+    //image navigation left right functions =>
+
     //switches the current lighbox image with the one on the left of it
     function showPrevImg() {
         const currCategory = getCategoryFromUrl();
@@ -55,6 +56,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const imgURLs = getImagesForCategory(getCategoryFromUrl());
         const prevImgIndex = (currImgIndex - 1 + imgURLs.length) % imgURLs.length;
         updateLightboxImage(prevImgIndex);
+
+        setTimeout(() => {
+            navigationActive = true;
+        }, 100);
     }
 
     //switches the current lighbox image with the one on the right of it
@@ -64,6 +69,10 @@ document.addEventListener("DOMContentLoaded", function () {
         const imgURLs = getImagesForCategory(getCategoryFromUrl());
         const nextImgIndex = (currImgIndex + 1 + imgURLs.length) % imgURLs.length;
         updateLightboxImage(nextImgIndex);
+
+        setTimeout(() => {
+            navigationActive = true;
+        }, 100);
     }
 
     // Function to get the index of the currently displayed image
@@ -77,7 +86,11 @@ document.addEventListener("DOMContentLoaded", function () {
     //update the lighbox image
     function updateLightboxImage(index) {
         const imgURLs = getImagesForCategory(getCategoryFromUrl());
-        document.getElementById('lightbox-img').src = imgURLs[index];
+        const lighboxImg = document.getElementById('lightbox-img');
+        if (imgURLs[index] != '') {
+            lighboxImg.setAttribute('alt', 'Image auto generated - no description available');
+        }
+        lighboxImg.src = imgURLs[index];
     }
 
 
@@ -91,14 +104,17 @@ document.addEventListener("DOMContentLoaded", function () {
         // Append images to the container
         images.forEach(image => {
             const imgElement = document.createElement("img");
+
             imgElement.src = image;
             imgElement.classList.add('thumbnail');
             imgElement.classList.add('hidden');
+
             if (category != 'invalid') {
                 imgElement.setAttribute('alt', 'Image in Image Galery - auto generated, no exact image description available.');
             } else {
                 imgElement.setAttribute('alt', 'Error 404 - category not found');
             }
+
             imageContainer.appendChild(imgElement);
 
             imgElement.addEventListener("click", function () {
