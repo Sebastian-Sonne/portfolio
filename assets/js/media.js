@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const imageUrls = {
             all: ["/img/b-roll/mountain_2.jpg", "/img/b-roll/singapore_1.webp", "/img/b-roll/snow_1.jpg", "/img/b-roll/sunset_1.jpg", "/img/b-roll/tennis_1.webp", "/img/b-roll/munich_1.webp", "/img/b-roll/mountain_2.jpg", "/img/b-roll/singapore_1.webp", "/img/b-roll/snow_1.jpg", "/img/b-roll/sunset_1.jpg", "/img/b-roll/tennis_1.webp", "/img/b-roll/munich_1.webp", "/img/b-roll/mountain_2.jpg", "/img/b-roll/singapore_1.webp", "/img/b-roll/snow_1.jpg", "/img/b-roll/sunset_1.jpg", "/img/b-roll/tennis_1.webp", "/img/b-roll/munich_1.webp", "/img/b-roll/mountain_2.jpg", "/img/b-roll/singapore_1.webp", "/img/b-roll/snow_1.jpg", "/img/b-roll/sunset_1.jpg", "/img/b-roll/tennis_1.webp", "/img/b-roll/munich_1.webp"],
             nature: ["/img/b-roll/mountain_2.jpg", "/img/b-roll/snow_1.jpg", "/img/b-roll/sunset_1.jpg"],
-            city: ["/img/b-roll/munich_1.webp", "/img/b-roll/singapore_1.webp"],
+            city: ["/img/b-roll/munich_1.webp", "/img/b-roll/singapore_1.webp", "/img/b-roll/singapore_2.webp"],
             birdseye: ["", ""]
             // Add more categories as needed
         };
