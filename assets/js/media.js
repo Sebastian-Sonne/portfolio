@@ -42,6 +42,7 @@ document.addEventListener("DOMContentLoaded", function () {
         images.forEach(image => {
             const imgElement = document.createElement("img");
             imgElement.src = image;
+            imgElement.classList.add('thumbnail');
             imgElement.classList.add('hidden');
             if (category != 'invalid') {
                 imgElement.setAttribute('alt', 'Image in Image Galery - auto generated, no exact image description available.');
@@ -49,6 +50,11 @@ document.addEventListener("DOMContentLoaded", function () {
                 imgElement.setAttribute('alt', 'Error 404 - category not found');
             }
             imageContainer.appendChild(imgElement);
+
+            imgElement.addEventListener("click", function() {
+                document.getElementById("lightbox-img").src = this.src;
+                lightboxDisplay('block');
+            })
         });
     }
 
@@ -77,7 +83,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         for (let i = 1; i <= numImages; i++) {
             const imageUrl = `/img/media/${category}/img_${i}.jpg`;
-            console.log(imageUrl);
             imageUrls.push(imageUrl);
         }
         return imageUrls;
@@ -106,6 +111,24 @@ document.addEventListener("DOMContentLoaded", function () {
         invalidCategoryDiv.style.display = "block";
         updateImages('invalid');
     }
+
+    //set display style of lighbox
+    function lightboxDisplay(style) {
+        document.getElementById("lightbox").style.display = style;
+    }
+
+    //closes lightbox when escape key is pressed
+    document.addEventListener('keydown', function(event) {
+        if (event.key === "Escape") {
+            lightboxDisplay('none');
+        }
+    })
+
+    // Show image on click
+    const closeBtn = document.getElementById("close");
+    closeBtn.addEventListener("click", function() {
+        lightboxDisplay('none');
+    });
 });
 
 // checks for valid category
@@ -118,6 +141,7 @@ function handleCategoryChange(category) {
     }
 }
 
+//website observer setup for smooth ux
 function setupIntersectionObserver() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
