@@ -756,6 +756,17 @@ footer {
     height: calc(100vh - 73.95px);
 }
 
+/* TODO */
+.media-hero img {
+    position: absolute;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
 .media-nav {
     display: flex;
     align-items: center;
@@ -855,6 +866,9 @@ footer {
 
 #lightbox {
     display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     position: fixed;
     top: 0;
     left: 0;
@@ -868,12 +882,14 @@ footer {
 }
 
 #lightbox img {
-    max-width: calc(100% - 160px);
-    height: calc(100% - 50px);
+    max-width: calc(100% - 120px);
+    max-height: calc(100% - 40px);
     margin: 20px;
     object-fit: cover;
     user-select: none;
     border-radius: 10px;
+    background-color: var(--background);
+    padding: 10px;
 }
 
 #lightbox-description {
@@ -885,12 +901,25 @@ footer {
     -webkit-backdrop-filter: blur(10px) saturate(100%);
     background-color: rgba(0, 0, 0, 0.573);
     color: var(--text-constant-light);
+    opacity: 0.5;
     border-radius: 12px;
     width: 50vw;
     height: 100px;
     padding: 10px 15px;
     text-align: left;
     transition: all 0.3s ease;
+}
+
+#lightbox-description a {
+    color: var(--text-constant-light);
+}
+
+#lightbox-description a:hover {
+    color: var(--primary);
+}
+
+#lightbox-description:hover {
+    opacity: 1;
 }
 
 #media-nav-arrow-left,
@@ -902,6 +931,7 @@ footer {
     font-size: 40px;
     cursor: pointer;
     user-select: none;
+    color: var(--text-constant-light);
     transition: font-size 0.3s ease;
 }
 
@@ -1199,6 +1229,7 @@ footer {
         left: 20px;
         transform: none;
         width: calc(100vw - 40px);
+        opacity: 1;
     }
 
     #lightbox-description h1 {
@@ -1240,13 +1271,8 @@ footer {
     }
     
     #lightbox img {
-        /*
-        max-width: calc(100% - 90px);
-        max-height: calc(100% - 90px);
-        margin: 25px;
-        */
-        width: calc(100% - 40px);
-        max-width: unset ;
+        min-height: 30vh;
+        padding: 0;
         margin: inherit 0;
         height: auto;
     }

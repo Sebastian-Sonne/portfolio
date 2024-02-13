@@ -36,13 +36,13 @@ document.addEventListener("DOMContentLoaded", function () {
     const nextBtn = document.getElementById("media-nav-arrow-right");
 
     prevBtn.addEventListener('click', function () {
-        if (lightbox.style.display === 'block') {
+        if (lightbox.style.display === 'flex') {
             showPrevImg();
         }
     });
 
     nextBtn.addEventListener('click', function () {
-        if (lightbox.style.display === 'block') {
+        if (lightbox.style.display === 'flex') {
             showNextImg();
         }
     });
@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             imgElement.addEventListener("click", function () {
                 document.getElementById("lightbox-img").src = this.src;
-                lightboxDisplay('block');
+                lightboxDisplay('flex');
             })
         });
     }
@@ -189,7 +189,7 @@ document.addEventListener("DOMContentLoaded", function () {
             lightboxDisplay('none');
         }
 
-        if (lightbox.style.display === 'block') {
+        if (lightbox.style.display === 'flex') {
             if (event.key === 'ArrowLeft') {
                 showPrevImg();
             }
@@ -223,8 +223,6 @@ function setupIntersectionObserver() {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('show');
-            } else {
-                entry.target.classList.remove('show');
             }
         });
     });
