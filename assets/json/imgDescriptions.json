@@ -1,0 +1,323 @@
+{
+    "all": {
+
+    },
+    "nature": {
+        "img_1.jpg": {
+            "location": "Description for nature image 1",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_2.jpg": {
+            "location": "Description for nature image 2",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_3.jpg": {
+            "location": "Description for nature image 3",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_4.jpg": {
+            "location": "Description for nature image 4",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_5.jpg": {
+            "location": "Description for nature image 5",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_6.jpg": {
+            "location": "Description for nature image 6",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_7.jpg": {
+            "location": "Description for nature image 7",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_8.jpg": {
+            "location": "Description for nature image 8",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_9.jpg": {
+            "location": "Description for nature image 9",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_10.jpg": {
+            "location": "Description for nature image 10",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_11.jpg": {
+            "location": "Description for nature image 11",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_12.jpg": {
+            "location": "Description for nature image 12",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_13.jpg": {
+            "location": "Description for nature image 13",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_14.jpg": {
+            "location": "Description for nature image 14",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_15.jpg": {
+            "location": "Description for nature image 15",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_16.jpg": {
+            "location": "Description for nature image 16",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_17.jpg": {
+            "location": "Description for nature image 17",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_18.jpg": {
+            "location": "Description for nature image 18",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_19.jpg": {
+            "location": "Description for nature image 19",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_20.jpg": {
+            "location": "Description for nature image 20",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_21.jpg": {
+            "location": "Description for nature image 21",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_22.jpg": {
+            "location": "Description for nature image 22",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_23.jpg": {
+            "location": "Description for nature image 23",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_24.jpg": {
+            "location": "Description for nature image 24",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_25.jpg": {
+            "location": "Description for nature image 25",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_26.jpg": {
+            "location": "Description for nature image 26",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        }
+    },
+    "city": {
+        "img_1.jpg": {
+            "location": "Description for city image 1",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_2.jpg": {
+            "location": "Description for city image 2",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_3.jpg": {
+            "location": "Description for city image 3",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_4.jpg": {
+            "location": "Description for city image 4",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_5.jpg": {
+            "location": "Description for city image 5",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_6.jpg": {
+            "location": "Description for city image 6",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_7.jpg": {
+            "location": "Description for city image 7",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_8.jpg": {
+            "location": "Description for city image 8",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_9.jpg": {
+            "location": "Description for city image 9",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_10.jpg": {
+            "location": "Description for city image 10",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_11.jpg": {
+            "location": "Description for city image 11",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_12.jpg": {
+            "location": "Description for city image 12",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_13.jpg": {
+            "location": "Description for city image 13",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_14.jpg": {
+            "location": "Description for city image 14",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_15.jpg": {
+            "location": "Description for city image 15",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_16.jpg": {
+            "location": "Description for city image 16",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_17.jpg": {
+            "location": "Description for city image 17",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_18.jpg": {
+            "location": "Description for city image 18",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_19.jpg": {
+            "location": "Description for city image 19",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_20.jpg": {
+            "location": "Description for city image 20",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_21.jpg": {
+            "location": "Description for city image 21",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_22.jpg": {
+            "location": "Description for city image 22",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_23.jpg": {
+            "location": "Description for city image 23",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_24.jpg": {
+            "location": "Description for city image 24",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_25.jpg": {
+            "location": "Description for city image 25",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_26.jpg": {
+            "location": "Description for city image 26",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_27.jpg": {
+            "location": "Description for city image 27",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_28.jpg": {
+            "location": "Description for city image 28",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_29.jpg": {
+            "location": "Description for city image 29",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_30.jpg": {
+            "location": "Description for city image 30",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_31.jpg": {
+            "location": "Description for city image 31",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_32.jpg": {
+            "location": "Description for city image 32",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_33.jpg": {
+            "location": "Description for city image 33",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_34.jpg": {
+            "location": "Description for city image 34",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        },
+        "img_35.jpg": {
+            "location": "Description for city image 35",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "2022-02-15"
+        }
+    },
+    "cars": {
+
+    },
+    "birdseye": {
+
+    },
+    "invalid": {
+
+    }
+}

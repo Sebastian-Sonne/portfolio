@@ -1,6 +1,12 @@
 User-agent: *
+Disallow: /img/*
+Disallow: /img/b-roll/*
+Disallow: /img/media/*
+Disallow: /img/media/nature/*
+Disallow: /img/media/city/*
 Disallow: /img/sebastian_sonne/*
 Disallow: *?category=*
 Disallow: success.html
+
 
 Sitemap: sebastian-sonne.com/assets/sitemap.xml

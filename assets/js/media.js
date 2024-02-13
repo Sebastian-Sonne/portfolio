@@ -134,7 +134,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //returns list of image urls depending on category
     function getImagesForCategory(category) {
-        //list of folder lengths, for link generation purpose
+        const numImages = getImgFolderLengh(category);
+        const imageUrls = [];
+
+        for (let i = 1; i <= numImages; i++) {
+            const imageUrl = `/img/media/${category}/img_${i}.jpg`;
+            imageUrls.push(imageUrl);
+        }
+        return imageUrls;
+    }
+
+    //returns all image descriptions for the according image category
+    function getDescriptionsForCategory(category) {
+        const numImages = getImgFolderLengh(category);
+
+    }
+
+    //* SET FOLDER LENGTHs HERE
+    function getImgFolderLengh(category) {
         const imgFolderLenght = {
             all: 55,    //* Not accurate yet
             nature: 26,
@@ -143,15 +160,7 @@ document.addEventListener("DOMContentLoaded", function () {
             birdseye: 2,    //* Not accurate yet
             invalid: 4,    //* Not accurate yet
         }
-
-        const numImages = imgFolderLenght[category];
-        const imageUrls = [];
-
-        for (let i = 1; i <= numImages; i++) {
-            const imageUrl = `/img/media/${category}/img_${i}.jpg`;
-            imageUrls.push(imageUrl);
-        }
-        return imageUrls;
+        return imgFolderLenght[category];
     }
 
     // Function to get category from URL parameter
