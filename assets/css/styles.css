@@ -942,6 +942,7 @@ footer {
 
 #media-nav-arrow-left:hover,
 #media-nav-arrow-right:hover {
+    color: var(--primary);
     font-size: 50px;
 }
 

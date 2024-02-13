@@ -180,6 +180,11 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //set display style of lighbox
     function lightboxDisplay(style) {
+        if (style == 'flex') {
+            disableScroll();
+        } else {
+            enableScroll();
+        }
         document.getElementById("lightbox").style.display = style;
     }
     
@@ -214,6 +219,38 @@ function handleCategoryChange(category) {
         return true;
     } else {
         return false;
+    }
+}
+
+function disableScroll() {
+    // Get the current scroll position
+    const scrollY = window.scrollY;
+
+    // Calculate the width of the scrollbar
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+
+    // Add styles to the body to disable scrolling and account for scrollbar width
+    document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    document.body.style.width = '100%';
+    document.body.style.paddingRight = `${scrollbarWidth}px`;
+    document.body.style.top = `-${scrollY}px`;
+}
+
+function enableScroll() {
+    // Retrieve the original scroll position
+    const scrollY = parseInt(document.body.style.top, 10);
+
+    // Remove the styles to enable scrolling
+    document.body.style.overflow = '';
+    document.body.style.position = '';
+    document.body.style.width = '';
+    document.body.style.paddingRight = '';
+    document.body.style.top = '';
+
+    // Scroll to the original position if a valid scroll position is available
+    if (!isNaN(scrollY)) {
+        window.scrollTo(0, Math.abs(scrollY)); // Ensure scroll position is non-negative
     }
 }
 
