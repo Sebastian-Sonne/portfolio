@@ -31,6 +31,69 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
+    //nav arrows
+    const prevBtn = document.getElementById("media-nav-arrow-left");
+    const nextBtn = document.getElementById("media-nav-arrow-right");
+
+    prevBtn.addEventListener('click', function () {
+        if (lightbox.style.display === 'flex') {
+            showPrevImg();
+        }
+    });
+
+    nextBtn.addEventListener('click', function () {
+        if (lightbox.style.display === 'flex') {
+            showNextImg();
+        }
+    });
+
+    //image navigation left right functions =>
+
+    //switches the current lighbox image with the one on the left of it
+    function showPrevImg() {
+        const currCategory = getCategoryFromUrl();
+        const currImgIndex = getCurrentImageIndex(currCategory);
+        const imgURLs = getImagesForCategory(getCategoryFromUrl());
+        const prevImgIndex = (currImgIndex - 1 + imgURLs.length) % imgURLs.length;
+        updateLightboxImage(prevImgIndex);
+
+        setTimeout(() => {
+            navigationActive = true;
+        }, 100);
+    }
+
+    //switches the current lighbox image with the one on the right of it
+    function showNextImg() {
+        const currCategory = getCategoryFromUrl();
+        const currImgIndex = getCurrentImageIndex(currCategory);
+        const imgURLs = getImagesForCategory(getCategoryFromUrl());
+        const nextImgIndex = (currImgIndex + 1 + imgURLs.length) % imgURLs.length;
+        updateLightboxImage(nextImgIndex);
+
+        setTimeout(() => {
+            navigationActive = true;
+        }, 100);
+    }
+
+    // Function to get the index of the currently displayed image
+    function getCurrentImageIndex(category) {
+        const currentImgSrc = document.getElementById("lightbox-img").src;
+        const imgURLs = getImagesForCategory(category);
+        // Find the index of the current image by checking if the currentImgSrc contains each URL
+        return imgURLs.findIndex(img => currentImgSrc.includes(img));
+    }
+
+    //update the lighbox image
+    function updateLightboxImage(index) {
+        const imgURLs = getImagesForCategory(getCategoryFromUrl());
+        const lighboxImg = document.getElementById('lightbox-img');
+        if (imgURLs[index] != '') {
+            lighboxImg.setAttribute('alt', 'Image auto generated - no description available');
+        }
+        lighboxImg.src = imgURLs[index];
+    }
+
+
     function updateImages(category) {
         // Clear previous images
         imageContainer.innerHTML = "";
@@ -41,19 +104,22 @@ document.addEventListener("DOMContentLoaded", function () {
         // Append images to the container
         images.forEach(image => {
             const imgElement = document.createElement("img");
+
             imgElement.src = image;
             imgElement.classList.add('thumbnail');
             imgElement.classList.add('hidden');
+
             if (category != 'invalid') {
                 imgElement.setAttribute('alt', 'Image in Image Galery - auto generated, no exact image description available.');
             } else {
                 imgElement.setAttribute('alt', 'Error 404 - category not found');
             }
+
             imageContainer.appendChild(imgElement);
 
-            imgElement.addEventListener("click", function() {
+            imgElement.addEventListener("click", function () {
                 document.getElementById("lightbox-img").src = this.src;
-                lightboxDisplay('block');
+                lightboxDisplay('flex');
             })
         });
     }
@@ -101,7 +167,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     if (handleCategoryChange(initialCategory)) {
         if (initialNavItem) {
-            initialNavItem.style.backgroundColor = 'var(--primary';
+            initialNavItem.style.backgroundColor = 'var(--primary)';
             initialNavItem.classList.add('media-li-active');
             previousElement = initialNavItem;
         }
@@ -116,17 +182,27 @@ document.addEventListener("DOMContentLoaded", function () {
     function lightboxDisplay(style) {
         document.getElementById("lightbox").style.display = style;
     }
-
+    
     //closes lightbox when escape key is pressed
-    document.addEventListener('keydown', function(event) {
+    document.addEventListener('keydown', function (event) {
         if (event.key === "Escape") {
             lightboxDisplay('none');
+        }
+
+        if (lightbox.style.display === 'flex') {
+            if (event.key === 'ArrowLeft') {
+                showPrevImg();
+            }
+
+            if (event.key === 'ArrowRight') {
+                showNextImg();
+            }
         }
     })
 
     // Show image on click
     const closeBtn = document.getElementById("close");
-    closeBtn.addEventListener("click", function() {
+    closeBtn.addEventListener("click", function () {
         lightboxDisplay('none');
     });
 });
@@ -147,8 +223,6 @@ function setupIntersectionObserver() {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('show');
-            } else {
-                entry.target.classList.remove('show');
             }
         });
     });
