@@ -5,7 +5,7 @@
     "nature": {
         "img_1.jpg": {
             "url": "/img/media/nature/img_1.jpg",
-            "location": "Description for city image 1",
+            "location": "Description for nature image 1",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "2022-02-15"
         },

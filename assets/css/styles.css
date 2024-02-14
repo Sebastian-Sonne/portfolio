@@ -842,8 +842,13 @@ footer {
 .grid-col-2 {
     grid-column: span 2;
 }
+
 .grid-col-3 {
     grid-column: span 3;
+}
+
+.grid-col-4 {
+    grid-column: span 4;
 }
 
 .grid-row-2 {
@@ -853,6 +858,11 @@ footer {
 
 .grid-row-3 {
     grid-row-start: span 3;
+    height: 100% !important;
+}
+
+.grid-row-4 {
+    grid-row-start: span 4;
     height: 100% !important;
 }
 

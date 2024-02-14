@@ -74,44 +74,44 @@ document.addEventListener("DOMContentLoaded", function () {
     function showPrevImg() {
         const currCategory = getCategoryFromUrl();
         const currImgIndex = getCurrentImageIndex(currCategory);
-        const imgURLs = getImagesForCategory(getCategoryFromUrl());
-        const prevImgIndex = (currImgIndex - 1 + imgURLs.length) % imgURLs.length;
+        const currCategoryLenght = Object.keys(imgData[currCategory]).length;
+        const prevImgIndex = (currImgIndex - 1 + currCategoryLenght) % currCategoryLenght;
         updateLightboxImage(prevImgIndex);
 
         setTimeout(() => {
             navigationActive = true;
-        }, 100);
+        }, 250);
     }
 
     //switches the current lighbox image with the one on the right of it
     function showNextImg() {
         const currCategory = getCategoryFromUrl();
         const currImgIndex = getCurrentImageIndex(currCategory);
-        const imgURLs = getImagesForCategory(getCategoryFromUrl());
-        const nextImgIndex = (currImgIndex + 1 + imgURLs.length) % imgURLs.length;
+        const currCategoryLenght = Object.keys(imgData[currCategory]).length; 
+        const nextImgIndex = (currImgIndex + 1 + currCategoryLenght) % currCategoryLenght; //! wrong index for last one
         updateLightboxImage(nextImgIndex);
 
         setTimeout(() => {
             navigationActive = true;
-        }, 100);
+        }, 250);
     }
 
     // Function to get the index of the currently displayed image
     function getCurrentImageIndex(category) {
-        const currentImgSrc = document.getElementById("lightbox-img").src;
-        const imgURLs = getImagesForCategory(category);
-        // Find the index of the current image by checking if the currentImgSrc contains each URL
-        return imgURLs.findIndex(img => currentImgSrc.includes(img));
+        const pattern = /\/img\/media\/.*\/img_(\d+)\.jpg/;
+        const url = document.getElementById("lightbox-img").src;
+        const match = pattern.exec(url);
+        return parseInt(match[1]);
     }
 
     //update the lighbox image
     function updateLightboxImage(index) {
-        const imgURLs = getImagesForCategory(getCategoryFromUrl());
+        const category = getCategoryFromUrl();
+        const url = `img/media/${category}/img_${index}.jpg`;
         const lighboxImg = document.getElementById('lightbox-img');
-        if (imgURLs[index] != '') {
-            lighboxImg.setAttribute('alt', 'Image auto generated - no description available');
-        }
-        lighboxImg.src = imgURLs[index];
+
+        // TODO add descrption
+        lighboxImg.src = url;
     }
 
     //update images depending on category. If json data has not been loaded, it will be loaded
@@ -126,7 +126,7 @@ document.addEventListener("DOMContentLoaded", function () {
                 // TODO Handle errors
             });
         } else {
-            updateImagesSetup(null, category);
+            updateImagesSetup(imgData, category);
         }
     }
 
@@ -134,7 +134,9 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateImagesSetup(data, category) {
         //check for data being null
         if (data == null) {
-            data = imgData;
+            if (imgData == null) {
+                fetchImgData();
+            }
         }
 
         // Clear previous images
@@ -173,42 +175,10 @@ document.addEventListener("DOMContentLoaded", function () {
         window.history.pushState({ path: newUrl }, '', newUrl);
     }
 
-    //returns list of image urls depending on category
-    function getImagesForCategory(category) {
-        const numImages = getImgFolderLengh(category);
-        const imageUrls = [];
-
-        for (let i = 1; i <= numImages; i++) {
-            const imageUrl = `/img/media/${category}/img_${i}.jpg`;
-            imageUrls.push(imageUrl);
-        }
-        return imageUrls;
-    }
-
-    //returns all image descriptions for the according image category
-    function getDescriptionsForCategory(category) {
-        const numImages = getImgFolderLengh(category);
-
-    }
-
-    //! remove when done
-    //* SET FOLDER LENGTHs HERE
-    function getImgFolderLengh(category) {
-        const imgFolderLenght = {
-            all: 55,    //* Not accurate yet
-            nature: 26,
-            city: 35,
-            cars: 5,    //* Not accurate yet
-            birdseye: 2,    //* Not accurate yet
-            invalid: 4,    //* Not accurate yet
-        }
-        return imgFolderLenght[category];
-    }
-
     // Function to get category from URL parameter
     function getCategoryFromUrl() {
         const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get("category") || "all";
+        return urlParams.get('category') || 'all';
     }
 
     // Initial load of images based on category from URL parameter
@@ -216,7 +186,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const initialNavItem = categoryNav.querySelector(`[data-category="${initialCategory}"]`);
     const invalidCategoryDiv = document.getElementById('media-invalid-category');
 
-    if (handleCategoryChange(initialCategory)) {
+    if (checkCategory(initialCategory)) {
         if (initialNavItem) {
             initialNavItem.style.backgroundColor = 'var(--primary)';
             initialNavItem.classList.add('media-li-active');
@@ -264,7 +234,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // checks for valid category
-function handleCategoryChange(category) {
+function checkCategory(category) {
     const validCategories = ['all', 'nature', 'city', 'cars', 'birdseye']; //* Define valid categories
     if (validCategories.includes(category)) {
         return true;
