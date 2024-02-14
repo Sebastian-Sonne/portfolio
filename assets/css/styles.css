@@ -925,7 +925,7 @@ footer {
 #media-nav-arrow-left,
 #media-nav-arrow-right {
     position: absolute;
-    right: 20px;
+    right: 10px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 40px;
