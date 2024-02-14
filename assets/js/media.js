@@ -1,4 +1,5 @@
 let imgData;
+let dataRevieved = false;
 
 //load images from json file and //TODO handle errors
 async function fetchImgData() {
@@ -9,8 +10,8 @@ async function fetchImgData() {
         }
         const data = await response.json();
         //store image Data in global variable
+        dataRevieved = true;
         imgData = data;
-        console.log('data received');
         return data;
     } catch (error) {
         console.log('Error loading imgData json:' + error);
@@ -113,70 +114,56 @@ document.addEventListener("DOMContentLoaded", function () {
         lighboxImg.src = imgURLs[index];
     }
 
-
+    //update images depending on category. If json data has not been loaded, it will be loaded
     function updateImages(category) {
-        fetchImgData()
+        if (dataRevieved == false) {
+            fetchImgData()
             .then(data => {
-                // Clear previous images
-                imageContainer.innerHTML = "";
-
-                const images = data[category];
-                for (const keys in images) {
-
-                    const key = images[keys];
-                    // Create an image element
-                    console.log(key + " : " + key.url + " : " + key.date);
-                    const imgElement = document.createElement("img");
-
-                    //setup image element
-                    imgElement.src = key.url;
-                    imgElement.classList.add('thumbnail');
-                    imgElement.classList.add('hidden');
-                    imgElement.setAttribute('alt', key.alt);
-                    imgElement.setAttribute('date', key.date);
-
-                    // Add a click event listener to the image element
-                    imgElement.addEventListener('click', function () {
-                        document.getElementById("lightbox-img").src = this.src;
-                        lightboxDisplay('flex');
-                    });
-
-                    // Append the image element to the image container
-                    imageContainer.appendChild(imgElement);
-                }
-                setupIntersectionObserver();
+                updateImagesSetup(data, category);
             })
             .catch(error => {
                 console.error('Error loading image data:', error);
-                // Handle errors gracefully
+                // TODO Handle errors
             });
+        } else {
+            updateImagesSetup(null, category);
+        }
     }
 
-    /* //! working copy
-        // Fetch images based on the category (you can replace this with your own logic)
-        const images = getImagesForCategory(category);
-    
-        // Append images to the container
-        images.forEach(image => {
+    //udate images depending if json file has already been loaded -> see updateImages()
+    function updateImagesSetup(data, category) {
+        //check for data being null
+        if (data == null) {
+            data = imgData;
+        }
+
+        // Clear previous images
+        imageContainer.innerHTML = "";
+
+        //get image objects from category
+        const images = data[category];
+        for (const keys in images) {
+            const key = images[keys];
             const imgElement = document.createElement("img");
-    
-            imgElement.src = image;
+
+            //setup image element
+            imgElement.src = '/img/media/' + category + '/' + keys;
             imgElement.classList.add('thumbnail');
             imgElement.classList.add('hidden');
-    
-            if (category != 'invalid') {
-                imgElement.setAttribute('alt', 'Image in Image Galery - auto generated, no exact image description available.');
-            } else {
-                imgElement.setAttribute('alt', 'Error 404 - category not found');
-            }
-    
-            imageContainer.appendChild(imgElement);
-    
-            imgElement.addEventListener("click", function () {
+            imgElement.setAttribute('alt', key.alt);
+            imgElement.setAttribute('date', key.date);
+
+            // Add a click event listener to the image element
+            imgElement.addEventListener('click', function () {
                 document.getElementById("lightbox-img").src = this.src;
                 lightboxDisplay('flex');
-            })
-        });*/
+            });
+
+            // Append the image element to the image container
+            imageContainer.appendChild(imgElement);
+        }
+        setupIntersectionObserver();
+    }
 
     //sets url-param "category" to the category parameter
     function updateURL(category) {
@@ -320,7 +307,6 @@ function enableScroll() {
 
 //website observer setup for smooth ux
 function setupIntersectionObserver() {
-    console.log('setup succesful');
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
