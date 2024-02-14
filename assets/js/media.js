@@ -1,3 +1,23 @@
+let imgData;
+
+//load images from json file and //TODO handle errors
+async function fetchImgData() {
+    try {
+        const response = await fetch('/assets/json/imgData.json');
+        if (!response.ok) {
+            throw new Error('failed to load imgData.json');
+        }
+        const data = await response.json();
+        //store image Data in global variable
+        imgData = data;
+        console.log('data received');
+        return data;
+    } catch (error) {
+        console.log('Error loading imgData json:' + error);
+        return await Promise.reject(error);
+    }
+}
+
 //image category selection
 document.addEventListener("DOMContentLoaded", function () {
     const categoryNav = document.getElementById("media-nav");
@@ -95,34 +115,68 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
     function updateImages(category) {
-        // Clear previous images
-        imageContainer.innerHTML = "";
+        fetchImgData()
+            .then(data => {
+                // Clear previous images
+                imageContainer.innerHTML = "";
 
+                const images = data[category];
+                for (const keys in images) {
+
+                    const key = images[keys];
+                    // Create an image element
+                    console.log(key + " : " + key.url + " : " + key.date);
+                    const imgElement = document.createElement("img");
+
+                    //setup image element
+                    imgElement.src = key.url;
+                    imgElement.classList.add('thumbnail');
+                    imgElement.classList.add('hidden');
+                    imgElement.setAttribute('alt', key.alt);
+                    imgElement.setAttribute('date', key.date);
+
+                    // Add a click event listener to the image element
+                    imgElement.addEventListener('click', function () {
+                        document.getElementById("lightbox-img").src = this.src;
+                        lightboxDisplay('flex');
+                    });
+
+                    // Append the image element to the image container
+                    imageContainer.appendChild(imgElement);
+                }
+                setupIntersectionObserver();
+            })
+            .catch(error => {
+                console.error('Error loading image data:', error);
+                // Handle errors gracefully
+            });
+    }
+
+    /* //! working copy
         // Fetch images based on the category (you can replace this with your own logic)
         const images = getImagesForCategory(category);
-
+    
         // Append images to the container
         images.forEach(image => {
             const imgElement = document.createElement("img");
-
+    
             imgElement.src = image;
             imgElement.classList.add('thumbnail');
             imgElement.classList.add('hidden');
-
+    
             if (category != 'invalid') {
                 imgElement.setAttribute('alt', 'Image in Image Galery - auto generated, no exact image description available.');
             } else {
                 imgElement.setAttribute('alt', 'Error 404 - category not found');
             }
-
+    
             imageContainer.appendChild(imgElement);
-
+    
             imgElement.addEventListener("click", function () {
                 document.getElementById("lightbox-img").src = this.src;
                 lightboxDisplay('flex');
             })
-        });
-    }
+        });*/
 
     //sets url-param "category" to the category parameter
     function updateURL(category) {
@@ -150,6 +204,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     }
 
+    //! remove when done
     //* SET FOLDER LENGTHs HERE
     function getImgFolderLengh(category) {
         const imgFolderLenght = {
@@ -196,7 +251,7 @@ document.addEventListener("DOMContentLoaded", function () {
         }
         document.getElementById("lightbox").style.display = style;
     }
-    
+
     //closes lightbox when escape key is pressed
     document.addEventListener('keydown', function (event) {
         if (event.key === "Escape") {
@@ -265,6 +320,7 @@ function enableScroll() {
 
 //website observer setup for smooth ux
 function setupIntersectionObserver() {
+    console.log('setup succesful');
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
             if (entry.isIntersecting) {
