@@ -1,3 +1,24 @@
+let imgData;
+let dataRevieved = false;
+
+//load images from json file and //TODO handle errors
+async function fetchImgData() {
+    try {
+        const response = await fetch('/assets/json/imgData.json');
+        if (!response.ok) {
+            throw new Error('failed to load imgData.json');
+        }
+        const data = await response.json();
+        //store image Data in global variable
+        dataRevieved = true;
+        imgData = data;
+        return data;
+    } catch (error) {
+        console.log('Error loading imgData json:' + error);
+        return await Promise.reject(error);
+    }
+}
+
 //image category selection
 document.addEventListener("DOMContentLoaded", function () {
     const categoryNav = document.getElementById("media-nav");
@@ -93,35 +114,55 @@ document.addEventListener("DOMContentLoaded", function () {
         lighboxImg.src = imgURLs[index];
     }
 
-
+    //update images depending on category. If json data has not been loaded, it will be loaded
     function updateImages(category) {
+        if (dataRevieved == false) {
+            fetchImgData()
+            .then(data => {
+                updateImagesSetup(data, category);
+            })
+            .catch(error => {
+                console.error('Error loading image data:', error);
+                // TODO Handle errors
+            });
+        } else {
+            updateImagesSetup(null, category);
+        }
+    }
+
+    //udate images depending if json file has already been loaded -> see updateImages()
+    function updateImagesSetup(data, category) {
+        //check for data being null
+        if (data == null) {
+            data = imgData;
+        }
+
         // Clear previous images
         imageContainer.innerHTML = "";
 
-        // Fetch images based on the category (you can replace this with your own logic)
-        const images = getImagesForCategory(category);
-
-        // Append images to the container
-        images.forEach(image => {
+        //get image objects from category
+        const images = data[category];
+        for (const keys in images) {
+            const key = images[keys];
             const imgElement = document.createElement("img");
 
-            imgElement.src = image;
+            //setup image element
+            imgElement.src = '/img/media/' + category + '/' + keys;
             imgElement.classList.add('thumbnail');
             imgElement.classList.add('hidden');
+            imgElement.setAttribute('alt', key.alt);
+            imgElement.setAttribute('date', key.date);
 
-            if (category != 'invalid') {
-                imgElement.setAttribute('alt', 'Image in Image Galery - auto generated, no exact image description available.');
-            } else {
-                imgElement.setAttribute('alt', 'Error 404 - category not found');
-            }
-
-            imageContainer.appendChild(imgElement);
-
-            imgElement.addEventListener("click", function () {
+            // Add a click event listener to the image element
+            imgElement.addEventListener('click', function () {
                 document.getElementById("lightbox-img").src = this.src;
                 lightboxDisplay('flex');
-            })
-        });
+            });
+
+            // Append the image element to the image container
+            imageContainer.appendChild(imgElement);
+        }
+        setupIntersectionObserver();
     }
 
     //sets url-param "category" to the category parameter
@@ -134,7 +175,25 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //returns list of image urls depending on category
     function getImagesForCategory(category) {
-        //list of folder lengths, for link generation purpose
+        const numImages = getImgFolderLengh(category);
+        const imageUrls = [];
+
+        for (let i = 1; i <= numImages; i++) {
+            const imageUrl = `/img/media/${category}/img_${i}.jpg`;
+            imageUrls.push(imageUrl);
+        }
+        return imageUrls;
+    }
+
+    //returns all image descriptions for the according image category
+    function getDescriptionsForCategory(category) {
+        const numImages = getImgFolderLengh(category);
+
+    }
+
+    //! remove when done
+    //* SET FOLDER LENGTHs HERE
+    function getImgFolderLengh(category) {
         const imgFolderLenght = {
             all: 55,    //* Not accurate yet
             nature: 26,
@@ -143,15 +202,7 @@ document.addEventListener("DOMContentLoaded", function () {
             birdseye: 2,    //* Not accurate yet
             invalid: 4,    //* Not accurate yet
         }
-
-        const numImages = imgFolderLenght[category];
-        const imageUrls = [];
-
-        for (let i = 1; i <= numImages; i++) {
-            const imageUrl = `/img/media/${category}/img_${i}.jpg`;
-            imageUrls.push(imageUrl);
-        }
-        return imageUrls;
+        return imgFolderLenght[category];
     }
 
     // Function to get category from URL parameter
@@ -180,9 +231,14 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //set display style of lighbox
     function lightboxDisplay(style) {
+        if (style == 'flex') {
+            disableScroll();
+        } else {
+            enableScroll();
+        }
         document.getElementById("lightbox").style.display = style;
     }
-    
+
     //closes lightbox when escape key is pressed
     document.addEventListener('keydown', function (event) {
         if (event.key === "Escape") {
@@ -214,6 +270,38 @@ function handleCategoryChange(category) {
         return true;
     } else {
         return false;
+    }
+}
+
+function disableScroll() {
+    // Get the current scroll position
+    const scrollY = window.scrollY;
+
+    // Calculate the width of the scrollbar
+    const scrollbarWidth = window.innerWidth - document.documentElement.clientWidth;
+
+    // Add styles to the body to disable scrolling and account for scrollbar width
+    document.body.style.overflow = 'hidden';
+    document.body.style.position = 'fixed';
+    document.body.style.width = '100%';
+    document.body.style.paddingRight = `${scrollbarWidth}px`;
+    document.body.style.top = `-${scrollY}px`;
+}
+
+function enableScroll() {
+    // Retrieve the original scroll position
+    const scrollY = parseInt(document.body.style.top, 10);
+
+    // Remove the styles to enable scrolling
+    document.body.style.overflow = '';
+    document.body.style.position = '';
+    document.body.style.width = '';
+    document.body.style.paddingRight = '';
+    document.body.style.top = '';
+
+    // Scroll to the original position if a valid scroll position is available
+    if (!isNaN(scrollY)) {
+        window.scrollTo(0, Math.abs(scrollY)); // Ensure scroll position is non-negative
     }
 }
 
