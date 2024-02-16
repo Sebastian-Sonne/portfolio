@@ -5,25 +5,25 @@
     "nature": {
         "img_1.jpg": {
             "url": "/img/media/nature/img_1.jpg",
-            "location": "Description for nature image 1",
+            "location": "Baltic Sea, Germany",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "2022-02-15"
         },
         "img_2.jpg": {
             "url": "/img/media/nature/img_2.jpg",
-            "location": "Description for city image 2",
+            "location": "Orlando, FL, USA",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "2022-02-15"
         },
         "img_3.jpg": {
             "url": "/img/media/nature/img_3.jpg",
-            "location": "Description for city image 3",
+            "location": "Königssee, Bayern, Germany",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "2022-02-15"
         },
         "img_4.jpg": {
             "url": "/img/media/nature/img_4.jpg",
-            "location": "Description for city image 4",
+            "location": "Königssee, Bayern, Germany",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "2022-02-15"
         },

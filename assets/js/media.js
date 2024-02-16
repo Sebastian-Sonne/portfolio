@@ -25,6 +25,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const imageContainer = document.getElementById("media-grid");
     let previousElement = null;
 
+    //category nav event listener
     categoryNav.addEventListener("click", function (event) {
         if (event.target.tagName === "LI") {
             const selectedCategory = event.target.dataset.category;
@@ -75,7 +76,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const currCategory = getCategoryFromUrl();
         const currImgIndex = getCurrentImageIndex(currCategory);
         const currCategoryLenght = Object.keys(imgData[currCategory]).length;
-        const prevImgIndex = (currImgIndex - 1 + currCategoryLenght) % currCategoryLenght;
+        let prevImgIndex = (currImgIndex - 1 + currCategoryLenght) % currCategoryLenght;
+        if (prevImgIndex == 0) prevImgIndex = currCategoryLenght;
         updateLightboxImage(prevImgIndex);
 
         setTimeout(() => {
@@ -88,7 +90,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const currCategory = getCategoryFromUrl();
         const currImgIndex = getCurrentImageIndex(currCategory);
         const currCategoryLenght = Object.keys(imgData[currCategory]).length; 
-        const nextImgIndex = (currImgIndex + 1 + currCategoryLenght) % currCategoryLenght; //! wrong index for last one
+        let nextImgIndex = (currImgIndex + 1 + currCategoryLenght) % currCategoryLenght;
+        if (nextImgIndex == 0) nextImgIndex = currCategoryLenght;
         updateLightboxImage(nextImgIndex);
 
         setTimeout(() => {
@@ -97,7 +100,7 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 
     // Function to get the index of the currently displayed image
-    function getCurrentImageIndex(category) {
+    function getCurrentImageIndex() {
         const pattern = /\/img\/media\/.*\/img_(\d+)\.jpg/;
         const url = document.getElementById("lightbox-img").src;
         const match = pattern.exec(url);
@@ -110,8 +113,21 @@ document.addEventListener("DOMContentLoaded", function () {
         const url = `img/media/${category}/img_${index}.jpg`;
         const lighboxImg = document.getElementById('lightbox-img');
 
-        // TODO add descrption
+        setLighboxData(index);
         lighboxImg.src = url;
+    }
+
+    //sets the location and date for the user in the lighbox
+    function setLighboxData(index) {
+        const lighboxLocation = document.getElementById('lighbox-h1');
+        const lighboxDate = document.getElementById('lightbox-date');
+        const category = getCategoryFromUrl();
+
+        const imgDescription = imgData[category][`img_${index}.jpg`].location;
+        const imgDate = imgData[category][`img_${index}.jpg`].date;
+
+        lighboxLocation.innerHTML = imgDescription;
+        lighboxDate.innerHTML = imgDate;
     }
 
     //update images depending on category. If json data has not been loaded, it will be loaded
@@ -158,6 +174,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Add a click event listener to the image element
             imgElement.addEventListener('click', function () {
                 document.getElementById("lightbox-img").src = this.src;
+                setLighboxData(getCurrentImageIndex());
                 lightboxDisplay('flex');
             });
 
