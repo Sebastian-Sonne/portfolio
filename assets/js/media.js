@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to get category from URL parameter
     function getCategoryFromUrl() {
         const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('category') || 'all';
+        return urlParams.get('category') || 'nature';
     }
 
     // Initial load of images based on category from URL parameter
