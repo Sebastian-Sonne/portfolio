@@ -101,7 +101,8 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Function to get the index of the currently displayed image
     function getCurrentImageIndex() {
-        const pattern = /\/img\/media\/.*\/img_(\d+)\.jpg/;
+        const category = getCategoryFromUrl();
+        const pattern = /\/img\/media\/.*\/\w+_img_(\d+)\.jpg/;
         const url = document.getElementById("lightbox-img").src;
         const match = pattern.exec(url);
         return parseInt(match[1]);
@@ -110,7 +111,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //update the lighbox image
     function updateLightboxImage(index) {
         const category = getCategoryFromUrl();
-        const url = `img/media/${category}/img_${index}.jpg`;
+        const url = `img/media/${category}/${category}_img_${index}.jpg`;
         const lighboxImg = document.getElementById('lightbox-img');
 
         setLighboxData(index);
@@ -123,8 +124,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const lighboxDate = document.getElementById('lightbox-date');
         const category = getCategoryFromUrl();
 
-        const imgDescription = imgData[category][`img_${index}.jpg`].location;
-        const imgDate = imgData[category][`img_${index}.jpg`].date;
+        const imgDescription = imgData[category][`${category}_img_${index}.jpg`].location;
+        const imgDate = imgData[category][`${category}_img_${index}.jpg`].date;
 
         lighboxLocation.innerHTML = imgDescription;
         lighboxDate.innerHTML = imgDate;
@@ -165,7 +166,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const imgElement = document.createElement("img");
 
             //setup image element
-            imgElement.src = '/img/media/' + category + '/' + keys;
+            imgElement.src = key.url;
             imgElement.classList.add('thumbnail');
             imgElement.classList.add('hidden');
             imgElement.setAttribute('alt', key.alt);
@@ -252,7 +253,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 // checks for valid category
 function checkCategory(category) {
-    const validCategories = ['all', 'nature', 'city', 'cars', 'birdseye']; //* Define valid categories
+    const validCategories = ['fav', 'nature', 'mountain', 'city', 'cars', 'sunset']; //* Define valid categories
     if (validCategories.includes(category)) {
         return true;
     } else {
