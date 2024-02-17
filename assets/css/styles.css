@@ -911,7 +911,7 @@ footer {
     -webkit-backdrop-filter: blur(10px) saturate(100%);
     background-color: rgba(0, 0, 0, 0.573);
     color: var(--text-constant-light);
-    opacity: 0.5;
+    opacity: 0.8;
     border-radius: 12px;
     width: 50vw;
     height: 100px;
