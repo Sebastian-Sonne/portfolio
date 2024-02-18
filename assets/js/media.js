@@ -169,7 +169,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const key = images[keys];
             const imgElement = document.createElement("img");
             const imgLayout = key.layout[classes];
-            
+
             //setup image element
             imgElement.src = key.url;
             imgElement.classList.add('thumbnail');
@@ -260,10 +260,10 @@ function updateLayout() {
     if (currLayout == newLayout) return; //exit the function early if layout didnt change
     currLayout = newLayout; //change currLayout (global variable)
 
-    
+
     const mediaGrid = document.getElementById('media-grid');
     const imgElements = mediaGrid.childNodes;
-    
+
     //get image data for category
     const images = imgData[getCategoryFromUrl()];
 
@@ -273,16 +273,18 @@ function updateLayout() {
         const imgName = getFilenameFromURL(imgElement.src);
         const imgClass = images[imgName].layout[newLayout];
 
-        //remove old classes
-        imgElement.classList.forEach(function(className) {
+        // remove old layout classes -> convert to array 
+        Array.from(imgElement.classList).forEach(function (className) {
             if (className.startsWith('grid-col-') || className.startsWith('grid-row-')) {
+                // Remove the class from the class list
                 imgElement.classList.remove(className);
             }
         });
 
         //add updated classes
         if (imgClass != null) {
-            imgElement.classList.add(imgClass);
+            const layoutClasses = imgClass.split(' '); //if multiple, than split classes
+            imgElement.classList.add(...layoutClasses);
         }
     }
 
@@ -294,7 +296,7 @@ function getLayout() {
 
     if (vw < 786) { //1 col visible
         return "l1";
-        
+
     } else if (vw < 1101) { //2 col visible
         return "l2";
 
@@ -309,7 +311,7 @@ function getLayout() {
 // Function to extract filename from URL
 function getFilenameFromURL(url) {
     var parts = url.split('/');
-    
+
     var filename = parts[parts.length - 1];
     return filename;
 }

@@ -7,8 +7,8 @@
             "date": "09.03.2019",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-col-2",
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -44,7 +44,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2 grid-row-2",
                 "l4": null
             }
         },
@@ -57,7 +57,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": "grid-col-2"
+                "l4": "grid-col-2 grid-row-2"
             }
         },
         "fav_img_6.jpg": {
@@ -67,8 +67,8 @@
             "date": "00.00.0000",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-col-2 grid-row-2",
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -84,16 +84,16 @@
                 "l4": null
             }
         },
-        "fav_img_8.jpg": {
-            "url": "/img/media/fav/fav_img_8.jpg",
-            "location": "Description for fav image 8",
+        "fav_img_10.jpg": {
+            "url": "/img/media/fav/fav_img_10.jpg",
+            "location": "Description for fav image 10",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
             }
         },
         "fav_img_9.jpg": {
@@ -105,18 +105,18 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": "grid-col-2"
+                "l4": "grid-col-3"
             }
         },
-        "fav_img_10.jpg": {
-            "url": "/img/media/fav/fav_img_10.jpg",
-            "location": "Description for fav image 10",
+        "fav_img_16.jpg": {
+            "url": "/img/media/fav/fav_img_16.jpg",
+            "location": "Description for fav image 16",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
         },
@@ -144,16 +144,16 @@
                 "l4": null
             }
         },
-        "fav_img_16.jpg": {
-            "url": "/img/media/fav/fav_img_16.jpg",
-            "location": "Description for fav image 16",
+        "fav_img_8.jpg": {
+            "url": "/img/media/fav/fav_img_8.jpg",
+            "location": "Description for fav image 8",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": "grid-row-2"
+                "l4": null
             }
         },
         "fav_img_14.jpg": {
@@ -176,7 +176,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -189,7 +189,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "fav_img_17.jpg": {
@@ -199,7 +199,7 @@
             "date": "00.00.0000",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": null
             }
@@ -212,7 +212,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -224,7 +224,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -237,7 +237,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": "grid-col-3"
+                "l4": "grid-col-3 grid-row-2"
             }
         },
         "fav_img_22.jpg": {
@@ -249,7 +249,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "fav_img_21.jpg": {
@@ -259,9 +259,9 @@
             "date": "00.00.0000",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l2": "grid-col-2",
+                "l3": "grid-col-2",
+                "l4": "grid-col-4"
             }
         }
     },
