@@ -898,7 +898,7 @@ footer {
     object-fit: cover;
     user-select: none;
     border-radius: 10px;
-    background-color: var(--background);
+    background-color: var(--text-constant-dark);
     padding: 10px;
 }
 
@@ -1077,9 +1077,21 @@ footer {
     }
 }
 
-@media only screen and (min-width: 2000px) {
+@media only screen and (min-width: 2500px) {
     .media-grid {
-        grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
+        grid-template-rows: 500px;
+    }
+    .media-grid img {
+        height: 500px;
+    }
+    .media-grid img:hover {
+        transform: scale(1.01);
+    }
+}
+
+@media only screen and (min-width: 1830px) {
+    .media-grid {
+        grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
     }
 }
 

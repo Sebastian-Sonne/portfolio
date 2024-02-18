@@ -1,5 +1,6 @@
-let imgData;
-let dataRevieved = false;
+let imgData; //img Data for all images, as Json file
+let dataRevieved = false; //validation for recieving of image data, to prevent unnesecairy fetching of data
+let currLayout = getLayout(); //used for amount of grid cols available
 
 //load images from json file and //TODO handle errors
 async function fetchImgData() {
@@ -14,7 +15,7 @@ async function fetchImgData() {
         imgData = data;
         return data;
     } catch (error) {
-        console.log('Error loading imgData json:' + error);
+        console.log('Error fetching image Data:' + error);
         return await Promise.reject(error);
     }
 }
@@ -161,16 +162,23 @@ document.addEventListener("DOMContentLoaded", function () {
         imageContainer.innerHTML = "";
 
         //get image objects from category
+        const classes = getLayout();
         const images = data[category];
+
         for (const keys in images) {
             const key = images[keys];
             const imgElement = document.createElement("img");
+            const imgLayout = key.layout[classes];
 
             //setup image element
             imgElement.src = key.url;
             imgElement.classList.add('thumbnail');
-            if (key.class != null) imgElement.classList.add(key.class);
             imgElement.classList.add('hidden');
+            //add layout class(es) to image
+            if (imgLayout != null) {
+                const layoutClasses = imgLayout.split(' '); //if multiple, than split classes
+                imgElement.classList.add(...layoutClasses);
+            }
             imgElement.setAttribute('alt', key.alt);
 
             // Add a click event listener to the image element
@@ -186,23 +194,12 @@ document.addEventListener("DOMContentLoaded", function () {
         setupIntersectionObserver();
     }
 
-    //sets the image layout according to the screen dimensions
-    function setImageLayout() {
-        //! TODO
-    }
-
     //sets url-param "category" to the category parameter
     function updateURL(category) {
         const urlParams = new URLSearchParams(window.location.search);
         urlParams.set("category", category);
         const newUrl = window.location.pathname + '?' + urlParams.toString();
         window.history.pushState({ path: newUrl }, '', newUrl);
-    }
-
-    // Function to get category from URL parameter
-    function getCategoryFromUrl() {
-        const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('category') || 'fav';
     }
 
     // Initial load of images based on category from URL parameter
@@ -257,6 +254,68 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
+//function to set the layout according to the current screen width
+function updateLayout() {
+    const newLayout = getLayout();
+    if (currLayout == newLayout) return; //exit the function early if layout didnt change
+    currLayout = newLayout; //change currLayout (global variable)
+
+
+    const mediaGrid = document.getElementById('media-grid');
+    const imgElements = mediaGrid.childNodes;
+
+    //get image data for category
+    const images = imgData[getCategoryFromUrl()];
+
+    //iterate over all image elements in the current category
+    for (let i = 0; i < imgElements.length; i++) {
+        const imgElement = imgElements[i];
+        const imgName = getFilenameFromURL(imgElement.src);
+        const imgClass = images[imgName].layout[newLayout];
+
+        // remove old layout classes -> convert to array 
+        Array.from(imgElement.classList).forEach(function (className) {
+            if (className.startsWith('grid-col-') || className.startsWith('grid-row-')) {
+                // Remove the class from the class list
+                imgElement.classList.remove(className);
+            }
+        });
+
+        //add updated classes
+        if (imgClass != null) {
+            const layoutClasses = imgClass.split(' '); //if multiple, than split classes
+            imgElement.classList.add(...layoutClasses);
+        }
+    }
+
+}
+
+//gets the current layout depending on screen layout; returns 'l' followed by the colum amout (1-4 possible)
+function getLayout() {
+    const vw = window.innerWidth;
+
+    if (vw < 786) { //1 col visible
+        return "l1";
+
+    } else if (vw < 1101) { //2 col visible
+        return "l2";
+
+    } else if (vw < 1465) { //3 col visible
+        return "l3";
+
+    } else { // 4 col visible
+        return "l4";
+    }
+}
+
+// Function to extract filename from URL
+function getFilenameFromURL(url) {
+    var parts = url.split('/');
+
+    var filename = parts[parts.length - 1];
+    return filename;
+}
+
 // checks for valid category
 function checkCategory(category) {
     const validCategories = ['fav', 'nature', 'mountain', 'city', 'cars', 'sunset']; //* Define valid categories
@@ -267,6 +326,13 @@ function checkCategory(category) {
     }
 }
 
+// Function to get category from URL parameter
+function getCategoryFromUrl() {
+    const urlParams = new URLSearchParams(window.location.search);
+    return urlParams.get('category') || 'fav';
+}
+
+//disables the possibility for the user to scroll wherever he is on the site
 function disableScroll() {
     // Get the current scroll position
     const scrollY = window.scrollY;
@@ -282,6 +348,7 @@ function disableScroll() {
     document.body.style.top = `-${scrollY}px`;
 }
 
+//enables the possibility for the user to scroll
 function enableScroll() {
     // Retrieve the original scroll position
     const scrollY = parseInt(document.body.style.top, 10);
@@ -299,7 +366,7 @@ function enableScroll() {
     }
 }
 
-//website observer setup for smooth ux
+//website observer setup for smooth ux -> images pop in when revealed by scrolling
 function setupIntersectionObserver() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach((entry) => {
@@ -314,3 +381,4 @@ function setupIntersectionObserver() {
 }
 
 window.addEventListener('load', setupIntersectionObserver);
+window.addEventListener('resize', updateLayout);
