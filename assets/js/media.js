@@ -168,9 +168,9 @@ document.addEventListener("DOMContentLoaded", function () {
             //setup image element
             imgElement.src = key.url;
             imgElement.classList.add('thumbnail');
+            if (key.class != null) imgElement.classList.add(key.class);
             imgElement.classList.add('hidden');
             imgElement.setAttribute('alt', key.alt);
-            imgElement.setAttribute('date', key.date);
 
             // Add a click event listener to the image element
             imgElement.addEventListener('click', function () {
@@ -196,7 +196,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to get category from URL parameter
     function getCategoryFromUrl() {
         const urlParams = new URLSearchParams(window.location.search);
-        return urlParams.get('category') || 'all';
+        return urlParams.get('category') || 'fav';
     }
 
     // Initial load of images based on category from URL parameter

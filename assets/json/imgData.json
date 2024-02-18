@@ -24,13 +24,15 @@
             "url": "/img/media/nature/nature_img_1.jpg",
             "location": "Description for nature image 1",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "class": "grid-col-2"
         },
         "nature_img_2.jpg": {
             "url": "/img/media/nature/nature_img_2.jpg",
             "location": "Description for nature image 2",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "class": null
         },
         "nature_img_3.jpg": {
             "url": "/img/media/nature/nature_img_3.jpg",
@@ -1056,13 +1058,15 @@
             "url": "/img/media/cars/cars_img_2.jpg",
             "location": "Description for cars image 2",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "class": "grid-row-2"
         },
         "cars_img_3.jpg": {
             "url": "/img/media/cars/cars_img_3.jpg",
             "location": "Description for cars image 3",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "class": null
         },
         "cars_img_4.jpg": {
             "url": "/img/media/cars/cars_img_4.jpg",
@@ -1092,7 +1096,8 @@
             "url": "/img/media/cars/cars_img_8.jpg",
             "location": "Description for cars image 8",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "class": "grid-col-2"
         },
         "cars_img_9.jpg": {
             "url": "/img/media/cars/cars_img_9.jpg",

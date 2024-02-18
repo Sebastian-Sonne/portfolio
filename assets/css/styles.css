@@ -1077,6 +1077,12 @@ footer {
     }
 }
 
+@media only screen and (min-width: 2000px) {
+    .media-grid {
+        grid-template-columns: repeat(auto-fill, minmax(650px, 1fr));
+    }
+}
+
 @media only screen and (max-width: 1450px) {
     .bio-bg h1 {
         font-size: 78px;
