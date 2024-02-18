@@ -14,7 +14,7 @@ async function fetchImgData() {
         imgData = data;
         return data;
     } catch (error) {
-        console.log('Error loading imgData json:' + error);
+        console.log('Error fetching image Data:' + error);
         return await Promise.reject(error);
     }
 }

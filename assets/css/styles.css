@@ -898,7 +898,7 @@ footer {
     object-fit: cover;
     user-select: none;
     border-radius: 10px;
-    background-color: var(--background);
+    background-color: var(--text-constant-dark);
     padding: 10px;
 }
 
