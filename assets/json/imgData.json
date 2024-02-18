@@ -6,10 +6,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": "grid-col-2",
+                "l4": "grid-col-3"
             }
         },
         "fav_img_2.jpg": {
@@ -18,10 +18,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_3.jpg": {
@@ -30,10 +30,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_4.jpg": {
@@ -42,10 +42,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_5.jpg": {
@@ -54,10 +54,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_6.jpg": {
@@ -66,10 +66,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_7.jpg": {
@@ -78,10 +78,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_8.jpg": {
@@ -90,10 +90,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_9.jpg": {
@@ -102,10 +102,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_10.jpg": {
@@ -114,10 +114,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_11.jpg": {
@@ -126,10 +126,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_12.jpg": {
@@ -138,10 +138,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_13.jpg": {
@@ -150,10 +150,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_14.jpg": {
@@ -162,10 +162,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_15.jpg": {
@@ -174,10 +174,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_16.jpg": {
@@ -186,10 +186,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_17.jpg": {
@@ -198,10 +198,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_18.jpg": {
@@ -210,10 +210,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_19.jpg": {
@@ -222,10 +222,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_20.jpg": {
@@ -234,10 +234,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_21.jpg": {
@@ -246,10 +246,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         },
         "fav_img_22.jpg": {
@@ -258,10 +258,10 @@
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
-                "l1": "",
-                "l2": "",
-                "l3": "",
-                "l4": ""
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
             }
         }
     },
