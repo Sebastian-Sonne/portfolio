@@ -17,6 +17,120 @@
             "location": "Description for fav image 3",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000"
+        },
+        "fav_img_4.jpg": {
+            "url": "/img/media/fav/fav_img_4.jpg",
+            "location": "Description for fav image 4",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_5.jpg": {
+            "url": "/img/media/fav/fav_img_5.jpg",
+            "location": "Description for fav image 5",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_6.jpg": {
+            "url": "/img/media/fav/fav_img_6.jpg",
+            "location": "Description for fav image 6",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_7.jpg": {
+            "url": "/img/media/fav/fav_img_7.jpg",
+            "location": "Description for fav image 7",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_8.jpg": {
+            "url": "/img/media/fav/fav_img_8.jpg",
+            "location": "Description for fav image 8",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_9.jpg": {
+            "url": "/img/media/fav/fav_img_9.jpg",
+            "location": "Description for fav image 9",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_10.jpg": {
+            "url": "/img/media/fav/fav_img_10.jpg",
+            "location": "Description for fav image 10",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_11.jpg": {
+            "url": "/img/media/fav/fav_img_11.jpg",
+            "location": "Description for fav image 11",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_12.jpg": {
+            "url": "/img/media/fav/fav_img_12.jpg",
+            "location": "Description for fav image 12",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_13.jpg": {
+            "url": "/img/media/fav/fav_img_13.jpg",
+            "location": "Description for fav image 13",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_14.jpg": {
+            "url": "/img/media/fav/fav_img_14.jpg",
+            "location": "Description for fav image 14",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_15.jpg": {
+            "url": "/img/media/fav/fav_img_15.jpg",
+            "location": "Description for fav image 15",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_16.jpg": {
+            "url": "/img/media/fav/fav_img_16.jpg",
+            "location": "Description for fav image 16",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_17.jpg": {
+            "url": "/img/media/fav/fav_img_17.jpg",
+            "location": "Description for fav image 17",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_18.jpg": {
+            "url": "/img/media/fav/fav_img_18.jpg",
+            "location": "Description for fav image 18",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_19.jpg": {
+            "url": "/img/media/fav/fav_img_19.jpg",
+            "location": "Description for fav image 19",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_20.jpg": {
+            "url": "/img/media/fav/fav_img_20.jpg",
+            "location": "Description for fav image 20",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_21.jpg": {
+            "url": "/img/media/fav/fav_img_21.jpg",
+            "location": "Description for fav image 21",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
+        },
+        "fav_img_22.jpg": {
+            "url": "/img/media/fav/fav_img_22.jpg",
+            "location": "Description for fav image 22",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000"
         }
     },
     "nature": {
@@ -265,96 +379,6 @@
         "nature_img_41.jpg": {
             "url": "/img/media/nature/nature_img_41.jpg",
             "location": "Description for nature image 41",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_42.jpg": {
-            "url": "/img/media/nature/nature_img_42.jpg",
-            "location": "Description for nature image 42",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_43.jpg": {
-            "url": "/img/media/nature/nature_img_43.jpg",
-            "location": "Description for nature image 43",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_44.jpg": {
-            "url": "/img/media/nature/nature_img_44.jpg",
-            "location": "Description for nature image 44",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_45.jpg": {
-            "url": "/img/media/nature/nature_img_45.jpg",
-            "location": "Description for nature image 45",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_46.jpg": {
-            "url": "/img/media/nature/nature_img_46.jpg",
-            "location": "Description for nature image 46",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_47.jpg": {
-            "url": "/img/media/nature/nature_img_47.jpg",
-            "location": "Description for nature image 47",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_48.jpg": {
-            "url": "/img/media/nature/nature_img_48.jpg",
-            "location": "Description for nature image 48",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_49.jpg": {
-            "url": "/img/media/nature/nature_img_49.jpg",
-            "location": "Description for nature image 49",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_50.jpg": {
-            "url": "/img/media/nature/nature_img_50.jpg",
-            "location": "Description for nature image 50",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_51.jpg": {
-            "url": "/img/media/nature/nature_img_51.jpg",
-            "location": "Description for nature image 51",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_52.jpg": {
-            "url": "/img/media/nature/nature_img_52.jpg",
-            "location": "Description for nature image 52",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_53.jpg": {
-            "url": "/img/media/nature/nature_img_53.jpg",
-            "location": "Description for nature image 53",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_54.jpg": {
-            "url": "/img/media/nature/nature_img_54.jpg",
-            "location": "Description for nature image 54",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_55.jpg": {
-            "url": "/img/media/nature/nature_img_55.jpg",
-            "location": "Description for nature image 55",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "nature_img_56.jpg": {
-            "url": "/img/media/nature/nature_img_56.jpg",
-            "location": "Description for nature image 56",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000"
         }
@@ -701,36 +725,6 @@
             "location": "Description for mountain image 57",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000"
-        },
-        "mountain_img_58.jpg": {
-            "url": "/img/media/mountain/mountain_img_58.jpg",
-            "location": "Description for mountain image 58",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "mountain_img_59.jpg": {
-            "url": "/img/media/mountain/mountain_img_59.jpg",
-            "location": "Description for mountain image 59",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "mountain_img_60.jpg": {
-            "url": "/img/media/mountain/mountain_img_60.jpg",
-            "location": "Description for mountain image 60",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "mountain_img_61.jpg": {
-            "url": "/img/media/mountain/mountain_img_61.jpg",
-            "location": "Description for mountain image 61",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "mountain_img_62.jpg": {
-            "url": "/img/media/mountain/mountain_img_62.jpg",
-            "location": "Description for mountain image 62",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
         }
     },
     "city": {
@@ -961,90 +955,6 @@
             "location": "Description for city image 38",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000"
-        },
-        "city_img_39.jpg": {
-            "url": "/img/media/city/city_img_39.jpg",
-            "location": "Description for city image 39",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_40.jpg": {
-            "url": "/img/media/city/city_img_40.jpg",
-            "location": "Description for city image 40",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_41.jpg": {
-            "url": "/img/media/city/city_img_41.jpg",
-            "location": "Description for city image 41",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_42.jpg": {
-            "url": "/img/media/city/city_img_42.jpg",
-            "location": "Description for city image 42",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_43.jpg": {
-            "url": "/img/media/city/city_img_43.jpg",
-            "location": "Description for city image 43",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_44.jpg": {
-            "url": "/img/media/city/city_img_44.jpg",
-            "location": "Description for city image 44",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_45.jpg": {
-            "url": "/img/media/city/city_img_45.jpg",
-            "location": "Description for city image 45",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_46.jpg": {
-            "url": "/img/media/city/city_img_46.jpg",
-            "location": "Description for city image 46",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_47.jpg": {
-            "url": "/img/media/city/city_img_47.jpg",
-            "location": "Description for city image 47",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_48.jpg": {
-            "url": "/img/media/city/city_img_48.jpg",
-            "location": "Description for city image 48",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_49.jpg": {
-            "url": "/img/media/city/city_img_49.jpg",
-            "location": "Description for city image 49",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_50.jpg": {
-            "url": "/img/media/city/city_img_50.jpg",
-            "location": "Description for city image 50",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_51.jpg": {
-            "url": "/img/media/city/city_img_51.jpg",
-            "location": "Description for city image 51",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "city_img_52.jpg": {
-            "url": "/img/media/city/city_img_52.jpg",
-            "location": "Description for city image 52",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
         }
     },
     "cars": {
@@ -1158,12 +1068,6 @@
             "location": "Description for cars image 18",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000"
-        },
-        "cars_img_19.jpg": {
-            "url": "/img/media/cars/cars_img_19.jpg",
-            "location": "Description for cars image 19",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
         }
     },
     "sunset": {
@@ -1248,24 +1152,6 @@
         "sunset_img_14.jpg": {
             "url": "/img/media/sunset/sunset_img_14.jpg",
             "location": "Description for sunset image 14",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "sunset_img_15.jpg": {
-            "url": "/img/media/sunset/sunset_img_15.jpg",
-            "location": "Description for sunset image 15",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "sunset_img_16.jpg": {
-            "url": "/img/media/sunset/sunset_img_16.jpg",
-            "location": "Description for sunset image 16",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
-        },
-        "sunset_img_17.jpg": {
-            "url": "/img/media/sunset/sunset_img_17.jpg",
-            "location": "Description for sunset image 17",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000"
         }
