@@ -14,9 +14,9 @@
         },
         "fav_img_2.jpg": {
             "url": "/img/media/fav/fav_img_2.jpg",
-            "location": "Description for fav image 2",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Himejy Castle, Japan",
+            "alt": "Image of Himejy Castle in Japan",
+            "date": "11.04.2019",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -26,9 +26,9 @@
         },
         "fav_img_3.jpg": {
             "url": "/img/media/fav/fav_img_3.jpg",
-            "location": "Description for fav image 3",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Schloss Neuschwanstein, Bayern",
+            "alt": "Image of Schloss Neuschwanstein in southern Germany",
+            "date": "08.06.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -38,9 +38,9 @@
         },
         "fav_img_4.jpg": {
             "url": "/img/media/fav/fav_img_4.jpg",
-            "location": "Description for fav image 4",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Cinque Torri, Dolomites",
+            "alt": "Image of Cinque Torri in Italy",
+            "date": "04.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -50,9 +50,9 @@
         },
         "fav_img_5.jpg": {
             "url": "/img/media/fav/fav_img_5.jpg",
-            "location": "Description for fav image 5",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Tre Cime di Lavaredo, Dolomites",
+            "alt": "Image of Tre Cime di Lavaredo in Italy",
+            "date": "05.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -62,9 +62,9 @@
         },
         "fav_img_6.jpg": {
             "url": "/img/media/fav/fav_img_6.jpg",
-            "location": "Description for fav image 6",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Hardangerjøkulen, Norway",
+            "alt": "Image of Hardangerjøkulen glacier in Norway",
+            "date": "23.08.2022",
             "layout": {
                 "l1": null,
                 "l2": "grid-col-2 grid-row-2",
@@ -74,9 +74,9 @@
         },
         "fav_img_7.jpg": {
             "url": "/img/media/fav/fav_img_7.jpg",
-            "location": "Description for fav image 7",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Banch dal Sè, Italy",
+            "alt": "Image of Banch dal Sè a mountain in Italy",
+            "date": "07.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -86,9 +86,9 @@
         },
         "fav_img_10.jpg": {
             "url": "/img/media/fav/fav_img_10.jpg",
-            "location": "Description for fav image 10",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Lago di Garda, Italy",
+            "alt": "Image of a mountaintop at Lago di Garda in Italy",
+            "date": "31.05.2021",
             "layout": {
                 "l1": null,
                 "l2": "grid-row-2",
@@ -98,9 +98,9 @@
         },
         "fav_img_9.jpg": {
             "url": "/img/media/fav/fav_img_9.jpg",
-            "location": "Description for fav image 9",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Austrian Alps, Austria",
+            "alt": "Image of the Austrian Alps",
+            "date": "02.01.2021",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -110,9 +110,9 @@
         },
         "fav_img_16.jpg": {
             "url": "/img/media/fav/fav_img_16.jpg",
-            "location": "Description for fav image 16",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Brufjellhålene, Norway",
+            "alt": "Image of Brufjellhålene in southern Norway",
+            "date": "13.08.2022",
             "layout": {
                 "l1": null,
                 "l2": "grid-row-2",
@@ -122,9 +122,9 @@
         },
         "fav_img_11.jpg": {
             "url": "/img/media/fav/fav_img_11.jpg",
-            "location": "Description for fav image 11",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Sirmione, Italy",
+            "alt": "Image of Lago di Garda in Sirmione in Italy",
+            "date": "04.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -134,9 +134,9 @@
         },
         "fav_img_12.jpg": {
             "url": "/img/media/fav/fav_img_12.jpg",
-            "location": "Description for fav image 12",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Tre Cime di Lavaredo, Ital",
+            "alt": "Image of Tre Cime di Lavaredo in Italy",
+            "date": "05.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -146,9 +146,9 @@
         },
         "fav_img_8.jpg": {
             "url": "/img/media/fav/fav_img_8.jpg",
-            "location": "Description for fav image 8",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Agriturismo Anví, Italy",
+            "alt": "Image of a small mountain town, Badia Abtei, in norther Italy",
+            "date": "06.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -158,9 +158,9 @@
         },
         "fav_img_14.jpg": {
             "url": "/img/media/fav/fav_img_14.jpg",
-            "location": "Description for fav image 14",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Fürstenfeldbruck, Germany",
+            "alt": "Image of a cornfield and a windmil in Fürstenfeldbruch Germany",
+            "date": "04.06.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -170,9 +170,9 @@
         },
         "fav_img_15.jpg": {
             "url": "/img/media/fav/fav_img_15.jpg",
-            "location": "Description for fav image 15",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Lago di Garda, Italy",
+            "alt": "Image of a sunset at Lago di Garda in Italy",
+            "date": "02.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -182,9 +182,9 @@
         },
         "fav_img_13.jpg": {
             "url": "/img/media/fav/fav_img_13.jpg",
-            "location": "Description for fav image 13",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Sandvinvatnet, Norway",
+            "alt": "Image of Sandvinvatnet Fjord in Norway",
+            "date": "19.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -194,9 +194,9 @@
         },
         "fav_img_17.jpg": {
             "url": "/img/media/fav/fav_img_17.jpg",
-            "location": "Description for fav image 17",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "A73 Erlangen, Bayern",
+            "alt": "Image of A73 in the snow near Erlangen, Bavaria in Germany",
+            "date": "19.11.2022",
             "layout": {
                 "l1": null,
                 "l2": "grid-col-2",
@@ -206,9 +206,9 @@
         },
         "fav_img_18.jpg": {
             "url": "/img/media/fav/fav_img_18.jpg",
-            "location": "Description for fav image 18",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "McLaren 765LT, Coffee & Cars",
+            "alt": "Image of McLaren 765LT spotted on a carshow in Houston, Texas",
+            "date": "02.09.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -218,9 +218,9 @@
         },
         "fav_img_19.jpg": {
             "url": "/img/media/fav/fav_img_19.jpg",
-            "location": "Description for fav image 19",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Merlion, Singapore",
+            "alt": "Image of the Merlion in downtown Singapore",
+            "date": "08.09.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -230,9 +230,9 @@
         },
         "fav_img_20.jpg": {
             "url": "/img/media/fav/fav_img_20.jpg",
-            "location": "Description for fav image 20",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Castello Scaligero, Sirmione",
+            "alt": "Image of Castello Scaligero in Sirmione, Italy",
+            "date": "04.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -242,9 +242,9 @@
         },
         "fav_img_22.jpg": {
             "url": "/img/media/fav/fav_img_22.jpg",
-            "location": "Description for fav image 22",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Lindesnes Lighthouse, Norway",
+            "alt": "Image of Lindesnes Lighthouse in southern Norway",
+            "date": "12.8.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -254,9 +254,9 @@
         },
         "fav_img_21.jpg": {
             "url": "/img/media/fav/fav_img_21.jpg",
-            "location": "Description for fav image 21",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Salò, Lago di Garda",
+            "alt": "Image of Salò located at Lago di Garda in Italy",
+            "date": "02.04.2023",
             "layout": {
                 "l1": null,
                 "l2": "grid-col-2",
