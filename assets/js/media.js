@@ -89,7 +89,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function showNextImg() {
         const currCategory = getCategoryFromUrl();
         const currImgIndex = getCurrentImageIndex(currCategory);
-        const currCategoryLenght = Object.keys(imgData[currCategory]).length; 
+        const currCategoryLenght = Object.keys(imgData[currCategory]).length;
         let nextImgIndex = (currImgIndex + 1 + currCategoryLenght) % currCategoryLenght;
         if (nextImgIndex == 0) nextImgIndex = currCategoryLenght;
         updateLightboxImage(nextImgIndex);
@@ -135,13 +135,14 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateImages(category) {
         if (dataRevieved == false) {
             fetchImgData()
-            .then(data => {
-                updateImagesSetup(data, category);
-            })
-            .catch(error => {
-                console.error('Error loading image data:', error);
-                // TODO Handle errors
-            });
+                .then(data => {
+                    updateImagesSetup(data, category);
+                })
+                .catch(error => {
+                    //alert user in case of error
+                    alert('Failed to load Images. Try reloading this site.\nIf this issue persists, please contact \"hello@sebastian-sonne.com\" and include the following error Message.\nError Message: ' + error);
+                    console.log('Error: ' + error);
+                });
         } else {
             updateImagesSetup(imgData, category);
         }
@@ -183,6 +184,11 @@ document.addEventListener("DOMContentLoaded", function () {
             imageContainer.appendChild(imgElement);
         }
         setupIntersectionObserver();
+    }
+
+    //sets the image layout according to the screen dimensions
+    function setImageLayout() {
+        //! TODO
     }
 
     //sets url-param "category" to the category parameter

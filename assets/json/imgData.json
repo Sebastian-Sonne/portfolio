@@ -4,133 +4,265 @@
             "url": "/img/media/fav/fav_img_1.jpg",
             "location": "Description for fav image 1",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_2.jpg": {
             "url": "/img/media/fav/fav_img_2.jpg",
             "location": "Description for fav image 2",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_3.jpg": {
             "url": "/img/media/fav/fav_img_3.jpg",
             "location": "Description for fav image 3",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_4.jpg": {
             "url": "/img/media/fav/fav_img_4.jpg",
             "location": "Description for fav image 4",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_5.jpg": {
             "url": "/img/media/fav/fav_img_5.jpg",
             "location": "Description for fav image 5",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_6.jpg": {
             "url": "/img/media/fav/fav_img_6.jpg",
             "location": "Description for fav image 6",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_7.jpg": {
             "url": "/img/media/fav/fav_img_7.jpg",
             "location": "Description for fav image 7",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_8.jpg": {
             "url": "/img/media/fav/fav_img_8.jpg",
             "location": "Description for fav image 8",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_9.jpg": {
             "url": "/img/media/fav/fav_img_9.jpg",
             "location": "Description for fav image 9",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_10.jpg": {
             "url": "/img/media/fav/fav_img_10.jpg",
             "location": "Description for fav image 10",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_11.jpg": {
             "url": "/img/media/fav/fav_img_11.jpg",
             "location": "Description for fav image 11",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_12.jpg": {
             "url": "/img/media/fav/fav_img_12.jpg",
             "location": "Description for fav image 12",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_13.jpg": {
             "url": "/img/media/fav/fav_img_13.jpg",
             "location": "Description for fav image 13",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_14.jpg": {
             "url": "/img/media/fav/fav_img_14.jpg",
             "location": "Description for fav image 14",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_15.jpg": {
             "url": "/img/media/fav/fav_img_15.jpg",
             "location": "Description for fav image 15",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_16.jpg": {
             "url": "/img/media/fav/fav_img_16.jpg",
             "location": "Description for fav image 16",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_17.jpg": {
             "url": "/img/media/fav/fav_img_17.jpg",
             "location": "Description for fav image 17",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_18.jpg": {
             "url": "/img/media/fav/fav_img_18.jpg",
             "location": "Description for fav image 18",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_19.jpg": {
             "url": "/img/media/fav/fav_img_19.jpg",
             "location": "Description for fav image 19",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_20.jpg": {
             "url": "/img/media/fav/fav_img_20.jpg",
             "location": "Description for fav image 20",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_21.jpg": {
             "url": "/img/media/fav/fav_img_21.jpg",
             "location": "Description for fav image 21",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         },
         "fav_img_22.jpg": {
             "url": "/img/media/fav/fav_img_22.jpg",
             "location": "Description for fav image 22",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000"
+            "date": "00.00.0000",
+            "layout": {
+                "l1": "",
+                "l2": "",
+                "l3": "",
+                "l4": ""
+            }
         }
     },
     "nature": {
