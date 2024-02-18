@@ -2,14 +2,14 @@
     "fav": {
         "fav_img_1.jpg": {
             "url": "/img/media/fav/fav_img_1.jpg",
-            "location": "Description for fav image 1",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Downtown Singapore",
+            "alt": "Image of Downtown Singapore",
+            "date": "09.03.2019",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "fav_img_2.jpg": {
@@ -57,7 +57,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "fav_img_6.jpg": {
@@ -105,7 +105,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "fav_img_10.jpg": {
@@ -117,7 +117,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "fav_img_11.jpg": {
@@ -129,7 +129,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "fav_img_12.jpg": {
@@ -144,16 +144,16 @@
                 "l4": null
             }
         },
-        "fav_img_13.jpg": {
-            "url": "/img/media/fav/fav_img_13.jpg",
-            "location": "Description for fav image 13",
+        "fav_img_16.jpg": {
+            "url": "/img/media/fav/fav_img_16.jpg",
+            "location": "Description for fav image 16",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "fav_img_14.jpg": {
@@ -165,7 +165,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "fav_img_15.jpg": {
@@ -180,9 +180,9 @@
                 "l4": null
             }
         },
-        "fav_img_16.jpg": {
-            "url": "/img/media/fav/fav_img_16.jpg",
-            "location": "Description for fav image 16",
+        "fav_img_13.jpg": {
+            "url": "/img/media/fav/fav_img_13.jpg",
+            "location": "Description for fav image 13",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
@@ -213,7 +213,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "fav_img_19.jpg": {
@@ -225,12 +225,24 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "fav_img_20.jpg": {
             "url": "/img/media/fav/fav_img_20.jpg",
             "location": "Description for fav image 20",
+            "alt": "no alt description availble - image object dynamically generated",
+            "date": "00.00.0000",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-3"
+            }
+        },
+        "fav_img_22.jpg": {
+            "url": "/img/media/fav/fav_img_22.jpg",
+            "location": "Description for fav image 22",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {
@@ -243,18 +255,6 @@
         "fav_img_21.jpg": {
             "url": "/img/media/fav/fav_img_21.jpg",
             "location": "Description for fav image 21",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "fav_img_22.jpg": {
-            "url": "/img/media/fav/fav_img_22.jpg",
-            "location": "Description for fav image 22",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
             "layout": {

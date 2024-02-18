@@ -174,7 +174,11 @@ document.addEventListener("DOMContentLoaded", function () {
             imgElement.src = key.url;
             imgElement.classList.add('thumbnail');
             imgElement.classList.add('hidden');
-            if (imgLayout != null) imgElement.classList.add(imgLayout);
+            //add layout class(es) to image
+            if (imgLayout != null) {
+                const layoutClasses = imgLayout.split(' '); //if multiple, than split classes
+                imgElement.classList.add(...layoutClasses);
+            }
             imgElement.setAttribute('alt', key.alt);
 
             // Add a click event listener to the image element
