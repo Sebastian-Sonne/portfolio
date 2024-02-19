@@ -268,21 +268,21 @@
     "nature": {
         "nature_img_1.jpg": {
             "url": "/img/media/nature/nature_img_1.jpg",
-            "location": "Description for nature image 1",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Temple in Cambodia",
+            "alt": "Image of a temple in a forest in Cambodia",
+            "date": "07.02.2019",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
-        "nature_img_2.jpg": {
-            "url": "/img/media/nature/nature_img_2.jpg",
-            "location": "Description for nature image 2",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+        "nature_img_23.jpg": {
+            "url": "/img/media/nature/nature_img_23.jpg",
+            "location": "Königssee, Bayern",
+            "alt": "Image of the Königssee in Bavaria, Germany",
+            "date": "13.04.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -292,9 +292,9 @@
         },
         "nature_img_3.jpg": {
             "url": "/img/media/nature/nature_img_3.jpg",
-            "location": "Description for nature image 3",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Skagerrak, North Sea",
+            "alt": "Image of the North Sea from a ferry, somewhere between Denmark and Norway",
+            "date": "10.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -304,9 +304,9 @@
         },
         "nature_img_4.jpg": {
             "url": "/img/media/nature/nature_img_4.jpg",
-            "location": "Description for nature image 4",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Fjord in Norway",
+            "alt": "Image of a Fjord in Norway",
+            "date": "22.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -316,357 +316,9 @@
         },
         "nature_img_5.jpg": {
             "url": "/img/media/nature/nature_img_5.jpg",
-            "location": "Description for nature image 5",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_6.jpg": {
-            "url": "/img/media/nature/nature_img_6.jpg",
-            "location": "Description for nature image 6",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_7.jpg": {
-            "url": "/img/media/nature/nature_img_7.jpg",
-            "location": "Description for nature image 7",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_8.jpg": {
-            "url": "/img/media/nature/nature_img_8.jpg",
-            "location": "Description for nature image 8",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_9.jpg": {
-            "url": "/img/media/nature/nature_img_9.jpg",
-            "location": "Description for nature image 9",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_10.jpg": {
-            "url": "/img/media/nature/nature_img_10.jpg",
-            "location": "Description for nature image 10",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_11.jpg": {
-            "url": "/img/media/nature/nature_img_11.jpg",
-            "location": "Description for nature image 11",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_12.jpg": {
-            "url": "/img/media/nature/nature_img_12.jpg",
-            "location": "Description for nature image 12",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_13.jpg": {
-            "url": "/img/media/nature/nature_img_13.jpg",
-            "location": "Description for nature image 13",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_14.jpg": {
-            "url": "/img/media/nature/nature_img_14.jpg",
-            "location": "Description for nature image 14",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_15.jpg": {
-            "url": "/img/media/nature/nature_img_15.jpg",
-            "location": "Description for nature image 15",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_16.jpg": {
-            "url": "/img/media/nature/nature_img_16.jpg",
-            "location": "Description for nature image 16",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_17.jpg": {
-            "url": "/img/media/nature/nature_img_17.jpg",
-            "location": "Description for nature image 17",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_18.jpg": {
-            "url": "/img/media/nature/nature_img_18.jpg",
-            "location": "Description for nature image 18",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_19.jpg": {
-            "url": "/img/media/nature/nature_img_19.jpg",
-            "location": "Description for nature image 19",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_20.jpg": {
-            "url": "/img/media/nature/nature_img_20.jpg",
-            "location": "Description for nature image 20",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_21.jpg": {
-            "url": "/img/media/nature/nature_img_21.jpg",
-            "location": "Description for nature image 21",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_22.jpg": {
-            "url": "/img/media/nature/nature_img_22.jpg",
-            "location": "Description for nature image 22",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_23.jpg": {
-            "url": "/img/media/nature/nature_img_23.jpg",
-            "location": "Description for nature image 23",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_24.jpg": {
-            "url": "/img/media/nature/nature_img_24.jpg",
-            "location": "Description for nature image 24",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_25.jpg": {
-            "url": "/img/media/nature/nature_img_25.jpg",
-            "location": "Description for nature image 25",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_26.jpg": {
-            "url": "/img/media/nature/nature_img_26.jpg",
-            "location": "Description for nature image 26",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_27.jpg": {
-            "url": "/img/media/nature/nature_img_27.jpg",
-            "location": "Description for nature image 27",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_28.jpg": {
-            "url": "/img/media/nature/nature_img_28.jpg",
-            "location": "Description for nature image 28",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_29.jpg": {
-            "url": "/img/media/nature/nature_img_29.jpg",
-            "location": "Description for nature image 29",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_30.jpg": {
-            "url": "/img/media/nature/nature_img_30.jpg",
-            "location": "Description for nature image 30",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_31.jpg": {
-            "url": "/img/media/nature/nature_img_31.jpg",
-            "location": "Description for nature image 31",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_32.jpg": {
-            "url": "/img/media/nature/nature_img_32.jpg",
-            "location": "Description for nature image 32",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_33.jpg": {
-            "url": "/img/media/nature/nature_img_33.jpg",
-            "location": "Description for nature image 33",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "nature_img_34.jpg": {
-            "url": "/img/media/nature/nature_img_34.jpg",
-            "location": "Description for nature image 34",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Brufjellhålene, Norway",
+            "alt": "Image of Brufjellhålene in southern Norway",
+            "date": "13.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -676,9 +328,357 @@
         },
         "nature_img_35.jpg": {
             "url": "/img/media/nature/nature_img_35.jpg",
-            "location": "Description for nature image 35",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Brusand, Norway",
+            "alt": "Image of the North Sea in Brusand, Norway",
+            "date": "07.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_6.jpg": {
+            "url": "/img/media/nature/nature_img_6.jpg",
+            "location": "Lindesnes, Norway",
+            "alt": "Image of the Norwegia Coast in Lindesnes, Norway",
+            "date": "13.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_7.jpg": {
+            "url": "/img/media/nature/nature_img_7.jpg",
+            "location": "Southern Norway",
+            "alt": "Image of a campground in souther Norway",
+            "date": "14.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_8.jpg": {
+            "url": "/img/media/nature/nature_img_8.jpg",
+            "location": "Tysdalsvatnet Fjord, Norway",
+            "alt": "Image of the Tysdalsvatnet Fjord in Norway",
+            "date": "16.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_9.jpg": {
+            "url": "/img/media/nature/nature_img_9.jpg",
+            "location": "Langfoss, Norway",
+            "alt": "Image of a forest hike in Langfoss, Norway",
+            "date": "18.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_10.jpg": {
+            "url": "/img/media/nature/nature_img_10.jpg",
+            "location": "Watefalls, Norway",
+            "alt": "Image of waterfalls in Norway",
+            "date": "22.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_11.jpg": {
+            "url": "/img/media/nature/nature_img_11.jpg",
+            "location": "Hardangerjøkulen, Norway",
+            "alt": "Image of a flower in Finse at the Hardangerjøkulen glacier in Norway",
+            "date": "23.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_12.jpg": {
+            "url": "/img/media/nature/nature_img_12.jpg",
+            "location": "Sandvinvatnet, Norway",
+            "alt": "Image of the Sandvinvatnet lake in Norway",
+            "date": "20.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_13.jpg": {
+            "url": "/img/media/nature/nature_img_13.jpg",
+            "location": "Hardangerjøkulen, Norway",
+            "alt": "Macro image of waterdraps captured in Norway",
+            "date": "23.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_14.jpg": {
+            "url": "/img/media/nature/nature_img_14.jpg",
+            "location": "Heddersvatn Lake, Norway",
+            "alt": "Macro image of a shroom at the Heddersvatn lake in Norway",
+            "date": "28.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_15.jpg": {
+            "url": "/img/media/nature/nature_img_15.jpg",
+            "location": "Erlangen, Bayern",
+            "alt": "Image of a cherry blossom tree in Erlangen, Germany",
+            "date": "28.03.2023",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_16.jpg": {
+            "url": "/img/media/nature/nature_img_16.jpg",
+            "location": "Orlando, Florida",
+            "alt": "Image of a swamp near Orlando in FLorida",
+            "date": "19.10.2023",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_17.jpg": {
+            "url": "/img/media/nature/nature_img_17.jpg",
+            "location": "Bluff Knoll, Australia",
+            "alt": "Image of the landscape near Bluff Knoll in Australia",
+            "date": "20.12.2016",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_18.jpg": {
+            "url": "/img/media/nature/nature_img_18.jpg",
+            "location": "Valley of the Giants, Australia",
+            "alt": "Image of a skywalk through the Valley of the Giants, Australia",
+            "date": "26.12.2016",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_19.jpg": {
+            "url": "/img/media/nature/nature_img_19.jpg",
+            "location": "Point d'Entrecasteaux, Australia",
+            "alt": "Image of the southwest coast of Australia",
+            "date": "28.12.2016",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_20.jpg": {
+            "url": "/img/media/nature/nature_img_20.jpg",
+            "location": "Langfoss, Norway",
+            "alt": "Image of the Langfoss waterfall in Norway",
+            "date": "18.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_21.jpg": {
+            "url": "/img/media/nature/nature_img_21.jpg",
+            "location": "The Window, Australia",
+            "alt": "Image of a unique stone formation near Point d'Entrecasteaux, Australia",
+            "date": "28.12.2016",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_22.jpg": {
+            "url": "/img/media/nature/nature_img_22.jpg",
+            "location": "Canal Rocks, Australia",
+            "alt": "Image of the Australian coast near the Canal Rocks",
+            "date": "02.01.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_2.jpg": {
+            "url": "/img/media/nature/nature_img_2.jpg",
+            "location": "The Nort Sea",
+            "alt": "Image of the North Sea",
+            "date": "10.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_24.jpg": {
+            "url": "/img/media/nature/nature_img_24.jpg",
+            "location": "Canal Rocks, Australia",
+            "alt": "Image of the Australian coast near the Canal Rocks",
+            "date": "02.01.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_25.jpg": {
+            "url": "/img/media/nature/nature_img_25.jpg",
+            "location": "Thailand",
+            "alt": "Image of elephants in Thailand",
+            "date": "09.04.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_27.jpg": {
+            "url": "/img/media/nature/nature_img_27.jpg",
+            "location": "Halong Bay, Vietnam",
+            "alt": "Image of a ship in the Halong Bay in Vietnam",
+            "date": "21.10.2018",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_28.jpg": {
+            "url": "/img/media/nature/nature_img_28.jpg",
+            "location": "Sandvinvatnet, Norway",
+            "alt": "Image of Sandvinvatnet Fjord in Norway",
+            "date": "19.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_29.jpg": {
+            "url": "/img/media/nature/nature_img_29.jpg",
+            "location": "Brusand, Norway",
+            "alt": "Image of the dunes in Brusand, Norway",
+            "date": "15.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_30.jpg": {
+            "url": "/img/media/nature/nature_img_30.jpg",
+            "location": "Langfoss, Norway",
+            "alt": "Image of the Langfoss waterfall in Norway",
+            "date": "18.008.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_31.jpg": {
+            "url": "/img/media/nature/nature_img_31.jpg",
+            "location": "Sandvinvatnet, Norway",
+            "alt": "Image of Sandvinvatnet Fjord in Norway",
+            "date": "19.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_32.jpg": {
+            "url": "/img/media/nature/nature_img_32.jpg",
+            "location": "Rifugio Scotoni, Dolomites",
+            "alt": "Image of a tree branch near the Rifugio Scotoni in the Dolomites",
+            "date": "07.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_26.jpg": {
+            "url": "/img/media/nature/nature_img_26.jpg",
+            "location": "Thailand, SEA",
+            "alt": "Image of elephants in Thailand",
+            "date": "09.04.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_33.jpg": {
+            "url": "/img/media/nature/nature_img_33.jpg",
+            "location": "Hardangerjøkulen, Norway",
+            "alt": "Image of the landscape around Hardangerjøkulen glacier in Norway",
+            "date": "23.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": null
+            }
+        },
+        "nature_img_34.jpg": {
+            "url": "/img/media/nature/nature_img_34.jpg",
+            "location": "Temple in Japan",
+            "alt": "Image of a temple in Japan",
+            "date": "08.14.2019",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -688,9 +688,9 @@
         },
         "nature_img_36.jpg": {
             "url": "/img/media/nature/nature_img_36.jpg",
-            "location": "Description for nature image 36",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Orlando, Florida",
+            "alt": "Image of a swamp near Orlando in FLorida",
+            "date": "19.10.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -700,9 +700,9 @@
         },
         "nature_img_37.jpg": {
             "url": "/img/media/nature/nature_img_37.jpg",
-            "location": "Description for nature image 37",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Cherry Blossom, Japan",
+            "alt": "Image of a cherry blossom tree in Jappan",
+            "date": "08.04.2019",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -712,9 +712,9 @@
         },
         "nature_img_38.jpg": {
             "url": "/img/media/nature/nature_img_38.jpg",
-            "location": "Description for nature image 38",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Fürstenfeldbruck, Germany",
+            "alt": "Image of a cornfield and a windmil in Fürstenfeldbruch Germany",
+            "date": "04.06.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -724,9 +724,9 @@
         },
         "nature_img_39.jpg": {
             "url": "/img/media/nature/nature_img_39.jpg",
-            "location": "Description for nature image 39",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Thailand",
+            "alt": "Image of a slanted tree in Thailand",
+            "date": "19.07.2019",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -736,9 +736,9 @@
         },
         "nature_img_40.jpg": {
             "url": "/img/media/nature/nature_img_40.jpg",
-            "location": "Description for nature image 40",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Dolomites, Italy",
+            "alt": "Image of a waterfall in the Dolomites, Italy",
+            "date": "11.06.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -748,9 +748,9 @@
         },
         "nature_img_41.jpg": {
             "url": "/img/media/nature/nature_img_41.jpg",
-            "location": "Description for nature image 41",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Miyajima Gate, Japan",
+            "alt": "Image of the Miyajima Gate in Japan",
+            "date": "13.04.2019",
             "layout": {
                 "l1": null,
                 "l2": null,
