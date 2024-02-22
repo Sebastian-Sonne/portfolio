@@ -763,21 +763,6 @@ footer {
     MEDIA
 */
 
-.media-hero {
-    height: calc(100vh - 73.95px);
-}
-
-/* TODO */
-.media-hero img {
-    position: absolute;
-    top: 0;
-    width: 100vw;
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-}
-
 .media-nav {
     display: flex;
     align-items: center;

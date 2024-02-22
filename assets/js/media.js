@@ -2,12 +2,12 @@ let imgData; //img Data for all images, as Json file
 let dataRevieved = false; //validation for recieving of image data, to prevent unnesecairy fetching of data
 let currLayout = getLayout(); //used for amount of grid cols available
 
-//load images from json file and //TODO handle errors
+//load images from json file
 async function fetchImgData() {
     try {
         const response = await fetch('/assets/json/imgData.json');
         if (!response.ok) {
-            throw new Error('failed to load imgData.json');
+            throw new Error('failed to fetch and load imgData.json');
         }
         const data = await response.json();
         //store image Data in global variable
@@ -15,6 +15,7 @@ async function fetchImgData() {
         imgData = data;
         return data;
     } catch (error) {
+        alert('Failed to load Images. Try reloading this site.\nIf this issue persists, please contact \"hello@sebastian-sonne.com\" and include the following error Message.\nError Message: ' + error);
         console.log('Error fetching image Data:' + error);
         return await Promise.reject(error);
     }
@@ -54,82 +55,98 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     });
 
-    //nav arrows
+    //lighbox nav left button event listener
     const prevBtn = document.getElementById("media-nav-arrow-left");
-    const nextBtn = document.getElementById("media-nav-arrow-right");
-
     prevBtn.addEventListener('click', function () {
         if (lightbox.style.display === 'flex') {
             showPrevImg();
         }
     });
 
+    //lighbox nav right button event listener
+    const nextBtn = document.getElementById("media-nav-arrow-right");
     nextBtn.addEventListener('click', function () {
         if (lightbox.style.display === 'flex') {
             showNextImg();
         }
     });
 
-    //image navigation left right functions =>
+    //update the lighbox image
+    function updateLightboxImage(imgKey) {
+        const category = getCategoryFromUrl();
+        const newImgData = imgData[category][imgKey];
+        const lighboxImg = document.getElementById('lightbox-img');
 
-    //switches the current lighbox image with the one on the left of it
-    function showPrevImg() {
-        const currCategory = getCategoryFromUrl();
-        const currImgIndex = getCurrentImageIndex(currCategory);
-        const currCategoryLenght = Object.keys(imgData[currCategory]).length;
-        let prevImgIndex = (currImgIndex - 1 + currCategoryLenght) % currCategoryLenght;
-        if (prevImgIndex == 0) prevImgIndex = currCategoryLenght;
-        updateLightboxImage(prevImgIndex);
-
-        setTimeout(() => {
-            navigationActive = true;
-        }, 250);
+        //set lighbox url
+        lighboxImg.src = newImgData.url;
+        setLighboxData(imgKey);
     }
 
-    //switches the current lighbox image with the one on the right of it
-    function showNextImg() {
-        const currCategory = getCategoryFromUrl();
-        const currImgIndex = getCurrentImageIndex(currCategory);
-        const currCategoryLenght = Object.keys(imgData[currCategory]).length;
-        let nextImgIndex = (currImgIndex + 1 + currCategoryLenght) % currCategoryLenght;
-        if (nextImgIndex == 0) nextImgIndex = currCategoryLenght;
-        updateLightboxImage(nextImgIndex);
+    // Function to navigate to the previous image
+    function showPrevImg() {
+        const category = getCategoryFromUrl();
+        const currIndex = getCurrentImageIndex();
+        const keys = Object.keys(imgData[category]);
+        const newIndex = (currIndex - 1 + keys.length) % keys.length;
+
+        //update lightbox image with appropriate url
+        updateLightboxImage(keys[newIndex]);
 
         setTimeout(() => {
             navigationActive = true;
-        }, 250);
+        }, 100);
+    }
+
+    // Function to navigate to the next image
+    function showNextImg() {
+        const category = getCategoryFromUrl();
+        const currIndex = getCurrentImageIndex();
+        const keys = Object.keys(imgData[category]);
+        const newIndex = (currIndex + 1 + keys.length) % keys.length;
+
+        //update lightbox image with appropriate url
+        updateLightboxImage(keys[newIndex]);
+
+        setTimeout(() => {
+            navigationActive = true;
+        }, 100);
+    }
+
+    function getCurrentImageKey() {
+        const category = getCategoryFromUrl();
+        const currIndex = getCurrentImageIndex();
+        const keys = Object.keys(imgData[category]);
+
+        return keys[currIndex];
     }
 
     // Function to get the index of the currently displayed image
     function getCurrentImageIndex() {
-        const category = getCategoryFromUrl();
-        const pattern = /\/img\/media\/.*\/\w+_img_(\d+)\.jpeg/;
+        //get image key of current image
         const url = document.getElementById("lightbox-img").src;
-        const match = pattern.exec(url);
-        return parseInt(match[1]);
-    }
+        const imageKey = url.split('/').pop(); // Extracting the image filename
 
-    //update the lighbox image
-    function updateLightboxImage(index) {
+        //get all keys of current category
         const category = getCategoryFromUrl();
-        const url = `img/media/${category}/${category}_img_${index}.jpeg`;
-        const lighboxImg = document.getElementById('lightbox-img');
+        const keys = Object.keys(imgData[category]);
 
-        setLighboxData(index);
-        lighboxImg.src = url;
+        //return the index of current image key in all keys
+        return keys.indexOf(imageKey);
     }
 
     //sets the location and date for the user in the lighbox
-    function setLighboxData(index) {
+    function setLighboxData(imgKey) {
+        console.log("image key: " + imgKey);
+        //img Data
+        const category = getCategoryFromUrl();
+        const imageData = imgData[category][imgKey];
+
+        //lighbox Elements
         const lighboxLocation = document.getElementById('lighbox-h1');
         const lighboxDate = document.getElementById('lightbox-date');
-        const category = getCategoryFromUrl();
 
-        const imgDescription = imgData[category][`${category}_img_${index}.jpeg`].location;
-        const imgDate = imgData[category][`${category}_img_${index}.jpeg`].date;
-
-        lighboxLocation.innerHTML = imgDescription;
-        lighboxDate.innerHTML = imgDate;
+        lighboxLocation.textContent = imageData.location;
+        lighboxDate.textContent = imageData.date;
     }
 
     //update images depending on category. If json data has not been loaded, it will be loaded
@@ -141,7 +158,6 @@ document.addEventListener("DOMContentLoaded", function () {
                 })
                 .catch(error => {
                     //alert user in case of error
-                    alert('Failed to load Images. Try reloading this site.\nIf this issue persists, please contact \"hello@sebastian-sonne.com\" and include the following error Message.\nError Message: ' + error);
                     console.log('Error: ' + error);
                 });
         } else {
@@ -184,7 +200,7 @@ document.addEventListener("DOMContentLoaded", function () {
             // Add a click event listener to the image element
             imgElement.addEventListener('click', function () {
                 document.getElementById("lightbox-img").src = this.src;
-                setLighboxData(getCurrentImageIndex());
+                setLighboxData(getCurrentImageKey());
                 lightboxDisplay('flex');
             });
 
