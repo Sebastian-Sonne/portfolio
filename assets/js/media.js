@@ -125,8 +125,8 @@ document.addEventListener("DOMContentLoaded", function () {
         const lighboxDate = document.getElementById('lightbox-date');
         const category = getCategoryFromUrl();
 
-        const imgDescription = imgData[category][`${category}_img_${index}.jpg`].location;
-        const imgDate = imgData[category][`${category}_img_${index}.jpg`].date;
+        const imgDescription = imgData[category][`${category}_img_${index}.jpeg`].location;
+        const imgDate = imgData[category][`${category}_img_${index}.jpeg`].date;
 
         lighboxLocation.innerHTML = imgDescription;
         lighboxDate.innerHTML = imgDate;
