@@ -832,7 +832,7 @@ footer {
 }
 
 .media-grid img:hover {
-    transform: scale(1.025);
+    transform: scale(1.01);
 }
 
 .grid-col-2 {

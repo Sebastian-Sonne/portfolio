@@ -78,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const lighboxImg = document.getElementById('lightbox-img');
 
         //set lighbox url
+        lighboxImg.src = "";
         lighboxImg.src = newImgData.url;
         setLighboxData(imgKey);
     }
