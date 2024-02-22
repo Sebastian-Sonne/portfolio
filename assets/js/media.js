@@ -103,7 +103,7 @@ document.addEventListener("DOMContentLoaded", function () {
     // Function to get the index of the currently displayed image
     function getCurrentImageIndex() {
         const category = getCategoryFromUrl();
-        const pattern = /\/img\/media\/.*\/\w+_img_(\d+)\.jpg/;
+        const pattern = /\/img\/media\/.*\/\w+_img_(\d+)\.jpeg/;
         const url = document.getElementById("lightbox-img").src;
         const match = pattern.exec(url);
         return parseInt(match[1]);
@@ -112,7 +112,7 @@ document.addEventListener("DOMContentLoaded", function () {
     //update the lighbox image
     function updateLightboxImage(index) {
         const category = getCategoryFromUrl();
-        const url = `img/media/${category}/${category}_img_${index}.jpg`;
+        const url = `img/media/${category}/${category}_img_${index}.jpeg`;
         const lighboxImg = document.getElementById('lightbox-img');
 
         setLighboxData(index);
@@ -271,7 +271,7 @@ function updateLayout() {
     for (let i = 0; i < imgElements.length; i++) {
         const imgElement = imgElements[i];
         const imgName = getFilenameFromURL(imgElement.src);
-        const imgClass = images[imgName].layout[newLayout];
+        const imgClass = images[imgName].layout[newLayout]; //! error
 
         // remove old layout classes -> convert to array 
         Array.from(imgElement.classList).forEach(function (className) {

@@ -1,7 +1,7 @@
 {
     "fav": {
-        "fav_img_1.jpg": {
-            "url": "/img/media/fav/fav_img_1.jpg",
+        "fav_img_1.jpeg": {
+            "url": "/img/media/fav/fav_img_1.jpeg",
             "location": "Downtown Singapore",
             "alt": "Image of Downtown Singapore",
             "date": "09.03.2019",
@@ -12,8 +12,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "fav_img_2.jpg": {
-            "url": "/img/media/fav/fav_img_2.jpg",
+        "fav_img_2.jpeg": {
+            "url": "/img/media/fav/fav_img_2.jpeg",
             "location": "Himejy Castle, Japan",
             "alt": "Image of Himejy Castle in Japan",
             "date": "11.04.2019",
@@ -24,8 +24,8 @@
                 "l4": null
             }
         },
-        "fav_img_3.jpg": {
-            "url": "/img/media/fav/fav_img_3.jpg",
+        "fav_img_3.jpeg": {
+            "url": "/img/media/fav/fav_img_3.jpeg",
             "location": "Schloss Neuschwanstein, Bayern",
             "alt": "Image of Schloss Neuschwanstein in southern Germany",
             "date": "08.06.2020",
@@ -36,8 +36,8 @@
                 "l4": null
             }
         },
-        "fav_img_4.jpg": {
-            "url": "/img/media/fav/fav_img_4.jpg",
+        "fav_img_4.jpeg": {
+            "url": "/img/media/fav/fav_img_4.jpeg",
             "location": "Cinque Torri, Dolomites",
             "alt": "Image of Cinque Torri in Italy",
             "date": "04.08.2020",
@@ -48,8 +48,8 @@
                 "l4": null
             }
         },
-        "fav_img_5.jpg": {
-            "url": "/img/media/fav/fav_img_5.jpg",
+        "fav_img_5.jpeg": {
+            "url": "/img/media/fav/fav_img_5.jpeg",
             "location": "Tre Cime di Lavaredo, Dolomites",
             "alt": "Image of Tre Cime di Lavaredo in Italy",
             "date": "05.08.2020",
@@ -60,8 +60,8 @@
                 "l4": "grid-col-2 grid-row-2"
             }
         },
-        "fav_img_6.jpg": {
-            "url": "/img/media/fav/fav_img_6.jpg",
+        "fav_img_6.jpeg": {
+            "url": "/img/media/fav/fav_img_6.jpeg",
             "location": "Hardangerjøkulen, Norway",
             "alt": "Image of Hardangerjøkulen glacier in Norway",
             "date": "23.08.2022",
@@ -72,10 +72,10 @@
                 "l4": null
             }
         },
-        "fav_img_7.jpg": {
-            "url": "/img/media/fav/fav_img_7.jpg",
+        "fav_img_7.jpeg": {
+            "url": "/img/media/fav/fav_img_7.jpeg",
             "location": "Banch dal Sè, Italy",
-            "alt": "Image of Banch dal Sè a mountain in Italy",
+            "alt": "Image of Banch dal Sè8 a mountain in Italy",
             "date": "07.06.2023",
             "layout": {
                 "l1": null,
@@ -84,8 +84,8 @@
                 "l4": null
             }
         },
-        "fav_img_10.jpg": {
-            "url": "/img/media/fav/fav_img_10.jpg",
+        "fav_img_10.jpeg": {
+            "url": "/img/media/fav/fav_img_10.jpeg",
             "location": "Lago di Garda, Italy",
             "alt": "Image of a mountaintop at Lago di Garda in Italy",
             "date": "31.05.2021",
@@ -96,8 +96,8 @@
                 "l4": "grid-row-2"
             }
         },
-        "fav_img_9.jpg": {
-            "url": "/img/media/fav/fav_img_9.jpg",
+        "fav_img_9.jpeg": {
+            "url": "/img/media/fav/fav_img_9.jpeg",
             "location": "Austrian Alps, Austria",
             "alt": "Image of the Austrian Alps",
             "date": "02.01.2021",
@@ -108,8 +108,8 @@
                 "l4": "grid-col-3"
             }
         },
-        "fav_img_16.jpg": {
-            "url": "/img/media/fav/fav_img_16.jpg",
+        "fav_img_16.jpeg": {
+            "url": "/img/media/fav/fav_img_16.jpeg",
             "location": "Brufjellhålene, Norway",
             "alt": "Image of Brufjellhålene in southern Norway",
             "date": "13.08.2022",
@@ -120,8 +120,8 @@
                 "l4": "grid-row-2"
             }
         },
-        "fav_img_11.jpg": {
-            "url": "/img/media/fav/fav_img_11.jpg",
+        "fav_img_11.jpeg": {
+            "url": "/img/media/fav/fav_img_11.jpeg",
             "location": "Sirmione, Italy",
             "alt": "Image of Lago di Garda in Sirmione in Italy",
             "date": "04.04.2023",
@@ -132,8 +132,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "fav_img_12.jpg": {
-            "url": "/img/media/fav/fav_img_12.jpg",
+        "fav_img_12.jpeg": {
+            "url": "/img/media/fav/fav_img_12.jpeg",
             "location": "Tre Cime di Lavaredo, Ital",
             "alt": "Image of Tre Cime di Lavaredo in Italy",
             "date": "05.08.2020",
@@ -144,8 +144,8 @@
                 "l4": null
             }
         },
-        "fav_img_8.jpg": {
-            "url": "/img/media/fav/fav_img_8.jpg",
+        "fav_img_8.jpeg": {
+            "url": "/img/media/fav/fav_img_8.jpeg",
             "location": "Agriturismo Anví, Italy",
             "alt": "Image of a small mountain town, Badia Abtei, in norther Italy",
             "date": "06.06.2023",
@@ -156,8 +156,8 @@
                 "l4": null
             }
         },
-        "fav_img_14.jpg": {
-            "url": "/img/media/fav/fav_img_14.jpg",
+        "fav_img_14.jpeg": {
+            "url": "/img/media/fav/fav_img_14.jpeg",
             "location": "Fürstenfeldbruck, Germany",
             "alt": "Image of a cornfield and a windmil in Fürstenfeldbruch Germany",
             "date": "04.06.2022",
@@ -168,8 +168,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "fav_img_15.jpg": {
-            "url": "/img/media/fav/fav_img_15.jpg",
+        "fav_img_15.jpeg": {
+            "url": "/img/media/fav/fav_img_15.jpeg",
             "location": "Lago di Garda, Italy",
             "alt": "Image of a sunset at Lago di Garda in Italy",
             "date": "02.04.2023",
@@ -180,8 +180,8 @@
                 "l4": null
             }
         },
-        "fav_img_13.jpg": {
-            "url": "/img/media/fav/fav_img_13.jpg",
+        "fav_img_13.jpeg": {
+            "url": "/img/media/fav/fav_img_13.jpeg",
             "location": "Sandvinvatnet, Norway",
             "alt": "Image of Sandvinvatnet Fjord in Norway",
             "date": "19.08.2022",
@@ -192,8 +192,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "fav_img_17.jpg": {
-            "url": "/img/media/fav/fav_img_17.jpg",
+        "fav_img_17.jpeg": {
+            "url": "/img/media/fav/fav_img_17.jpeg",
             "location": "A73 Erlangen, Bayern",
             "alt": "Image of A73 in the snow near Erlangen, Bavaria in Germany",
             "date": "19.11.2022",
@@ -204,8 +204,8 @@
                 "l4": null
             }
         },
-        "fav_img_18.jpg": {
-            "url": "/img/media/fav/fav_img_18.jpg",
+        "fav_img_18.jpeg": {
+            "url": "/img/media/fav/fav_img_18.jpeg",
             "location": "McLaren 765LT, Coffee & Cars",
             "alt": "Image of McLaren 765LT spotted on a carshow in Houston, Texas",
             "date": "02.09.2023",
@@ -216,8 +216,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "fav_img_19.jpg": {
-            "url": "/img/media/fav/fav_img_19.jpg",
+        "fav_img_19.jpeg": {
+            "url": "/img/media/fav/fav_img_19.jpeg",
             "location": "Merlion, Singapore",
             "alt": "Image of the Merlion in downtown Singapore",
             "date": "08.09.2017",
@@ -228,8 +228,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "fav_img_20.jpg": {
-            "url": "/img/media/fav/fav_img_20.jpg",
+        "fav_img_20.jpeg": {
+            "url": "/img/media/fav/fav_img_20.jpeg",
             "location": "Castello Scaligero, Sirmione",
             "alt": "Image of Castello Scaligero in Sirmione, Italy",
             "date": "04.04.2023",
@@ -240,8 +240,8 @@
                 "l4": "grid-col-3 grid-row-2"
             }
         },
-        "fav_img_22.jpg": {
-            "url": "/img/media/fav/fav_img_22.jpg",
+        "fav_img_22.jpeg": {
+            "url": "/img/media/fav/fav_img_22.jpeg",
             "location": "Lindesnes Lighthouse, Norway",
             "alt": "Image of Lindesnes Lighthouse in southern Norway",
             "date": "12.8.2022",
@@ -252,8 +252,8 @@
                 "l4": "grid-row-2"
             }
         },
-        "fav_img_21.jpg": {
-            "url": "/img/media/fav/fav_img_21.jpg",
+        "fav_img_21.jpeg": {
+            "url": "/img/media/fav/fav_img_21.jpeg",
             "location": "Salò, Lago di Garda",
             "alt": "Image of Salò located at Lago di Garda in Italy",
             "date": "02.04.2023",
@@ -266,8 +266,8 @@
         }
     },
     "nature": {
-        "nature_img_1.jpg": {
-            "url": "/img/media/nature/nature_img_1.jpg",
+        "nature_img_1.jpeg": {
+            "url": "/img/media/nature/nature_img_1.jpeg",
             "location": "Temple in Cambodia",
             "alt": "Image of a temple in a forest in Cambodia",
             "date": "07.02.2019",
@@ -278,9 +278,9 @@
                 "l4": "grid-row-2"
             }
         },
-        "nature_img_23.jpg": {
-            "url": "/img/media/nature/nature_img_23.jpg",
-            "location": "Königssee, Bayern",
+        "nature_img_23.jpeg": {
+            "url": "/img/media/nature/nature_img_23.jpeg",
+            "location": "Kö6nigssee, Bayern",
             "alt": "Image of the Königssee in Bavaria, Germany",
             "date": "13.04.2022",
             "layout": {
@@ -290,8 +290,8 @@
                 "l4": "grid-col-3"
             }
         },
-        "nature_img_35.jpg": {
-            "url": "/img/media/nature/nature_img_35.jpg",
+        "nature_img_35.jpeg": {
+            "url": "/img/media/nature/nature_img_35.jpeg",
             "location": "Brusand, Norway",
             "alt": "Image of the North Sea in Brusand, Norway",
             "date": "07.08.2022",
@@ -302,8 +302,8 @@
                 "l4": "grid-col-2 grid-row-2"
             }
         },
-        "nature_img_3.jpg": {
-            "url": "/img/media/nature/nature_img_3.jpg",
+        "nature_img_3.jpeg": {
+            "url": "/img/media/nature/nature_img_3.jpeg",
             "location": "Skagerrak, North Sea",
             "alt": "Image of the North Sea from a ferry, somewhere between Denmark and Norway",
             "date": "10.08.2022",
@@ -314,8 +314,8 @@
                 "l4": null
             }
         },
-        "nature_img_4.jpg": {
-            "url": "/img/media/nature/nature_img_4.jpg",
+        "nature_img_4.jpeg": {
+            "url": "/img/media/nature/nature_img_4.jpeg",
             "location": "Fjord in Norway",
             "alt": "Image of a Fjord in Norway",
             "date": "22.08.2022",
@@ -326,8 +326,8 @@
                 "l4": null
             }
         },
-        "nature_img_5.jpg": {
-            "url": "/img/media/nature/nature_img_5.jpg",
+        "nature_img_5.jpeg": {
+            "url": "/img/media/nature/nature_img_5.jpeg",
             "location": "Brufjellhålene, Norway",
             "alt": "Image of Brufjellhålene in southern Norway",
             "date": "13.08.2022",
@@ -338,8 +338,8 @@
                 "l4": "grid-row-2"
             }
         },
-        "nature_img_8.jpg": {
-            "url": "/img/media/nature/nature_img_8.jpg",
+        "nature_img_8.jpeg": {
+            "url": "/img/media/nature/nature_img_8.jpeg",
             "location": "Tysdalsvatnet Fjord, Norway",
             "alt": "Image of the Tysdalsvatnet Fjord in Norway",
             "date": "16.08.2022",
@@ -350,8 +350,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_9.jpg": {
-            "url": "/img/media/nature/nature_img_9.jpg",
+        "nature_img_9.jpeg": {
+            "url": "/img/media/nature/nature_img_9.jpeg",
             "location": "Langfoss, Norway",
             "alt": "Image of a forest hike in Langfoss, Norway",
             "date": "18.08.2022",
@@ -362,8 +362,8 @@
                 "l4": "grid-row-2"
             }
         },
-        "nature_img_6.jpg": {
-            "url": "/img/media/nature/nature_img_6.jpg",
+        "nature_img_6.jpeg": {
+            "url": "/img/media/nature/nature_img_6.jpeg",
             "location": "Lindesnes, Norway",
             "alt": "Image of the Norwegia Coast in Lindesnes, Norway",
             "date": "13.08.2022",
@@ -374,8 +374,8 @@
                 "l4": null
             }
         },
-        "nature_img_7.jpg": {
-            "url": "/img/media/nature/nature_img_7.jpg",
+        "nature_img_7.jpeg": {
+            "url": "/img/media/nature/nature_img_7.jpeg",
             "location": "Southern Norway",
             "alt": "Image of a campground in souther Norway",
             "date": "14.08.2022",
@@ -386,8 +386,8 @@
                 "l4": "grid-row-2"
             }
         },
-        "nature_img_12.jpg": {
-            "url": "/img/media/nature/nature_img_12.jpg",
+        "nature_img_12.jpeg": {
+            "url": "/img/media/nature/nature_img_12.jpeg",
             "location": "Sandvinvatnet, Norway",
             "alt": "Image of the Sandvinvatnet lake in Norway",
             "date": "20.08.2022",
@@ -398,8 +398,8 @@
                 "l4": null
             }
         },
-        "nature_img_20.jpg": {
-            "url": "/img/media/nature/nature_img_20.jpg",
+        "nature_img_20.jpeg": {
+            "url": "/img/media/nature/nature_img_20.jpeg",
             "location": "Langfoss, Norway",
             "alt": "Image of the Langfoss waterfall in Norway",
             "date": "18.08.2022",
@@ -410,8 +410,8 @@
                 "l4": null
             }
         },
-        "nature_img_10.jpg": {
-            "url": "/img/media/nature/nature_img_10.jpg",
+        "nature_img_10.jpeg": {
+            "url": "/img/media/nature/nature_img_10.jpeg",
             "location": "Watefalls, Norway",
             "alt": "Image of waterfalls in Norway",
             "date": "22.08.2022",
@@ -422,8 +422,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_13.jpg": {
-            "url": "/img/media/nature/nature_img_13.jpg",
+        "nature_img_13.jpeg": {
+            "url": "/img/media/nature/nature_img_13.jpeg",
             "location": "Hardangerjøkulen, Norway",
             "alt": "Macro image of waterdraps captured in Norway",
             "date": "23.08.2022",
@@ -434,8 +434,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_14.jpg": {
-            "url": "/img/media/nature/nature_img_14.jpg",
+        "nature_img_14.jpeg": {
+            "url": "/img/media/nature/nature_img_14.jpeg",
             "location": "Heddersvatn Lake, Norway",
             "alt": "Macro image of a shroom at the Heddersvatn lake in Norway",
             "date": "28.08.2022",
@@ -446,8 +446,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_15.jpg": {
-            "url": "/img/media/nature/nature_img_15.jpg",
+        "nature_img_15.jpeg": {
+            "url": "/img/media/nature/nature_img_15.jpeg",
             "location": "Erlangen, Bayern",
             "alt": "Image of a cherry blossom tree in Erlangen, Germany",
             "date": "28.03.2023",
@@ -458,8 +458,8 @@
                 "l4": null
             }
         },
-        "nature_img_16.jpg": {
-            "url": "/img/media/nature/nature_img_16.jpg",
+        "nature_img_16.jpeg": {
+            "url": "/img/media/nature/nature_img_16.jpeg",
             "location": "Orlando, Florida",
             "alt": "Image of a swamp near Orlando in FLorida",
             "date": "19.10.2023",
@@ -470,8 +470,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_17.jpg": {
-            "url": "/img/media/nature/nature_img_17.jpg",
+        "nature_img_17.jpeg": {
+            "url": "/img/media/nature/nature_img_17.jpeg",
             "location": "Bluff Knoll, Australia",
             "alt": "Image of the landscape near Bluff Knoll in Australia",
             "date": "20.12.2016",
@@ -482,8 +482,8 @@
                 "l4": null
             }
         },
-        "nature_img_18.jpg": {
-            "url": "/img/media/nature/nature_img_18.jpg",
+        "nature_img_18.jpeg": {
+            "url": "/img/media/nature/nature_img_18.jpeg",
             "location": "Valley of the Giants, Australia",
             "alt": "Image of a skywalk through the Valley of the Giants, Australia",
             "date": "26.12.2016",
@@ -494,8 +494,8 @@
                 "l4": null
             }
         },
-        "nature_img_19.jpg": {
-            "url": "/img/media/nature/nature_img_19.jpg",
+        "nature_img_19.jpeg": {
+            "url": "/img/media/nature/nature_img_19.jpeg",
             "location": "Point d'Entrecasteaux, Australia",
             "alt": "Image of the southwest coast of Australia",
             "date": "28.12.2016",
@@ -506,8 +506,8 @@
                 "l4": null
             }
         },
-        "nature_img_11.jpg": {
-            "url": "/img/media/nature/nature_img_11.jpg",
+        "nature_img_11.jpeg": {
+            "url": "/img/media/nature/nature_img_11.jpeg",
             "location": "Hardangerjøkulen, Norway",
             "alt": "Image of a flower in Finse at the Hardangerjøkulen glacier in Norway",
             "date": "23.08.2022",
@@ -518,8 +518,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_21.jpg": {
-            "url": "/img/media/nature/nature_img_21.jpg",
+        "nature_img_21.jpeg": {
+            "url": "/img/media/nature/nature_img_21.jpeg",
             "location": "The Window, Australia",
             "alt": "Image of a unique stone formation near Point d'Entrecasteaux, Australia",
             "date": "28.12.2016",
@@ -530,8 +530,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_22.jpg": {
-            "url": "/img/media/nature/nature_img_22.jpg",
+        "nature_img_22.jpeg": {
+            "url": "/img/media/nature/nature_img_22.jpeg",
             "location": "Canal Rocks, Australia",
             "alt": "Image of the Australian coast near the Canal Rocks",
             "date": "02.01.2017",
@@ -542,8 +542,8 @@
                 "l4": null
             }
         },
-        "nature_img_2.jpg": {
-            "url": "/img/media/nature/nature_img_2.jpg",
+        "nature_img_2.jpeg": {
+            "url": "/img/media/nature/nature_img_2.jpeg",
             "location": "The Nort Sea",
             "alt": "Image of the North Sea",
             "date": "10.08.2022",
@@ -554,8 +554,8 @@
                 "l4": "grid-row-2"
             }
         },
-        "nature_img_24.jpg": {
-            "url": "/img/media/nature/nature_img_24.jpg",
+        "nature_img_24.jpeg": {
+            "url": "/img/media/nature/nature_img_24.jpeg",
             "location": "Canal Rocks, Australia",
             "alt": "Image of the Australian coast near the Canal Rocks",
             "date": "02.01.2017",
@@ -566,8 +566,8 @@
                 "l4": null
             }
         },
-        "nature_img_27.jpg": {
-            "url": "/img/media/nature/nature_img_27.jpg",
+        "nature_img_27.jpeg": {
+            "url": "/img/media/nature/nature_img_27.jpeg",
             "location": "Halong Bay, Vietnam",
             "alt": "Image of a ship in the Halong Bay in Vietnam",
             "date": "21.10.2018",
@@ -578,8 +578,8 @@
                 "l4": "grid-col-2 grid-row-2"
             }
         },
-        "nature_img_32.jpg": {
-            "url": "/img/media/nature/nature_img_32.jpg",
+        "nature_img_32.jpeg": {
+            "url": "/img/media/nature/nature_img_32.jpeg",
             "location": "Rifugio Scotoni, Dolomites",
             "alt": "Image of a tree branch near the Rifugio Scotoni in the Dolomites",
             "date": "07.08.2022",
@@ -590,8 +590,8 @@
                 "l4": "grid-row-2"
             }
         },
-        "nature_img_29.jpg": {
-            "url": "/img/media/nature/nature_img_29.jpg",
+        "nature_img_29.jpeg": {
+            "url": "/img/media/nature/nature_img_29.jpeg",
             "location": "Brusand, Norway",
             "alt": "Image of the dunes in Brusand, Norway",
             "date": "15.08.2022",
@@ -602,8 +602,8 @@
                 "l4": null
             }
         },
-        "nature_img_30.jpg": {
-            "url": "/img/media/nature/nature_img_30.jpg",
+        "nature_img_30.jpeg": {
+            "url": "/img/media/nature/nature_img_30.jpeg",
             "location": "Langfoss, Norway",
             "alt": "Image of the Langfoss waterfall in Norway",
             "date": "18.008.2022",
@@ -614,8 +614,8 @@
                 "l4": null
             }
         },
-        "nature_img_31.jpg": {
-            "url": "/img/media/nature/nature_img_31.jpg",
+        "nature_img_31.jpeg": {
+            "url": "/img/media/nature/nature_img_31.jpeg",
             "location": "Sandvinvatnet, Norway",
             "alt": "Image of Sandvinvatnet Fjord in Norway",
             "date": "19.08.2022",
@@ -626,8 +626,8 @@
                 "l4": null
             }
         },
-        "nature_img_26.jpg": {
-            "url": "/img/media/nature/nature_img_26.jpg",
+        "nature_img_26.jpeg": {
+            "url": "/img/media/nature/nature_img_26.jpeg",
             "location": "Thailand",
             "alt": "Image of elephants in Thailand",
             "date": "09.04.2017",
@@ -638,8 +638,8 @@
                 "l4": null
             }
         },
-        "nature_img_28.jpg": {
-            "url": "/img/media/nature/nature_img_28.jpg",
+        "nature_img_28.jpeg": {
+            "url": "/img/media/nature/nature_img_28.jpeg",
             "location": "Sandvinvatnet, Norway",
             "alt": "Image of Sandvinvatnet Fjord in Norway",
             "date": "19.08.2022",
@@ -650,8 +650,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_33.jpg": {
-            "url": "/img/media/nature/nature_img_33.jpg",
+        "nature_img_33.jpeg": {
+            "url": "/img/media/nature/nature_img_33.jpeg",
             "location": "Hardangerjøkulen, Norway",
             "alt": "Image of the landscape around Hardangerjøkulen glacier in Norway",
             "date": "23.08.2022",
@@ -662,8 +662,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_34.jpg": {
-            "url": "/img/media/nature/nature_img_34.jpg",
+        "nature_img_34.jpeg": {
+            "url": "/img/media/nature/nature_img_34.jpeg",
             "location": "Temple in Japan",
             "alt": "Image of a temple in Japan",
             "date": "08.14.2019",
@@ -674,8 +674,8 @@
                 "l4": null
             }
         },
-        "nature_img_25.jpg": {
-            "url": "/img/media/nature/nature_img_25.jpg",
+        "nature_img_25.jpeg": {
+            "url": "/img/media/nature/nature_img_25.jpeg",
             "location": "Thailand",
             "alt": "Image of elephants in Thailand",
             "date": "09.04.2017",
@@ -686,8 +686,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_36.jpg": {
-            "url": "/img/media/nature/nature_img_36.jpg",
+        "nature_img_36.jpeg": {
+            "url": "/img/media/nature/nature_img_36.jpeg",
             "location": "Orlando, Florida",
             "alt": "Image of a swamp near Orlando in FLorida",
             "date": "19.10.2023",
@@ -698,9 +698,9 @@
                 "l4": null
             }
         },
-        "nature_img_38.jpg": {
-            "url": "/img/media/nature/nature_img_38.jpg",
-            "location": "Fürstenfeldbruck, Germany",
+        "nature_img_38.jpeg": {
+            "url": "/img/media/nature/nature_img_38.jpeg",
+            "location": "F\u00c3\u00bcrstenfeldbruck, Germany",
             "alt": "Image of a cornfield and a windmil in Fürstenfeldbruch Germany",
             "date": "04.06.2022",
             "layout": {
@@ -710,8 +710,8 @@
                 "l4": "grid-col-2"
             }
         },
-        "nature_img_37.jpg": {
-            "url": "/img/media/nature/nature_img_37.jpg",
+        "nature_img_37.jpeg": {
+            "url": "/img/media/nature/nature_img_37.jpeg",
             "location": "Cherry Blossom, Japan",
             "alt": "Image of a cherry blossom tree in Jappan",
             "date": "08.04.2019",
@@ -722,8 +722,8 @@
                 "l4": null
             }
         },
-        "nature_img_40.jpg": {
-            "url": "/img/media/nature/nature_img_40.jpg",
+        "nature_img_40.jpeg": {
+            "url": "/img/media/nature/nature_img_40.jpeg",
             "location": "Dolomites, Italy",
             "alt": "Image of a waterfall in the Dolomites, Italy",
             "date": "11.06.2020",
@@ -734,8 +734,8 @@
                 "l4": "grid-row-2"
             }
         },
-        "nature_img_41.jpg": {
-            "url": "/img/media/nature/nature_img_41.jpg",
+        "nature_img_41.jpeg": {
+            "url": "/img/media/nature/nature_img_41.jpeg",
             "location": "Miyajima Gate, Japan",
             "alt": "Image of the Miyajima Gate in Japan",
             "date": "13.04.2019",
@@ -746,8 +746,8 @@
                 "l4": null
             }
         },
-        "nature_img_39.jpg": {
-            "url": "/img/media/nature/nature_img_39.jpg",
+        "nature_img_39.jpeg": {
+            "url": "/img/media/nature/nature_img_39.jpeg",
             "location": "Thailand",
             "alt": "Image of a slanted tree in Thailand",
             "date": "19.07.2019",
@@ -760,8 +760,8 @@
         }
     },
     "mountain": {
-        "mountain_img_1.jpg": {
-            "url": "/img/media/mountain/mountain_img_1.jpg",
+        "mountain_img_1.jpeg": {
+            "url": "/img/media/mountain/mountain_img_1.jpeg",
             "location": "Description for mountain image 1",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -772,8 +772,8 @@
                 "l4": null
             }
         },
-        "mountain_img_2.jpg": {
-            "url": "/img/media/mountain/mountain_img_2.jpg",
+        "mountain_img_2.jpeg": {
+            "url": "/img/media/mountain/mountain_img_2.jpeg",
             "location": "Description for mountain image 2",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -784,8 +784,8 @@
                 "l4": null
             }
         },
-        "mountain_img_3.jpg": {
-            "url": "/img/media/mountain/mountain_img_3.jpg",
+        "mountain_img_3.jpeg": {
+            "url": "/img/media/mountain/mountain_img_3.jpeg",
             "location": "Description for mountain image 3",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -796,8 +796,8 @@
                 "l4": null
             }
         },
-        "mountain_img_4.jpg": {
-            "url": "/img/media/mountain/mountain_img_4.jpg",
+        "mountain_img_4.jpeg": {
+            "url": "/img/media/mountain/mountain_img_4.jpeg",
             "location": "Description for mountain image 4",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -808,8 +808,8 @@
                 "l4": null
             }
         },
-        "mountain_img_5.jpg": {
-            "url": "/img/media/mountain/mountain_img_5.jpg",
+        "mountain_img_5.jpeg": {
+            "url": "/img/media/mountain/mountain_img_5.jpeg",
             "location": "Description for mountain image 5",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -820,8 +820,8 @@
                 "l4": null
             }
         },
-        "mountain_img_6.jpg": {
-            "url": "/img/media/mountain/mountain_img_6.jpg",
+        "mountain_img_6.jpeg": {
+            "url": "/img/media/mountain/mountain_img_6.jpeg",
             "location": "Description for mountain image 6",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -832,8 +832,8 @@
                 "l4": null
             }
         },
-        "mountain_img_7.jpg": {
-            "url": "/img/media/mountain/mountain_img_7.jpg",
+        "mountain_img_7.jpeg": {
+            "url": "/img/media/mountain/mountain_img_7.jpeg",
             "location": "Description for mountain image 7",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -844,8 +844,8 @@
                 "l4": null
             }
         },
-        "mountain_img_8.jpg": {
-            "url": "/img/media/mountain/mountain_img_8.jpg",
+        "mountain_img_8.jpeg": {
+            "url": "/img/media/mountain/mountain_img_8.jpeg",
             "location": "Description for mountain image 8",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -856,8 +856,8 @@
                 "l4": null
             }
         },
-        "mountain_img_9.jpg": {
-            "url": "/img/media/mountain/mountain_img_9.jpg",
+        "mountain_img_9.jpeg": {
+            "url": "/img/media/mountain/mountain_img_9.jpeg",
             "location": "Description for mountain image 9",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -868,8 +868,8 @@
                 "l4": null
             }
         },
-        "mountain_img_10.jpg": {
-            "url": "/img/media/mountain/mountain_img_10.jpg",
+        "mountain_img_10.jpeg": {
+            "url": "/img/media/mountain/mountain_img_10.jpeg",
             "location": "Description for mountain image 10",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -880,8 +880,8 @@
                 "l4": null
             }
         },
-        "mountain_img_11.jpg": {
-            "url": "/img/media/mountain/mountain_img_11.jpg",
+        "mountain_img_11.jpeg": {
+            "url": "/img/media/mountain/mountain_img_11.jpeg",
             "location": "Description for mountain image 11",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -892,8 +892,8 @@
                 "l4": null
             }
         },
-        "mountain_img_12.jpg": {
-            "url": "/img/media/mountain/mountain_img_12.jpg",
+        "mountain_img_12.jpeg": {
+            "url": "/img/media/mountain/mountain_img_12.jpeg",
             "location": "Description for mountain image 12",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -904,8 +904,8 @@
                 "l4": null
             }
         },
-        "mountain_img_13.jpg": {
-            "url": "/img/media/mountain/mountain_img_13.jpg",
+        "mountain_img_13.jpeg": {
+            "url": "/img/media/mountain/mountain_img_13.jpeg",
             "location": "Description for mountain image 13",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -916,8 +916,8 @@
                 "l4": null
             }
         },
-        "mountain_img_14.jpg": {
-            "url": "/img/media/mountain/mountain_img_14.jpg",
+        "mountain_img_14.jpeg": {
+            "url": "/img/media/mountain/mountain_img_14.jpeg",
             "location": "Description for mountain image 14",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -928,8 +928,8 @@
                 "l4": null
             }
         },
-        "mountain_img_15.jpg": {
-            "url": "/img/media/mountain/mountain_img_15.jpg",
+        "mountain_img_15.jpeg": {
+            "url": "/img/media/mountain/mountain_img_15.jpeg",
             "location": "Description for mountain image 15",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -940,8 +940,8 @@
                 "l4": null
             }
         },
-        "mountain_img_16.jpg": {
-            "url": "/img/media/mountain/mountain_img_16.jpg",
+        "mountain_img_16.jpeg": {
+            "url": "/img/media/mountain/mountain_img_16.jpeg",
             "location": "Description for mountain image 16",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -952,8 +952,8 @@
                 "l4": null
             }
         },
-        "mountain_img_17.jpg": {
-            "url": "/img/media/mountain/mountain_img_17.jpg",
+        "mountain_img_17.jpeg": {
+            "url": "/img/media/mountain/mountain_img_17.jpeg",
             "location": "Description for mountain image 17",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -964,8 +964,8 @@
                 "l4": null
             }
         },
-        "mountain_img_18.jpg": {
-            "url": "/img/media/mountain/mountain_img_18.jpg",
+        "mountain_img_18.jpeg": {
+            "url": "/img/media/mountain/mountain_img_18.jpeg",
             "location": "Description for mountain image 18",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -976,8 +976,8 @@
                 "l4": null
             }
         },
-        "mountain_img_19.jpg": {
-            "url": "/img/media/mountain/mountain_img_19.jpg",
+        "mountain_img_19.jpeg": {
+            "url": "/img/media/mountain/mountain_img_19.jpeg",
             "location": "Description for mountain image 19",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -988,8 +988,8 @@
                 "l4": null
             }
         },
-        "mountain_img_20.jpg": {
-            "url": "/img/media/mountain/mountain_img_20.jpg",
+        "mountain_img_20.jpeg": {
+            "url": "/img/media/mountain/mountain_img_20.jpeg",
             "location": "Description for mountain image 20",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1000,8 +1000,8 @@
                 "l4": null
             }
         },
-        "mountain_img_21.jpg": {
-            "url": "/img/media/mountain/mountain_img_21.jpg",
+        "mountain_img_21.jpeg": {
+            "url": "/img/media/mountain/mountain_img_21.jpeg",
             "location": "Description for mountain image 21",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1012,8 +1012,8 @@
                 "l4": null
             }
         },
-        "mountain_img_22.jpg": {
-            "url": "/img/media/mountain/mountain_img_22.jpg",
+        "mountain_img_22.jpeg": {
+            "url": "/img/media/mountain/mountain_img_22.jpeg",
             "location": "Description for mountain image 22",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1024,8 +1024,8 @@
                 "l4": null
             }
         },
-        "mountain_img_23.jpg": {
-            "url": "/img/media/mountain/mountain_img_23.jpg",
+        "mountain_img_23.jpeg": {
+            "url": "/img/media/mountain/mountain_img_23.jpeg",
             "location": "Description for mountain image 23",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1036,8 +1036,8 @@
                 "l4": null
             }
         },
-        "mountain_img_24.jpg": {
-            "url": "/img/media/mountain/mountain_img_24.jpg",
+        "mountain_img_24.jpeg": {
+            "url": "/img/media/mountain/mountain_img_24.jpeg",
             "location": "Description for mountain image 24",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1048,8 +1048,8 @@
                 "l4": null
             }
         },
-        "mountain_img_25.jpg": {
-            "url": "/img/media/mountain/mountain_img_25.jpg",
+        "mountain_img_25.jpeg": {
+            "url": "/img/media/mountain/mountain_img_25.jpeg",
             "location": "Description for mountain image 25",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1060,8 +1060,8 @@
                 "l4": null
             }
         },
-        "mountain_img_26.jpg": {
-            "url": "/img/media/mountain/mountain_img_26.jpg",
+        "mountain_img_26.jpeg": {
+            "url": "/img/media/mountain/mountain_img_26.jpeg",
             "location": "Description for mountain image 26",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1072,8 +1072,8 @@
                 "l4": null
             }
         },
-        "mountain_img_27.jpg": {
-            "url": "/img/media/mountain/mountain_img_27.jpg",
+        "mountain_img_27.jpeg": {
+            "url": "/img/media/mountain/mountain_img_27.jpeg",
             "location": "Description for mountain image 27",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1084,8 +1084,8 @@
                 "l4": null
             }
         },
-        "mountain_img_28.jpg": {
-            "url": "/img/media/mountain/mountain_img_28.jpg",
+        "mountain_img_28.jpeg": {
+            "url": "/img/media/mountain/mountain_img_28.jpeg",
             "location": "Description for mountain image 28",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1096,8 +1096,8 @@
                 "l4": null
             }
         },
-        "mountain_img_29.jpg": {
-            "url": "/img/media/mountain/mountain_img_29.jpg",
+        "mountain_img_29.jpeg": {
+            "url": "/img/media/mountain/mountain_img_29.jpeg",
             "location": "Description for mountain image 29",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1108,8 +1108,8 @@
                 "l4": null
             }
         },
-        "mountain_img_30.jpg": {
-            "url": "/img/media/mountain/mountain_img_30.jpg",
+        "mountain_img_30.jpeg": {
+            "url": "/img/media/mountain/mountain_img_30.jpeg",
             "location": "Description for mountain image 30",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1120,8 +1120,8 @@
                 "l4": null
             }
         },
-        "mountain_img_31.jpg": {
-            "url": "/img/media/mountain/mountain_img_31.jpg",
+        "mountain_img_31.jpeg": {
+            "url": "/img/media/mountain/mountain_img_31.jpeg",
             "location": "Description for mountain image 31",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1132,8 +1132,8 @@
                 "l4": null
             }
         },
-        "mountain_img_32.jpg": {
-            "url": "/img/media/mountain/mountain_img_32.jpg",
+        "mountain_img_32.jpeg": {
+            "url": "/img/media/mountain/mountain_img_32.jpeg",
             "location": "Description for mountain image 32",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1144,8 +1144,8 @@
                 "l4": null
             }
         },
-        "mountain_img_33.jpg": {
-            "url": "/img/media/mountain/mountain_img_33.jpg",
+        "mountain_img_33.jpeg": {
+            "url": "/img/media/mountain/mountain_img_33.jpeg",
             "location": "Description for mountain image 33",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1156,8 +1156,8 @@
                 "l4": null
             }
         },
-        "mountain_img_34.jpg": {
-            "url": "/img/media/mountain/mountain_img_34.jpg",
+        "mountain_img_34.jpeg": {
+            "url": "/img/media/mountain/mountain_img_34.jpeg",
             "location": "Description for mountain image 34",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1168,8 +1168,8 @@
                 "l4": null
             }
         },
-        "mountain_img_35.jpg": {
-            "url": "/img/media/mountain/mountain_img_35.jpg",
+        "mountain_img_35.jpeg": {
+            "url": "/img/media/mountain/mountain_img_35.jpeg",
             "location": "Description for mountain image 35",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1180,8 +1180,8 @@
                 "l4": null
             }
         },
-        "mountain_img_36.jpg": {
-            "url": "/img/media/mountain/mountain_img_36.jpg",
+        "mountain_img_36.jpeg": {
+            "url": "/img/media/mountain/mountain_img_36.jpeg",
             "location": "Description for mountain image 36",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1192,8 +1192,8 @@
                 "l4": null
             }
         },
-        "mountain_img_37.jpg": {
-            "url": "/img/media/mountain/mountain_img_37.jpg",
+        "mountain_img_37.jpeg": {
+            "url": "/img/media/mountain/mountain_img_37.jpeg",
             "location": "Description for mountain image 37",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1204,8 +1204,8 @@
                 "l4": null
             }
         },
-        "mountain_img_38.jpg": {
-            "url": "/img/media/mountain/mountain_img_38.jpg",
+        "mountain_img_38.jpeg": {
+            "url": "/img/media/mountain/mountain_img_38.jpeg",
             "location": "Description for mountain image 38",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1216,8 +1216,8 @@
                 "l4": null
             }
         },
-        "mountain_img_39.jpg": {
-            "url": "/img/media/mountain/mountain_img_39.jpg",
+        "mountain_img_39.jpeg": {
+            "url": "/img/media/mountain/mountain_img_39.jpeg",
             "location": "Description for mountain image 39",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1228,8 +1228,8 @@
                 "l4": null
             }
         },
-        "mountain_img_40.jpg": {
-            "url": "/img/media/mountain/mountain_img_40.jpg",
+        "mountain_img_40.jpeg": {
+            "url": "/img/media/mountain/mountain_img_40.jpeg",
             "location": "Description for mountain image 40",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1240,8 +1240,8 @@
                 "l4": null
             }
         },
-        "mountain_img_41.jpg": {
-            "url": "/img/media/mountain/mountain_img_41.jpg",
+        "mountain_img_41.jpeg": {
+            "url": "/img/media/mountain/mountain_img_41.jpeg",
             "location": "Description for mountain image 41",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1252,8 +1252,8 @@
                 "l4": null
             }
         },
-        "mountain_img_42.jpg": {
-            "url": "/img/media/mountain/mountain_img_42.jpg",
+        "mountain_img_42.jpeg": {
+            "url": "/img/media/mountain/mountain_img_42.jpeg",
             "location": "Description for mountain image 42",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1264,8 +1264,8 @@
                 "l4": null
             }
         },
-        "mountain_img_43.jpg": {
-            "url": "/img/media/mountain/mountain_img_43.jpg",
+        "mountain_img_43.jpeg": {
+            "url": "/img/media/mountain/mountain_img_43.jpeg",
             "location": "Description for mountain image 43",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1276,8 +1276,8 @@
                 "l4": null
             }
         },
-        "mountain_img_44.jpg": {
-            "url": "/img/media/mountain/mountain_img_44.jpg",
+        "mountain_img_44.jpeg": {
+            "url": "/img/media/mountain/mountain_img_44.jpeg",
             "location": "Description for mountain image 44",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1288,8 +1288,8 @@
                 "l4": null
             }
         },
-        "mountain_img_45.jpg": {
-            "url": "/img/media/mountain/mountain_img_45.jpg",
+        "mountain_img_45.jpeg": {
+            "url": "/img/media/mountain/mountain_img_45.jpeg",
             "location": "Description for mountain image 45",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1300,8 +1300,8 @@
                 "l4": null
             }
         },
-        "mountain_img_46.jpg": {
-            "url": "/img/media/mountain/mountain_img_46.jpg",
+        "mountain_img_46.jpeg": {
+            "url": "/img/media/mountain/mountain_img_46.jpeg",
             "location": "Description for mountain image 46",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1312,8 +1312,8 @@
                 "l4": null
             }
         },
-        "mountain_img_47.jpg": {
-            "url": "/img/media/mountain/mountain_img_47.jpg",
+        "mountain_img_47.jpeg": {
+            "url": "/img/media/mountain/mountain_img_47.jpeg",
             "location": "Description for mountain image 47",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1324,8 +1324,8 @@
                 "l4": null
             }
         },
-        "mountain_img_48.jpg": {
-            "url": "/img/media/mountain/mountain_img_48.jpg",
+        "mountain_img_48.jpeg": {
+            "url": "/img/media/mountain/mountain_img_48.jpeg",
             "location": "Description for mountain image 48",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1336,8 +1336,8 @@
                 "l4": null
             }
         },
-        "mountain_img_49.jpg": {
-            "url": "/img/media/mountain/mountain_img_49.jpg",
+        "mountain_img_49.jpeg": {
+            "url": "/img/media/mountain/mountain_img_49.jpeg",
             "location": "Description for mountain image 49",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1348,8 +1348,8 @@
                 "l4": null
             }
         },
-        "mountain_img_50.jpg": {
-            "url": "/img/media/mountain/mountain_img_50.jpg",
+        "mountain_img_50.jpeg": {
+            "url": "/img/media/mountain/mountain_img_50.jpeg",
             "location": "Description for mountain image 50",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1360,8 +1360,8 @@
                 "l4": null
             }
         },
-        "mountain_img_51.jpg": {
-            "url": "/img/media/mountain/mountain_img_51.jpg",
+        "mountain_img_51.jpeg": {
+            "url": "/img/media/mountain/mountain_img_51.jpeg",
             "location": "Description for mountain image 51",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1372,8 +1372,8 @@
                 "l4": null
             }
         },
-        "mountain_img_52.jpg": {
-            "url": "/img/media/mountain/mountain_img_52.jpg",
+        "mountain_img_52.jpeg": {
+            "url": "/img/media/mountain/mountain_img_52.jpeg",
             "location": "Description for mountain image 52",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1384,8 +1384,8 @@
                 "l4": null
             }
         },
-        "mountain_img_53.jpg": {
-            "url": "/img/media/mountain/mountain_img_53.jpg",
+        "mountain_img_53.jpeg": {
+            "url": "/img/media/mountain/mountain_img_53.jpeg",
             "location": "Description for mountain image 53",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1396,8 +1396,8 @@
                 "l4": null
             }
         },
-        "mountain_img_54.jpg": {
-            "url": "/img/media/mountain/mountain_img_54.jpg",
+        "mountain_img_54.jpeg": {
+            "url": "/img/media/mountain/mountain_img_54.jpeg",
             "location": "Description for mountain image 54",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1408,8 +1408,8 @@
                 "l4": null
             }
         },
-        "mountain_img_55.jpg": {
-            "url": "/img/media/mountain/mountain_img_55.jpg",
+        "mountain_img_55.jpeg": {
+            "url": "/img/media/mountain/mountain_img_55.jpeg",
             "location": "Description for mountain image 55",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1420,8 +1420,8 @@
                 "l4": null
             }
         },
-        "mountain_img_56.jpg": {
-            "url": "/img/media/mountain/mountain_img_56.jpg",
+        "mountain_img_56.jpeg": {
+            "url": "/img/media/mountain/mountain_img_56.jpeg",
             "location": "Description for mountain image 56",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1432,8 +1432,8 @@
                 "l4": null
             }
         },
-        "mountain_img_57.jpg": {
-            "url": "/img/media/mountain/mountain_img_57.jpg",
+        "mountain_img_57.jpeg": {
+            "url": "/img/media/mountain/mountain_img_57.jpeg",
             "location": "Description for mountain image 57",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1446,8 +1446,8 @@
         }
     },
     "city": {
-        "city_img_1.jpg": {
-            "url": "/img/media/city/city_img_1.jpg",
+        "city_img_1.jpeg": {
+            "url": "/img/media/city/city_img_1.jpeg",
             "location": "Description for city image 1",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1458,8 +1458,8 @@
                 "l4": null
             }
         },
-        "city_img_2.jpg": {
-            "url": "/img/media/city/city_img_2.jpg",
+        "city_img_2.jpeg": {
+            "url": "/img/media/city/city_img_2.jpeg",
             "location": "Description for city image 2",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1470,8 +1470,8 @@
                 "l4": null
             }
         },
-        "city_img_3.jpg": {
-            "url": "/img/media/city/city_img_3.jpg",
+        "city_img_3.jpeg": {
+            "url": "/img/media/city/city_img_3.jpeg",
             "location": "Description for city image 3",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1482,8 +1482,8 @@
                 "l4": null
             }
         },
-        "city_img_4.jpg": {
-            "url": "/img/media/city/city_img_4.jpg",
+        "city_img_4.jpeg": {
+            "url": "/img/media/city/city_img_4.jpeg",
             "location": "Description for city image 4",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1494,8 +1494,8 @@
                 "l4": null
             }
         },
-        "city_img_5.jpg": {
-            "url": "/img/media/city/city_img_5.jpg",
+        "city_img_5.jpeg": {
+            "url": "/img/media/city/city_img_5.jpeg",
             "location": "Description for city image 5",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1506,8 +1506,8 @@
                 "l4": null
             }
         },
-        "city_img_6.jpg": {
-            "url": "/img/media/city/city_img_6.jpg",
+        "city_img_6.jpeg": {
+            "url": "/img/media/city/city_img_6.jpeg",
             "location": "Description for city image 6",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1518,8 +1518,8 @@
                 "l4": null
             }
         },
-        "city_img_7.jpg": {
-            "url": "/img/media/city/city_img_7.jpg",
+        "city_img_7.jpeg": {
+            "url": "/img/media/city/city_img_7.jpeg",
             "location": "Description for city image 7",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1530,8 +1530,8 @@
                 "l4": null
             }
         },
-        "city_img_8.jpg": {
-            "url": "/img/media/city/city_img_8.jpg",
+        "city_img_8.jpeg": {
+            "url": "/img/media/city/city_img_8.jpeg",
             "location": "Description for city image 8",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1542,8 +1542,8 @@
                 "l4": null
             }
         },
-        "city_img_9.jpg": {
-            "url": "/img/media/city/city_img_9.jpg",
+        "city_img_9.jpeg": {
+            "url": "/img/media/city/city_img_9.jpeg",
             "location": "Description for city image 9",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1554,8 +1554,8 @@
                 "l4": null
             }
         },
-        "city_img_10.jpg": {
-            "url": "/img/media/city/city_img_10.jpg",
+        "city_img_10.jpeg": {
+            "url": "/img/media/city/city_img_10.jpeg",
             "location": "Description for city image 10",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1566,8 +1566,8 @@
                 "l4": null
             }
         },
-        "city_img_11.jpg": {
-            "url": "/img/media/city/city_img_11.jpg",
+        "city_img_11.jpeg": {
+            "url": "/img/media/city/city_img_11.jpeg",
             "location": "Description for city image 11",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1578,8 +1578,8 @@
                 "l4": null
             }
         },
-        "city_img_12.jpg": {
-            "url": "/img/media/city/city_img_12.jpg",
+        "city_img_12.jpeg": {
+            "url": "/img/media/city/city_img_12.jpeg",
             "location": "Description for city image 12",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1590,8 +1590,8 @@
                 "l4": null
             }
         },
-        "city_img_13.jpg": {
-            "url": "/img/media/city/city_img_13.jpg",
+        "city_img_13.jpeg": {
+            "url": "/img/media/city/city_img_13.jpeg",
             "location": "Description for city image 13",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1602,8 +1602,8 @@
                 "l4": null
             }
         },
-        "city_img_14.jpg": {
-            "url": "/img/media/city/city_img_14.jpg",
+        "city_img_14.jpeg": {
+            "url": "/img/media/city/city_img_14.jpeg",
             "location": "Description for city image 14",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1614,8 +1614,8 @@
                 "l4": null
             }
         },
-        "city_img_15.jpg": {
-            "url": "/img/media/city/city_img_15.jpg",
+        "city_img_15.jpeg": {
+            "url": "/img/media/city/city_img_15.jpeg",
             "location": "Description for city image 15",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1626,8 +1626,8 @@
                 "l4": null
             }
         },
-        "city_img_16.jpg": {
-            "url": "/img/media/city/city_img_16.jpg",
+        "city_img_16.jpeg": {
+            "url": "/img/media/city/city_img_16.jpeg",
             "location": "Description for city image 16",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1638,8 +1638,8 @@
                 "l4": null
             }
         },
-        "city_img_17.jpg": {
-            "url": "/img/media/city/city_img_17.jpg",
+        "city_img_17.jpeg": {
+            "url": "/img/media/city/city_img_17.jpeg",
             "location": "Description for city image 17",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1650,8 +1650,8 @@
                 "l4": null
             }
         },
-        "city_img_18.jpg": {
-            "url": "/img/media/city/city_img_18.jpg",
+        "city_img_18.jpeg": {
+            "url": "/img/media/city/city_img_18.jpeg",
             "location": "Description for city image 18",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1662,8 +1662,8 @@
                 "l4": null
             }
         },
-        "city_img_19.jpg": {
-            "url": "/img/media/city/city_img_19.jpg",
+        "city_img_19.jpeg": {
+            "url": "/img/media/city/city_img_19.jpeg",
             "location": "Description for city image 19",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1674,8 +1674,8 @@
                 "l4": null
             }
         },
-        "city_img_20.jpg": {
-            "url": "/img/media/city/city_img_20.jpg",
+        "city_img_20.jpeg": {
+            "url": "/img/media/city/city_img_20.jpeg",
             "location": "Description for city image 20",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1686,8 +1686,8 @@
                 "l4": null
             }
         },
-        "city_img_21.jpg": {
-            "url": "/img/media/city/city_img_21.jpg",
+        "city_img_21.jpeg": {
+            "url": "/img/media/city/city_img_21.jpeg",
             "location": "Description for city image 21",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1698,8 +1698,8 @@
                 "l4": null
             }
         },
-        "city_img_22.jpg": {
-            "url": "/img/media/city/city_img_22.jpg",
+        "city_img_22.jpeg": {
+            "url": "/img/media/city/city_img_22.jpeg",
             "location": "Description for city image 22",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1710,8 +1710,8 @@
                 "l4": null
             }
         },
-        "city_img_23.jpg": {
-            "url": "/img/media/city/city_img_23.jpg",
+        "city_img_23.jpeg": {
+            "url": "/img/media/city/city_img_23.jpeg",
             "location": "Description for city image 23",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1722,8 +1722,8 @@
                 "l4": null
             }
         },
-        "city_img_24.jpg": {
-            "url": "/img/media/city/city_img_24.jpg",
+        "city_img_24.jpeg": {
+            "url": "/img/media/city/city_img_24.jpeg",
             "location": "Description for city image 24",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1734,8 +1734,8 @@
                 "l4": null
             }
         },
-        "city_img_25.jpg": {
-            "url": "/img/media/city/city_img_25.jpg",
+        "city_img_25.jpeg": {
+            "url": "/img/media/city/city_img_25.jpeg",
             "location": "Description for city image 25",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1746,8 +1746,8 @@
                 "l4": null
             }
         },
-        "city_img_26.jpg": {
-            "url": "/img/media/city/city_img_26.jpg",
+        "city_img_26.jpeg": {
+            "url": "/img/media/city/city_img_26.jpeg",
             "location": "Description for city image 26",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1758,8 +1758,8 @@
                 "l4": null
             }
         },
-        "city_img_27.jpg": {
-            "url": "/img/media/city/city_img_27.jpg",
+        "city_img_27.jpeg": {
+            "url": "/img/media/city/city_img_27.jpeg",
             "location": "Description for city image 27",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1770,8 +1770,8 @@
                 "l4": null
             }
         },
-        "city_img_28.jpg": {
-            "url": "/img/media/city/city_img_28.jpg",
+        "city_img_28.jpeg": {
+            "url": "/img/media/city/city_img_28.jpeg",
             "location": "Description for city image 28",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1782,8 +1782,8 @@
                 "l4": null
             }
         },
-        "city_img_29.jpg": {
-            "url": "/img/media/city/city_img_29.jpg",
+        "city_img_29.jpeg": {
+            "url": "/img/media/city/city_img_29.jpeg",
             "location": "Description for city image 29",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1794,8 +1794,8 @@
                 "l4": null
             }
         },
-        "city_img_30.jpg": {
-            "url": "/img/media/city/city_img_30.jpg",
+        "city_img_30.jpeg": {
+            "url": "/img/media/city/city_img_30.jpeg",
             "location": "Description for city image 30",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1806,8 +1806,8 @@
                 "l4": null
             }
         },
-        "city_img_31.jpg": {
-            "url": "/img/media/city/city_img_31.jpg",
+        "city_img_31.jpeg": {
+            "url": "/img/media/city/city_img_31.jpeg",
             "location": "Description for city image 31",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1818,8 +1818,8 @@
                 "l4": null
             }
         },
-        "city_img_32.jpg": {
-            "url": "/img/media/city/city_img_32.jpg",
+        "city_img_32.jpeg": {
+            "url": "/img/media/city/city_img_32.jpeg",
             "location": "Description for city image 32",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1830,8 +1830,8 @@
                 "l4": null
             }
         },
-        "city_img_33.jpg": {
-            "url": "/img/media/city/city_img_33.jpg",
+        "city_img_33.jpeg": {
+            "url": "/img/media/city/city_img_33.jpeg",
             "location": "Description for city image 33",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1842,8 +1842,8 @@
                 "l4": null
             }
         },
-        "city_img_34.jpg": {
-            "url": "/img/media/city/city_img_34.jpg",
+        "city_img_34.jpeg": {
+            "url": "/img/media/city/city_img_34.jpeg",
             "location": "Description for city image 34",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1854,8 +1854,8 @@
                 "l4": null
             }
         },
-        "city_img_35.jpg": {
-            "url": "/img/media/city/city_img_35.jpg",
+        "city_img_35.jpeg": {
+            "url": "/img/media/city/city_img_35.jpeg",
             "location": "Description for city image 35",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1866,8 +1866,8 @@
                 "l4": null
             }
         },
-        "city_img_36.jpg": {
-            "url": "/img/media/city/city_img_36.jpg",
+        "city_img_36.jpeg": {
+            "url": "/img/media/city/city_img_36.jpeg",
             "location": "Description for city image 36",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1878,8 +1878,8 @@
                 "l4": null
             }
         },
-        "city_img_37.jpg": {
-            "url": "/img/media/city/city_img_37.jpg",
+        "city_img_37.jpeg": {
+            "url": "/img/media/city/city_img_37.jpeg",
             "location": "Description for city image 37",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1892,8 +1892,8 @@
         }
     },
     "cars": {
-        "cars_img_1.jpg": {
-            "url": "/img/media/cars/cars_img_1.jpg",
+        "cars_img_1.jpeg": {
+            "url": "/img/media/cars/cars_img_1.jpeg",
             "location": "Description for cars image 1",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1904,8 +1904,8 @@
                 "l4": null
             }
         },
-        "cars_img_2.jpg": {
-            "url": "/img/media/cars/cars_img_2.jpg",
+        "cars_img_2.jpeg": {
+            "url": "/img/media/cars/cars_img_2.jpeg",
             "location": "Description for cars image 2",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1916,8 +1916,8 @@
                 "l4": null
             }
         },
-        "cars_img_3.jpg": {
-            "url": "/img/media/cars/cars_img_3.jpg",
+        "cars_img_3.jpeg": {
+            "url": "/img/media/cars/cars_img_3.jpeg",
             "location": "Description for cars image 3",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1928,8 +1928,8 @@
                 "l4": null
             }
         },
-        "cars_img_4.jpg": {
-            "url": "/img/media/cars/cars_img_4.jpg",
+        "cars_img_4.jpeg": {
+            "url": "/img/media/cars/cars_img_4.jpeg",
             "location": "Description for cars image 4",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1940,8 +1940,8 @@
                 "l4": null
             }
         },
-        "cars_img_5.jpg": {
-            "url": "/img/media/cars/cars_img_5.jpg",
+        "cars_img_5.jpeg": {
+            "url": "/img/media/cars/cars_img_5.jpeg",
             "location": "Description for cars image 5",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1952,8 +1952,8 @@
                 "l4": null
             }
         },
-        "cars_img_6.jpg": {
-            "url": "/img/media/cars/cars_img_6.jpg",
+        "cars_img_6.jpeg": {
+            "url": "/img/media/cars/cars_img_6.jpeg",
             "location": "Description for cars image 6",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1964,8 +1964,8 @@
                 "l4": null
             }
         },
-        "cars_img_7.jpg": {
-            "url": "/img/media/cars/cars_img_7.jpg",
+        "cars_img_7.jpeg": {
+            "url": "/img/media/cars/cars_img_7.jpeg",
             "location": "Description for cars image 7",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1976,8 +1976,8 @@
                 "l4": null
             }
         },
-        "cars_img_8.jpg": {
-            "url": "/img/media/cars/cars_img_8.jpg",
+        "cars_img_8.jpeg": {
+            "url": "/img/media/cars/cars_img_8.jpeg",
             "location": "Description for cars image 8",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -1988,8 +1988,8 @@
                 "l4": null
             }
         },
-        "cars_img_9.jpg": {
-            "url": "/img/media/cars/cars_img_9.jpg",
+        "cars_img_9.jpeg": {
+            "url": "/img/media/cars/cars_img_9.jpeg",
             "location": "Description for cars image 9",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2000,8 +2000,8 @@
                 "l4": null
             }
         },
-        "cars_img_10.jpg": {
-            "url": "/img/media/cars/cars_img_10.jpg",
+        "cars_img_10.jpeg": {
+            "url": "/img/media/cars/cars_img_10.jpeg",
             "location": "Description for cars image 10",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2012,8 +2012,8 @@
                 "l4": null
             }
         },
-        "cars_img_11.jpg": {
-            "url": "/img/media/cars/cars_img_11.jpg",
+        "cars_img_11.jpeg": {
+            "url": "/img/media/cars/cars_img_11.jpeg",
             "location": "Description for cars image 11",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2024,8 +2024,8 @@
                 "l4": null
             }
         },
-        "cars_img_12.jpg": {
-            "url": "/img/media/cars/cars_img_12.jpg",
+        "cars_img_12.jpeg": {
+            "url": "/img/media/cars/cars_img_12.jpeg",
             "location": "Description for cars image 12",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2036,8 +2036,8 @@
                 "l4": null
             }
         },
-        "cars_img_13.jpg": {
-            "url": "/img/media/cars/cars_img_13.jpg",
+        "cars_img_13.jpeg": {
+            "url": "/img/media/cars/cars_img_13.jpeg",
             "location": "Description for cars image 13",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2048,8 +2048,8 @@
                 "l4": null
             }
         },
-        "cars_img_14.jpg": {
-            "url": "/img/media/cars/cars_img_14.jpg",
+        "cars_img_14.jpeg": {
+            "url": "/img/media/cars/cars_img_14.jpeg",
             "location": "Description for cars image 14",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2060,8 +2060,8 @@
                 "l4": null
             }
         },
-        "cars_img_15.jpg": {
-            "url": "/img/media/cars/cars_img_15.jpg",
+        "cars_img_15.jpeg": {
+            "url": "/img/media/cars/cars_img_15.jpeg",
             "location": "Description for cars image 15",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2072,8 +2072,8 @@
                 "l4": null
             }
         },
-        "cars_img_16.jpg": {
-            "url": "/img/media/cars/cars_img_16.jpg",
+        "cars_img_16.jpeg": {
+            "url": "/img/media/cars/cars_img_16.jpeg",
             "location": "Description for cars image 16",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2084,8 +2084,8 @@
                 "l4": null
             }
         },
-        "cars_img_17.jpg": {
-            "url": "/img/media/cars/cars_img_17.jpg",
+        "cars_img_17.jpeg": {
+            "url": "/img/media/cars/cars_img_17.jpeg",
             "location": "Description for cars image 17",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2096,8 +2096,8 @@
                 "l4": null
             }
         },
-        "cars_img_18.jpg": {
-            "url": "/img/media/cars/cars_img_18.jpg",
+        "cars_img_18.jpeg": {
+            "url": "/img/media/cars/cars_img_18.jpeg",
             "location": "Description for cars image 18",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2110,8 +2110,8 @@
         }
     },
     "sunset": {
-        "sunset_img_1.jpg": {
-            "url": "/img/media/sunset/sunset_img_1.jpg",
+        "sunset_img_1.jpeg": {
+            "url": "/img/media/sunset/sunset_img_1.jpeg",
             "location": "Description for sunset image 1",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2122,8 +2122,8 @@
                 "l4": null
             }
         },
-        "sunset_img_2.jpg": {
-            "url": "/img/media/sunset/sunset_img_2.jpg",
+        "sunset_img_2.jpeg": {
+            "url": "/img/media/sunset/sunset_img_2.jpeg",
             "location": "Description for sunset image 2",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2134,8 +2134,8 @@
                 "l4": null
             }
         },
-        "sunset_img_3.jpg": {
-            "url": "/img/media/sunset/sunset_img_3.jpg",
+        "sunset_img_3.jpeg": {
+            "url": "/img/media/sunset/sunset_img_3.jpeg",
             "location": "Description for sunset image 3",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2146,8 +2146,8 @@
                 "l4": null
             }
         },
-        "sunset_img_4.jpg": {
-            "url": "/img/media/sunset/sunset_img_4.jpg",
+        "sunset_img_4.jpeg": {
+            "url": "/img/media/sunset/sunset_img_4.jpeg",
             "location": "Description for sunset image 4",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2158,8 +2158,8 @@
                 "l4": null
             }
         },
-        "sunset_img_5.jpg": {
-            "url": "/img/media/sunset/sunset_img_5.jpg",
+        "sunset_img_5.jpeg": {
+            "url": "/img/media/sunset/sunset_img_5.jpeg",
             "location": "Description for sunset image 5",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2170,8 +2170,8 @@
                 "l4": null
             }
         },
-        "sunset_img_6.jpg": {
-            "url": "/img/media/sunset/sunset_img_6.jpg",
+        "sunset_img_6.jpeg": {
+            "url": "/img/media/sunset/sunset_img_6.jpeg",
             "location": "Description for sunset image 6",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2182,8 +2182,8 @@
                 "l4": null
             }
         },
-        "sunset_img_7.jpg": {
-            "url": "/img/media/sunset/sunset_img_7.jpg",
+        "sunset_img_7.jpeg": {
+            "url": "/img/media/sunset/sunset_img_7.jpeg",
             "location": "Description for sunset image 7",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2194,8 +2194,8 @@
                 "l4": null
             }
         },
-        "sunset_img_8.jpg": {
-            "url": "/img/media/sunset/sunset_img_8.jpg",
+        "sunset_img_8.jpeg": {
+            "url": "/img/media/sunset/sunset_img_8.jpeg",
             "location": "Description for sunset image 8",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2206,8 +2206,8 @@
                 "l4": null
             }
         },
-        "sunset_img_9.jpg": {
-            "url": "/img/media/sunset/sunset_img_9.jpg",
+        "sunset_img_9.jpeg": {
+            "url": "/img/media/sunset/sunset_img_9.jpeg",
             "location": "Description for sunset image 9",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2218,8 +2218,8 @@
                 "l4": null
             }
         },
-        "sunset_img_10.jpg": {
-            "url": "/img/media/sunset/sunset_img_10.jpg",
+        "sunset_img_10.jpeg": {
+            "url": "/img/media/sunset/sunset_img_10.jpeg",
             "location": "Description for sunset image 10",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2230,8 +2230,8 @@
                 "l4": null
             }
         },
-        "sunset_img_11.jpg": {
-            "url": "/img/media/sunset/sunset_img_11.jpg",
+        "sunset_img_11.jpeg": {
+            "url": "/img/media/sunset/sunset_img_11.jpeg",
             "location": "Description for sunset image 11",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2242,8 +2242,8 @@
                 "l4": null
             }
         },
-        "sunset_img_12.jpg": {
-            "url": "/img/media/sunset/sunset_img_12.jpg",
+        "sunset_img_12.jpeg": {
+            "url": "/img/media/sunset/sunset_img_12.jpeg",
             "location": "Description for sunset image 12",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2254,8 +2254,8 @@
                 "l4": null
             }
         },
-        "sunset_img_13.jpg": {
-            "url": "/img/media/sunset/sunset_img_13.jpg",
+        "sunset_img_13.jpeg": {
+            "url": "/img/media/sunset/sunset_img_13.jpeg",
             "location": "Description for sunset image 13",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
@@ -2266,8 +2266,8 @@
                 "l4": null
             }
         },
-        "sunset_img_14.jpg": {
-            "url": "/img/media/sunset/sunset_img_14.jpg",
+        "sunset_img_14.jpeg": {
+            "url": "/img/media/sunset/sunset_img_14.jpeg",
             "location": "Description for sunset image 14",
             "alt": "no alt description availble - image object dynamically generated",
             "date": "00.00.0000",
