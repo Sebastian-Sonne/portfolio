@@ -16,12 +16,14 @@
     --gray-medium: #dcdcdc;
     --gray-dark: #a0a0a0;
     --gray-black: #3d3d3d;
+    --gray-dark-light: #e1e1e1;
 
     --font-small: 12;
     --font-medium: 16;
     --font-big: 24;
 
     --bio-bg-image: url("/img/sebastian_sonne/mountain_center.webp");
+    --pattern: url("/img/pattern_light.png");
 }
 
 :root[data-theme="dark"] {
@@ -38,12 +40,14 @@
     --gray-medium: #404040;
     --gray-dark: #202020;
     --gray-black: #f1f1f1;
+    --gray-dark-light: #202020;
 
     --font-small: 12;
     --font-medium: 16;
     --font-big: 24;
 
     --bio-bg-image: url("/img/sebastian_sonne/sunset_1.webp");
+    --pattern: url("/img/pattern_dark.png");
 }
 
 :root {
@@ -130,6 +134,11 @@ header {
 
 .nav ul li a:hover {
     background-color: var(--secondary);
+}
+
+.nav-li-hl {
+    background-color: var(--secondary);
+    border-radius: 20px;
 }
 
 .theme-switcher {
@@ -476,14 +485,16 @@ footer {
     min-height: 100vh;
     transform: skew(-20deg);
     transform-origin: top left;
-    background-color: var(--gray-light);
-    transition: width 0.5s ease, transform 0.5s ease, display 0.3s ease;
+    background-color: var(--gray-dark-light);
+    transition: width 0.5s ease, transform 0.5s ease, display 0.3s ease, background-image 0.3s ease;
     z-index: -1;
 }
 
 .contact-background-container.element-2 {
     width: 57%;
-    background-color: #00000016;
+    background-color: var(--gray-dark-light);
+    background-image: var(--pattern);
+    background-position: center;
 }
 
 .contact-content-container {
