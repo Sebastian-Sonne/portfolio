@@ -75,7 +75,7 @@
         "fav_img_7.jpeg": {
             "url": "/img/media/fav/fav_img_7.jpeg",
             "location": "Banch dal Sè, Italy",
-            "alt": "Image of Banch dal Sè8 a mountain in Italy",
+            "alt": "Image of Banch dal Sè, a mountain in Italy",
             "date": "07.06.2023",
             "layout": {
                 "l1": null,
@@ -822,7 +822,7 @@
         },
         "mountain_img_6.jpeg": {
             "url": "/img/media/mountain/mountain_img_6.jpeg",
-            "location": "Lagazuoi, Dolomites",
+            "location": "Trincee del Lagazuoi, Dolomites",
             "alt": "Image of the Lagazuoi Cable Car in the Dolomites",
             "date": "07.08.2020",
             "layout": {
@@ -870,7 +870,7 @@
         },
         "mountain_img_10.jpeg": {
             "url": "/img/media/mountain/mountain_img_10.jpeg",
-            "location": "Trincee del Lagazuoi",
+            "location": "Trincee del Lagazuoi, Dolomites",
             "alt": "Image of a mountain in the Dolomites",
             "date": "07.08.2020",
             "layout": {
@@ -882,7 +882,7 @@
         },
         "mountain_img_11.jpeg": {
             "url": "/img/media/mountain/mountain_img_11.jpeg",
-            "location": "Lagazuoi, Dolomites",
+            "location": "Trincee del Lagazuoi, Dolomites",
             "alt": "Image of a mountain in the Dolomites",
             "date": "07.08.2020",
             "layout": {
@@ -931,7 +931,7 @@
         "mountain_img_15.jpeg": {
             "url": "/img/media/mountain/mountain_img_15.jpeg",
             "location": "Banch dal Sè, Dolomites",
-            "alt": "Image of Banch dal Sè8 a mountain in Italy",
+            "alt": "Image of Banch dal Sè a mountain in Italy",
             "date": "04.06.2023",
             "layout": {
                 "l1": null,
@@ -1242,8 +1242,8 @@
         },
         "mountain_img_41.jpeg": {
             "url": "/img/media/mountain/mountain_img_41.jpeg",
-            "location": "Description for mountain image 41",
-            "alt": "no alt description availble - image object dynamically generated",
+            "location": "Col Beccei, Dolomites",
+            "alt": "Image of mountains in the Dolomites",
             "date": "04.06.2023",
             "layout": {
                 "l1": null,
@@ -1254,9 +1254,9 @@
         },
         "mountain_img_42.jpeg": {
             "url": "/img/media/mountain/mountain_img_42.jpeg",
-            "location": "Description for mountain image 42",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Forcella de Ciampei, Dolomites",
+            "alt": "Image of mountains in the Dolomites",
+            "date": "06.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1266,9 +1266,9 @@
         },
         "mountain_img_43.jpeg": {
             "url": "/img/media/mountain/mountain_img_43.jpeg",
-            "location": "Description for mountain image 43",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Forcella de Ciampei, Dolomites",
+            "alt": "Image of mountains in the Dolomites",
+            "date": "06.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1278,9 +1278,9 @@
         },
         "mountain_img_44.jpeg": {
             "url": "/img/media/mountain/mountain_img_44.jpeg",
-            "location": "Description for mountain image 44",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Forcella de Ciampei, Dolomites",
+            "alt": "Image of mountains in the Dolomites",
+            "date": "06.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1290,9 +1290,9 @@
         },
         "mountain_img_45.jpeg": {
             "url": "/img/media/mountain/mountain_img_45.jpeg",
-            "location": "Description for mountain image 45",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Gran Cir, Dolomites",
+            "alt": "Image of mountains in the Dolomites",
+            "date": "07.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1302,9 +1302,9 @@
         },
         "mountain_img_46.jpeg": {
             "url": "/img/media/mountain/mountain_img_46.jpeg",
-            "location": "Description for mountain image 46",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Gran Cir, Dolomites",
+            "alt": "Image of mountains in the Dolomites",
+            "date": "07.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1314,9 +1314,9 @@
         },
         "mountain_img_47.jpeg": {
             "url": "/img/media/mountain/mountain_img_47.jpeg",
-            "location": "Description for mountain image 47",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Dolomites, Italy",
+            "alt": "Image of mountains in the Dolomites",
+            "date": "08.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1326,9 +1326,9 @@
         },
         "mountain_img_48.jpeg": {
             "url": "/img/media/mountain/mountain_img_48.jpeg",
-            "location": "Description for mountain image 48",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Dolomites, Italy EDIT TITLE",
+            "alt": "Image of mountains in the Dolomites",
+            "date": "19.08.2021",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1338,9 +1338,9 @@
         },
         "mountain_img_49.jpeg": {
             "url": "/img/media/mountain/mountain_img_49.jpeg",
-            "location": "Description for mountain image 49",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Watzmann-Massiv, Germany",
+            "alt": "Image of the Watzmann Massiv near the Königssee in Germany",
+            "date": "13.04.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1350,9 +1350,9 @@
         },
         "mountain_img_50.jpeg": {
             "url": "/img/media/mountain/mountain_img_50.jpeg",
-            "location": "Description for mountain image 50",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Lago di Garda, Italy",
+            "alt": "Image of a mountain cross in the Dolomites, Italy",
+            "date": "03.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1362,9 +1362,9 @@
         },
         "mountain_img_51.jpeg": {
             "url": "/img/media/mountain/mountain_img_51.jpeg",
-            "location": "Description for mountain image 51",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Tre Cime di Lavaredo, Dolomites",
+            "alt": "Image of Tre Cime di Lavaredo in Italy",
+            "date": "05.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1374,9 +1374,9 @@
         },
         "mountain_img_52.jpeg": {
             "url": "/img/media/mountain/mountain_img_52.jpeg",
-            "location": "Description for mountain image 52",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Monte Cavallo, Dolomites",
+            "alt": "Image of mountains in the Dolomites",
+            "date": "03.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1386,9 +1386,9 @@
         },
         "mountain_img_53.jpeg": {
             "url": "/img/media/mountain/mountain_img_53.jpeg",
-            "location": "Description for mountain image 53",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Banch dal Sè, Dolomites",
+            "alt": "Image of Banch dal Sè, a mountain in Italy",
+            "date": "04.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1398,9 +1398,9 @@
         },
         "mountain_img_54.jpeg": {
             "url": "/img/media/mountain/mountain_img_54.jpeg",
-            "location": "Description for mountain image 54",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Trincee del Lagazuoi, Dolomites",
+            "alt": "Image of the Lagazuoi in the Dolomites",
+            "date": "07.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1410,9 +1410,9 @@
         },
         "mountain_img_55.jpeg": {
             "url": "/img/media/mountain/mountain_img_55.jpeg",
-            "location": "Description for mountain image 55",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Cinque Torri, Dolomites",
+            "alt": "Image of Cinque Torri in Italy",
+            "date": "04.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1422,9 +1422,9 @@
         },
         "mountain_img_56.jpeg": {
             "url": "/img/media/mountain/mountain_img_56.jpeg",
-            "location": "Description for mountain image 56",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Cinque Torri, Dolomites",
+            "alt": "Image of Cinque Torri in Italy",
+            "date": "04.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1434,9 +1434,9 @@
         },
         "mountain_img_57.jpeg": {
             "url": "/img/media/mountain/mountain_img_57.jpeg",
-            "location": "Description for mountain image 57",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Sandvinvatnet, Norway",
+            "alt": "Image of Sandvinvatnet Fjord in Norway",
+            "date": "19.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,

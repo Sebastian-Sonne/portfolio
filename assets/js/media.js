@@ -137,7 +137,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //sets the location and date for the user in the lighbox
     function setLighboxData(imgKey) {
-        console.log("image key: " + imgKey);
         //img Data
         const category = getCategoryFromUrl();
         const imageData = imgData[category][imgKey];
