@@ -273,7 +273,7 @@
             "date": "07.02.2019",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": "grid-col-2",
                 "l4": "grid-row-2"
             }
@@ -297,7 +297,7 @@
             "date": "07.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-row-2",
                 "l4": "grid-col-2 grid-row-2"
             }
@@ -321,7 +321,7 @@
             "date": "22.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": null
             }
@@ -333,7 +333,7 @@
             "date": "13.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
@@ -393,7 +393,7 @@
             "date": "20.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": null
             }
@@ -417,7 +417,7 @@
             "date": "22.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-col-3",
                 "l4": "grid-col-2"
             }
@@ -441,7 +441,7 @@
             "date": "28.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
@@ -489,7 +489,7 @@
             "date": "26.12.2016",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-row-2",
                 "l4": null
             }
@@ -513,7 +513,7 @@
             "date": "23.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-row-2",
                 "l4": "grid-col-2"
             }
@@ -549,7 +549,7 @@
             "date": "10.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": "grid-col-2",
                 "l4": "grid-row-2"
             }
@@ -585,7 +585,7 @@
             "date": "07.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-row-3",
                 "l4": "grid-row-2"
             }
@@ -645,7 +645,7 @@
             "date": "19.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": "grid-col-3",
                 "l4": "grid-col-2"
             }
@@ -681,7 +681,7 @@
             "date": "09.04.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": "grid-col-2"
             }
@@ -705,7 +705,7 @@
             "date": "04.06.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
@@ -729,7 +729,7 @@
             "date": "11.06.2020",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
@@ -762,9 +762,9 @@
     "mountain": {
         "mountain_img_1.jpeg": {
             "url": "/img/media/mountain/mountain_img_1.jpeg",
-            "location": "Description for mountain image 1",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Banch dal Sè, Dolomites",
+            "alt": "Image of a mountain in the Dolomites",
+            "date": "04.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -774,9 +774,9 @@
         },
         "mountain_img_2.jpeg": {
             "url": "/img/media/mountain/mountain_img_2.jpeg",
-            "location": "Description for mountain image 2",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Tre Cime di Lavaredo, Dolomites",
+            "alt": "Image of the area sourrounding Tre Cime di Lavaredo, Dolomites",
+            "date": "05.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -786,9 +786,9 @@
         },
         "mountain_img_3.jpeg": {
             "url": "/img/media/mountain/mountain_img_3.jpeg",
-            "location": "Description for mountain image 3",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Tre Cime di Lavaredo, Dolomites",
+            "alt": "Image of Tre Cime di Lavaredo in Italy",
+            "date": "05.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -798,9 +798,9 @@
         },
         "mountain_img_4.jpeg": {
             "url": "/img/media/mountain/mountain_img_4.jpeg",
-            "location": "Description for mountain image 4",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Tre Cime di Lavaredo, Dolomites",
+            "alt": "Image of Tre Cime di Lavaredo in Italy",
+            "date": "05.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -810,9 +810,9 @@
         },
         "mountain_img_5.jpeg": {
             "url": "/img/media/mountain/mountain_img_5.jpeg",
-            "location": "Description for mountain image 5",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Dolomites, Italy",
+            "alt": "Image of a mountain in the Dolomites",
+            "date": "06.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -822,9 +822,9 @@
         },
         "mountain_img_6.jpeg": {
             "url": "/img/media/mountain/mountain_img_6.jpeg",
-            "location": "Description for mountain image 6",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Lagazuoi, Dolomites",
+            "alt": "Image of the Lagazuoi Cable Car in the Dolomites",
+            "date": "07.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -834,9 +834,9 @@
         },
         "mountain_img_7.jpeg": {
             "url": "/img/media/mountain/mountain_img_7.jpeg",
-            "location": "Description for mountain image 7",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Dolomites, Italy",
+            "alt": "Image of a mountain in the Dolomites",
+            "date": "08.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -846,9 +846,9 @@
         },
         "mountain_img_8.jpeg": {
             "url": "/img/media/mountain/mountain_img_8.jpeg",
-            "location": "Description for mountain image 8",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Hardangerjøkulen, Norway",
+            "alt": "Image of Hardangerjøkulen glacier in Norway",
+            "date": "23.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -858,9 +858,9 @@
         },
         "mountain_img_9.jpeg": {
             "url": "/img/media/mountain/mountain_img_9.jpeg",
-            "location": "Description for mountain image 9",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Rifugio Scotoni, Dolomites",
+            "alt": "Image of a tree branch near the Rifugio Scotoni in the Dolomites",
+            "date": "07.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -870,9 +870,9 @@
         },
         "mountain_img_10.jpeg": {
             "url": "/img/media/mountain/mountain_img_10.jpeg",
-            "location": "Description for mountain image 10",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Trincee del Lagazuoi",
+            "alt": "Image of a mountain in the Dolomites",
+            "date": "07.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -882,9 +882,9 @@
         },
         "mountain_img_11.jpeg": {
             "url": "/img/media/mountain/mountain_img_11.jpeg",
-            "location": "Description for mountain image 11",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Lagazuoi, Dolomites",
+            "alt": "Image of a mountain in the Dolomites",
+            "date": "07.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -894,9 +894,8 @@
         },
         "mountain_img_12.jpeg": {
             "url": "/img/media/mountain/mountain_img_12.jpeg",
-            "location": "Description for mountain image 12",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Tre Cime di Lavaredo, Dolomites",
+            "alt": "Image of Tre Cime di Lavaredo in Italy",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -906,9 +905,9 @@
         },
         "mountain_img_13.jpeg": {
             "url": "/img/media/mountain/mountain_img_13.jpeg",
-            "location": "Description for mountain image 13",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Hardangerjøkulen, Norway",
+            "alt": "Image of Hardangerjøkulen glacier in Norway",
+            "date": "23.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -918,9 +917,9 @@
         },
         "mountain_img_14.jpeg": {
             "url": "/img/media/mountain/mountain_img_14.jpeg",
-            "location": "Description for mountain image 14",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Gran Cir, Dolomites",
+            "alt": "Image of a mountain in the Dolomites",
+            "date": "08.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -930,9 +929,9 @@
         },
         "mountain_img_15.jpeg": {
             "url": "/img/media/mountain/mountain_img_15.jpeg",
-            "location": "Description for mountain image 15",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Banch dal Sè, Dolomites",
+            "alt": "Image of Banch dal Sè8 a mountain in Italy",
+            "date": "04.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -942,9 +941,9 @@
         },
         "mountain_img_16.jpeg": {
             "url": "/img/media/mountain/mountain_img_16.jpeg",
-            "location": "Description for mountain image 16",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Forcella de Ciampei, Dolomites",
+            "alt": "Image of a mountain in the Dolomites",
+            "date": "06.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -954,9 +953,9 @@
         },
         "mountain_img_17.jpeg": {
             "url": "/img/media/mountain/mountain_img_17.jpeg",
-            "location": "Description for mountain image 17",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Watzmann, Germany",
+            "alt": "Image of a mountain in the German Alps",
+            "date": "12.04.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -966,9 +965,9 @@
         },
         "mountain_img_18.jpeg": {
             "url": "/img/media/mountain/mountain_img_18.jpeg",
-            "location": "Description for mountain image 18",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Dolomites, Italy",
+            "alt": "Image of a mountain cross in the Dolomites, Italy",
+            "date": "12.06.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -978,9 +977,9 @@
         },
         "mountain_img_19.jpeg": {
             "url": "/img/media/mountain/mountain_img_19.jpeg",
-            "location": "Description for mountain image 19",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Königssee, Bayern",
+            "alt": "Image of the Königssee in Bavaria, Germany",
+            "date": "13.04.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -990,9 +989,9 @@
         },
         "mountain_img_20.jpeg": {
             "url": "/img/media/mountain/mountain_img_20.jpeg",
-            "location": "Description for mountain image 20",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Les Agneaux, France",
+            "alt": "Image of mountains in the French Alps",
+            "date": "14.06.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1002,9 +1001,9 @@
         },
         "mountain_img_21.jpeg": {
             "url": "/img/media/mountain/mountain_img_21.jpeg",
-            "location": "Description for mountain image 21",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Col de l'Aiguillette, France",
+            "alt": "Image of mountains in the French Alps",
+            "date": "16.06.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1014,9 +1013,9 @@
         },
         "mountain_img_22.jpeg": {
             "url": "/img/media/mountain/mountain_img_22.jpeg",
-            "location": "Description for mountain image 22",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Austrian Alps, Austria",
+            "alt": "Image of snowy mountains in Austria",
+            "date": "03.01.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1026,9 +1025,9 @@
         },
         "mountain_img_23.jpeg": {
             "url": "/img/media/mountain/mountain_img_23.jpeg",
-            "location": "Description for mountain image 23",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Tre Cime di Lavaredo, Dolomites",
+            "alt": "Image of Tre Cime di Lavaredo in Italy",
+            "date": "05.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1038,9 +1037,9 @@
         },
         "mountain_img_24.jpeg": {
             "url": "/img/media/mountain/mountain_img_24.jpeg",
-            "location": "Description for mountain image 24",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Arêtes de la Bruyère, France",
+            "alt": "Image of mountains in the French Alps",
+            "date": "16.6.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1050,9 +1049,9 @@
         },
         "mountain_img_25.jpeg": {
             "url": "/img/media/mountain/mountain_img_25.jpeg",
-            "location": "Description for mountain image 25",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Lenggries, Bayern",
+            "alt": "Image of a mountain cross in Lenggries, Bavaria",
+            "date": "31.05.2021",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1062,9 +1061,9 @@
         },
         "mountain_img_26.jpeg": {
             "url": "/img/media/mountain/mountain_img_26.jpeg",
-            "location": "Description for mountain image 26",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Kochel, Bayern",
+            "alt": "Image of an interesting cloud formation in Bavaria",
+            "date": "04.06.2021",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1074,9 +1073,9 @@
         },
         "mountain_img_27.jpeg": {
             "url": "/img/media/mountain/mountain_img_27.jpeg",
-            "location": "Description for mountain image 27",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Krimml, Austria",
+            "alt": "Image of a mountain river in Krimml, Austria",
+            "date": "17.08.2021",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1086,9 +1085,9 @@
         },
         "mountain_img_28.jpeg": {
             "url": "/img/media/mountain/mountain_img_28.jpeg",
-            "location": "Description for mountain image 28",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Cortina d’Ampezzo, Dolomites",
+            "alt": "Image of a mountain in the Dolomites",
+            "date": "03.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1098,9 +1097,9 @@
         },
         "mountain_img_29.jpeg": {
             "url": "/img/media/mountain/mountain_img_29.jpeg",
-            "location": "Description for mountain image 29",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Zillertal, Austria",
+            "alt": "Image of snowy mountains in Austria",
+            "date": "04.01.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1110,9 +1109,9 @@
         },
         "mountain_img_30.jpeg": {
             "url": "/img/media/mountain/mountain_img_30.jpeg",
-            "location": "Description for mountain image 30",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Zillertal, Austria",
+            "alt": "Image of snowy mountains in Austria",
+            "date": "04.01.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1122,9 +1121,9 @@
         },
         "mountain_img_31.jpeg": {
             "url": "/img/media/mountain/mountain_img_31.jpeg",
-            "location": "Description for mountain image 31",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Le Monêtier-les-Bains, France",
+            "alt": "Image of mountains in the French Alps",
+            "date": "15.06.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1134,9 +1133,9 @@
         },
         "mountain_img_32.jpeg": {
             "url": "/img/media/mountain/mountain_img_32.jpeg",
-            "location": "Description for mountain image 32",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Arêtes de la Bruyère, France",
+            "alt": "Image of mountains in the French Alps",
+            "date": "16.06.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
