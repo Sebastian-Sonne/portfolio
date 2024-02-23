@@ -896,6 +896,7 @@
             "url": "/img/media/mountain/mountain_img_12.jpeg",
             "location": "Tre Cime di Lavaredo, Dolomites",
             "alt": "Image of Tre Cime di Lavaredo in Italy",
+            "date": "05.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1145,9 +1146,9 @@
         },
         "mountain_img_33.jpeg": {
             "url": "/img/media/mountain/mountain_img_33.jpeg",
-            "location": "Description for mountain image 33",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Tysdalsvatnet Fjord, Norway",
+            "alt": "Image of the Tysdalsvatnet Fjord in Norway",
+            "date": "16.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1157,9 +1158,9 @@
         },
         "mountain_img_34.jpeg": {
             "url": "/img/media/mountain/mountain_img_34.jpeg",
-            "location": "Description for mountain image 34",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Cinque Torri, Dolomites",
+            "alt": "Image of Cinque Torri in Italy",
+            "date": "02.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1169,9 +1170,9 @@
         },
         "mountain_img_35.jpeg": {
             "url": "/img/media/mountain/mountain_img_35.jpeg",
-            "location": "Description for mountain image 35",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Sandvinvatnet, Norway",
+            "alt": "Image of Sandvinvatnet Fjord in Norway",
+            "date": "19.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1181,9 +1182,9 @@
         },
         "mountain_img_36.jpeg": {
             "url": "/img/media/mountain/mountain_img_36.jpeg",
-            "location": "Description for mountain image 36",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Hardangerjøkulen, Norway",
+            "alt": "Image of Hardangerjøkulen glacier in Norway",
+            "date": "23.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1193,9 +1194,9 @@
         },
         "mountain_img_37.jpeg": {
             "url": "/img/media/mountain/mountain_img_37.jpeg",
-            "location": "Description for mountain image 37",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Hardangerjøkulen, Norway",
+            "alt": "Image of Hardangerjøkulen glacier in Norway",
+            "date": "23.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1205,9 +1206,9 @@
         },
         "mountain_img_38.jpeg": {
             "url": "/img/media/mountain/mountain_img_38.jpeg",
-            "location": "Description for mountain image 38",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Hardangerjøkulen, Norway",
+            "alt": "Image of Hardangerjøkulen glacier in Norway",
+            "date": "23.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1217,9 +1218,9 @@
         },
         "mountain_img_39.jpeg": {
             "url": "/img/media/mountain/mountain_img_39.jpeg",
-            "location": "Description for mountain image 39",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Gaustatoppen, Norway",
+            "alt": "Image of the Gaustatoppen mountain in Norway",
+            "date": "27.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1229,9 +1230,9 @@
         },
         "mountain_img_40.jpeg": {
             "url": "/img/media/mountain/mountain_img_40.jpeg",
-            "location": "Description for mountain image 40",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "San Vito di Cadore, Dolomites",
+            "alt": "Image of mountains in the Dolomites",
+            "date": "02.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1243,7 +1244,7 @@
             "url": "/img/media/mountain/mountain_img_41.jpeg",
             "location": "Description for mountain image 41",
             "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "date": "04.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
