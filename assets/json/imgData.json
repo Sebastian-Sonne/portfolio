@@ -781,7 +781,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "mountain_img_3.jpeg": {
@@ -793,7 +793,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "mountain_img_4.jpeg": {
@@ -805,19 +805,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_5.jpeg": {
-            "url": "/img/media/mountain/mountain_img_5.jpeg",
-            "location": "Dolomites, Italy",
-            "alt": "Image of a mountain in the Dolomites",
-            "date": "06.08.2020",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-col-2 grid-row-2"
             }
         },
         "mountain_img_6.jpeg": {
@@ -825,6 +813,18 @@
             "location": "Trincee del Lagazuoi, Dolomites",
             "alt": "Image of the Lagazuoi Cable Car in the Dolomites",
             "date": "07.08.2020",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-row-2"
+            }
+        },
+        "mountain_img_5.jpeg": {
+            "url": "/img/media/mountain/mountain_img_5.jpeg",
+            "location": "Dolomites, Italy",
+            "alt": "Image of a mountain in the Dolomites",
+            "date": "06.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -856,16 +856,16 @@
                 "l4": null
             }
         },
-        "mountain_img_9.jpeg": {
-            "url": "/img/media/mountain/mountain_img_9.jpeg",
-            "location": "Rifugio Scotoni, Dolomites",
-            "alt": "Image of a tree branch near the Rifugio Scotoni in the Dolomites",
+        "mountain_img_11.jpeg": {
+            "url": "/img/media/mountain/mountain_img_11.jpeg",
+            "location": "Trincee del Lagazuoi, Dolomites",
+            "alt": "Image of a mountain in the Dolomites",
             "date": "07.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "mountain_img_10.jpeg": {
@@ -877,43 +877,19 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-4"
             }
         },
-        "mountain_img_11.jpeg": {
-            "url": "/img/media/mountain/mountain_img_11.jpeg",
-            "location": "Trincee del Lagazuoi, Dolomites",
-            "alt": "Image of a mountain in the Dolomites",
+        "mountain_img_9.jpeg": {
+            "url": "/img/media/mountain/mountain_img_9.jpeg",
+            "location": "Rifugio Scotoni, Dolomites",
+            "alt": "Image of a tree branch near the Rifugio Scotoni in the Dolomites",
             "date": "07.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_12.jpeg": {
-            "url": "/img/media/mountain/mountain_img_12.jpeg",
-            "location": "Tre Cime di Lavaredo, Dolomites",
-            "alt": "Image of Tre Cime di Lavaredo in Italy",
-            "date": "05.08.2020",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_13.jpeg": {
-            "url": "/img/media/mountain/mountain_img_13.jpeg",
-            "location": "Hardangerjøkulen, Norway",
-            "alt": "Image of Hardangerjøkulen glacier in Norway",
-            "date": "23.08.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "mountain_img_14.jpeg": {
@@ -921,6 +897,18 @@
             "location": "Gran Cir, Dolomites",
             "alt": "Image of a mountain in the Dolomites",
             "date": "08.06.2023",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "mountain_img_12.jpeg": {
+            "url": "/img/media/mountain/mountain_img_12.jpeg",
+            "location": "Tre Cime di Lavaredo, Dolomites",
+            "alt": "Image of Tre Cime di Lavaredo in Italy",
+            "date": "05.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -949,7 +937,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "mountain_img_17.jpeg": {
@@ -961,21 +949,10 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
-        "mountain_img_18.jpeg": {
-            "url": "/img/media/mountain/mountain_img_18.jpeg",
-            "location": "Dolomites, Italy",
-            "alt": "Image of a mountain cross in the Dolomites, Italy",
-            "date": "12.06.2020",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
+        
         "mountain_img_19.jpeg": {
             "url": "/img/media/mountain/mountain_img_19.jpeg",
             "location": "Königssee, Bayern",
@@ -988,30 +965,7 @@
                 "l4": null
             }
         },
-        "mountain_img_20.jpeg": {
-            "url": "/img/media/mountain/mountain_img_20.jpeg",
-            "location": "Les Agneaux, France",
-            "alt": "Image of mountains in the French Alps",
-            "date": "14.06.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_21.jpeg": {
-            "url": "/img/media/mountain/mountain_img_21.jpeg",
-            "location": "Col de l'Aiguillette, France",
-            "alt": "Image of mountains in the French Alps",
-            "date": "16.06.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
+        
         "mountain_img_22.jpeg": {
             "url": "/img/media/mountain/mountain_img_22.jpeg",
             "location": "Austrian Alps, Austria",
@@ -1024,6 +978,7 @@
                 "l4": null
             }
         },
+        
         "mountain_img_23.jpeg": {
             "url": "/img/media/mountain/mountain_img_23.jpeg",
             "location": "Tre Cime di Lavaredo, Dolomites",
@@ -1033,19 +988,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_24.jpeg": {
-            "url": "/img/media/mountain/mountain_img_24.jpeg",
-            "location": "Arêtes de la Bruyère, France",
-            "alt": "Image of mountains in the French Alps",
-            "date": "16.6.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "mountain_img_25.jpeg": {
@@ -1057,7 +1000,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "mountain_img_26.jpeg": {
@@ -1081,31 +1024,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_28.jpeg": {
-            "url": "/img/media/mountain/mountain_img_28.jpeg",
-            "location": "Cortina d’Ampezzo, Dolomites",
-            "alt": "Image of a mountain in the Dolomites",
-            "date": "03.08.2020",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_29.jpeg": {
-            "url": "/img/media/mountain/mountain_img_29.jpeg",
-            "location": "Zillertal, Austria",
-            "alt": "Image of snowy mountains in Austria",
-            "date": "04.01.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "mountain_img_30.jpeg": {
@@ -1120,6 +1039,30 @@
                 "l4": null
             }
         },
+        "mountain_img_28.jpeg": {
+            "url": "/img/media/mountain/mountain_img_28.jpeg",
+            "location": "Cortina d’Ampezzo, Dolomites",
+            "alt": "Image of a mountain in the Dolomites",
+            "date": "03.08.2020",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-row-2"
+            }
+        },
+        "mountain_img_29.jpeg": {
+            "url": "/img/media/mountain/mountain_img_29.jpeg",
+            "location": "Zillertal, Austria",
+            "alt": "Image of snowy mountains in Austria",
+            "date": "04.01.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
         "mountain_img_31.jpeg": {
             "url": "/img/media/mountain/mountain_img_31.jpeg",
             "location": "Le Monêtier-les-Bains, France",
@@ -1132,23 +1075,60 @@
                 "l4": null
             }
         },
-        "mountain_img_32.jpeg": {
-            "url": "/img/media/mountain/mountain_img_32.jpeg",
-            "location": "Arêtes de la Bruyère, France",
-            "alt": "Image of mountains in the French Alps",
-            "date": "16.06.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
         "mountain_img_33.jpeg": {
             "url": "/img/media/mountain/mountain_img_33.jpeg",
             "location": "Tysdalsvatnet Fjord, Norway",
             "alt": "Image of the Tysdalsvatnet Fjord in Norway",
             "date": "16.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-3"
+            }
+        },
+        "mountain_img_55.jpeg": {
+            "url": "/img/media/mountain/mountain_img_55.jpeg",
+            "location": "Cinque Torri, Dolomites",
+            "alt": "Image of Cinque Torri in Italy",
+            "date": "04.08.2020",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2 grid-row-2"
+            }
+        },
+        "mountain_img_56.jpeg": {
+            "url": "/img/media/mountain/mountain_img_56.jpeg",
+            "location": "Cinque Torri, Dolomites",
+            "alt": "Image of Cinque Torri in Italy",
+            "date": "04.08.2020",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "mountain_img_39.jpeg": {
+            "url": "/img/media/mountain/mountain_img_39.jpeg",
+            "location": "Gaustatoppen, Norway",
+            "alt": "Image of the Gaustatoppen mountain in Norway",
+            "date": "27.08.2022",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2 grid-row-2"
+            }
+        },
+        
+        "mountain_img_35.jpeg": {
+            "url": "/img/media/mountain/mountain_img_35.jpeg",
+            "location": "Sandvinvatnet, Norway",
+            "alt": "Image of Sandvinvatnet Fjord in Norway",
+            "date": "19.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1168,30 +1148,6 @@
                 "l4": null
             }
         },
-        "mountain_img_35.jpeg": {
-            "url": "/img/media/mountain/mountain_img_35.jpeg",
-            "location": "Sandvinvatnet, Norway",
-            "alt": "Image of Sandvinvatnet Fjord in Norway",
-            "date": "19.08.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_36.jpeg": {
-            "url": "/img/media/mountain/mountain_img_36.jpeg",
-            "location": "Hardangerjøkulen, Norway",
-            "alt": "Image of Hardangerjøkulen glacier in Norway",
-            "date": "23.08.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
         "mountain_img_37.jpeg": {
             "url": "/img/media/mountain/mountain_img_37.jpeg",
             "location": "Hardangerjøkulen, Norway",
@@ -1201,7 +1157,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-4"
             }
         },
         "mountain_img_38.jpeg": {
@@ -1209,18 +1165,6 @@
             "location": "Hardangerjøkulen, Norway",
             "alt": "Image of Hardangerjøkulen glacier in Norway",
             "date": "23.08.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_39.jpeg": {
-            "url": "/img/media/mountain/mountain_img_39.jpeg",
-            "location": "Gaustatoppen, Norway",
-            "alt": "Image of the Gaustatoppen mountain in Norway",
-            "date": "27.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1237,7 +1181,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "mountain_img_41.jpeg": {
@@ -1261,7 +1205,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "mountain_img_43.jpeg": {
@@ -1273,7 +1217,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "mountain_img_44.jpeg": {
@@ -1309,7 +1253,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "mountain_img_47.jpeg": {
@@ -1326,9 +1270,21 @@
         },
         "mountain_img_48.jpeg": {
             "url": "/img/media/mountain/mountain_img_48.jpeg",
-            "location": "Dolomites, Italy EDIT TITLE",
+            "location": "Dolomites, Italy",
             "alt": "Image of mountains in the Dolomites",
             "date": "19.08.2021",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "mountain_img_36.jpeg": {
+            "url": "/img/media/mountain/mountain_img_36.jpeg",
+            "location": "Hardangerjøkulen, Norway",
+            "alt": "Image of Hardangerjøkulen glacier in Norway",
+            "date": "23.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1345,7 +1301,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "mountain_img_50.jpeg": {
@@ -1353,6 +1309,18 @@
             "location": "Lago di Garda, Italy",
             "alt": "Image of a mountain cross in the Dolomites, Italy",
             "date": "03.04.2023",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "mountain_img_52.jpeg": {
+            "url": "/img/media/mountain/mountain_img_52.jpeg",
+            "location": "Monte Cavallo, Dolomites",
+            "alt": "Image of mountains in the Dolomites",
+            "date": "03.06.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1369,19 +1337,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_52.jpeg": {
-            "url": "/img/media/mountain/mountain_img_52.jpeg",
-            "location": "Monte Cavallo, Dolomites",
-            "alt": "Image of mountains in the Dolomites",
-            "date": "03.06.2023",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-col-2 grid-row-2"
             }
         },
         "mountain_img_53.jpeg": {
@@ -1401,30 +1357,6 @@
             "location": "Trincee del Lagazuoi, Dolomites",
             "alt": "Image of the Lagazuoi in the Dolomites",
             "date": "07.08.2020",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_55.jpeg": {
-            "url": "/img/media/mountain/mountain_img_55.jpeg",
-            "location": "Cinque Torri, Dolomites",
-            "alt": "Image of Cinque Torri in Italy",
-            "date": "04.08.2020",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "mountain_img_56.jpeg": {
-            "url": "/img/media/mountain/mountain_img_56.jpeg",
-            "location": "Cinque Torri, Dolomites",
-            "alt": "Image of Cinque Torri in Italy",
-            "date": "04.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
