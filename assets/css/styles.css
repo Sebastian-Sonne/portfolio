@@ -16,7 +16,7 @@
     --gray-medium: #dcdcdc;
     --gray-dark: #a0a0a0;
     --gray-black: #3d3d3d;
-    --gray-dark-light: #e1e1e1;
+    --gray-dark-light: #f0f0f0;
 
     --font-small: 12;
     --font-medium: 16;
@@ -24,6 +24,7 @@
 
     --bio-bg-image: url("/img/sebastian_sonne/mountain_center.webp");
     --pattern: url("/img/pattern_light.png");
+    --brightness: brightness(200%) grayscale(100%);
 }
 
 :root[data-theme="dark"] {
@@ -48,6 +49,7 @@
 
     --bio-bg-image: url("/img/sebastian_sonne/sunset_1.webp");
     --pattern: url("/img/pattern_dark.png");
+    --brightness: brightness(20%);
 }
 
 :root {
@@ -105,6 +107,11 @@ header {
 
 .logo {
     cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.logo:hover {
+    transform: scale(1.1);
 }
 
 .logo img {
@@ -179,7 +186,9 @@ header {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: var(--primary);
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px) saturate(100%);
+    -webkit-backdrop-filter: blur(9px) saturate(100%);
     overflow-x: hidden;
     transition: width 0.5s ease 0s;
     z-index: 10;
@@ -213,24 +222,24 @@ header {
 
 .theme-switcher-small {
     position: absolute;
-    top: 20px;
-    right: 105px;
+    top: 10px;
+    right: 100px;
     font-size: 55px;
-    color: var(--text-invert);
-    padding: 10px 18px 0 0;
+    color: var(--text);
+    padding: 15px;
     cursor: pointer;
-}
-
-.material-icons {
-    font-size: 12px;
 }
 
 .theme-switcher:hover {
     color: var(--secondary);
 }
 
+.theme-switcher-small:hover {
+    color: var(--primary);
+}
+
 .overlay a {
-    color: var(--text-invert);
+    color: var(--text);
     padding: 15px;
     font-size: 36px;
     display: block;
@@ -238,15 +247,15 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-    color: var(--text);
+    color: var(--primary);
 }
 
 .overlay .close {
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 45px;
     font-size: 60px;
-    color: var(--text-invert);
+    color: var(--text);
     cursor: pointer;
 }
 
@@ -273,20 +282,16 @@ header {
     body
 */
 
-main {
-    padding: 0 20px;
-    background-color: transparent;
-}
-
 .introduction {
-    min-height: calc(100vh - 73.95px);
+    height: calc(100vh - 73.95px);
+    
     padding-bottom: 40px;
 }
 
 .introduction h1 {
     margin: 30vh auto 10px 30px;
     font-family: 'Sixtyfour', sans-serif;
-    font-size: 64px;
+    font-size: clamp(18px, 6vw, 70px);
     word-spacing: -20px;
     width: fit-content;
     background: linear-gradient(to right, var(--primary), var(--accent));
@@ -368,58 +373,18 @@ main {
     border-color: var(--text);
 }
 
-.content-tiles-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 20px;
-    height: 100vh;
-    padding: 0;
-    margin: 0;
-}
-
-.projects-short {
-    display: grid;
-    background-color: var(--gray-dark);
-    min-height: 200px;
-    border-radius: 10px;
-    padding: 10px;
-    text-align: left;
-}
-
-.main-project {
-    grid-column: 1/3;
-}
-
-/*
-.sub-project-1 {}
-*/
-.sub-project-2 {
-    grid-row: 3;
-    grid-column: 1/4;
-}
-
-.sub-project-3 {
-    grid-column: 2/4;
-}
-
 .sub-project-footer {
-    grid-column: 1/4;
-    grid-row: 4;
-    margin-top: 40px;
-}
-
-.projects-short h4 {
-    text-align: center;
-    font-size: 1.25rem;
-    padding: 10px;
-}
-
-.projects-short a {
     position: relative;
-    margin: auto auto 0 0;
-    border: 2px solid var(--accent);
-    border-radius: 10px;
-    padding: 10px;
+    width: 100vw;
+    bottom: 0;
+    
+    margin-bottom: 10px !important;
+    opacity: 0.5;
+    transition: opacity 0.5s ease;
+}
+
+.sub-project-footer:hover {
+    opacity: 1;
 }
 
 /* 
@@ -500,6 +465,7 @@ footer {
     background-color: var(--gray-dark-light);
     background-image: var(--pattern);
     background-position: center;
+    filter: grayscale(30%);
 }
 
 .contact-content-container {
@@ -1046,6 +1012,22 @@ footer {
     Media Queries
 */
 
+@media (hover: none) {
+    .logo:hover {
+        transform: unset;
+    }
+
+    .sub-project-footer {
+        opacity: 1;
+    }
+}
+
+@media screen and (min-height: 560px) {
+    .sub-project-footer {
+        position: absolute;
+    }
+}
+
 @media screen and (max-height: 450px) {
     .overlay a {
         font-size: 20px;
@@ -1065,8 +1047,6 @@ footer {
 @media only screen and (max-height: 320px) {
     .introduction h1 {
         margin: 20vh auto 0 20px;
-        font-size: 48px;
-
     }
 
     .full-h2,
@@ -1152,10 +1132,6 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-    .introduction h1 {
-        font-size: 50px;
-    }
-
     .form-container {
         width: 400px;
     }
@@ -1189,10 +1165,6 @@ footer {
 
     .menu {
         display: initial;
-    }
-
-    .introduction h1 {
-        font-size: 36px;
     }
 
     .full-h2,
@@ -1272,7 +1244,6 @@ footer {
 @media only screen and (max-width: 560px) {
     .introduction h1 {
         margin: 20vh auto 10px 20px;
-        font-size: 28px;
     }
 
     .full-h2,
@@ -1287,6 +1258,14 @@ footer {
 
     .contact-background-container {
         display: none;
+    }
+
+    .contact-background-container.element-2 {
+        display: inline;
+        width: 100vw;
+        filter: blur(5px) var(--brightness);
+        transform: unset;
+        transition: none;
     }
 
     .form-container {
@@ -1311,16 +1290,20 @@ footer {
 }
 
 @media only screen and (max-width: 450px) {
-    .introduction h1 {
-        font-size: 24px;
-    }
-
     .bio-bg h1 {
         font-size: 40px;
     }
 
     .bio-content {
         padding-top: 35vw;
+    }
+    .sub-project-footer {
+        width: calc(100vw - 20px);
+        margin: 0 10px;
+    }
+
+    .logo:hover {
+        transform: unset;
     }
 }
 
