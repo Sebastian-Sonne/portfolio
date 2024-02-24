@@ -767,7 +767,7 @@
             "date": "04.06.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": null
             }
@@ -815,7 +815,7 @@
             "date": "07.08.2020",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
@@ -839,7 +839,7 @@
             "date": "08.06.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": null
             }
@@ -875,7 +875,7 @@
             "date": "07.08.2020",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": "grid-col-3",
                 "l4": "grid-col-4"
             }
@@ -887,7 +887,7 @@
             "date": "07.08.2020",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": null,
                 "l4": "grid-row-2"
             }
@@ -923,7 +923,7 @@
             "date": "04.06.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": "grid-col-2",
                 "l4": null
             }
@@ -947,7 +947,7 @@
             "date": "12.04.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-2"
             }
@@ -960,7 +960,7 @@
             "date": "13.04.2020",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": "grid-col-2",
                 "l4": null
             }
@@ -973,7 +973,7 @@
             "date": "03.01.2020",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": "grid-col-2",
                 "l4": null
             }
@@ -998,7 +998,7 @@
             "date": "31.05.2021",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
@@ -1022,7 +1022,7 @@
             "date": "17.08.2021",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
@@ -1046,7 +1046,7 @@
             "date": "03.08.2020",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": null,
                 "l4": "grid-row-2"
             }
@@ -1082,7 +1082,7 @@
             "date": "16.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-3"
             }
@@ -1094,7 +1094,7 @@
             "date": "04.08.2020",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2 grid-row-2",
                 "l3": "grid-col-2 grid-row-2",
                 "l4": "grid-col-2 grid-row-2"
             }
@@ -1118,7 +1118,7 @@
             "date": "27.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-2 grid-row-2"
             }
@@ -1131,7 +1131,7 @@
             "date": "19.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": null,
                 "l4": null
             }
@@ -1155,7 +1155,7 @@
             "date": "23.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": "grid-col-4"
             }
@@ -1167,7 +1167,7 @@
             "date": "23.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": null,
                 "l4": "display-none"
             }
@@ -1191,7 +1191,7 @@
             "date": "04.06.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
@@ -1203,7 +1203,7 @@
             "date": "06.06.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": null,
                 "l4": "grid-row-2"
             }
@@ -1215,7 +1215,7 @@
             "date": "06.06.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-2"
             }
@@ -1227,7 +1227,7 @@
             "date": "06.06.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": null,
                 "l4": null
             }
@@ -1251,7 +1251,7 @@
             "date": "07.06.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": "grid-col-3",
                 "l4": "grid-col-2"
             }
@@ -1263,7 +1263,7 @@
             "date": "08.06.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": "grid-col-2",
                 "l4": null
             }
@@ -1275,7 +1275,7 @@
             "date": "19.08.2021",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-2"
             }
@@ -1287,7 +1287,7 @@
             "date": "23.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": "display-none",
                 "l4": null
             }
@@ -1299,7 +1299,7 @@
             "date": "13.04.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": "grid-col-3",
                 "l4": "grid-col-2"
             }
@@ -1335,7 +1335,7 @@
             "date": "05.08.2020",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-row-2",
                 "l3": null,
                 "l4": "grid-col-2 grid-row-2"
             }
@@ -1371,7 +1371,7 @@
             "date": "19.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "display-none",
                 "l3": null,
                 "l4": null
             }
