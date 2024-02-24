@@ -16,7 +16,7 @@
     --gray-medium: #dcdcdc;
     --gray-dark: #a0a0a0;
     --gray-black: #3d3d3d;
-    --gray-dark-light: #e1e1e1;
+    --gray-dark-light: #f0f0f0;
 
     --font-small: 12;
     --font-medium: 16;
@@ -24,6 +24,7 @@
 
     --bio-bg-image: url("/img/sebastian_sonne/mountain_center.webp");
     --pattern: url("/img/pattern_light.png");
+    --brightness: brightness(200%) grayscale(100%);
 }
 
 :root[data-theme="dark"] {
@@ -48,6 +49,7 @@
 
     --bio-bg-image: url("/img/sebastian_sonne/sunset_1.webp");
     --pattern: url("/img/pattern_dark.png");
+    --brightness: brightness(20%);
 }
 
 :root {
@@ -184,7 +186,9 @@ header {
     z-index: 1;
     left: 0;
     top: 0;
-    background-color: var(--primary);
+    background-color: #ffffff10;
+    backdrop-filter: blur(10px) saturate(100%);
+    -webkit-backdrop-filter: blur(9px) saturate(100%);
     overflow-x: hidden;
     transition: width 0.5s ease 0s;
     z-index: 10;
@@ -218,24 +222,24 @@ header {
 
 .theme-switcher-small {
     position: absolute;
-    top: 20px;
-    right: 105px;
+    top: 10px;
+    right: 100px;
     font-size: 55px;
-    color: var(--text-invert);
-    padding: 10px 18px 0 0;
+    color: var(--text);
+    padding: 15px;
     cursor: pointer;
-}
-
-.material-icons {
-    font-size: 12px;
 }
 
 .theme-switcher:hover {
     color: var(--secondary);
 }
 
+.theme-switcher-small:hover {
+    color: var(--primary);
+}
+
 .overlay a {
-    color: var(--text-invert);
+    color: var(--text);
     padding: 15px;
     font-size: 36px;
     display: block;
@@ -243,15 +247,15 @@ header {
 
 .overlay a:hover,
 .overlay a:focus {
-    color: var(--text);
+    color: var(--primary);
 }
 
 .overlay .close {
     position: absolute;
-    top: 20px;
+    top: 10px;
     right: 45px;
     font-size: 60px;
-    color: var(--text-invert);
+    color: var(--text);
     cursor: pointer;
 }
 
@@ -461,6 +465,7 @@ footer {
     background-color: var(--gray-dark-light);
     background-image: var(--pattern);
     background-position: center;
+    filter: grayscale(30%);
 }
 
 .contact-content-container {
@@ -1253,6 +1258,14 @@ footer {
 
     .contact-background-container {
         display: none;
+    }
+
+    .contact-background-container.element-2 {
+        display: inline;
+        width: 100vw;
+        filter: blur(5px) var(--brightness);
+        transform: unset;
+        transition: none;
     }
 
     .form-container {
