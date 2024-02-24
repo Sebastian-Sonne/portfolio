@@ -75,6 +75,10 @@ body {
     flex-direction: column;
 }
 
+.display-none {
+    display: none;
+}
+
 a {
     color: var(--text);
     text-decoration: none;

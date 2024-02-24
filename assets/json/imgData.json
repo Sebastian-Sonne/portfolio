@@ -780,7 +780,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -792,7 +792,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-row-2"
             }
         },
@@ -816,7 +816,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
         },
@@ -876,7 +876,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-3",
                 "l4": "grid-col-4"
             }
         },
@@ -900,7 +900,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -912,7 +912,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-3",
                 "l4": null
             }
         },
@@ -924,7 +924,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -961,7 +961,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -974,7 +974,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -999,7 +999,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1023,7 +1023,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1059,7 +1059,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1071,7 +1071,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -1095,7 +1095,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2 grid-row-2",
                 "l4": "grid-col-2 grid-row-2"
             }
         },
@@ -1169,7 +1169,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "display-none"
             }
         },
         "mountain_img_40.jpeg": {
@@ -1180,7 +1180,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1192,8 +1192,8 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
-                "l4": null
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         },
         "mountain_img_42.jpeg": {
@@ -1252,7 +1252,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-3",
                 "l4": "grid-col-2"
             }
         },
@@ -1264,7 +1264,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -1288,7 +1288,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1300,7 +1300,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-3",
                 "l4": "grid-col-2"
             }
         },
@@ -1312,7 +1312,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1348,7 +1348,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -1360,7 +1360,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": null
             }
         },

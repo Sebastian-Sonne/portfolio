@@ -291,7 +291,7 @@ function updateLayout() {
 
         // remove old layout classes -> convert to array 
         Array.from(imgElement.classList).forEach(function (className) {
-            if (className.startsWith('grid-col-') || className.startsWith('grid-row-')) {
+            if (className.startsWith('grid-col-') || className.startsWith('grid-row-') || className.startsWith('display-none')) {
                 // Remove the class from the class list
                 imgElement.classList.remove(className);
             }
