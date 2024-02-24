@@ -78,6 +78,7 @@ document.addEventListener("DOMContentLoaded", function () {
         const lighboxImg = document.getElementById('lightbox-img');
 
         //set lighbox url
+        lighboxImg.src = "";
         lighboxImg.src = newImgData.url;
         setLighboxData(imgKey);
     }
@@ -136,7 +137,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     //sets the location and date for the user in the lighbox
     function setLighboxData(imgKey) {
-        console.log("image key: " + imgKey);
         //img Data
         const category = getCategoryFromUrl();
         const imageData = imgData[category][imgKey];
@@ -291,7 +291,7 @@ function updateLayout() {
 
         // remove old layout classes -> convert to array 
         Array.from(imgElement.classList).forEach(function (className) {
-            if (className.startsWith('grid-col-') || className.startsWith('grid-row-')) {
+            if (className.startsWith('grid-col-') || className.startsWith('grid-row-') || className.startsWith('display-none')) {
                 // Remove the class from the class list
                 imgElement.classList.remove(className);
             }
