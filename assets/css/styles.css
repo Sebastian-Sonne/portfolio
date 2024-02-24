@@ -287,7 +287,7 @@ header {
 .introduction h1 {
     margin: 30vh auto 10px 30px;
     font-family: 'Sixtyfour', sans-serif;
-    font-size: 64px;
+    font-size: clamp(18px, 6vw, 70px);
     word-spacing: -20px;
     width: fit-content;
     background: linear-gradient(to right, var(--primary), var(--accent));
@@ -1042,8 +1042,6 @@ footer {
 @media only screen and (max-height: 320px) {
     .introduction h1 {
         margin: 20vh auto 0 20px;
-        font-size: 48px;
-
     }
 
     .full-h2,
@@ -1129,10 +1127,6 @@ footer {
 }
 
 @media only screen and (max-width: 1000px) {
-    .introduction h1 {
-        font-size: 50px;
-    }
-
     .form-container {
         width: 400px;
     }
@@ -1166,10 +1160,6 @@ footer {
 
     .menu {
         display: initial;
-    }
-
-    .introduction h1 {
-        font-size: 36px;
     }
 
     .full-h2,
@@ -1249,7 +1239,6 @@ footer {
 @media only screen and (max-width: 560px) {
     .introduction h1 {
         margin: 20vh auto 10px 20px;
-        font-size: 28px;
     }
 
     .full-h2,
@@ -1288,10 +1277,6 @@ footer {
 }
 
 @media only screen and (max-width: 450px) {
-    .introduction h1 {
-        font-size: 24px;
-    }
-
     .bio-bg h1 {
         font-size: 40px;
     }
