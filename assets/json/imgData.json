@@ -802,7 +802,7 @@
             "alt": "Image of Tre Cime di Lavaredo in Italy",
             "date": "05.08.2020",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": "grid-col-2 grid-row-2"
@@ -826,7 +826,7 @@
             "alt": "Image of a mountain in the Dolomites",
             "date": "06.08.2020",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -838,7 +838,7 @@
             "alt": "Image of a mountain in the Dolomites",
             "date": "08.06.2023",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "grid-col-2",
                 "l3": null,
                 "l4": null
@@ -850,7 +850,7 @@
             "alt": "Image of Hardangerjøkulen glacier in Norway",
             "date": "23.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -922,7 +922,7 @@
             "alt": "Image of Banch dal Sè a mountain in Italy",
             "date": "04.06.2023",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "grid-col-2",
                 "l3": "grid-col-2",
                 "l4": null
@@ -946,7 +946,7 @@
             "alt": "Image of a mountain in the German Alps",
             "date": "12.04.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-2"
@@ -972,7 +972,7 @@
             "alt": "Image of snowy mountains in Austria",
             "date": "03.01.2020",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": "grid-col-2",
                 "l4": null
@@ -1009,7 +1009,7 @@
             "alt": "Image of an interesting cloud formation in Bavaria",
             "date": "04.06.2021",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -1033,7 +1033,7 @@
             "alt": "Image of snowy mountains in Austria",
             "date": "04.01.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -1057,7 +1057,7 @@
             "alt": "Image of snowy mountains in Austria",
             "date": "04.01.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": "grid-col-2",
                 "l4": "grid-col-2"
@@ -1069,7 +1069,7 @@
             "alt": "Image of mountains in the French Alps",
             "date": "15.06.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": "grid-col-2",
                 "l4": null
@@ -1081,7 +1081,7 @@
             "alt": "Image of the Tysdalsvatnet Fjord in Norway",
             "date": "16.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-3"
@@ -1117,7 +1117,7 @@
             "alt": "Image of the Gaustatoppen mountain in Norway",
             "date": "27.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-2 grid-row-2"
@@ -1130,7 +1130,7 @@
             "alt": "Image of Sandvinvatnet Fjord in Norway",
             "date": "19.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": null,
                 "l4": null
@@ -1142,7 +1142,7 @@
             "alt": "Image of Cinque Torri in Italy",
             "date": "02.08.2020",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -1154,7 +1154,7 @@
             "alt": "Image of Hardangerjøkulen glacier in Norway",
             "date": "23.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "grid-col-2",
                 "l3": null,
                 "l4": "grid-col-4"
@@ -1166,7 +1166,7 @@
             "alt": "Image of Hardangerjøkulen glacier in Norway",
             "date": "23.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": null,
                 "l4": "display-none"
@@ -1262,7 +1262,7 @@
             "alt": "Image of mountains in the Dolomites",
             "date": "08.06.2023",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": "grid-col-2",
                 "l4": null
@@ -1274,7 +1274,7 @@
             "alt": "Image of mountains in the Dolomites",
             "date": "19.08.2021",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-2"
@@ -1286,7 +1286,7 @@
             "alt": "Image of Hardangerjøkulen glacier in Norway",
             "date": "23.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": "display-none",
                 "l4": null
@@ -1298,7 +1298,7 @@
             "alt": "Image of the Watzmann Massiv near the Königssee in Germany",
             "date": "13.04.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": "grid-col-3",
                 "l4": "grid-col-2"
@@ -1370,7 +1370,7 @@
             "alt": "Image of Sandvinvatnet Fjord in Norway",
             "date": "19.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "display-none",
                 "l3": null,
                 "l4": null
