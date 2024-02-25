@@ -1381,7 +1381,7 @@
             "date": "09.03.2019",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": "grid-col-2"
             }
@@ -1393,8 +1393,8 @@
             "date": "09.03.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-col-2",
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1405,8 +1405,8 @@
             "date": "08.09.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-row-2",
+                "l3": "grid-col-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1416,7 +1416,7 @@
             "alt": "Image of Marina Bay Sands Hotel in Singapore",
             "date": "08.09.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": "grid-col-2 grid-row-2"
@@ -1429,8 +1429,8 @@
             "date": "08.09.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1440,9 +1440,9 @@
             "alt": "Image of downtown Singapore",
             "date": "08.09.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1453,8 +1453,8 @@
             "date": "09.09.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "display-none",
+                "l3": "grid-row-2",
                 "l4": "grid-col-2 grid-row-2"
             }
         },
@@ -1464,8 +1464,8 @@
             "alt": "Image of the Supertrees at Gardens by the Bay in Singapore",
             "date": "09.09.2017",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": "grid-col-2"
             }
@@ -1476,7 +1476,7 @@
             "alt": "Image of the Singapore Flyer in Singapore",
             "date": "09.09.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -1488,7 +1488,7 @@
             "alt": "Image of the Reflections at Keppel Bay Condo in Singapore",
             "date": "02.07.2016",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": "grid-col-2"
@@ -1500,9 +1500,9 @@
             "alt": "Image of downtown Singapore",
             "date": "02.09.2017",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "grid-col-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1512,8 +1512,8 @@
             "alt": "Image of downtown Singapore",
             "date": "02.09.2017",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "display-none",
                 "l3": null,
                 "l4": null
             }
@@ -1524,9 +1524,9 @@
             "alt": "Image of the Petronas Twin Towers in KL Malaysia",
             "date": "15.02.2018",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "grid-row-2",
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1536,9 +1536,9 @@
             "alt": "Image of waterplays at the Petronas Twin Towers in KL Malaysia",
             "date": "15.02.2018",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -1548,9 +1548,9 @@
             "alt": "Image of the Sydney Opera House in Sydney Australia",
             "date": "16.12.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1561,8 +1561,8 @@
             "date": "04.01.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-col-2",
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1572,9 +1572,9 @@
             "alt": "Image of Salò located at Lago di Garda in Italy",
             "date": "02.04.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "grid-col-2",
+                "l3": "grid-col-3",
                 "l4": "grid-col-3"
             }
         },
@@ -1585,8 +1585,8 @@
             "date": "16.12.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "display-none",
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -1596,9 +1596,9 @@
             "alt": "Image of a beautiful sunset in Boulogne-sur-Mer, France",
             "date": "04.08.2022",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1610,7 +1610,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-row-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1620,8 +1620,8 @@
             "alt": "Image of downtown Strasbourg, France",
             "date": "25.04.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "grid-row-2",
                 "l3": null,
                 "l4": "grid-row-2"
             }
@@ -1632,9 +1632,9 @@
             "alt": "Image of downtown Strasbourg, France",
             "date": "25.04.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "grid-row-1",
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1645,8 +1645,8 @@
             "date": "20.07.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1668,9 +1668,9 @@
             "alt": "Image of the Bundeskanzleramt in Berlin, Germany",
             "date": "15.08.2020",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1680,9 +1680,9 @@
             "alt": "Image of the Cube in Berlin, German",
             "date": "20.07.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1692,9 +1692,9 @@
             "alt": "Image of downtown Venice, Italy",
             "date": "05.04.2023",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1706,7 +1706,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1717,8 +1717,8 @@
             "date": "05.04.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-col-2 grid-row-2",
+                "l3": "grid-col-2 grid-row-2",
                 "l4": "grid-col-2 grid-row-2"
             }
         },
@@ -1728,8 +1728,8 @@
             "alt": "Image of downtown Venice, Italy",
             "date": "05.04.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-2"
             }
@@ -1740,8 +1740,8 @@
             "alt": "Image of downtown Oslo, Norway",
             "date": "25.08.2022",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "display-none",
                 "l3": null,
                 "l4": null
             }
@@ -1753,8 +1753,8 @@
             "date": "25.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-col-2",
+                "l3": "grid-col-2",
                 "l4": "grid-col-3"
             }
         },
@@ -1764,9 +1764,9 @@
             "alt": "Image of downtown Chicago, US",
             "date": "22.11.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
                 "l4": "grid-col-2"
             }
         },
@@ -1778,7 +1778,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-row-2",
                 "l4": "grid-col-2 grid-row-2"
             }
         },
@@ -1788,9 +1788,9 @@
             "alt": "Image of downtown Chicago, US",
             "date": "22.11.2023",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "display-none",
                 "l4": "display-none"
             }
         },
@@ -1800,9 +1800,9 @@
             "alt": "Image of downtown Chicago, US",
             "date": "22.11.2023",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2 grid-row-2"
             }
         },
@@ -1814,7 +1814,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         }
