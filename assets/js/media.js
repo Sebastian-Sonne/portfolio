@@ -218,23 +218,32 @@ document.addEventListener("DOMContentLoaded", function () {
         window.history.pushState({ path: newUrl }, '', newUrl);
     }
 
-    // Initial load of images based on category from URL parameter
-    const initialCategory = getCategoryFromUrl();
-    const initialNavItem = categoryNav.querySelector(`[data-category="${initialCategory}"]`);
-    const invalidCategoryDiv = document.getElementById('media-invalid-category');
+    //set nav category based on url parameter
+    function setNavCategory(initialCategory) {
+        const initialNavItem = categoryNav.querySelector(`[data-category="${initialCategory}"]`);
+        const invalidCategoryDiv = document.getElementById('media-invalid-category');
 
-    if (checkCategory(initialCategory)) {
-        if (initialNavItem) {
-            initialNavItem.style.backgroundColor = 'var(--primary)';
-            initialNavItem.classList.add('media-li-active');
-            previousElement = initialNavItem;
+        if (checkCategory(initialCategory)) {
+            if (initialNavItem) {
+                if (previousElement != null) {
+                    previousElement.style.backgroundColor = 'unset';
+                    previousElement.classList.remove('media-li-active');
+                }
+                initialNavItem.style.backgroundColor = 'var(--primary)';
+                initialNavItem.classList.add('media-li-active');
+
+                previousElement = initialNavItem;
+            }
+            invalidCategoryDiv.style.display = "none";
+            updateImages(initialCategory);
+        } else {
+            invalidCategoryDiv.style.display = "block";
+            updateImages('invalid');
         }
-        invalidCategoryDiv.style.display = "none";
-        updateImages(initialCategory);
-    } else {
-        invalidCategoryDiv.style.display = "block";
-        updateImages('invalid');
     }
+
+    // Initial load of images based on category from URL parameter
+    setNavCategory(getCategoryFromUrl());
 
     //set display style of lighbox
     function lightboxDisplay(style) {
@@ -263,6 +272,15 @@ document.addEventListener("DOMContentLoaded", function () {
         }
     })
 
+    //listens for user navigation using browser arrows
+    window.addEventListener('popstate', function (event) {
+        const category = getCategoryFromUrl();
+        if (category) {
+            setNavCategory(category);
+            updateImages(category);
+        }
+    });
+
     // Show image on click
     const closeBtn = document.getElementById("close");
     closeBtn.addEventListener("click", function () {
@@ -287,7 +305,7 @@ function updateLayout() {
     for (let i = 0; i < imgElements.length; i++) {
         const imgElement = imgElements[i];
         const imgName = getFilenameFromURL(imgElement.src);
-        const imgClass = images[imgName].layout[newLayout]; //! error
+        const imgClass = images[imgName].layout[newLayout];
 
         // remove old layout classes -> convert to array 
         Array.from(imgElement.classList).forEach(function (className) {
@@ -310,7 +328,7 @@ function updateLayout() {
 function getLayout() {
     const vw = window.innerWidth;
 
-    if (vw < 786) { //1 col visible
+    if (vw < 769) { //1 col visible
         return "l1";
 
     } else if (vw < 1101) { //2 col visible

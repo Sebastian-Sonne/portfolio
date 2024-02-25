@@ -3,7 +3,7 @@
         "fav_img_1.jpeg": {
             "url": "/img/media/fav/fav_img_1.jpeg",
             "location": "Downtown Singapore",
-            "alt": "Image of Downtown Singapore",
+            "alt": "Image of downtown Singapore",
             "date": "09.03.2019",
             "layout": {
                 "l1": null,
@@ -1378,107 +1378,107 @@
         }
     },
     "city": {
-        "city_img_1.jpeg": {
-            "url": "/img/media/city/city_img_1.jpeg",
-            "location": "Description for city image 1",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
         "city_img_2.jpeg": {
             "url": "/img/media/city/city_img_2.jpeg",
-            "location": "Description for city image 2",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Marina Bay Sands, Singapore",
+            "alt": "Image of Marina Bay Sands Hotel in Singapore",
+            "date": "09.03.2019",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "city_img_3.jpeg": {
-            "url": "/img/media/city/city_img_3.jpeg",
-            "location": "Description for city image 3",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "city_img_4.jpeg": {
-            "url": "/img/media/city/city_img_4.jpeg",
-            "location": "Description for city image 4",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "city_img_5.jpeg": {
-            "url": "/img/media/city/city_img_5.jpeg",
-            "location": "Description for city image 5",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_6.jpeg": {
             "url": "/img/media/city/city_img_6.jpeg",
-            "location": "Description for city image 6",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Downtown Singapore",
+            "alt": "Image of downtown Singapore",
+            "date": "09.03.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
-        "city_img_7.jpeg": {
-            "url": "/img/media/city/city_img_7.jpeg",
-            "location": "Description for city image 7",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+        "city_img_1.jpeg": {
+            "url": "/img/media/city/city_img_1.jpeg",
+            "location": "Art Science Museum, Sinagapore",
+            "alt": "Image of the Art Science Museum Singapore",
+            "date": "08.09.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
+            }
+        },
+        "city_img_3.jpeg": {
+            "url": "/img/media/city/city_img_3.jpeg",
+            "location": "Marina Bay Sands, Singapore",
+            "alt": "Image of Marina Bay Sands Hotel in Singapore",
+            "date": "08.09.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2 grid-row-2"
+            }
+        },
+        "city_img_4.jpeg": {
+            "url": "/img/media/city/city_img_4.jpeg",
+            "location": "Merlion, Singapore",
+            "alt": "Image of the Merlion in downtown Singapore",
+            "date": "08.09.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-row-2"
+            }
+        },
+        "city_img_5.jpeg": {
+            "url": "/img/media/city/city_img_5.jpeg",
+            "location": "Downtown Singapore",
+            "alt": "Image of downtown Singapore",
+            "date": "08.09.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
             }
         },
         "city_img_8.jpeg": {
             "url": "/img/media/city/city_img_8.jpeg",
-            "location": "Description for city image 8",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Gardens by the Bay, Singapore",
+            "alt": "Image of the Supertrees at Gardens by the Bay in Singapore",
+            "date": "09.09.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2 grid-row-2"
+            }
+        },
+        "city_img_7.jpeg": {
+            "url": "/img/media/city/city_img_7.jpeg",
+            "location": "Gardens by the Bay, Singapore",
+            "alt": "Image of the Supertrees at Gardens by the Bay in Singapore",
+            "date": "09.09.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
             }
         },
         "city_img_9.jpeg": {
             "url": "/img/media/city/city_img_9.jpeg",
-            "location": "Description for city image 9",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Singapore Flyer, Singapore",
+            "alt": "Image of the Singapore Flyer in Singapore",
+            "date": "09.09.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1488,33 +1488,33 @@
         },
         "city_img_10.jpeg": {
             "url": "/img/media/city/city_img_10.jpeg",
-            "location": "Description for city image 10",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Reflections, Singapore",
+            "alt": "Image of the Reflections at Keppel Bay Condo in Singapore",
+            "date": "02.07.2016",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_11.jpeg": {
             "url": "/img/media/city/city_img_11.jpeg",
-            "location": "Description for city image 11",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Downtown Singapore",
+            "alt": "Image of downtown Singapore",
+            "date": "02.09.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "city_img_12.jpeg": {
             "url": "/img/media/city/city_img_12.jpeg",
-            "location": "Description for city image 12",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Downtown Singapore",
+            "alt": "Image of downtown Singapore",
+            "date": "02.09.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1524,21 +1524,21 @@
         },
         "city_img_13.jpeg": {
             "url": "/img/media/city/city_img_13.jpeg",
-            "location": "Description for city image 13",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Kuala Lumpur, Malaysia",
+            "alt": "Image of the Petronas Twin Towers in KL Malaysia",
+            "date": "15.02.2018",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "city_img_14.jpeg": {
             "url": "/img/media/city/city_img_14.jpeg",
-            "location": "Description for city image 14",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Kuala Lumpur, Malaysia",
+            "alt": "Image of waterplays at the Petronas Twin Towers in KL Malaysia",
+            "date": "15.02.2018",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1548,9 +1548,9 @@
         },
         "city_img_15.jpeg": {
             "url": "/img/media/city/city_img_15.jpeg",
-            "location": "Description for city image 15",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Sydney, Australia",
+            "alt": "Image of the Sydney Opera House in Sydney Australia",
+            "date": "16.12.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1560,21 +1560,33 @@
         },
         "city_img_16.jpeg": {
             "url": "/img/media/city/city_img_16.jpeg",
-            "location": "Description for city image 16",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Perth, Australia",
+            "alt": "Image of arrows signs in Perth, Australia",
+            "date": "04.01.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_17.jpeg": {
             "url": "/img/media/city/city_img_17.jpeg",
-            "location": "Description for city image 17",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Salò, Lago di Garda",
+            "alt": "Image of Salò located at Lago di Garda in Italy",
+            "date": "02.04.2023",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-3"
+            }
+        },
+        "city_img_22.jpeg": {
+            "url": "/img/media/city/city_img_22.jpeg",
+            "location": "Sydney, Australia",
+            "alt": "Image of the Sydney Opera House in Sydney Australia",
+            "date": "16.12.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1584,9 +1596,9 @@
         },
         "city_img_18.jpeg": {
             "url": "/img/media/city/city_img_18.jpeg",
-            "location": "Description for city image 18",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Boulogne-sur-Mer, France",
+            "alt": "Image of a beautiful sunset in Boulogne-sur-Mer, France",
+            "date": "04.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1596,69 +1608,57 @@
         },
         "city_img_19.jpeg": {
             "url": "/img/media/city/city_img_19.jpeg",
-            "location": "Description for city image 19",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Sirmione, Italy",
+            "alt": "Image of Lago di Garda in Sirmione in Italy",
+            "date": "04.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_20.jpeg": {
             "url": "/img/media/city/city_img_20.jpeg",
-            "location": "Description for city image 20",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Strasbourg, France",
+            "alt": "Image of downtown Strasbourg, France",
+            "date": "25.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "city_img_21.jpeg": {
             "url": "/img/media/city/city_img_21.jpeg",
-            "location": "Description for city image 21",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Strasbourg, France",
+            "alt": "Image of downtown Strasbourg, France",
+            "date": "25.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "city_img_22.jpeg": {
-            "url": "/img/media/city/city_img_22.jpeg",
-            "location": "Description for city image 22",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_23.jpeg": {
             "url": "/img/media/city/city_img_23.jpeg",
-            "location": "Description for city image 23",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Berlin, Germany",
+            "alt": "Image of the German Bundestag in Berlin",
+            "date": "20.07.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "city_img_24.jpeg": {
             "url": "/img/media/city/city_img_24.jpeg",
-            "location": "Description for city image 24",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Berlin, Germany",
+            "alt": "Image of the Brandenburger Tor in Berlin",
+            "date": "15.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1668,9 +1668,9 @@
         },
         "city_img_25.jpeg": {
             "url": "/img/media/city/city_img_25.jpeg",
-            "location": "Description for city image 25",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Berlin, Germany",
+            "alt": "Image of the Bundeskanzleramt in Berlin, Germany",
+            "date": "15.08.2020",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1680,9 +1680,9 @@
         },
         "city_img_26.jpeg": {
             "url": "/img/media/city/city_img_26.jpeg",
-            "location": "Description for city image 26",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Berlin, Germany",
+            "alt": "Image of the Cube in Berlin, German",
+            "date": "20.07.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1692,9 +1692,9 @@
         },
         "city_img_27.jpeg": {
             "url": "/img/media/city/city_img_27.jpeg",
-            "location": "Description for city image 27",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Venice, Italy",
+            "alt": "Image of downtown Venice, Italy",
+            "date": "05.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1704,9 +1704,9 @@
         },
         "city_img_28.jpeg": {
             "url": "/img/media/city/city_img_28.jpeg",
-            "location": "Description for city image 28",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Venice, Italy",
+            "alt": "Image of downtown Venice, Italy",
+            "date": "05.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1716,33 +1716,33 @@
         },
         "city_img_29.jpeg": {
             "url": "/img/media/city/city_img_29.jpeg",
-            "location": "Description for city image 29",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Venice, Italy",
+            "alt": "Image of downtown Venice, Italy",
+            "date": "05.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2 grid-row-2"
             }
         },
         "city_img_30.jpeg": {
             "url": "/img/media/city/city_img_30.jpeg",
-            "location": "Description for city image 30",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Venice, Italy",
+            "alt": "Image of downtown Venice, Italy",
+            "date": "05.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_31.jpeg": {
             "url": "/img/media/city/city_img_31.jpeg",
-            "location": "Description for city image 31",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Oslo, Norway",
+            "alt": "Image of downtown Oslo, Norway",
+            "date": "25.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1752,74 +1752,74 @@
         },
         "city_img_32.jpeg": {
             "url": "/img/media/city/city_img_32.jpeg",
-            "location": "Description for city image 32",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Oslo, Norway",
+            "alt": "Image of downtown Oslo, Norway",
+            "date": "25.08.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-3"
             }
         },
         "city_img_33.jpeg": {
             "url": "/img/media/city/city_img_33.jpeg",
-            "location": "Description for city image 33",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Chicago, US",
+            "alt": "Image of downtown Chicago, US",
+            "date": "22.11.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_34.jpeg": {
             "url": "/img/media/city/city_img_34.jpeg",
-            "location": "Description for city image 34",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Chicago, US",
+            "alt": "Image of downtown Chicago, US",
+            "date": "22.11.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "city_img_35.jpeg": {
-            "url": "/img/media/city/city_img_35.jpeg",
-            "location": "Description for city image 35",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-col-2 grid-row-2"
             }
         },
         "city_img_36.jpeg": {
             "url": "/img/media/city/city_img_36.jpeg",
-            "location": "Description for city image 36",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Chicago, US",
+            "alt": "Image of downtown Chicago, US",
+            "date": "22.11.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "display-none"
+            }
+        },
+        "city_img_35.jpeg": {
+            "url": "/img/media/city/city_img_35.jpeg",
+            "location": "Chicago, US",
+            "alt": "Image of downtown Chicago, US",
+            "date": "22.11.2023",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2 grid-row-2"
             }
         },
         "city_img_37.jpeg": {
             "url": "/img/media/city/city_img_37.jpeg",
-            "location": "Description for city image 37",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Chicago, US",
+            "alt": "Image of downtown Chicago, US",
+            "date": "22.11.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         }
     },
