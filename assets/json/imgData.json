@@ -1378,18 +1378,6 @@
         }
     },
     "city": {
-        "city_img_1.jpeg": {
-            "url": "/img/media/city/city_img_1.jpeg",
-            "location": "Art Science Museum, Sinagapore",
-            "alt": "Image of the Art Science Museum Singapore",
-            "date": "08.09.2017",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
         "city_img_2.jpeg": {
             "url": "/img/media/city/city_img_2.jpeg",
             "location": "Marina Bay Sands, Singapore",
@@ -1399,43 +1387,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "city_img_3.jpeg": {
-            "url": "/img/media/city/city_img_3.jpeg",
-            "location": "Marina Bay Sands, Singapore",
-            "alt": "Image of Marina Bay Sands Hotel in Singapore",
-            "date": "08.09.2017",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "city_img_4.jpeg": {
-            "url": "/img/media/city/city_img_4.jpeg",
-            "location": "Merlion, Singapore",
-            "alt": "Image of the Merlion in downtown Singapore",
-            "date": "08.09.2017",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "city_img_5.jpeg": {
-            "url": "/img/media/city/city_img_5.jpeg",
-            "location": "Downtown Singapore",
-            "alt": "Image of downtown Singapore",
-            "date": "08.09.2017",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_6.jpeg": {
@@ -1447,19 +1399,55 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
-        "city_img_7.jpeg": {
-            "url": "/img/media/city/city_img_7.jpeg",
-            "location": "Gardens by the Bay, Singapore",
-            "alt": "Image of the Supertrees at Gardens by the Bay in Singapore",
-            "date": "09.09.2017",
+        "city_img_1.jpeg": {
+            "url": "/img/media/city/city_img_1.jpeg",
+            "location": "Art Science Museum, Sinagapore",
+            "alt": "Image of the Art Science Museum Singapore",
+            "date": "08.09.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
+            }
+        },
+        "city_img_3.jpeg": {
+            "url": "/img/media/city/city_img_3.jpeg",
+            "location": "Marina Bay Sands, Singapore",
+            "alt": "Image of Marina Bay Sands Hotel in Singapore",
+            "date": "08.09.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2 grid-row-2"
+            }
+        },
+        "city_img_4.jpeg": {
+            "url": "/img/media/city/city_img_4.jpeg",
+            "location": "Merlion, Singapore",
+            "alt": "Image of the Merlion in downtown Singapore",
+            "date": "08.09.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-row-2"
+            }
+        },
+        "city_img_5.jpeg": {
+            "url": "/img/media/city/city_img_5.jpeg",
+            "location": "Downtown Singapore",
+            "alt": "Image of downtown Singapore",
+            "date": "08.09.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
             }
         },
         "city_img_8.jpeg": {
@@ -1471,7 +1459,19 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2 grid-row-2"
+            }
+        },
+        "city_img_7.jpeg": {
+            "url": "/img/media/city/city_img_7.jpeg",
+            "location": "Gardens by the Bay, Singapore",
+            "alt": "Image of the Supertrees at Gardens by the Bay in Singapore",
+            "date": "09.09.2017",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
             }
         },
         "city_img_9.jpeg": {
@@ -1495,7 +1495,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_11.jpeg": {
@@ -1507,7 +1507,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "city_img_12.jpeg": {
@@ -1531,7 +1531,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "city_img_14.jpeg": {
@@ -1567,7 +1567,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_17.jpeg": {
@@ -1575,6 +1575,18 @@
             "location": "Salò, Lago di Garda",
             "alt": "Image of Salò located at Lago di Garda in Italy",
             "date": "02.04.2023",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-3"
+            }
+        },
+        "city_img_22.jpeg": {
+            "url": "/img/media/city/city_img_22.jpeg",
+            "location": "Sydney, Australia",
+            "alt": "Image of the Sydney Opera House in Sydney Australia",
+            "date": "16.12.2017",
             "layout": {
                 "l1": null,
                 "l2": null,
@@ -1603,7 +1615,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_20.jpeg": {
@@ -1615,7 +1627,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "city_img_21.jpeg": {
@@ -1627,19 +1639,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "city_img_22.jpeg": {
-            "url": "/img/media/city/city_img_22.jpeg",
-            "location": "Sydney, Australia",
-            "alt": "Image of the Sydney Opera House in Sydney Australia",
-            "date": "16.12.2017",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_23.jpeg": {
@@ -1651,7 +1651,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-row-2"
             }
         },
         "city_img_24.jpeg": {
@@ -1723,7 +1723,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2 grid-row-2"
             }
         },
         "city_img_30.jpeg": {
@@ -1735,7 +1735,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_31.jpeg": {
@@ -1759,7 +1759,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-3"
             }
         },
         "city_img_33.jpeg": {
@@ -1771,7 +1771,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "city_img_34.jpeg": {
@@ -1783,19 +1783,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "city_img_35.jpeg": {
-            "url": "/img/media/city/city_img_35.jpeg",
-            "location": "Chicago, US",
-            "alt": "Image of downtown Chicago, US",
-            "date": "22.11.2023",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-col-2 grid-row-2"
             }
         },
         "city_img_36.jpeg": {
@@ -1807,7 +1795,19 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "display-none"
+            }
+        },
+        "city_img_35.jpeg": {
+            "url": "/img/media/city/city_img_35.jpeg",
+            "location": "Chicago, US",
+            "alt": "Image of downtown Chicago, US",
+            "date": "22.11.2023",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2 grid-row-2"
             }
         },
         "city_img_37.jpeg": {
@@ -1819,7 +1819,7 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         }
     },
