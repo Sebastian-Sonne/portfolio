@@ -827,19 +827,23 @@ footer {
     grid-column: span 4;
 }
 
+.grid-row-1 {
+    height: 350px !important;
+}
+
 .grid-row-2 {
     grid-row-start: span 2;
-    height: 100% !important;
+    height: 715px !important;
 }
 
 .grid-row-3 {
     grid-row-start: span 3;
-    height: 100% !important;
+    height: 1080px !important;
 }
 
 .grid-row-4 {
     grid-row-start: span 4;
-    height: 100% !important;
+    height: 1395px !important;
 }
 
 #media-invalid-category {

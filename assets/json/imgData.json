@@ -26,7 +26,7 @@
         },
         "fav_img_3.jpeg": {
             "url": "/img/media/fav/fav_img_3.jpeg",
-            "location": "Schloss Neuschwanstein, Bayern",
+            "location": "Schloss Neuschwanstein, Germany",
             "alt": "Image of Schloss Neuschwanstein in southern Germany",
             "date": "08.06.2020",
             "layout": {
@@ -194,7 +194,7 @@
         },
         "fav_img_17.jpeg": {
             "url": "/img/media/fav/fav_img_17.jpeg",
-            "location": "A73 Erlangen, Bayern",
+            "location": "A73 Erlangen, Germany",
             "alt": "Image of A73 in the snow near Erlangen, Bavaria in Germany",
             "date": "19.11.2022",
             "layout": {
@@ -206,8 +206,8 @@
         },
         "fav_img_18.jpeg": {
             "url": "/img/media/fav/fav_img_18.jpeg",
-            "location": "McLaren 765LT, Coffee & Cars",
-            "alt": "Image of McLaren 765LT spotted on a carshow in Houston, Texas",
+            "location": "McLaren 765LT",
+            "alt": "Image of McLaren 765LT spotted in Houston, Texas",
             "date": "02.09.2023",
             "layout": {
                 "l1": null,
@@ -280,7 +280,7 @@
         },
         "nature_img_23.jpeg": {
             "url": "/img/media/nature/nature_img_23.jpeg",
-            "location": "Königssee, Bayern",
+            "location": "Königssee, Germany",
             "alt": "Image of the Königssee in Bavaria, Germany",
             "date": "13.04.2022",
             "layout": {
@@ -448,7 +448,7 @@
         },
         "nature_img_15.jpeg": {
             "url": "/img/media/nature/nature_img_15.jpeg",
-            "location": "Erlangen, Bayern",
+            "location": "Erlangen, Germany",
             "alt": "Image of a cherry blossom tree in Erlangen, Germany",
             "date": "28.03.2023",
             "layout": {
@@ -952,10 +952,9 @@
                 "l4": "grid-col-2"
             }
         },
-        
         "mountain_img_19.jpeg": {
             "url": "/img/media/mountain/mountain_img_19.jpeg",
-            "location": "Königssee, Bayern",
+            "location": "Königssee, Germany",
             "alt": "Image of the Königssee in Bavaria, Germany",
             "date": "13.04.2020",
             "layout": {
@@ -965,7 +964,6 @@
                 "l4": null
             }
         },
-        
         "mountain_img_22.jpeg": {
             "url": "/img/media/mountain/mountain_img_22.jpeg",
             "location": "Austrian Alps, Austria",
@@ -978,7 +976,6 @@
                 "l4": null
             }
         },
-        
         "mountain_img_23.jpeg": {
             "url": "/img/media/mountain/mountain_img_23.jpeg",
             "location": "Tre Cime di Lavaredo, Dolomites",
@@ -993,7 +990,7 @@
         },
         "mountain_img_25.jpeg": {
             "url": "/img/media/mountain/mountain_img_25.jpeg",
-            "location": "Lenggries, Bayern",
+            "location": "Lenggries, Germany",
             "alt": "Image of a mountain cross in Lenggries, Bavaria",
             "date": "31.05.2021",
             "layout": {
@@ -1005,7 +1002,7 @@
         },
         "mountain_img_26.jpeg": {
             "url": "/img/media/mountain/mountain_img_26.jpeg",
-            "location": "Kochel, Bayern",
+            "location": "Kochel, Germany",
             "alt": "Image of an interesting cloud formation in Bavaria",
             "date": "04.06.2021",
             "layout": {
@@ -1123,7 +1120,6 @@
                 "l4": "grid-col-2 grid-row-2"
             }
         },
-        
         "mountain_img_35.jpeg": {
             "url": "/img/media/mountain/mountain_img_35.jpeg",
             "location": "Sandvinvatnet, Norway",
@@ -1385,7 +1381,7 @@
             "date": "09.03.2019",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": "grid-col-2"
             }
@@ -1397,8 +1393,8 @@
             "date": "09.03.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-col-2",
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1409,8 +1405,8 @@
             "date": "08.09.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-row-2",
+                "l3": "grid-col-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1420,7 +1416,7 @@
             "alt": "Image of Marina Bay Sands Hotel in Singapore",
             "date": "08.09.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": "grid-col-2 grid-row-2"
@@ -1433,8 +1429,8 @@
             "date": "08.09.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1444,9 +1440,9 @@
             "alt": "Image of downtown Singapore",
             "date": "08.09.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1457,8 +1453,8 @@
             "date": "09.09.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "display-none",
+                "l3": "grid-row-2",
                 "l4": "grid-col-2 grid-row-2"
             }
         },
@@ -1468,8 +1464,8 @@
             "alt": "Image of the Supertrees at Gardens by the Bay in Singapore",
             "date": "09.09.2017",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": "grid-col-2"
             }
@@ -1480,7 +1476,7 @@
             "alt": "Image of the Singapore Flyer in Singapore",
             "date": "09.09.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -1492,7 +1488,7 @@
             "alt": "Image of the Reflections at Keppel Bay Condo in Singapore",
             "date": "02.07.2016",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": "grid-col-2"
@@ -1504,9 +1500,9 @@
             "alt": "Image of downtown Singapore",
             "date": "02.09.2017",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "grid-col-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1516,8 +1512,8 @@
             "alt": "Image of downtown Singapore",
             "date": "02.09.2017",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "display-none",
                 "l3": null,
                 "l4": null
             }
@@ -1528,9 +1524,9 @@
             "alt": "Image of the Petronas Twin Towers in KL Malaysia",
             "date": "15.02.2018",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "grid-row-2",
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1540,9 +1536,9 @@
             "alt": "Image of waterplays at the Petronas Twin Towers in KL Malaysia",
             "date": "15.02.2018",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -1552,9 +1548,9 @@
             "alt": "Image of the Sydney Opera House in Sydney Australia",
             "date": "16.12.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1565,8 +1561,8 @@
             "date": "04.01.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-col-2",
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1576,9 +1572,9 @@
             "alt": "Image of Salò located at Lago di Garda in Italy",
             "date": "02.04.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "grid-col-2",
+                "l3": "grid-col-3",
                 "l4": "grid-col-3"
             }
         },
@@ -1589,8 +1585,8 @@
             "date": "16.12.2017",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "display-none",
+                "l3": "grid-col-2",
                 "l4": null
             }
         },
@@ -1600,9 +1596,9 @@
             "alt": "Image of a beautiful sunset in Boulogne-sur-Mer, France",
             "date": "04.08.2022",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1614,7 +1610,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-row-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1624,8 +1620,8 @@
             "alt": "Image of downtown Strasbourg, France",
             "date": "25.04.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "grid-row-2",
                 "l3": null,
                 "l4": "grid-row-2"
             }
@@ -1636,9 +1632,9 @@
             "alt": "Image of downtown Strasbourg, France",
             "date": "25.04.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "grid-row-1",
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
                 "l4": "grid-col-2"
             }
         },
@@ -1649,8 +1645,8 @@
             "date": "20.07.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
                 "l4": "grid-row-2"
             }
         },
@@ -1672,9 +1668,9 @@
             "alt": "Image of the Bundeskanzleramt in Berlin, Germany",
             "date": "15.08.2020",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1684,9 +1680,9 @@
             "alt": "Image of the Cube in Berlin, German",
             "date": "20.07.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1696,9 +1692,9 @@
             "alt": "Image of downtown Venice, Italy",
             "date": "05.04.2023",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1710,7 +1706,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -1721,8 +1717,8 @@
             "date": "05.04.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-col-2 grid-row-2",
+                "l3": "grid-col-2 grid-row-2",
                 "l4": "grid-col-2 grid-row-2"
             }
         },
@@ -1732,8 +1728,8 @@
             "alt": "Image of downtown Venice, Italy",
             "date": "05.04.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "display-none",
                 "l3": null,
                 "l4": "grid-col-2"
             }
@@ -1744,8 +1740,8 @@
             "alt": "Image of downtown Oslo, Norway",
             "date": "25.08.2022",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "display-none",
                 "l3": null,
                 "l4": null
             }
@@ -1757,8 +1753,8 @@
             "date": "25.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-col-2",
+                "l3": "grid-col-2",
                 "l4": "grid-col-3"
             }
         },
@@ -1768,9 +1764,9 @@
             "alt": "Image of downtown Chicago, US",
             "date": "22.11.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
                 "l4": "grid-col-2"
             }
         },
@@ -1782,7 +1778,7 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-row-2",
                 "l4": "grid-col-2 grid-row-2"
             }
         },
@@ -1792,9 +1788,9 @@
             "alt": "Image of downtown Chicago, US",
             "date": "22.11.2023",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "display-none",
                 "l4": "display-none"
             }
         },
@@ -1804,9 +1800,9 @@
             "alt": "Image of downtown Chicago, US",
             "date": "22.11.2023",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2 grid-row-2"
             }
         },
@@ -1818,115 +1814,103 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
+                "l3": "grid-col-2",
                 "l4": "grid-col-2"
             }
         }
     },
     "cars": {
-        "cars_img_1.jpeg": {
-            "url": "/img/media/cars/cars_img_1.jpeg",
-            "location": "Description for cars image 1",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_2.jpeg": {
-            "url": "/img/media/cars/cars_img_2.jpeg",
-            "location": "Description for cars image 2",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_3.jpeg": {
-            "url": "/img/media/cars/cars_img_3.jpeg",
-            "location": "Description for cars image 3",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_4.jpeg": {
-            "url": "/img/media/cars/cars_img_4.jpeg",
-            "location": "Description for cars image 4",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_5.jpeg": {
-            "url": "/img/media/cars/cars_img_5.jpeg",
-            "location": "Description for cars image 5",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_6.jpeg": {
-            "url": "/img/media/cars/cars_img_6.jpeg",
-            "location": "Description for cars image 6",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
         "cars_img_7.jpeg": {
             "url": "/img/media/cars/cars_img_7.jpeg",
-            "location": "Description for cars image 7",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "McLaren 765LT",
+            "alt": "Image of McLaren 765LT spotted in Houston, Texas",
+            "date": "02.09.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
-                "l4": null
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         },
         "cars_img_8.jpeg": {
             "url": "/img/media/cars/cars_img_8.jpeg",
-            "location": "Description for cars image 8",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "McLaren 765LT",
+            "alt": "Image of McLaren 765LT spotted in Houston, Texas",
+            "date": "02.09.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l1": "display-none",
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
             }
         },
         "cars_img_9.jpeg": {
             "url": "/img/media/cars/cars_img_9.jpeg",
-            "location": "Description for cars image 9",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Corvette Stingray",
+            "alt": "Image of a Corvette Stingray spotted in Houston, Texas",
+            "date": "02.09.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
+            }
+        },
+        "cars_img_16.jpeg": {
+            "url": "/img/media/cars/cars_img_16.jpeg",
+            "location": "McLaren 765LT",
+            "alt": "Image of McLaren 765LT spotted in Houston, Texas",
+            "date": "02.09.2023",
             "layout": {
                 "l1": null,
+                "l2": "grid-row-2",
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_11.jpeg": {
+            "url": "/img/media/cars/cars_img_11.jpeg",
+            "location": "Audi S6",
+            "alt": "Image of an Audi S6 spotted in Salò, Lago di Garda",
+            "date": "02.04.2023",
+            "layout": {
+                "l1": null,
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
+            }
+        },
+        "cars_img_13.jpeg": {
+            "url": "/img/media/cars/cars_img_13.jpeg",
+            "location": "Audi RS E-Tron GT",
+            "alt": "Image of an Audi RS E-Tron GT",
+            "date": "25.04.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_17.jpeg": {
+            "url": "/img/media/cars/cars_img_17.jpeg",
+            "location": "Audi R8 V10 quattro",
+            "alt": "Image of an Audi R8 V10 quattro spotted in Houston, Texas",
+            "date": "02.09.2023",
+            "layout": {
+                "l1": null,
+                "l2": "grid-col-2",
+                "l3": null,
+                "l4": null
+            }
+        },
+        "cars_img_14.jpeg": {
+            "url": "/img/media/cars/cars_img_14.jpeg",
+            "location": "Pagani Huayra",
+            "alt": "Image of a Pagani Huayra spotted in Houston, Texas",
+            "date": "02.09.2023",
+            "layout": {
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -1934,280 +1918,280 @@
         },
         "cars_img_10.jpeg": {
             "url": "/img/media/cars/cars_img_10.jpeg",
-            "location": "Description for cars image 10",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Porsche 911 GT3 RS",
+            "alt": "Image of a Porsche 911 GT3 RS spotted in Houston, Texas",
+            "date": "02.09.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_11.jpeg": {
-            "url": "/img/media/cars/cars_img_11.jpeg",
-            "location": "Description for cars image 11",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_12.jpeg": {
-            "url": "/img/media/cars/cars_img_12.jpeg",
-            "location": "Description for cars image 12",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_13.jpeg": {
-            "url": "/img/media/cars/cars_img_13.jpeg",
-            "location": "Description for cars image 13",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_14.jpeg": {
-            "url": "/img/media/cars/cars_img_14.jpeg",
-            "location": "Description for cars image 14",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_15.jpeg": {
-            "url": "/img/media/cars/cars_img_15.jpeg",
-            "location": "Description for cars image 15",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_16.jpeg": {
-            "url": "/img/media/cars/cars_img_16.jpeg",
-            "location": "Description for cars image 16",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_17.jpeg": {
-            "url": "/img/media/cars/cars_img_17.jpeg",
-            "location": "Description for cars image 17",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l2": "grid-row-2",
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         },
         "cars_img_18.jpeg": {
             "url": "/img/media/cars/cars_img_18.jpeg",
-            "location": "Description for cars image 18",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Ford Mustang GT",
+            "alt": "Image of a Ford Mustang GT",
+            "date": "02.09.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": null,
+                "l3": null,
+                "l4": "display-none"
+            }
+        },
+        "cars_img_15.jpeg": {
+            "url": "/img/media/cars/cars_img_15.jpeg",
+            "location": "Ferrari 488 Pista",
+            "alt": "Image of a Ferrari 488 Pista spotted in Houston, Texas",
+            "date": "02.09.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": "grid-row-2",
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_12.jpeg": {
+            "url": "/img/media/cars/cars_img_12.jpeg",
+            "location": "Porsche 911",
+            "alt": "Image of a Porsche 911 spotted in Strasbourg",
+            "date": "25.04.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": null,
+                "l3": "grid-col-2",
+                "l4": "display-none"
+            }
+        },
+        "cars_img_2.jpeg": {
+            "url": "/img/media/cars/cars_img_2.jpeg",
+            "location": "A73 Erlangen, Germany",
+            "alt": "Image of A73 in the snow near Erlangen, Bavaria in Germany",
+            "date": "19.11.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_1.jpeg": {
+            "url": "/img/media/cars/cars_img_1.jpeg",
+            "location": "Porsche 911 Dakar",
+            "alt": "Image of the Porsche 911 Dakar",
+            "date": "20.07.2023",
+            "layout": {
+                "l1": null,
+                "l2": "grid-col-2",
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_5.jpeg": {
+            "url": "/img/media/cars/cars_img_5.jpeg",
+            "location": "Porsche 911 Dakar",
+            "alt": "Image of the Porsche 911 Dakar",
+            "date": "20.07.2023",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": "grid-row-2",
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_6.jpeg": {
+            "url": "/img/media/cars/cars_img_6.jpeg",
+            "location": "Porsche 911 Dakar",
+            "alt": "Image of the Porsche 911 Dakar",
+            "date": "20.07.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": null,
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_4.jpeg": {
+            "url": "/img/media/cars/cars_img_4.jpeg",
+            "location": "Porsche Taycan 4",
+            "alt": "Image of the 2023 Porsche Taycan",
+            "date": "20.07.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         }
     },
     "sunset": {
-        "sunset_img_1.jpeg": {
-            "url": "/img/media/sunset/sunset_img_1.jpeg",
-            "location": "Description for sunset image 1",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+        "sunset_img_14.jpeg": {
+            "url": "/img/media/sunset/sunset_img_14.jpeg",
+            "location": "Gaustatoppen, Norway",
+            "alt": "Image of a sunset at the Gaustatoppen in Norway",
+            "date": "27.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l2": "grid-col-2",
+                "l3": "grid-col-3",
+                "l4": "grid-col-3"
             }
         },
         "sunset_img_2.jpeg": {
             "url": "/img/media/sunset/sunset_img_2.jpeg",
-            "location": "Description for sunset image 2",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Lago di Garda, Italy",
+            "alt": "Image at sunset at Lago di Garda in Italy",
+            "date": "01.04.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_3.jpeg": {
-            "url": "/img/media/sunset/sunset_img_3.jpeg",
-            "location": "Description for sunset image 3",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
             }
         },
         "sunset_img_4.jpeg": {
             "url": "/img/media/sunset/sunset_img_4.jpeg",
-            "location": "Description for sunset image 4",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Bukit Timah, Singapore",
+            "alt": "Image of the sunset in Bukit Timah, Singapore",
+            "date": "06.11.2016",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-row-2",
+                "l3": "grid-col-2",
                 "l4": null
+            }
+        },
+        "sunset_img_1.jpeg": {
+            "url": "/img/media/sunset/sunset_img_1.jpeg",
+            "location": "Lago di Garda, Italy",
+            "alt": "Image of Lago di Garda in Italy",
+            "date": "02.04.2023",
+            "layout": {
+                "l1": null,
+                "l2": "grid-row-2",
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
+            }
+        },
+        "sunset_img_3.jpeg": {
+            "url": "/img/media/sunset/sunset_img_3.jpeg",
+            "location": "Hội An, Vietnam",
+            "alt": "Image of Hội An at night in Vietnam",
+            "date": "12.10.2016",
+            "layout": {
+                "l1": null,
+                "l2": "grid-col-2",
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         },
         "sunset_img_5.jpeg": {
             "url": "/img/media/sunset/sunset_img_5.jpeg",
-            "location": "Description for sunset image 5",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Lago di Garda, Italy",
+            "alt": "Image of Lago di Garda at nighttime",
+            "date": "01.04.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
                 "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_6.jpeg": {
-            "url": "/img/media/sunset/sunset_img_6.jpeg",
-            "location": "Description for sunset image 6",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_7.jpeg": {
-            "url": "/img/media/sunset/sunset_img_7.jpeg",
-            "location": "Description for sunset image 7",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "sunset_img_8.jpeg": {
             "url": "/img/media/sunset/sunset_img_8.jpeg",
-            "location": "Description for sunset image 8",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Salò, Lago di Garda",
+            "alt": "Image of a sunries in Salò located at Lago di Garda in Italy",
+            "date": "02.04.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
             }
         },
         "sunset_img_9.jpeg": {
             "url": "/img/media/sunset/sunset_img_9.jpeg",
-            "location": "Description for sunset image 9",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Halong Bay, Vietnam",
+            "alt": "Image of a sunset in the Halong Bay in Vietnam",
+            "date": "21.10.2018",
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
-                "l4": null
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         },
         "sunset_img_10.jpeg": {
             "url": "/img/media/sunset/sunset_img_10.jpeg",
-            "location": "Description for sunset image 10",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Zillertal, Austria",
+            "alt": "Image of a sunset in the Zillertal, Austria",
+            "date": "02.01.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
+                "l2": "grid-col-2",
                 "l3": null,
                 "l4": null
             }
         },
         "sunset_img_11.jpeg": {
             "url": "/img/media/sunset/sunset_img_11.jpeg",
-            "location": "Description for sunset image 11",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Erlangen, Germany",
+            "alt": "Image of a sunset in Erlangen, Germany",
+            "date": "25.02.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
                 "l4": null
             }
         },
         "sunset_img_12.jpeg": {
             "url": "/img/media/sunset/sunset_img_12.jpeg",
-            "location": "Description for sunset image 12",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Bayern, Germany",
+            "alt": "Image of a sunset in the south of Germany",
+            "date": "27.05.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
             }
         },
         "sunset_img_13.jpeg": {
             "url": "/img/media/sunset/sunset_img_13.jpeg",
-            "location": "Description for sunset image 13",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Erlangen, Germany",
+            "alt": "Image of a sunset in Erlangen, Germany",
+            "date": "27.02.2022",
             "layout": {
-                "l1": null,
-                "l2": null,
+                "l1": "display-none",
+                "l2": "display-none",
                 "l3": null,
                 "l4": null
             }
         },
-        "sunset_img_14.jpeg": {
-            "url": "/img/media/sunset/sunset_img_14.jpeg",
-            "location": "Description for sunset image 14",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+        "sunset_img_6.jpeg": {
+            "url": "/img/media/sunset/sunset_img_6.jpeg",
+            "location": "Magnolia, Texas",
+            "alt": "Image of a sunrise in Magnolia, Texas",
+            "date": "01.02.2024",
+            "layout": {
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
+                "l4": null
+            }
+        },
+        "sunset_img_7.jpeg": {
+            "url": "/img/media/sunset/sunset_img_7.jpeg",
+            "location": "Tasmania, Australia",
+            "alt": "Image of a sunrise in Tasmania, Australia",
+            "date": "24.12.2018",
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
-                "l4": null
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         }
     },
