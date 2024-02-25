@@ -2026,16 +2026,16 @@
         }
     },
     "sunset": {
-        "sunset_img_1.jpeg": {
-            "url": "/img/media/sunset/sunset_img_1.jpeg",
-            "location": "Lago di Garda, Italy",
-            "alt": "Image of Lago di Garda in Italy",
-            "date": "02.04.2023",
+        "sunset_img_14.jpeg": {
+            "url": "/img/media/sunset/sunset_img_14.jpeg",
+            "location": "Gaustatoppen, Norway",
+            "alt": "Image of a sunset at the Gaustatoppen in Norway",
+            "date": "27.08.2022",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l2": "grid-col-2",
+                "l3": "grid-col-3",
+                "l4": "grid-col-3"
             }
         },
         "sunset_img_2.jpeg": {
@@ -2044,22 +2044,10 @@
             "alt": "Image at sunset at Lago di Garda in Italy",
             "date": "01.04.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_3.jpeg": {
-            "url": "/img/media/sunset/sunset_img_3.jpeg",
-            "location": "Hội An, Vietnam",
-            "alt": "Image of Hội An at night in Vietnam",
-            "date": "12.10.2016",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
             }
         },
         "sunset_img_4.jpeg": {
@@ -2069,9 +2057,33 @@
             "date": "06.11.2016",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
+                "l2": "grid-row-2",
+                "l3": "grid-col-2",
                 "l4": null
+            }
+        },
+        "sunset_img_1.jpeg": {
+            "url": "/img/media/sunset/sunset_img_1.jpeg",
+            "location": "Lago di Garda, Italy",
+            "alt": "Image of Lago di Garda in Italy",
+            "date": "02.04.2023",
+            "layout": {
+                "l1": null,
+                "l2": "grid-row-2",
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
+            }
+        },
+        "sunset_img_3.jpeg": {
+            "url": "/img/media/sunset/sunset_img_3.jpeg",
+            "location": "Hội An, Vietnam",
+            "alt": "Image of Hội An at night in Vietnam",
+            "date": "12.10.2016",
+            "layout": {
+                "l1": null,
+                "l2": "grid-col-2",
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         },
         "sunset_img_5.jpeg": {
@@ -2083,6 +2095,78 @@
                 "l1": null,
                 "l2": null,
                 "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "sunset_img_8.jpeg": {
+            "url": "/img/media/sunset/sunset_img_8.jpeg",
+            "location": "Salò, Lago di Garda",
+            "alt": "Image of a sunries in Salò located at Lago di Garda in Italy",
+            "date": "02.04.2023",
+            "layout": {
+                "l1": null,
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
+            }
+        },
+        "sunset_img_9.jpeg": {
+            "url": "/img/media/sunset/sunset_img_9.jpeg",
+            "location": "Halong Bay, Vietnam",
+            "alt": "Image of a sunset in the Halong Bay in Vietnam",
+            "date": "21.10.2018",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
+            }
+        },
+        "sunset_img_10.jpeg": {
+            "url": "/img/media/sunset/sunset_img_10.jpeg",
+            "location": "Zillertal, Austria",
+            "alt": "Image of a sunset in the Zillertal, Austria",
+            "date": "02.01.2023",
+            "layout": {
+                "l1": null,
+                "l2": "grid-col-2",
+                "l3": null,
+                "l4": null
+            }
+        },
+        "sunset_img_11.jpeg": {
+            "url": "/img/media/sunset/sunset_img_11.jpeg",
+            "location": "Erlangen, Germany",
+            "alt": "Image of a sunset in Erlangen, Germany",
+            "date": "25.02.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
+                "l4": null
+            }
+        },
+        "sunset_img_12.jpeg": {
+            "url": "/img/media/sunset/sunset_img_12.jpeg",
+            "location": "Bayern, Germany",
+            "alt": "Image of a sunset in the south of Germany",
+            "date": "27.05.2022",
+            "layout": {
+                "l1": "display-none",
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "sunset_img_13.jpeg": {
+            "url": "/img/media/sunset/sunset_img_13.jpeg",
+            "location": "Erlangen, Germany",
+            "alt": "Image of a sunset in Erlangen, Germany",
+            "date": "27.02.2022",
+            "layout": {
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": null,
                 "l4": null
             }
         },
@@ -2092,9 +2176,9 @@
             "alt": "Image of a sunrise in Magnolia, Texas",
             "date": "01.02.2024",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "display-none",
                 "l4": null
             }
         },
@@ -2106,92 +2190,8 @@
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_8.jpeg": {
-            "url": "/img/media/sunset/sunset_img_8.jpeg",
-            "location": "Salò, Lago di Garda",
-            "alt": "Image of a sunries in Salò located at Lago di Garda in Italy",
-            "date": "02.04.2023",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_9.jpeg": {
-            "url": "/img/media/sunset/sunset_img_9.jpeg",
-            "location": "Halong Bay, Vietnam",
-            "alt": "Image of a sunset in the Halong Bay in Vietnam",
-            "date": "21.10.2018",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_10.jpeg": {
-            "url": "/img/media/sunset/sunset_img_10.jpeg",
-            "location": "Zillertal, Austria",
-            "alt": "Image of a sunset in the Zillertal, Austria",
-            "date": "02.01.2023",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_11.jpeg": {
-            "url": "/img/media/sunset/sunset_img_11.jpeg",
-            "location": "Erlangen, Germany",
-            "alt": "Image of a sunset in Erlangen, Germany",
-            "date": "25.02.2023",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_12.jpeg": {
-            "url": "/img/media/sunset/sunset_img_12.jpeg",
-            "location": "Bayern, Germany",
-            "alt": "Image of a sunset in the south of Germany",
-            "date": "27.05.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_13.jpeg": {
-            "url": "/img/media/sunset/sunset_img_13.jpeg",
-            "location": "Erlangen, Germany",
-            "alt": "Image of a sunset in Erlangen, Germany",
-            "date": "27.02.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "sunset_img_14.jpeg": {
-            "url": "/img/media/sunset/sunset_img_14.jpeg",
-            "location": "Gaustatoppen, Norway",
-            "alt": "Image of a sunset at the Gaustatoppen in Norway",
-            "date": "27.08.2022",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         }
     },
