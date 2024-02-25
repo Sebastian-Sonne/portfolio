@@ -206,8 +206,8 @@
         },
         "fav_img_18.jpeg": {
             "url": "/img/media/fav/fav_img_18.jpeg",
-            "location": "McLaren 765LT, Coffee & Cars",
-            "alt": "Image of McLaren 765LT spotted on a carshow in Houston, Texas",
+            "location": "McLaren 765LT",
+            "alt": "Image of McLaren 765LT spotted in Houston, Texas",
             "date": "02.09.2023",
             "layout": {
                 "l1": null,
@@ -1824,109 +1824,97 @@
         }
     },
     "cars": {
-        "cars_img_1.jpeg": {
-            "url": "/img/media/cars/cars_img_1.jpeg",
-            "location": "Description for cars image 1",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_2.jpeg": {
-            "url": "/img/media/cars/cars_img_2.jpeg",
-            "location": "Description for cars image 2",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_3.jpeg": {
-            "url": "/img/media/cars/cars_img_3.jpeg",
-            "location": "Description for cars image 3",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_4.jpeg": {
-            "url": "/img/media/cars/cars_img_4.jpeg",
-            "location": "Description for cars image 4",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_5.jpeg": {
-            "url": "/img/media/cars/cars_img_5.jpeg",
-            "location": "Description for cars image 5",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_6.jpeg": {
-            "url": "/img/media/cars/cars_img_6.jpeg",
-            "location": "Description for cars image 6",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
         "cars_img_7.jpeg": {
             "url": "/img/media/cars/cars_img_7.jpeg",
-            "location": "Description for cars image 7",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "McLaren 765LT",
+            "alt": "Image of McLaren 765LT spotted in Houston, Texas",
+            "date": "02.09.2023",
             "layout": {
                 "l1": null,
                 "l2": null,
-                "l3": null,
-                "l4": null
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         },
         "cars_img_8.jpeg": {
             "url": "/img/media/cars/cars_img_8.jpeg",
-            "location": "Description for cars image 8",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "McLaren 765LT",
+            "alt": "Image of McLaren 765LT spotted in Houston, Texas",
+            "date": "02.09.2023",
             "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l1": "display-none",
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
             }
         },
         "cars_img_9.jpeg": {
             "url": "/img/media/cars/cars_img_9.jpeg",
-            "location": "Description for cars image 9",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Corvette Stingray",
+            "alt": "Image of a Corvette Stingray spotted in Houston, Texas",
+            "date": "02.09.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
+            }
+        },
+        "cars_img_16.jpeg": {
+            "url": "/img/media/cars/cars_img_16.jpeg",
+            "location": "McLaren 765LT",
+            "alt": "Image of McLaren 765LT spotted in Houston, Texas",
+            "date": "02.09.2023",
             "layout": {
                 "l1": null,
+                "l2": "grid-row-2",
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_11.jpeg": {
+            "url": "/img/media/cars/cars_img_11.jpeg",
+            "location": "Audi S6",
+            "alt": "Image of an Audi S6 spotted in Salò, Lago di Garda",
+            "date": "02.04.2023",
+            "layout": {
+                "l1": null,
+                "l2": "grid-row-2",
+                "l3": "grid-row-2",
+                "l4": "grid-row-2"
+            }
+        },
+        "cars_img_13.jpeg": {
+            "url": "/img/media/cars/cars_img_13.jpeg",
+            "location": "Audi RS E-Tron GT",
+            "alt": "Image of an Audi RS E-Tron GT",
+            "date": "25.04.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": null,
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_17.jpeg": {
+            "url": "/img/media/cars/cars_img_17.jpeg",
+            "location": "Audi R8 V10 quattro",
+            "alt": "Image of an Audi R8 V10 quattro spotted in Houston, Texas",
+            "date": "02.09.2023",
+            "layout": {
+                "l1": null,
+                "l2": "grid-col-2",
+                "l3": null,
+                "l4": null
+            }
+        },
+        "cars_img_14.jpeg": {
+            "url": "/img/media/cars/cars_img_14.jpeg",
+            "location": "Pagani Huayra",
+            "alt": "Image of a Pagani Huayra spotted in Houston, Texas",
+            "date": "02.09.2023",
+            "layout": {
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -1934,110 +1922,110 @@
         },
         "cars_img_10.jpeg": {
             "url": "/img/media/cars/cars_img_10.jpeg",
-            "location": "Description for cars image 10",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Porsche 911 GT3 RS",
+            "alt": "Image of a Porsche 911 GT3 RS spotted in Houston, Texas",
+            "date": "02.09.2023",
             "layout": {
                 "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_11.jpeg": {
-            "url": "/img/media/cars/cars_img_11.jpeg",
-            "location": "Description for cars image 11",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_12.jpeg": {
-            "url": "/img/media/cars/cars_img_12.jpeg",
-            "location": "Description for cars image 12",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_13.jpeg": {
-            "url": "/img/media/cars/cars_img_13.jpeg",
-            "location": "Description for cars image 13",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_14.jpeg": {
-            "url": "/img/media/cars/cars_img_14.jpeg",
-            "location": "Description for cars image 14",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_15.jpeg": {
-            "url": "/img/media/cars/cars_img_15.jpeg",
-            "location": "Description for cars image 15",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_16.jpeg": {
-            "url": "/img/media/cars/cars_img_16.jpeg",
-            "location": "Description for cars image 16",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
-            }
-        },
-        "cars_img_17.jpeg": {
-            "url": "/img/media/cars/cars_img_17.jpeg",
-            "location": "Description for cars image 17",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
-            "layout": {
-                "l1": null,
-                "l2": null,
-                "l3": null,
-                "l4": null
+                "l2": "grid-row-2",
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         },
         "cars_img_18.jpeg": {
             "url": "/img/media/cars/cars_img_18.jpeg",
-            "location": "Description for cars image 18",
-            "alt": "no alt description availble - image object dynamically generated",
-            "date": "00.00.0000",
+            "location": "Ford Mustang GT",
+            "alt": "Image of a Ford Mustang GT",
+            "date": "02.09.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": null,
+                "l3": null,
+                "l4": "display-none"
+            }
+        },
+        "cars_img_15.jpeg": {
+            "url": "/img/media/cars/cars_img_15.jpeg",
+            "location": "Ferrari 488 Pista",
+            "alt": "Image of a Ferrari 488 Pista spotted in Houston, Texas",
+            "date": "02.09.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": "grid-row-2",
+                "l3": null,
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_12.jpeg": {
+            "url": "/img/media/cars/cars_img_12.jpeg",
+            "location": "Porsche 911",
+            "alt": "Image of a Porsche 911 spotted in Strasbourg",
+            "date": "25.04.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": null,
+                "l3": "grid-col-2",
+                "l4": "display-none"
+            }
+        },
+        "cars_img_2.jpeg": {
+            "url": "/img/media/cars/cars_img_2.jpeg",
+            "location": "A73 Erlangen, Bayern",
+            "alt": "Image of A73 in the snow near Erlangen, Bavaria in Germany",
+            "date": "19.11.2022",
             "layout": {
                 "l1": null,
                 "l2": null,
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_1.jpeg": {
+            "url": "/img/media/cars/cars_img_1.jpeg",
+            "location": "Porsche 911 Dakar",
+            "alt": "Image of the Porsche 911 Dakar",
+            "date": "20.07.2023",
+            "layout": {
+                "l1": null,
+                "l2": "grid-col-2",
                 "l3": null,
-                "l4": null
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_5.jpeg": {
+            "url": "/img/media/cars/cars_img_5.jpeg",
+            "location": "Porsche 911 Dakar",
+            "alt": "Image of the Porsche 911 Dakar",
+            "date": "20.07.2023",
+            "layout": {
+                "l1": null,
+                "l2": null,
+                "l3": "grid-row-2",
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_6.jpeg": {
+            "url": "/img/media/cars/cars_img_6.jpeg",
+            "location": "Porsche 911 Dakar",
+            "alt": "Image of the Porsche 911 Dakar",
+            "date": "20.07.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": null,
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
+            }
+        },
+        "cars_img_4.jpeg": {
+            "url": "/img/media/cars/cars_img_4.jpeg",
+            "location": "Porsche Taycan 4",
+            "alt": "Image of the 2023 Porsche Taycan",
+            "date": "20.07.2023",
+            "layout": {
+                "l1": "display-none",
+                "l2": "display-none",
+                "l3": "grid-col-2",
+                "l4": "grid-col-2"
             }
         }
     },
