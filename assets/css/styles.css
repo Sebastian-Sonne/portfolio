@@ -395,9 +395,16 @@ footer {
     text-align: center;
     margin-top: auto;
     margin-bottom: 20px;
-
     margin: 20px 0 20px 0;
     background-color: transparent;
+}
+
+.introduction footer {
+    padding-top: 20px;
+}
+
+.footer-container a:hover {
+    color: var(--primary);
 }
 
 /*
