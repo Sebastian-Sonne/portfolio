@@ -287,7 +287,7 @@ function updateLayout() {
     for (let i = 0; i < imgElements.length; i++) {
         const imgElement = imgElements[i];
         const imgName = getFilenameFromURL(imgElement.src);
-        const imgClass = images[imgName].layout[newLayout]; //! error
+        const imgClass = images[imgName].layout[newLayout];
 
         // remove old layout classes -> convert to array 
         Array.from(imgElement.classList).forEach(function (className) {
@@ -310,7 +310,7 @@ function updateLayout() {
 function getLayout() {
     const vw = window.innerWidth;
 
-    if (vw < 786) { //1 col visible
+    if (vw < 769) { //1 col visible
         return "l1";
 
     } else if (vw < 1101) { //2 col visible
