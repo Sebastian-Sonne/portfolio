@@ -147,10 +147,17 @@ header {
     background-color: var(--secondary);
 }
 
+/*? incldue this*/
 .nav-li-hl {
-    background-color: var(--secondary);
+    background-color: var(--gray-medium);
     border-radius: 20px;
 }
+
+.nav-li-hl:hover {
+    background-color: var(--accent) !important;
+    transition: all 0.3s;
+}
+/*? */
 
 .theme-switcher {
     padding: 10px 18px 0 0;
@@ -225,7 +232,7 @@ header {
     top: -10px;
     right: 100px;
     font-size: 55px;
-    color: var(--text);
+    color: var(--text-constant-light);
     padding: 15px;
     cursor: pointer;
 }
@@ -239,7 +246,7 @@ header {
 }
 
 .overlay a {
-    color: var(--text);
+    color: var(--text-constant-light);
     padding: 15px;
     font-size: 36px;
     display: block;
@@ -255,7 +262,7 @@ header {
     top: -10px;
     right: 45px;
     font-size: 60px;
-    color: var(--text);
+    color: var(--text-constant-light);
     cursor: pointer;
 }
 

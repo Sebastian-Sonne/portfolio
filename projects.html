@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Dive into projects of Sebastian Sonne, where technical prowness meets creative innovation. Explore a variety of software development endeavors, each with its own unique blend of functionality and ingenuity.">
+    <link rel="shortcut icon" href="/img/favicon.ico">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+    <script src="/assets/js/script.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Google Analytics-->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-8CC5LLMX6X"></script>
+    <script src="/assets/js/analytics.js"></script>
+    <title>Projects - Sebastian Sonne</title>
+</head>
+
+<body>
+    <div class="nav-container">
+        <header>
+            <a class="logo" href="/"><img src="/img/logo_light.png" alt="Sebastian Sonne"></a>
+            <nav class="nav">
+                <ul>
+                    <li><a href="/bio"><span>Bio</span></a></li>
+                    <li><a href="/projects"><span>Projects</span></a></li>
+                    <li><a href="/media"><span>Media</span></a></li>
+                </ul>
+            </nav>
+            <div class="theme-switcher" onclick="toggleTheme()">
+                <span class="material-icons" id="theme-icon">
+                    theme <!-- Default icon, can be changed in JS -->
+                </span>
+            </div>
+            <a class="cta" href="/contact">Connect</a>
+            <p class="menu cta">Menu</p>
+        </header>
+
+        <div class="overlay">
+            <a class="close">&times;</a>
+            <div class="theme-switcher-small" onclick="toggleTheme()">
+                <span class="material-icons" id="theme-icon">
+                    light_mode <!-- Default icon, can be changed in JS -->
+                </span>
+            </div>
+            <div class="overlay__content">
+                <a href="/">Home</a>
+                <a href="/bio">Bio</a>
+                <a href="/projects">Projects</a>
+                <a href="/media">Media</a>
+                <a href="/contact">Connect</a>
+            </div>
+        </div>
+        <script src="/assets/js/mobile.js"></script>
+        <!--end Nav Container-->
+    </div>
+
+    <div>
+        <!--TODO Content Comes here-->
+    </div>
+
+    <footer>
+        <p>
+            Copyright &copy; Sebastian Sonne 2024 | <a href="/imprint">Imprint</a>
+            <br>
+            Powered by <a href="https://github.com/sebastian-sonne" target="_blank">Sebastian Sonne</a>
+        </p>
+    </footer>
+</body>
+
+</html>
