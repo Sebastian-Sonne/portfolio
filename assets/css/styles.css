@@ -27,7 +27,6 @@
     --font-big: 24;
 
     --bio-bg-image: url("/img/sebastian_sonne/mountain_center.webp");
-    --pattern: url("/img/pattern_light.png");
     --brightness: brightness(200%) grayscale(100%);
 }
 
@@ -56,7 +55,6 @@
     --font-big: 24;
 
     --bio-bg-image: url("/img/sebastian_sonne/sunset_1.webp");
-    --pattern: url("/img/pattern_dark.png");
     --brightness: brightness(20%);
 }
 
@@ -66,6 +64,8 @@
 
     --gray-constant: #d6d6d687;
     --gray-constant-2: #717171;
+
+    --gradient-degree: 145deg;
 }
 
 * {
@@ -488,8 +488,10 @@ footer {
 .contact-background-container.element-2 {
     width: 57%;
     background-color: var(--gray-dark-light);
-    background-image: var(--pattern);
+    background-image: linear-gradient(160deg, var(--background), var(--primary-light), var(--primary));
     background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     filter: grayscale(30%);
 }
 
@@ -563,23 +565,15 @@ footer {
     border-radius: 20px;
     border: none;
     cursor: pointer;
-    background-color: var(--primary);
-
-    background-image: linear-gradient(150deg,
-            var(--primary),
-            var(--accent));
-
+    background-color: transparent;
+    border: 2px solid var(--primary);
     color: var(--text);
     font-size: var(--font-medium);
     transition: transform 0.3s ease, background-color 0.3s ease;
 }
 
 .form-group button:hover {
-    background-color: var(--secondary);
-    background-image: linear-gradient(150deg,
-            var(--primary-light),
-            var(--accent)),
-        var(--text);
+    background-color: var(--primary);
     transform: scale(1.025);
 }
 
@@ -778,20 +772,33 @@ footer {
 .project-nav ul {
     background-color: transparent;
     border: 2px solid var(--gray-constant);
+    border-radius: 100px;
 }
 
 .project-nav ul li a {
     color: var(--text-constant-light);
 }
 
+.project-nav ul li:hover a:hover {
+    background-color: var(--gray-constant);
+}
+
 .project-theme-switcher {
     color: var(--text-constant-light);
+}
+
+.project-theme-switcher:hover {
+    color: var(--primary);
 }
 
 .project-cta {
     background-color: transparent;
     border: 2px solid var(--primary);
     color: var(--text-constant-light);
+}
+
+.project-cta:hover {
+    background-color: var(--primary);
 }
 
 .project-hero {
@@ -803,11 +810,11 @@ footer {
 
 .project-hero-img {
     position: absolute;
-    background-image: url("/img/abstract-2.png");
+    background-image: url("/img/abstract.png");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     z-index: -1;
 }
@@ -830,100 +837,76 @@ footer {
 
 .projects-container {
     display: flex;
-    justify-content: center;
-    flex-direction: column;
-    width: 100vw;
-    margin-top: 100vh;
-}
-
-.card {
-    width: 800px;
-    height: 350px;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 20px;
-    margin: 0 auto 40px auto;
-    color: var(--text);
-    background: linear-gradient(145deg, var(--gray-contrast-light), var(--gray-contrast-dark)) padding-box,
-        linear-gradient(145deg, transparent 35%, var(--accent), var(--primary)) border-box;
-    border: 2px solid transparent;
-    border-radius: 10px;
-    display: flex;
-    flex-direction: column;
-    transform-origin: right bottom;
-    transition: all 0.3s ease;
+    margin-top: 70vh;
 }
 
-.card:hover {
-    background: linear-gradient(145deg, var(--gray-contrast-light), var(--gray-contrast-dark)) padding-box,
-        linear-gradient(-45deg, transparent 35%, var(--accent), var(--primary)) border-box;
-}
-
-.card .card-main-content {
-    flex: 1;
-}
-
-.card .card-header span:first-child {
-    font-weight: 600;
-    color: var(--gray-constant-2);
-    margin-right: 4px;
-}
-
-.card .card-heading {
-    font-size: 40px;
-    margin: 10px 0 16px;
-    font-weight: 600;
-}
-
-.card .card-heading a:hover {
-    color: var(--primary);
-    cursor: pointer;
-}
-
-.card .card-categories {
-    margin-top: 10px;
-    display: flex;
-    gap: 8px;
-}
-
-.card .card-categories span {
-    border: 1px solid var(--gray-constant-2);
-    color: var(--gray-constant-2);
-    padding: 4px 8px;
-    font-weight: 100;
-    text-transform: uppercase;
-    font-size: 12px;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-.card .card-categories span:hover {
-    border-color: var(--primary);
-    color: var(--primary);
-}
-
-.card .card-cta {
+.project-card {
     position: relative;
-    top: 80px;
-    padding: 10px 20px;
+    width: 500px;
+    height: 100%;
+    margin: 20px;
+    background-color: var(--gray-dark);
     border-radius: 10px;
+    background: linear-gradient(var(--gray-dark), var(--gray-dark)) padding-box,
+        linear-gradient(var(--gradient-degree), transparent 35%, var(--accent), var(--primary)) border-box;
+    border: 2px solid transparent;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    overflow: hidden;
+}
+
+.project-card:hover {
+    transform: scale(1.025);
+}
+
+.project-date {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--gray-light);
+}
+
+.project-card img {
+    width: 100%;
+    height: 40%;
+    border-radius: 5px 5px 0 0;
+}
+
+.project-details {
+    position: relative;
+    padding: 20px;
+}
+
+.project-details h2 {
+    margin-top: 0;
+    font-size: 28px;
+    color: var(--text);
+}
+
+.project-description {
+    color: #dbdbdb;
+    height: 50px;
+    margin-bottom: 10px;
+}
+
+.learn-more-btn {
+    display: inline-block;
+    padding: 10px 20px;
     border: 2px solid var(--primary);
+    color: var(--text);
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
 }
 
-.card .card-footer {
-    font-weight: 600;
-    color: var(--gray-constant-2);
-    margin-right: 4px;
+.learn-more-btn:hover {
+    background-color: var(--primary);
 }
-
-.card .card-footer a {
-    color: var(--gray-constant-2);
-    cursor: pointer;
-}
-
-.card .card-footer a:hover {
-    color: var(--primary);
-}
-
-
 
 #project-cta {
     width: 100vw;
