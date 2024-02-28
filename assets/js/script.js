@@ -7,7 +7,9 @@ function toggleTheme() {
 
     //update logo
     const logoImg = document.querySelector('.logo img');
-    logoImg.src = newTheme === 'light' ? '/img/logo_light.png' : '/img/logo_dark.png';
+    if (logoImg != null) { //* Precaution for projects page
+        logoImg.src = newTheme === 'light' ? '/img/logo_light.png' : '/img/logo_dark.png';
+    }
 
     // Update the icon
     const themeIcon = document.getElementById('theme-icon');
@@ -23,5 +25,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     themeIcon.textContent = savedTheme === 'light' ? 'light_mode' : 'dark_mode';
 
     const logoImg = document.querySelector('.logo img');
-    logoImg.src = savedTheme === 'light' ? '/img/logo_light.png' : '/img/logo_dark.png';
+    if (logoImg != null) { //* Precaution for projects page
+        logoImg.src = savedTheme === 'light' ? '/img/logo_light.png' : '/img/logo_dark.png';
+    }
 });

@@ -749,16 +749,61 @@ footer {
 /*
     PROJECTS
 */
+/*Nav fix for constant dark*/
+.project-logo {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.project-logo:hover {
+    transform: scale(1.1);
+}
+
+.project-logo img {
+    padding-top: 3px;
+    width: 200px;
+}
+
+.project-nav ul {
+    background-color: transparent;
+    border: 2px solid var(--gray-constant);
+}
+
+.project-nav ul li a {
+    color: var(--text-constant-light);
+}
+
+.project-theme-switcher {
+    color: var(--text-constant-light);
+}
+
+.project-cta {
+    background-color: transparent;
+    border: 2px solid var(--primary);
+    color: var(--text-constant-light);
+}
+
 .project-hero {
     display: flex;
     align-items: center;
     height: 60vh;
-    background-color: var(--gray-medium);
     margin-bottom: 20px;
+}
+
+.project-hero-img {
+    position: absolute;
+    background-image: url("/img/abstract-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: -1;
 }
 
 .project-hero h1 {
     margin-left: 20px;
+    color: var(--text-constant-light);
 }
 
 
@@ -766,6 +811,7 @@ footer {
     display: flex;
     justify-content: center;
     width: 100vw;
+    margin-top: 80vh;
 }
 
 .project-cards-container {
@@ -804,6 +850,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 50px;
 }
 
 .is-centered {
@@ -818,7 +865,7 @@ footer {
 
 .is-centered h2 {
     font-size: 24px;
-    font-weight: 200;
+    color: var(--gray-black);
     margin-bottom: 50px;
 }
 
@@ -826,11 +873,12 @@ footer {
     font-size: 20px;
     padding: 15px 20px;
     border-radius: 30px;
-    border: 2px solid var(--text);
+    border: 2px solid var(--primary);
+    color: var(--text);
 }
 
 .is-centered a:hover {
-    background-color: var(--text);
+    background-color: var(--primary);
     color: var(--text-invert);
 }
 
@@ -843,6 +891,10 @@ footer {
 
 #project-cta-text {
     margin-right: 5px;
+}
+
+.project-hr {
+    color: var(--gray-medium);
 }
 
 .place-holder {

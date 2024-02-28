@@ -19,20 +19,20 @@
 <body>
     <div class="nav-container">
         <header>
-            <a class="logo" href="/"><img src="/img/logo_light.png" alt="Sebastian Sonne"></a>
-            <nav class="nav">
+            <a class="project-logo" href="/"><img src="/img/logo_dark.png" alt="Sebastian Sonne"></a>
+            <nav class="nav project-nav">
                 <ul>
                     <li><a href="/bio"><span>Bio</span></a></li>
                     <li><a href="/projects"><span>Projects</span></a></li>
                     <li><a href="/media"><span>Media</span></a></li>
                 </ul>
             </nav>
-            <div class="theme-switcher" onclick="toggleTheme()">
+            <div class="theme-switcher project-theme-switcher" onclick="toggleTheme()">
                 <span class="material-icons" id="theme-icon">
                     theme <!-- Default icon, can be changed in JS -->
                 </span>
             </div>
-            <a class="cta" href="/contact">Connect</a>
+            <a class="cta project-cta" href="/contact">Connect</a>
             <p class="menu cta">Menu</p>
         </header>
 
@@ -55,10 +55,12 @@
         <!--end Nav Container-->
     </div>
 
-    <section class="project-hero">
-        <h1>Projects that Educate, Inspire, Innovate, Transform, Stick</h1>
-    </section>
+    <div class="project-hero-img">
+        <section class="project-hero">
+            <h1>Projects that Educate, Inspire, Innovate, Transform, Stick</h1>
+        </section>
 
+    </div>
 
     <section class="projects-container">
 
@@ -85,8 +87,8 @@
             <h1>Interested in working with me? WIP</h1>
             <h2>I am always open for opportunities meet new people and learn new stuff.</h2>
 
-            <a href="/contact">
-                <span>
+            <a href="/contact/">
+                <span id="msg-svg">
                     <svg class="svg-icon" aria-hidden="true" focusable="false" data-prefix="far"
                     data-icon="message-lines" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
                     data-fa-i2svg="">
@@ -95,16 +97,10 @@
                     </path>
                 </svg>
                 </span>
-                
                 <span id="project-cta-text">Connect with Me</span>
             </a>
         </div>
     </section>
-
-    <section class="place-holder">
-
-    </section>
-
 
     <footer>
         <p>
