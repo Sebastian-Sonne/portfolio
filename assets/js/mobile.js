@@ -15,6 +15,13 @@ menuClose.addEventListener("click", () => {
   enableScroll();
 });
 
+document.addEventListener('keydown', function (event) {
+  if (event.key === "Escape") {
+    overlay.classList.remove("overlay--active");
+    enableScroll();
+  }
+});
+
 //disables the possibility for the user to scroll wherever he is on the site
 function disableScroll() {
   // Get the current scroll position
@@ -45,6 +52,6 @@ function enableScroll() {
 
   // Scroll to the original position if a valid scroll position is available
   if (!isNaN(scrollY)) {
-      window.scrollTo(0, Math.abs(scrollY)); // Ensure scroll position is non-negative
+    window.scrollTo(0, Math.abs(scrollY)); // Ensure scroll position is non-negative
   }
 }
