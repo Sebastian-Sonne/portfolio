@@ -27,6 +27,7 @@
     --font-big: 24;
 
     --bio-bg-image: url("/img/sebastian_sonne/mountain_center.webp");
+    --contact-bg-image: url("/img/waves-3.svg");
     --brightness: brightness(200%) grayscale(100%);
 }
 
@@ -55,6 +56,7 @@
     --font-big: 24;
 
     --bio-bg-image: url("/img/sebastian_sonne/sunset_1.webp");
+    --contact-bg-image: url("/img/waves-4.svg");
     --brightness: brightness(20%);
 }
 
@@ -476,23 +478,17 @@ footer {
 
 .contact-background-container {
     position: absolute;
-    width: 60%;
+    width: 77%;
     min-height: 100vh;
-    transform: skew(-20deg);
+    transform: skew(-30deg);
     transform-origin: top left;
-    background-color: var(--gray-dark-light);
-    transition: width 0.5s ease, transform 0.5s ease, display 0.3s ease, background-image 0.3s ease;
-    z-index: -1;
-}
-
-.contact-background-container.element-2 {
-    width: 57%;
-    background-color: var(--gray-dark-light);
-    background-image: linear-gradient(160deg, var(--background), var(--primary-light), var(--primary));
+    background-color: var(--background);
+    background-image: var(--contact-bg-image);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    filter: grayscale(30%);
+    transition: width 0.5s ease, transform 0.5s ease, display 0.3s ease, background-image 0.3s ease;
+    z-index: -1;
 }
 
 .contact-content-container {
@@ -872,8 +868,9 @@ footer {
 }
 
 .project-card img {
+    background-color: var(--gray-dark);
     width: 100%;
-    height: 40%;
+    height: 300px;
     border-radius: 5px 5px 0 0;
 }
 
