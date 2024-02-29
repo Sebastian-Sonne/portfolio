@@ -21,20 +21,20 @@
 <body>
     <div class="nav-container">
         <header>
-            <a class="project-logo" href="/"><img src="/img/logo_dark.png" alt="Sebastian Sonne"></a>
-            <nav class="nav project-nav">
+            <a class="logo" href="/"><img src="/img/logo_dark.png" alt="Sebastian Sonne"></a>
+            <nav class="nav">
                 <ul>
                     <li><a href="/bio"><span>Bio</span></a></li>
                     <li><a href="/projects"><span>Projects</span></a></li>
                     <li><a href="/media"><span>Media</span></a></li>
                 </ul>
             </nav>
-            <div class="theme-switcher project-theme-switcher" onclick="toggleTheme()">
+            <div class="theme-switcher" onclick="toggleTheme()">
                 <span class="material-icons" id="theme-icon">
                     theme <!-- Default icon, can be changed in JS -->
                 </span>
             </div>
-            <a class="cta project-cta" href="/contact">Connect</a>
+            <a class="cta" href="/contact">Connect</a>
             <p class="menu cta">Menu</p>
         </header>
 
@@ -57,53 +57,45 @@
         <!--end Nav Container-->
     </div>
 
-    <div class="project-hero-img">
-        <section class="project-hero">
-            <h1>Projects that <span id="project-hero-word"></span></h1>
-        </section>
+    <section class="project-hero">
+        <h1>Transforming ideas into digital products that Innovate.</h1>
 
-    </div>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi atque consequatur distinctio deserunt
+            repellendus perspiciatis exercitationem, ab culpa cupiditate doloribus rerum in! Velit pariatur eius
+            voluptas iusto eveniet ex voluptatem!</h2>
 
-    <div class="projects-container">
-        <div class="project-card" id="project-card">
-            <h3 class="project-date">Q1 2024</h3>
-            <img src="/img/abstract.png" alt="Project 1">
-            <div class="project-details">
-                <h2>PlayFair Project</h2>
-                <p class="project-description">Learn the basics of programming and encryption hands-on with the Playfair project</p>
-                <a href="project1-details.html" class="learn-more-btn">Learn More</a>
-            </div>
-        </div>
-        
-        <div class="project-card" id="project-card">
-            <h3 class="project-date">Q1 2024</h3>
-            <img src="/img/abstract.png" alt="Project 1">
-            <div class="project-details">
-                <h2>PlayFair Project</h2>
-                <p class="project-description">Learn the basics of programming and encryption hands-on with the Playfair project</p>
-                <a href="project1-details.html" class="learn-more-btn">Learn More</a>
-            </div>
-        </div>
-        
-        <div class="project-card" id="project-card">
-            <h3 class="project-date">Q1 2024</h3>
-            <img src="/img/abstract.png" alt="Project 1">
-            <div class="project-details">
-                <h2>PlayFair Project</h2>
-                <p class="project-description">Learn the basics of programming and encryption hands-on with the Playfair project</p>
-                <a href="project1-details.html" class="learn-more-btn">Learn More</a>
-            </div>
-        </div>
-        <!-- Add more project cards as needed -->
-    </div>
-    </div>
+        <a href="/contact/" class="project-bottom-cta-a">
+            <span id="msg-svg">
+                <svg class="svg-icon" aria-hidden="true" focusable="false" data-prefix="far" data-icon="message-lines"
+                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                        d="M208 416c0-26.5-21.5-48-48-48H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H448c8.8 0 16 7.2 16 16V352c0 8.8-7.2 16-16 16H309.3c-10.4 0-20.5 3.4-28.8 9.6L208 432V416zm-.2 76.2l.2-.2 101.3-76H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h48 48v48 4 .3 6.4V496c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L202.7 496l5.1-3.8zM152 144c-13.3 0-24 10.7-24 24s10.7 24 24 24H360c13.3 0 24-10.7 24-24s-10.7-24-24-24H152zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H152z">
+                    </path>
+                </svg>
+            </span>
+            <span id="project-cta-text">Connect with Me</span>
+        </a>
+    </section>
+
+    <section class="projects-container">
+        <img src="/img/projects/mb-hp.png">
+        <h1>sebastian-sonne.com</h1>
+    </section>
+
+    <section class="projects-container">
+
+    </section>
+
+    <section class="projects-container">
+
+    </section>
 
     <section id="project-cta">
-        <div class="is-centered">
+        <div class="project-bottom-cta">
             <h1>Want to Team Up? Let's Chat!</h1>
             <h2>I'm all about meeting new folks and diving into cool projects.</h2>
 
-            <a href="/contact/">
+            <a href="/contact/" class="project-bottom-cta-a">
                 <span id="msg-svg">
                     <svg class="svg-icon" aria-hidden="true" focusable="false" data-prefix="far"
                         data-icon="message-lines" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
