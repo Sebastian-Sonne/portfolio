@@ -9,6 +9,7 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script src="/assets/js/script.js"></script>
+    <script defer src="/assets/js/projects.js"></script>
     <script defer src="/assets/js/app.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Google Analytics-->
@@ -20,20 +21,20 @@
 <body>
     <div class="nav-container">
         <header>
-            <a class="project-logo" href="/"><img src="/img/logo_dark.png" alt="Sebastian Sonne"></a>
-            <nav class="nav project-nav">
+            <a class="logo" href="/"><img src="/img/logo_dark.png" alt="Sebastian Sonne"></a>
+            <nav class="nav">
                 <ul>
                     <li><a href="/bio"><span>Bio</span></a></li>
                     <li><a href="/projects"><span>Projects</span></a></li>
                     <li><a href="/media"><span>Media</span></a></li>
                 </ul>
             </nav>
-            <div class="theme-switcher project-theme-switcher" onclick="toggleTheme()">
+            <div class="theme-switcher" onclick="toggleTheme()">
                 <span class="material-icons" id="theme-icon">
                     theme <!-- Default icon, can be changed in JS -->
                 </span>
             </div>
-            <a class="cta project-cta" href="/contact">Connect</a>
+            <a class="cta" href="/contact">Connect</a>
             <p class="menu cta">Menu</p>
         </header>
 
@@ -56,86 +57,45 @@
         <!--end Nav Container-->
     </div>
 
-    <div class="project-hero-img">
-        <section class="project-hero">
-            <h1>Projects that <span>Educate</span></h1>
-        </section>
+    <section class="project-hero">
+        <h1>Transforming ideas into digital products that Innovate.</h1>
 
-    </div>
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi atque consequatur distinctio deserunt
+            repellendus perspiciatis exercitationem, ab culpa cupiditate doloribus rerum in! Velit pariatur eius
+            voluptas iusto eveniet ex voluptatem!</h2>
+
+        <a href="/contact/" class="project-bottom-cta-a">
+            <span id="msg-svg">
+                <svg class="svg-icon" aria-hidden="true" focusable="false" data-prefix="far" data-icon="message-lines"
+                    role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" data-fa-i2svg="">
+                    <path fill="currentColor"
+                        d="M208 416c0-26.5-21.5-48-48-48H64c-8.8 0-16-7.2-16-16V64c0-8.8 7.2-16 16-16H448c8.8 0 16 7.2 16 16V352c0 8.8-7.2 16-16 16H309.3c-10.4 0-20.5 3.4-28.8 9.6L208 432V416zm-.2 76.2l.2-.2 101.3-76H448c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64H64C28.7 0 0 28.7 0 64V352c0 35.3 28.7 64 64 64h48 48v48 4 .3 6.4V496c0 6.1 3.4 11.6 8.8 14.3s11.9 2.1 16.8-1.5L202.7 496l5.1-3.8zM152 144c-13.3 0-24 10.7-24 24s10.7 24 24 24H360c13.3 0 24-10.7 24-24s-10.7-24-24-24H152zm0 96c-13.3 0-24 10.7-24 24s10.7 24 24 24H264c13.3 0 24-10.7 24-24s-10.7-24-24-24H152z">
+                    </path>
+                </svg>
+            </span>
+            <span id="project-cta-text">Connect with Me</span>
+        </a>
+    </section>
+
+    <section class="projects-container">
+        <img src="/WIP/projects/mb-hp.png">
+        <h1>sebastian-sonne.com</h1>
+    </section>
 
     <section class="projects-container">
 
-        <div class="card hidden">
-            <div class="card-main-content">
-                <div class="card-header">
-                    <span>Q1 2024</span>
-                </div>
-                <div class="card-categories">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
-                <p class="card-heading"><a href="/projects/project_template.html">sebastian-sonne.com</a></p>
-                <p class="sub-heading">
-                    Dive into hands-on learning with a user-friendly IO system and explore the practical implementation
-                    of Playfair encryption.
-                </p>
-                <a href="/projects/project_template.html" class="card-cta">
-                    Learn More
-                </a>
-            </div>
-            <div class="card-footer">
-                by <a href="/bio">Sebastian Sonne</a>
-            </div>
-        </div>
+    </section>
 
-        <div class="card hidden">
-            <div class="card-main-content">
-                <div class="card-header">
-                    <span>Q1 2024</span>
-                </div>
-                <div class="card-categories">
-                    <span>HTML</span>
-                    <span>CSS</span>
-                    <span>JavaScript</span>
-                </div>
-                <p class="card-heading"><a href="/projects/project_template.html">sebastian-sonne.com</a></p>
-                <p class="sub-heading">
-                    Dive into hands-on learning with a user-friendly IO system and explore the practical implementation
-                    of Playfair encryption.
-                </p>
-                <a href="/projects/project_template.html" class="card-cta">
-                    Learn More
-                </a>
-            </div>
-            <div class="card-footer">
-                by <a href="/bio">Sebastian Sonne</a>
-            </div>
-        </div>
-
-
+    <section class="projects-container">
 
     </section>
 
-    <!--
-        <div class="project-card">
-
-                    <h3>Playfair Project</h3>
-                    <p>
-                        Dive into hands-on learning with a user-friendly IO system and explore the practical
-                        implementation of Playfair encryption.
-                    </p>
-
-                    <a href="/projects/project_template.html" class="project-card-cta">Learn more...</a>
-                </div>
-    -->
-
     <section id="project-cta">
-        <div class="is-centered">
+        <div class="project-bottom-cta">
             <h1>Want to Team Up? Let's Chat!</h1>
             <h2>I'm all about meeting new folks and diving into cool projects.</h2>
 
-            <a href="/contact/">
+            <a href="/contact/" class="project-bottom-cta-a">
                 <span id="msg-svg">
                     <svg class="svg-icon" aria-hidden="true" focusable="false" data-prefix="far"
                         data-icon="message-lines" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"

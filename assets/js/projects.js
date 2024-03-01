@@ -1,0 +1,1 @@
+const words = ["Inspire", "Innovate", "Engage", "Empower", "Challenge"];
