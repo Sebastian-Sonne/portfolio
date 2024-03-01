@@ -1,6 +1,15 @@
-# sebastian-sonne.com [WIP]
+<div align="center">
+  <img alt="Logo" src="https://raw.githubusercontent.com/sebastian-sonne/sebastian-sonne.com/main/img/favicon.ico" width="100" />
+</div>
+<h1 align="center">
+  sebastian-sonne.com
+</h1>
+<p align="center">
+  The first version of <a href="https://sebastian-sonne.com" target="_blank">sebastian-sonne.com</a> built with plain HTML, CSS and JavaScript, hosted on Github Pages.
+</p>
 
-Personal Portfolio Website - under construction.
-Check the current progress out here [sebastian-sonne.com](https://sebastian-sonne.com).
+![demo](https://github.com/Sebastian-Sonne/sebastian-sonne.com/blob/main/img/homepage.png)
 
-README is (eventually) comming :)
+<h1></h1>
+
+### Proper README coming soon
