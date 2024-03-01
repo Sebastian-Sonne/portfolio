@@ -28,7 +28,7 @@
 
     --bio-bg-image: url("/img/sebastian_sonne/mountain_center.webp");
     --contact-bg-image: url("/img/waves-3.svg");
-    --brightness: brightness(200%) grayscale(100%);
+    --brightness: brightness(150%) saturate(35%);
 }
 
 :root[data-theme="dark"] {
@@ -1198,6 +1198,10 @@ footer {
         width: 500px;
     }
 
+    .contact-background-container {
+        width: 69%;
+    }
+
     .bio-section {
         flex-direction: column;
         padding-bottom: 40px;
@@ -1243,6 +1247,10 @@ footer {
 @media only screen and (max-width: 1000px) {
     .form-container {
         width: 400px;
+    }
+
+    .contact-background-container {
+        width: 60%;
     }
 
     .bio-hero-text {
@@ -1367,15 +1375,10 @@ footer {
     }
 
     .contact-background-container {
-        display: none;
-    }
-
-    .contact-background-container.element-2 {
         display: inline;
-        width: 100vw;
+        width: 75%;
         filter: blur(5px) var(--brightness);
-        transform: unset;
-        transition: none;
+        transform: skew(-20deg);
     }
 
     .form-container {
