@@ -751,19 +751,21 @@ footer {
 */
 
 .project-hero {
-    height: 60vh;
+    height: 500px;
     max-width: 1200px;
-    margin: 100px 100px 100px 100px;
+    margin: 100px;
 }
 
 .project-hero h1 {
     color: var(--text);
     font-size: 5rem;
+    font-size: clamp(32px, 5.5vw, 5rem);
     margin-bottom: 20px;
 }
 
 .project-hero h2 {
     color: var(--gray-constant-2);
+    font-size: clamp(20px, 2vw, 1.6rem);
     margin-bottom: 40px;
 }
 
@@ -772,7 +774,7 @@ footer {
     position: relative;
     min-height: 531px;
     max-width: 1300px;
-    margin: 0 100px 200px 100px;
+    margin: 0px 100px 200px 100px;
     border-radius: 20px;
     background-color: var(--gray-medium);
     color: var(--text-invert);
@@ -780,9 +782,12 @@ footer {
 
 .projects-container img {
     position: absolute;
-    top: -124px;
-    left: -100px;
-    height: 700px;
+    top: -42px;
+    left: -79px;
+    max-width: 890px;
+    width: calc(100% - 412px);
+    min-width: 545px;
+    height: 100%;
 }
 
 .projects-container iframe {
@@ -790,7 +795,9 @@ footer {
     top: 0px;
     left: -78px;
     height: 560px;
-    width: 888px;
+    max-width: 888px;
+    width: calc(100% - 412px);
+    min-width: 545px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     box-shadow: 0px 2px 4px var(--gray-dark);
@@ -799,14 +806,14 @@ footer {
 .project-content {
     position: absolute;
     right: 0;
-    width: 38%;
+    width: 493px;
     height: 100%;
     color: var(--text);
 }
 
 .project-content h2 {
     color: var(--gray-constant-2);
-    margin: 10px 20px 20px 20px;
+    margin: 20px 20px 0 20px;
     font-size: 1.2rem;
 }
 
@@ -933,7 +940,7 @@ button:hover .button-text {
 
 #project-cta {
     width: 100vw;
-    height: 30vh;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1306,6 +1313,10 @@ button:hover .button-text {
     .primary-cta {
         margin: 20px 0 20px 20px;
     }
+
+    .projects-container {
+        margin-bottom: 100px;
+    }
 }
 
 @media only screen and (min-width: 2500px) {
@@ -1383,6 +1394,19 @@ button:hover .button-text {
     #lightbox-description {
         width: 560px;
     }
+
+    .project-hero {
+        margin: 100px 20px;
+    }
+
+    .projects-container img,
+    .projects-container iframe {
+        display: none;
+    }
+
+    .projects-container {
+        margin: 0px 20px 200px 20px;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1406,7 +1430,9 @@ button:hover .button-text {
         width: 100%;
     }
 
-
+    .project-bottom-cta {
+        width: 80vw;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1498,6 +1524,11 @@ button:hover .button-text {
     #lightbox-description h1 {
         font-size: 24px;
     }
+
+    
+    .project-bottom-cta {
+        width: 95%;
+    }
 }
 
 @media only screen and (max-width: 560px) {
@@ -1540,6 +1571,10 @@ button:hover .button-text {
         padding: 0;
         margin: inherit 0;
         height: auto;
+    }
+
+    .project-content {
+        width: 100%;
     }
 }
 
