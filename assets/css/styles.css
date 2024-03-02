@@ -751,48 +751,196 @@ footer {
 */
 
 .project-hero {
-    height: 60vh;
+    height: 500px;
     max-width: 1200px;
-    margin: 100px 100px 100px 100px;
+    margin: 100px;
 }
 
 .project-hero h1 {
     color: var(--text);
     font-size: 5rem;
+    font-size: clamp(32px, 5.5vw, 5rem);
     margin-bottom: 20px;
 }
 
 .project-hero h2 {
     color: var(--gray-constant-2);
+    font-size: clamp(20px, 2vw, 1.6rem);
     margin-bottom: 40px;
 }
 
 
 .projects-container {
     position: relative;
-    min-height: 90vh;
+    min-height: 531px;
     max-width: 1300px;
-    margin: 0 100px 200px 100px;
+    margin: 0px 100px 200px 100px;
     border-radius: 20px;
-    background-color: var(--secondary);
+    background-color: var(--gray-medium);
     color: var(--text-invert);
 }
 
 .projects-container img {
     position: absolute;
-    top: 40px;
-    left: -100px;
-    height: 700px;
+    top: -42px;
+    left: -79px;
+    max-width: 890px;
+    width: calc(100% - 412px);
+    min-width: 545px;
+    height: 100%;
+}
+
+.projects-container iframe {
+    position: absolute;
+    top: 0px;
+    left: -78px;
+    height: 560px;
+    max-width: 888px;
+    width: calc(100% - 412px);
+    min-width: 545px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 2px 4px var(--gray-dark);
+}
+
+.project-content {
+    position: absolute;
+    right: 0;
+    width: 493px;
+    height: 100%;
+    color: var(--text);
+}
+
+.project-content h2 {
+    color: var(--gray-constant-2);
+    margin: 20px 20px 0 20px;
+    font-size: 1.2rem;
 }
 
 .projects-container h1 {
-    padding: 20px 0 0 20px;
-    font-size: 3rem;
+    margin: 0 20px 10px 20px;
+    font-size: 2.5rem;
+}
+
+.project-tech-stack {
+    margin: 0 20px 50px 20px;
+}
+
+.project-tech-stack span {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    color: var(--text);
+    border: 2px solid var(--primary);
+    opacity: 0.5;
+    transition: all 0.3s ease;
+}
+
+.project-tech-stack span:hover {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.project-content p {
+    margin: 0 20px 50px 20px;
+    font-size: 1.5rem;
+}
+
+.project-content a {
+    margin: 0 20px 10px 20px;
+}
+
+button.learn-more {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    vertical-align: middle;
+    text-decoration: none;
+    background: transparent;
+    padding: 0;
+    font-size: inherit;
+    font-family: inherit;
+}
+
+button.learn-more {
+    width: 12rem;
+    height: auto;
+}
+
+button.learn-more .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: var(--primary);
+    border-radius: 1.625rem;
+}
+
+button.learn-more .circle .icon {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: transparent;
+}
+
+button.learn-more .circle .icon.arrow {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button.learn-more .circle .icon.arrow::before {
+    position: absolute;
+    content: "";
+    top: -0.29rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid var(--background);
+    border-right: 0.125rem solid var(--background);
+    transform: rotate(45deg);
+}
+
+button.learn-more .button-text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: var(--text);
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .circle .icon.arrow {
+    background: var(--background);
+    transform: translate(1rem, 0);
+}
+
+button:hover .button-text {
+    color: var(--text-invert);
 }
 
 #project-cta {
     width: 100vw;
-    height: 30vh;
+    height: 300px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -811,7 +959,7 @@ footer {
 
 .project-bottom-cta h2 {
     font-size: 24px;
-    color: var(--gray-black);
+    color: var(--gray-constant-2);
     margin-bottom: 50px;
 }
 
@@ -1165,6 +1313,10 @@ footer {
     .primary-cta {
         margin: 20px 0 20px 20px;
     }
+
+    .projects-container {
+        margin-bottom: 100px;
+    }
 }
 
 @media only screen and (min-width: 2500px) {
@@ -1242,6 +1394,19 @@ footer {
     #lightbox-description {
         width: 560px;
     }
+
+    .project-hero {
+        margin: 100px 20px;
+    }
+
+    .projects-container img,
+    .projects-container iframe {
+        display: none;
+    }
+
+    .projects-container {
+        margin: 0px 20px 200px 20px;
+    }
 }
 
 @media only screen and (max-width: 1000px) {
@@ -1265,7 +1430,9 @@ footer {
         width: 100%;
     }
 
-
+    .project-bottom-cta {
+        width: 80vw;
+    }
 }
 
 @media only screen and (max-width: 768px) {
@@ -1357,6 +1524,11 @@ footer {
     #lightbox-description h1 {
         font-size: 24px;
     }
+
+    
+    .project-bottom-cta {
+        width: 95%;
+    }
 }
 
 @media only screen and (max-width: 560px) {
@@ -1399,6 +1571,10 @@ footer {
         padding: 0;
         margin: inherit 0;
         height: auto;
+    }
+
+    .project-content {
+        width: 100%;
     }
 }
 
