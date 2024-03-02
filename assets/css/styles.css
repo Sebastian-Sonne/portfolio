@@ -770,7 +770,7 @@ footer {
 
 .projects-container {
     position: relative;
-    min-height: 90vh;
+    min-height: 80vh;
     max-width: 1300px;
     margin: 0 100px 200px 100px;
     border-radius: 20px;
@@ -780,19 +780,20 @@ footer {
 
 .projects-container img {
     position: absolute;
-    top: 40px;
+    top: -124px;
     left: -100px;
     height: 700px;
 }
 
 .projects-container iframe {
     position: absolute;
-    top: 164px;
+    top: 0px;
     left: -78px;
-    height: 500px;
+    height: 600px;
     width: 888px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow: 0px 2px 4px var(--gray-dark);
 }
 
 .projects-container h1 {
@@ -821,7 +822,7 @@ footer {
 
 .project-bottom-cta h2 {
     font-size: 24px;
-    color: var(--gray-black);
+    color: var(--gray-constant-2);
     margin-bottom: 50px;
 }
 

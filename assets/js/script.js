@@ -22,10 +22,10 @@ function checkUrlForTheme() {
     const url = new URL(window.location.href);
 
     if (theme == 'light') {
-        removeThemeFromUrl(urlParams);    
+        removeThemeFromUrl(urlParams);
         return 'light';
     } else if (theme == 'dark') {
-        removeThemeFromUrl(urlParams);    
+        removeThemeFromUrl(urlParams);
         return 'dark';
     }
 
