@@ -1036,6 +1036,22 @@ button:hover .button-text {
 }
 
 /*
+    DETAIL PROJECTS
+*/
+
+.project-detail-hero {
+    position: relative;
+}
+
+.project-detail-hero img {
+    position: absolute;
+    top: -73.9px;
+    height: 600px;
+    width: 100vw;
+    
+}
+
+/*
     MEDIA
 */
 
