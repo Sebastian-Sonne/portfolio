@@ -321,14 +321,9 @@ header {
     transition: font-size 0.3s ease, margin 0.3s ease;
 }
 
-.full-h2,
-.short-h2 {
+.full-h2 {
     margin: 0 20px 0 35px;
     transition: font-size 0.3s ease;
-}
-
-.short-h2 {
-    display: none;
 }
 
 .introduction div {
@@ -857,7 +852,7 @@ footer {
     border-radius: 30px;
     color: var(--text);
     border: 2px solid var(--primary);
-    opacity: 0.5;
+    opacity: 0.8;
     transition: all 0.3s ease;
 }
 
@@ -1340,8 +1335,7 @@ button:hover .button-text {
         margin: 20vh auto 0 20px;
     }
 
-    .full-h2,
-    .short-h2 {
+    .full-h2 {
         margin: 0 20px 0 25px;
         font-size: 16px;
     }
@@ -1525,8 +1519,7 @@ button:hover .button-text {
         display: initial;
     }
 
-    .full-h2,
-    .short-h2 {
+    .full-h2 {
         font-size: 18px;
     }
 
@@ -1636,8 +1629,7 @@ button:hover .button-text {
         margin: 20vh auto 10px 20px;
     }
 
-    .full-h2,
-    .short-h2 {
+    .full-h2 {
         margin: 0 20px 0 25px;
         font-size: 16px;
     }
@@ -1707,8 +1699,7 @@ button:hover .button-text {
 
 @media only screen and (max-width: 400px) {
 
-    .full-h2,
-    .short-h2 {
+    .full-h2 {
         margin: 0 20px 0 25px;
         font-size: 12px;
     }
