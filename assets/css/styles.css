@@ -1318,10 +1318,20 @@ button:hover .button-text {
         font-size: 20px;
     }
 
-
-
     .introduction h1 {
         margin-top: 15vh;
+    }
+
+    .project-hero {
+        margin-bottom: 50px !important;
+    }
+
+    .projects-container {
+        margin-bottom: 50px !important;
+    }
+
+    .project-cta {
+        margin-bottom: 0px;
     }
 }
 
@@ -1357,11 +1367,22 @@ button:hover .button-text {
     .media-grid img:hover {
         transform: scale(1.01);
     }
+
+    .project-hero,
+    .projects-container {
+        margin: 100px auto;
+        width: 100%;
+    }
 }
 
-@media only screen and (min-width: 1830px) {
+@media only screen and (min-width: 1830px) and (max-width: 2500px) {
     .media-grid {
         grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+    }
+
+    .project-hero,
+    .projects-container {
+        margin-left: 200px;
     }
 }
 
@@ -1590,12 +1611,17 @@ button:hover .button-text {
         font-size: 20px;
     }
 
+    .project-hero {
+        height: 300px;
+    }
+
     .project-hp-small {
         display: none;
     }
 
     .projects-container {
-        min-height: 450px
+        min-height: 450px;
+        margin-bottom: 100px;
     }
 
     .project-content {
