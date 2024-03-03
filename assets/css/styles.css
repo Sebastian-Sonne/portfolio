@@ -497,6 +497,7 @@ footer {
     margin: 20px 20px auto auto;
     padding: 0 20px;
     width: 40%;
+    max-width: 1000px;
     min-height: 100%;
     border-radius: 20px;
     transition: width 0.3s ease, margin 0.3s ease, padding 0.3s ease;
@@ -745,6 +746,10 @@ footer {
     PROJECTS
 */
 
+.project-body {
+    overflow-x: hidden;
+}
+
 .project-hero {
     height: 500px;
     max-width: 1200px;
@@ -801,7 +806,7 @@ footer {
 .project-hp-small {
     display: none;
     position: absolute;
-    width: calc(100%);
+    width: 100%;
     left: -240px;
     top: 50%;
     transform: translateY(-50%);
@@ -820,6 +825,23 @@ footer {
     box-shadow: 0px 2px 4px var(--gray-dark);
 }
 
+.project-pf-full {
+    position: absolute;
+    top: -102px;
+    left: 493px;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.project-pf-small {
+    display: none;
+    position: absolute;
+    width: 850px;
+    left: 333px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .project-content {
     position: absolute;
     right: 0;
@@ -829,6 +851,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.project-content-left {
+    right: unset;
+    left: 20px;
 }
 
 .project-content h2 {
@@ -1486,19 +1513,15 @@ button:hover .button-text {
 }
 
 @media only screen and (max-width: 900px) {
-    .project-hp-medium {
+    .project-hp-medium,
+    .project-hero-full,
+    .project-pf-full {
         display: none;
     }
 
-    .project-hp-small {
-        display: block;
-    }
-
-    .project-hero-full {
-        display: none;
-    }
-
-    .project-hero-short {
+    .project-hp-small,
+    .project-hero-short,
+    .project-pf-small {
         display: block;
     }
 }
@@ -1608,7 +1631,8 @@ button:hover .button-text {
         height: 300px;
     }
 
-    .project-hp-small {
+    .project-hp-small,
+    .project-pf-small {
         display: none;
     }
 
