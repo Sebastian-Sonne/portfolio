@@ -321,14 +321,9 @@ header {
     transition: font-size 0.3s ease, margin 0.3s ease;
 }
 
-.full-h2,
-.short-h2 {
+.full-h2 {
     margin: 0 20px 0 35px;
     transition: font-size 0.3s ease;
-}
-
-.short-h2 {
-    display: none;
 }
 
 .introduction div {
@@ -502,6 +497,7 @@ footer {
     margin: 20px 20px auto auto;
     padding: 0 20px;
     width: 40%;
+    max-width: 1000px;
     min-height: 100%;
     border-radius: 20px;
     transition: width 0.3s ease, margin 0.3s ease, padding 0.3s ease;
@@ -750,6 +746,10 @@ footer {
     PROJECTS
 */
 
+.project-body {
+    overflow-x: hidden;
+}
+
 .project-hero {
     height: 500px;
     max-width: 1200px;
@@ -806,7 +806,7 @@ footer {
 .project-hp-small {
     display: none;
     position: absolute;
-    width: calc(100%);
+    width: 100%;
     left: -240px;
     top: 50%;
     transform: translateY(-50%);
@@ -825,6 +825,23 @@ footer {
     box-shadow: 0px 2px 4px var(--gray-dark);
 }
 
+.project-pf-full {
+    position: absolute;
+    top: -102px;
+    left: 493px;
+    width: 1000px;
+    overflow: hidden;
+}
+
+.project-pf-small {
+    display: none;
+    position: absolute;
+    width: 850px;
+    left: 333px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
 .project-content {
     position: absolute;
     right: 0;
@@ -834,6 +851,11 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+.project-content-left {
+    right: unset;
+    left: 20px;
 }
 
 .project-content h2 {
@@ -857,7 +879,7 @@ footer {
     border-radius: 30px;
     color: var(--text);
     border: 2px solid var(--primary);
-    opacity: 0.5;
+    opacity: 0.8;
     transition: all 0.3s ease;
 }
 
@@ -1318,10 +1340,20 @@ button:hover .button-text {
         font-size: 20px;
     }
 
-
-
     .introduction h1 {
         margin-top: 15vh;
+    }
+
+    .project-hero {
+        margin-bottom: 50px !important;
+    }
+
+    .projects-container {
+        margin-bottom: 50px !important;
+    }
+
+    .project-cta {
+        margin-bottom: 0px;
     }
 }
 
@@ -1330,8 +1362,7 @@ button:hover .button-text {
         margin: 20vh auto 0 20px;
     }
 
-    .full-h2,
-    .short-h2 {
+    .full-h2 {
         margin: 0 20px 0 25px;
         font-size: 16px;
     }
@@ -1357,11 +1388,22 @@ button:hover .button-text {
     .media-grid img:hover {
         transform: scale(1.01);
     }
+
+    .project-hero,
+    .projects-container {
+        margin: 100px auto;
+        width: 100%;
+    }
 }
 
-@media only screen and (min-width: 1830px) {
+@media only screen and (min-width: 1830px) and (max-width: 2500px) {
     .media-grid {
         grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+    }
+
+    .project-hero,
+    .projects-container {
+        margin-left: 200px;
     }
 }
 
@@ -1471,19 +1513,15 @@ button:hover .button-text {
 }
 
 @media only screen and (max-width: 900px) {
-    .project-hp-medium {
+    .project-hp-medium,
+    .project-hero-full,
+    .project-pf-full {
         display: none;
     }
 
-    .project-hp-small {
-        display: block;
-    }
-
-    .project-hero-full {
-        display: none;
-    }
-
-    .project-hero-short {
+    .project-hp-small,
+    .project-hero-short,
+    .project-pf-small {
         display: block;
     }
 }
@@ -1504,8 +1542,7 @@ button:hover .button-text {
         display: initial;
     }
 
-    .full-h2,
-    .short-h2 {
+    .full-h2 {
         font-size: 18px;
     }
 
@@ -1590,12 +1627,18 @@ button:hover .button-text {
         font-size: 20px;
     }
 
-    .project-hp-small {
+    .project-hero {
+        height: 300px;
+    }
+
+    .project-hp-small,
+    .project-pf-small {
         display: none;
     }
 
     .projects-container {
-        min-height: 450px
+        min-height: 450px;
+        margin-bottom: 100px;
     }
 
     .project-content {
@@ -1610,8 +1653,7 @@ button:hover .button-text {
         margin: 20vh auto 10px 20px;
     }
 
-    .full-h2,
-    .short-h2 {
+    .full-h2 {
         margin: 0 20px 0 25px;
         font-size: 16px;
     }
@@ -1681,8 +1723,7 @@ button:hover .button-text {
 
 @media only screen and (max-width: 400px) {
 
-    .full-h2,
-    .short-h2 {
+    .full-h2 {
         margin: 0 20px 0 25px;
         font-size: 12px;
     }
