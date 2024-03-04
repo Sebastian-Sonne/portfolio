@@ -18,7 +18,7 @@
 
 ## About this Project
 
-[![Product Name Screen Shot][product-screenshot]](https://raw.githubusercontent.com/sebastian-sonne/sebastian-sonne.com/main/img/homepage.png)
+![demo](https://raw.githubusercontent.com/sebastian-sonne/sebastian-sonne.com/main/img/homepage.png)
 
 Explore a modern, lightweight website tailored to introduce yourself, presenting innovative projects as well as captivating photography in a contemporary display.
 
@@ -32,30 +32,14 @@ Explore a modern, lightweight website tailored to introduce yourself, presenting
 
 ### Color Palette
 
-#### Light Theme 
 
-
-| Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Text           | ![#061212](https://via.placeholder.com/10/061212?text=+) `#061212` |
-| Background     | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
-| Primary        | ![#4dc6c7](https://via.placeholder.com/10/4dc6c7?text=+) `#4dc6c7` |
-| Secondary      | ![#8da2db](https://via.placeholder.com/10/8da2db?text=+) `#8da2db` |
-| Accent         | ![#6f6be1](https://via.placeholder.com/10/6f6be1?text=+) `#6f6be1` |
-
-
-#### Dark Theme
-
- Color          | Hex                                                                |
-| -------------- | ------------------------------------------------------------------ |
-| Text           | ![#ebe4e4](https://via.placeholder.com/10/ebe4e4?text=+) `#ebe4e4` |
-| Background     | ![#030c0c](https://via.placeholder.com/10/030c0c?text=+) `#030c0c` |
-| Primary        | ![#38b2b2](https://via.placeholder.com/10/38b2b2?text=+) `#38b2b2` |
-| Secondary      | ![#233870](https://via.placeholder.com/10/233870?text=+) `#233870` |
-| Accent         | ![#221e92](https://via.placeholder.com/10/221e92?text=+) `#221e92` |
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+| Color       | Light Theme                                                               | Dark Theme                                                               |
+| ----------------- | ---------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- |
+| Text        | ![#061212](https://via.placeholder.com/10/061212?text=+) `#061212` | ![#ebe4e4](https://via.placeholder.com/10/ebe4e4?text=+) `#ebe4e4` |
+| Background  | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` | ![#030c0c](https://via.placeholder.com/10/030c0c?text=+) `#030c0c` |
+| Primary     | ![#4dc6c7](https://via.placeholder.com/10/4dc6c7?text=+) `#4dc6c7` | ![#38b2b2](https://via.placeholder.com/10/38b2b2?text=+) `#38b2b2` |
+| Secondary   | ![#8da2db](https://via.placeholder.com/10/8da2db?text=+) `#8da2db` | ![#233870](https://via.placeholder.com/10/233870?text=+) `#233870` |
+| Accent      | ![#6f6be1](https://via.placeholder.com/10/6f6be1?text=+) `#6f6be1` | ![#221e92](https://via.placeholder.com/10/221e92?text=+) `#221e92` |
 
 
 
@@ -67,15 +51,12 @@ Explore a modern, lightweight website tailored to introduce yourself, presenting
 
 ### Installation
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 ## Roadmap
 
 - [ ] Create a beginner friendly template version of this portfolio
 - [ ] Add multi language support
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -92,8 +73,6 @@ If you have a suggestion, comments and or concerns that would make this better, 
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 
@@ -106,13 +85,6 @@ Sebastian Sonne - he/him
 * <a href="mailto:hello@sebastian-sonne.com">hello@sebastian-sonne.com</a>
 * [Contact Form](https://sebastian-sonne.com/contact)
 
-<br>
-
-Project Link: [https://github.com/sebastian-sonne/sebastian-sonne.com](https://github.com/sebastian-sonne/sebastian-sonne.com)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 
 
 ## Acknowledgments
@@ -121,7 +93,6 @@ Project Link: [https://github.com/sebastian-sonne/sebastian-sonne.com](https://g
 * [Shots.so](https://shots.so)
 * [Readme inspiration](https://github.com/othneildrew/Best-README-Template)
 
-<p align="right"><a href="#readme-top">back to top</a></p>
 
 
 
@@ -129,9 +100,7 @@ Project Link: [https://github.com/sebastian-sonne/sebastian-sonne.com](https://g
 ## License
 
 * [Sebastian-Sonne.com]("https://sebastian-sonne.com") is open-source software released under the [MIT License](LICENSE). 
-* Images on this website are generally protected by copyright law unless otherwise indicated.
+* Images on this website are protected by copyright law unless otherwise indicated.
 
 Please review the [license for terms and conditions](LICENSE).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
