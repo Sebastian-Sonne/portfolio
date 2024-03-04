@@ -410,7 +410,7 @@ footer {
     text-align: center;
     margin-top: auto;
     margin-bottom: 20px;
-    margin: 20px 0 20px 0;
+    margin: 20px 0;
     background-color: transparent;
 }
 
@@ -570,7 +570,7 @@ footer {
 
 .footer-container {
     background-color: transparent;
-    margin: 20px 0 40px 0;
+    margin: 20px 0;
     padding: 0;
 }
 
@@ -963,6 +963,10 @@ button:hover .button-text {
     align-items: center;
     justify-content: center;
     margin-bottom: 50px;
+}
+
+.no-margin-bottom {
+    margin-bottom: 0 !important;
 }
 
 .project-bottom-cta {
