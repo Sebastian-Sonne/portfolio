@@ -608,7 +608,7 @@ footer {
     transition: background-image 0.3s ease;
 }
 
-.bio-bg h1 {
+.bio-bg-h1 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -665,7 +665,7 @@ footer {
 
 .bio-content {
     background-color: var(--background);
-    margin:0  20px;
+    margin: 0 20px;
     max-width: 2560px;
     z-index: 1;
 }
@@ -695,7 +695,7 @@ footer {
 .bio-p4,
 .bio-p5 {
     padding: 20px;
-    background-color: var(--gray-constant);
+    background-color: var(--gray-medium);
     border-radius: 20px;
     width: 40vw;
 }
@@ -710,36 +710,7 @@ footer {
 }
 
 .bio-p5 {
-    margin: 0 auto;
-    margin-top: 64px;
-}
-
-.bio-button {
-    width: 43.9%;
-    background-color: var(--gray-constant);
-    border-radius: 30px;
-    color: var(--text);
-    cursor: pointer;
-    border: none;
-    border-radius: 35px;
-    margin-top: 10px;
-    padding: 15px 10px;
-    font-size: 20px;
-    transition: all 0.3s ease;
-}
-
-.bio-button:hover {
-    background-color: var(--primary-light);
-    transform: scale(1.05);
-}
-
-.bio-redirect {
-    margin: 0 10px;
-    width: 55px;
-}
-
-.icon-link {
-    transform: scale(1.5);
+    margin: 64px auto;
 }
 
 /*
@@ -1033,22 +1004,6 @@ button:hover .button-text {
 
 #project-cta-text {
     margin-right: 5px;
-}
-
-/*
-    DETAIL PROJECTS
-*/
-
-.project-detail-hero {
-    position: relative;
-}
-
-.project-detail-hero img {
-    position: absolute;
-    top: -73.9px;
-    height: 600px;
-    width: 100vw;
-    
 }
 
 /*
@@ -1424,8 +1379,16 @@ button:hover .button-text {
 }
 
 @media only screen and (max-width: 1450px) {
-    .bio-bg h1 {
+    .bio-bg-h1 {
         font-size: 78px;
+    }
+
+    .hide-image {
+        display: none;
+    }
+
+    .bio-p1 {
+        max-width: 40vw;
     }
 }
 
@@ -1438,6 +1401,10 @@ button:hover .button-text {
         width: 69%;
     }
 
+    .bio-hero-text {
+        margin-left: 20px;
+    }
+
     .bio-section {
         flex-direction: column;
         padding-bottom: 40px;
@@ -1445,9 +1412,6 @@ button:hover .button-text {
 
     .bio-section-1 {
         padding-top: 128px;
-    }
-
-    .bio-section-1 {
         padding-bottom: 0;
     }
 
@@ -1467,7 +1431,7 @@ button:hover .button-text {
         margin-bottom: 40px;
     }
 
-    .bio-bg h1 {
+    .bio-bg-h1 {
         font-size: 64px;
     }
 
@@ -1507,10 +1471,10 @@ button:hover .button-text {
     }
 
     .bio-hero-text {
-        width: calc(100% - 80px);
+        width: calc(100% - 40px);
     }
 
-    .bio-bg h1 {
+    .bio-bg-h1 {
         font-size: 50px;
     }
 
@@ -1529,6 +1493,7 @@ button:hover .button-text {
 }
 
 @media only screen and (max-width: 900px) {
+
     .project-hp-medium,
     .project-hero-full,
     .project-pf-full {
@@ -1566,7 +1531,7 @@ button:hover .button-text {
         width: 50%;
     }
 
-    .bio-bg h1 {
+    .bio-bg-h1 {
         text-align: center;
         align-items: flex-start;
         padding-top: 20vh;
@@ -1719,7 +1684,7 @@ button:hover .button-text {
 }
 
 @media only screen and (max-width: 450px) {
-    .bio-bg h1 {
+    .bio-bg-h1 {
         font-size: 40px;
     }
 
@@ -1752,7 +1717,7 @@ button:hover .button-text {
         font-size: 12px;
     }
 
-    .bio-bg h1 {
+    .bio-bg-h1 {
         font-size: 32px;
     }
 
