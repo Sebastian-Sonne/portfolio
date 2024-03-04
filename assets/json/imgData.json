@@ -356,7 +356,7 @@
             "alt": "Image of a forest hike in Langfoss, Norway",
             "date": "18.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": "grid-row-2"
@@ -380,7 +380,7 @@
             "alt": "Image of a campground in souther Norway",
             "date": "14.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": "grid-row-2",
                 "l4": "grid-row-2"
@@ -500,7 +500,7 @@
             "alt": "Image of the southwest coast of Australia",
             "date": "28.12.2016",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -524,7 +524,7 @@
             "alt": "Image of a unique stone formation near Point d'Entrecasteaux, Australia",
             "date": "28.12.2016",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": "grid-col-2"
@@ -536,7 +536,7 @@
             "alt": "Image of the Australian coast near the Canal Rocks",
             "date": "02.01.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": "grid-col-2",
                 "l4": null
@@ -560,7 +560,7 @@
             "alt": "Image of the Australian coast near the Canal Rocks",
             "date": "02.01.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -596,7 +596,7 @@
             "alt": "Image of the dunes in Brusand, Norway",
             "date": "15.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
