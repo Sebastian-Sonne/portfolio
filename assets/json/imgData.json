@@ -272,7 +272,7 @@
             "alt": "Image of a temple in a forest in Cambodia",
             "date": "07.02.2019",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "grid-col-2",
                 "l3": "grid-col-2",
                 "l4": "grid-row-2"
@@ -320,7 +320,7 @@
             "alt": "Image of a Fjord in Norway",
             "date": "22.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "grid-col-2",
                 "l3": null,
                 "l4": null
@@ -368,7 +368,7 @@
             "alt": "Image of the Norwegia Coast in Lindesnes, Norway",
             "date": "13.08.2022",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -632,7 +632,7 @@
             "alt": "Image of elephants in Thailand",
             "date": "09.04.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -668,7 +668,7 @@
             "alt": "Image of a temple in Japan",
             "date": "08.14.2019",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": null,
                 "l4": null
@@ -680,7 +680,7 @@
             "alt": "Image of elephants in Thailand",
             "date": "09.04.2017",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": "grid-col-2",
                 "l3": null,
                 "l4": "grid-col-2"
@@ -752,7 +752,7 @@
             "alt": "Image of a slanted tree in Thailand",
             "date": "19.07.2019",
             "layout": {
-                "l1": null,
+                "l1": "display-none",
                 "l2": null,
                 "l3": "grid-col-2",
                 "l4": "grid-col-2"
