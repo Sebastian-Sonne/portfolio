@@ -48,33 +48,57 @@ Explore a modern, lightweight website tailored to introduce yourself, presenting
 
 ### Prerequisites
 
+Before you begin, ensure you have the following software installed:
+
+- A web browser such as Chrome, Firefox, or Safari
+- A text editor like Visual Studio Code, Sublime Text, or Atom
 
 ### Installation
 
+To set up this portfolio website locally on your machine, follow these steps:
+
+1. Clone this repository to your local machine using the following command:
+   ```
+   git clone https://github.com/your-username/your-portfolio.git
+   ```
+
+2. Navigate to the directory where you cloned the repository.
+
+3. Open the `index.html` file in your preferred web browser.
+
+4. That's it! You should now see the portfolio website running locally on your machine.
 
 
 ## Roadmap
 
 - [ ] Create a beginner friendly template version of this portfolio
+  - meaning a clean template version, that is just waiting to be personalised by the enduser. Also removing all unecesaory files like image etc
 - [ ] Add multi language support
-
-
+  - meaning support for two or more languages, with the possibility to switch between languages
 
 
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Contributions are and will **always** be welcome!
+Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Your suggestions, comments, and concerns are and will **always** be highly valued and welcome!
 
-If you have a suggestion, comments and or concerns that would make this better, please fork the repo and create a pull request. You can also always open a new issue!
+To contribute to this project, follow these steps:
 
-1. Fork this Repository (a button in the top right)
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+1. Fork this repository (you can find the fork button in the top right corner).
+2. Create your feature branch using the format `feature/FeatureName` (e.g., `feature/MultiLanguageSupport`).
+3. Commit your changes with clear, descriptive messages.
+4. Push your changes to the branch (`git push origin feature/AmazingFeature`).
+5. Open a pull request, providing a detailed description of the changes made and referencing any related issues.
 
+To maintain code consistency and quality, please adhere to the following conventions:
 
+- **Commit Messages:** Write clear, concise, and descriptive commit messages in present-tense imperative verbs.
+- **Code Style:** Follow the existing code style and formatting to maintain consistency.
+- **Documentation:** Document new features and significant changes adequately.
+- **Testing:** Ensure thorough testing of new features or changes to maintain code integrity.
+- **Pull Requests:** Provide a clear description of changes and reference related issues in pull requests.
+- **Review Process:** Be receptive to feedback during code reviews and address comments promptly.
 
+Thank you for your contributions! Let's make this project even better together.
 
 ## Contact
 
@@ -99,7 +123,7 @@ Sebastian Sonne - he/him
 
 ## License
 
-* [Sebastian-Sonne.com]("https://sebastian-sonne.com") is open-source software released under the [MIT License](LICENSE). 
+* [Sebastian-Sonne.com](https://sebastian-sonne.com) is open-source software released under the [MIT License](LICENSE). 
 * Images on this website are protected by copyright law unless otherwise indicated.
 
 Please review the [license for terms and conditions](LICENSE).
