@@ -304,6 +304,7 @@ header {
 
 .introduction {
     margin: auto 0;
+    padding-bottom: 80px;
 }
 
 .introduction h1 {
@@ -338,7 +339,7 @@ header {
     font-weight: 600;
     color: var(--text);
     cursor: pointer;
-    margin: 40px 0 40px 35px;
+    margin: 30px 0px 0px 35px;
     height: 55px;
     text-align: center;
     border: none;
@@ -1304,7 +1305,7 @@ button:hover .button-text {
     }
 }
 
-@media screen and (min-height: 560px) {
+@media screen and (min-height: 450px) {
     .sub-project-footer {
         position: absolute;
     }
@@ -1315,9 +1316,23 @@ button:hover .button-text {
         font-size: 20px;
     }
 
-    .introduction h1 {
-        margin-top: 15vh;
+    .introduction {
+        padding-bottom: 0px;
     }
+
+    .introduction h1 {
+        margin: 20vh auto 0 20px;
+    }
+
+    .full-h2 {
+        margin: 0 20px 0 25px;
+        font-size: 16px;
+    }
+
+    .primary-cta {
+        margin: 20px 0 0px 20px;
+    }
+
 
     .project-hero {
         margin-bottom: 50px !important;
@@ -1333,19 +1348,9 @@ button:hover .button-text {
 }
 
 @media only screen and (max-height: 320px) {
-    .introduction h1 {
-        margin: 20vh auto 0 20px;
-    }
+    
 
-    .full-h2 {
-        margin: 0 20px 0 25px;
-        font-size: 16px;
-    }
-
-    .primary-cta {
-        margin: 20px 0 20px 20px;
-    }
-
+    
     .projects-container {
         margin-bottom: 100px;
     }
