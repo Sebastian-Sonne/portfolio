@@ -89,15 +89,6 @@ To contribute to this project, follow these steps:
 4. Push your changes to the branch (`git push origin feature/AmazingFeature`).
 5. Open a pull request, providing a detailed description of the changes made and referencing any related issues.
 
-To maintain code consistency and quality, please adhere to the following conventions:
-
-- **Commit Messages:** Write clear, concise, and descriptive commit messages in present-tense imperative verbs.
-- **Code Style:** Follow the existing code style and formatting to maintain consistency.
-- **Documentation:** Document new features and significant changes adequately.
-- **Testing:** Ensure thorough testing of new features or changes to maintain code integrity.
-- **Pull Requests:** Provide a clear description of changes and reference related issues in pull requests.
-- **Review Process:** Be receptive to feedback during code reviews and address comments promptly.
-
 Thank you for your contributions! Let's make this project even better together.
 
 ## Contact
