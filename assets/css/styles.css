@@ -303,13 +303,11 @@ header {
 */
 
 .introduction {
-    height: calc(100vh - 73.95px);
-
-    padding-bottom: 40px;
+    margin: auto 0;
 }
 
 .introduction h1 {
-    margin: 30vh auto 10px 30px;
+    margin: 0 auto 10px 30px;
     font-family: 'Sixtyfour', sans-serif;
     font-size: clamp(18px, 6vw, 70px);
     word-spacing: -20px;
@@ -880,9 +878,6 @@ button.learn-more {
     padding: 0;
     font-size: inherit;
     font-family: inherit;
-}
-
-button.learn-more {
     width: 12rem;
     height: auto;
 }
@@ -1032,6 +1027,7 @@ button:hover .button-text {
     list-style: none;
     background-color: var(--gray-medium);
     border-radius: 30px;
+    z-index: 2;
 }
 
 #media-li-1 {
@@ -1062,6 +1058,10 @@ button:hover .button-text {
 .media-li-active {
     transform: scale(1.075);
     box-shadow: 0px 0px 5px var(--text-constant-dark);
+}
+
+.media-container {
+    max-width: 3500px;
 }
 
 .media-grid {
@@ -1351,13 +1351,24 @@ button:hover .button-text {
     }
 }
 
+@media only screen and (min-width: 3500px) {
+    .media-container {
+        margin: 0 auto;
+    }
+}
+
 @media only screen and (min-width: 2500px) {
     .media-grid {
-        grid-template-rows: 500px;
+        grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
+        grid-template-rows: 700px;
     }
 
     .media-grid img {
-        height: 500px;
+        height: 700px;
+    }
+
+    .grid-row-2 {
+        height: 1415px !important;
     }
 
     .media-grid img:hover {
@@ -1373,7 +1384,7 @@ button:hover .button-text {
 
 @media only screen and (min-width: 1830px) and (max-width: 2500px) {
     .media-grid {
-        grid-template-columns: repeat(auto-fill, minmax(20vw, 1fr));
+        grid-template-columns: repeat(auto-fill, minmax(24%, 1fr));
     }
 
     .project-hero,
