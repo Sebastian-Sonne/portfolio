@@ -72,9 +72,11 @@ To set up this portfolio website locally on your machine, follow these steps:
 ## Roadmap
 
 - [ ] Create a beginner friendly template version of this portfolio
-  - meaning a clean template version, that is just waiting to be personalised by the enduser. Also removing all unecesaory files like image etc
+  - meaning a clean template version of this portfolio website, which is easy to clone and use for beginners
 - [ ] Add multi language support
   - meaning support for two or more languages, with the possibility to switch between languages
+- [ } Develop a blog Feature
+  - meaning a blog feature for the website, allowing users to create, publish, and manage blog posts
      
 More information for each planned feature is available in the [Issue Tab](https://github.com/sebastian-sonne/sebastian-sonne.com/issues).
 
