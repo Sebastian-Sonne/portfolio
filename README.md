@@ -75,6 +75,8 @@ To set up this portfolio website locally on your machine, follow these steps:
   - meaning a clean template version, that is just waiting to be personalised by the enduser. Also removing all unecesaory files like image etc
 - [ ] Add multi language support
   - meaning support for two or more languages, with the possibility to switch between languages
+     
+More information for each planned feature is available in the [Issue Tab](https://github.com/sebastian-sonne/sebastian-sonne.com/issues).
 
 
 ## Contributing
