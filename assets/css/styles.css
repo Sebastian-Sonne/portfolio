@@ -303,13 +303,11 @@ header {
 */
 
 .introduction {
-    height: calc(100vh - 73.95px);
-
-    padding-bottom: 40px;
+    margin: auto 0;
 }
 
 .introduction h1 {
-    margin: 30vh auto 10px 30px;
+    margin: 0 auto 10px 30px;
     font-family: 'Sixtyfour', sans-serif;
     font-size: clamp(18px, 6vw, 70px);
     word-spacing: -20px;
@@ -880,9 +878,6 @@ button.learn-more {
     padding: 0;
     font-size: inherit;
     font-family: inherit;
-}
-
-button.learn-more {
     width: 12rem;
     height: auto;
 }
