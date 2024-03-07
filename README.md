@@ -59,7 +59,7 @@ To set up this portfolio website locally on your machine, follow these steps:
 
 1. Clone this repository to your local machine using the following command:
    ```
-   git clone https://github.com/your-username/your-portfolio.git
+   git clone https://github.com/sebastian-sonne/sebastian-sonne.com.git
    ```
 
 2. Navigate to the directory where you cloned the repository.
