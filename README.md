@@ -28,7 +28,7 @@ Explore a modern, lightweight website tailored to introduce yourself, presenting
 * CSS
 * JavaScript
 
-    ... and lots of Love and Coffee
+    ... and lots of Coffee
 
 ### Color Palette
 
