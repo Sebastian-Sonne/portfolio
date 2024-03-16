@@ -1650,9 +1650,7 @@ button:hover .button-text {
 }
 
 @media only screen and (max-width: 560px) {
-    .introduction h1 {
-        margin: 20vh auto 10px 20px;
-    }
+    
 
     .full-h2 {
         margin: 0 20px 0 25px;
