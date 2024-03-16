@@ -1348,8 +1348,13 @@ button:hover .button-text {
 }
 
 @media only screen and (max-height: 320px) {
-    
+    #lightbox-description {
+        height: 50px !important;
+    }
 
+    #lighbox-p {
+        display: none;
+    }
     
     .projects-container {
         margin-bottom: 100px;
@@ -1609,6 +1614,7 @@ button:hover .button-text {
         left: 20px;
         transform: none;
         width: calc(100vw - 40px);
+        height: 90px;
         opacity: 1;
     }
 
@@ -1650,7 +1656,9 @@ button:hover .button-text {
 }
 
 @media only screen and (max-width: 560px) {
-    
+    .introduction h1 {
+        margin: 0 auto 10px 25px;
+    }
 
     .full-h2 {
         margin: 0 20px 0 25px;
@@ -1718,6 +1726,10 @@ button:hover .button-text {
     .logo:hover {
         transform: unset;
     }
+
+    #lightbox-description {
+        top: auto;
+    }
 }
 
 @media only screen and (max-width: 400px) {
@@ -1749,6 +1761,13 @@ button:hover .button-text {
 }
 
 @media only screen and (max-width: 350px) {
+    #lightbox-description {
+        height: auto !important;
+    }
+
+    #lighbox-p {
+        display: none;
+    }
 
     .bio-section-1 {
         padding-top: 350px;
