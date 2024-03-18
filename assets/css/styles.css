@@ -1018,6 +1018,7 @@ button:hover .button-text {
     color: var(--text);
     min-height: 73.95px;
     padding: 0 30px;
+    z-index: 11;
 }
 
 .media-nav ul {
