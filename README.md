@@ -9,7 +9,7 @@
     A modern and lightweight portfolio website!
     <br />
     <br />
-    <a href="https://sebastian-sonne.com">View Website</a>
+    <a href="https://me.sebastian-sonne.com">View Website</a>
     ·
     <a href="https://github.com/sebastian-sonne/sebastian-sonne.com/issues">Report Bug</a>
     ·
@@ -102,7 +102,7 @@ Want to Team Up? Let's Chat! I'm all about meeting new folks and diving into coo
 Sebastian Sonne - he/him
 
 * <a href="mailto:hello@sebastian-sonne.com">hello@sebastian-sonne.com</a>
-* [Contact Form](https://sebastian-sonne.com/contact)
+* [Contact Form](https://me.sebastian-sonne.com/contact)
 
 
 
@@ -118,7 +118,7 @@ Sebastian Sonne - he/him
 
 ## License
 
-* [Sebastian-Sonne.com](https://sebastian-sonne.com) is open-source software released under the [MIT License](LICENSE). 
+* [Sebastian-Sonne.com](https://me.sebastian-sonne.com) is open-source software released under the [MIT License](LICENSE). 
 * Images on this website are protected by copyright law unless otherwise indicated.
 
 Please review the [license for terms and conditions](LICENSE).
