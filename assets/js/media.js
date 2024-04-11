@@ -188,6 +188,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             //setup image element
             imgElement.src = key.url;
+            imgElement.loading = 'lazy';
             imgElement.classList.add('thumbnail');
             imgElement.classList.add('hidden');
             //add layout class(es) to image

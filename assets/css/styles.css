@@ -1141,7 +1141,7 @@ button:hover .button-text {
     -webkit-backdrop-filter: blur(9px) saturate(100%);
     background-color: rgba(0, 0, 0, 0.3);
     text-align: center;
-    z-index: 3;
+    z-index: 10;
 }
 
 #lightbox img {
