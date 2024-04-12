@@ -8,4 +8,4 @@ Disallow: /img/sebastian_sonne/*
 Disallow: *?category=*
 Disallow: success.html
 
-Sitemap: https://sebastian-sonne.com/assets/sitemap.xml
+Sitemap: https://me.sebastian-sonne.com/assets/sitemap.xml
