@@ -782,7 +782,7 @@ footer {
     transform: translateY(-50%);
 }
 
-.projects-container iframe {
+#weather-project {
     position: absolute;
     top: 0px;
     left: -78px;
@@ -950,6 +950,23 @@ button:hover .circle .icon.arrow {
 
 button:hover .button-text {
     color: var(--text-invert);
+}
+
+.notenapp-project iframe {
+    background-color: white;
+    position: absolute;
+    overflow: auto;
+    border-radius: 20px;
+    top: 0px;
+    left: 605px;
+    height: 500px;
+    max-width: 780px;
+    width: calc(100% - 412px);
+    min-width: 545px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 0px 2px 4px var(--gray-dark);
+    z-index: 200;
 }
 
 #project-cta {
