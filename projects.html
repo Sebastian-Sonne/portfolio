@@ -9,7 +9,6 @@
     <link rel="shortcut icon" href="/img/favicon.ico">
     <link rel="stylesheet" href="/assets/css/styles.css">
     <script src="/assets/js/script.min.js"></script>
-    <script defer src="/assets/js/projects.min.js"></script>
     <script defer src="/assets/js/app.min.js"></script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Google Analytics-->
@@ -82,22 +81,27 @@
     </section>
 
     <section class="projects-container hidden">
-        <img class="project-hp-full" src="/img/projects/hp-full.png">
-        <img class="project-hp-medium" src="/img/projects/hp-medium.png">
-        <img class="project-hp-small" src="/img/projects/hp-small.png">
-        <iframe id="project-iframe" src="https://me.sebastian-sonne.com/?theme=light" frameborder="0"></iframe>
+        <iframe id="weather-project" src="https://weather.sebastian-sonne.com" frameborder="0"></iframe>
         <div class="project-content">
-            <h2>Q1 2024</h2>
-            <h1>me.sebastian-sonne.com</h1>
+            <h2>Q2 2024</h2>
+            <h1>Weather Dashboard</h1>
             <div class="project-tech-stack">
-                <span>HTML</span>
+                <span>React</span>
+                <span>TypeScript</span>
                 <span>CSS</span>
-                <span>JavaScript</span>
             </div>
-            <p>Explore a modern portfolio website tailored to introduce its creator, presenting innovative projects and
-                captivating photography in a contemporary display.</p>
+            <p>Our Weather Dashboard is a sleek and intuitive application tailored for users to effortlessly access up-to-date weather information with ease and efficiency.</p>
 
-            <a href="https://github.com/Sebastian-Sonne/sebastian-sonne.com">
+            <a href="https://weather.sebastian-sonne.com">
+                <button class="learn-more">
+                    <span class="circle secondary-button" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Visit</span>
+                </button>
+            </a>
+
+            <a href="https://github.com/Sebastian-Sonne/weather">
                 <button class="learn-more">
                     <span class="circle" aria-hidden="true">
                         <span class="icon arrow"></span>
@@ -107,6 +111,41 @@
             </a>
         </div>
     </section>
+
+    <section class="projects-container notenapp-project hidden">
+        <iframe id="notenapp-project" src="https://notenapp.sebastian-sonne.com" frameborder="0"></iframe>
+        <img class="project-pf-full" src="/img/projects/pf-full.png">
+        <div class="project-content project-content-left">
+            <h2>Q1 2024</h2>
+            <h1>Techer Admin Panel</h1>
+            <div class="project-tech-stack">
+                <span>React</span>
+                <span>JavaScript</span>
+                <span>CSS</span>
+            </div>
+            <p>The Teacher Admin Panel is simple and modern web application designed for educators to manage students and their information simple & efficiently </p>
+
+            <a href="https://notenapp.sebastian-sonne.com">
+                <button class="learn-more">
+                    <span class="circle secondary-button" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Visit</span>
+                </button>
+            </a>
+
+            <a href="https://github.com/Sebastian-Sonne/react-notenapp">
+                <button class="learn-more">
+                    <span class="circle" aria-hidden="true">
+                        <span class="icon arrow"></span>
+                    </span>
+                    <span class="button-text">Learn More</span>
+                </button>
+            </a>
+        </div>
+    </section>
+
+    <!-- * PlayFair Project
 
     <section class="projects-container hidden">
         <img class="project-pf-full" src="/img/projects/pf-full.png">
@@ -130,6 +169,8 @@
             </a>
         </div>
     </section>
+
+    -->
 
     <section id="project-cta" class="hidden">
         <div class="project-bottom-cta">
